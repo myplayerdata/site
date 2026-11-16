@@ -38,17 +38,19 @@ body.app main{display:none}
 
 <div class="card" id="v-signin" hidden>
 <h1>Member sign-in</h1>
-<p class="muted">Enter your email and we'll send you a sign-in link. No password needed. New here? The same form creates your account.</p>
+<p class="muted">Enter your email and we'll send you a sign-in code. No password needed. New here? The same form creates your account.</p>
 <form id="f-signin"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required placeholder="you@example.com">
-<div class="row"><button class="btn" id="b-send">Email me a sign-in link</button><a class="btn alt" href="../">Back to the home page</a></div>
+<div class="row"><button class="btn" id="b-send">Email me a sign-in code</button><a class="btn alt" href="../">Back to the home page</a></div>
 <div class="err" id="e-signin" hidden></div></form>
 </div>
 
 <div class="card" id="v-sent" hidden>
 <h1>Check your email</h1>
-<p>We sent a sign-in link to <b id="sent-to"></b>. Open it on this device to finish signing in.</p>
-<p class="muted">It can take a minute to arrive. Check spam if you don't see it. The link works once.</p>
-<div class="row"><button class="btn alt" id="b-again">Use a different email</button></div>
+<p>We sent a sign-in email to <b id="sent-to"></b>. Enter the 6-digit code from it, or open the link in the email on this device.</p>
+<form id="f-code"><label for="code">6-digit code</label><input id="code" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}" placeholder="123456" style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:20px;letter-spacing:4px">
+<div class="row"><button class="btn" id="b-code">Sign in</button><button type="button" class="btn alt" id="b-again">Use a different email</button></div>
+<div class="err" id="e-code" hidden></div></form>
+<p class="muted" style="margin-top:14px">It can take a minute to arrive. Check spam if you don't see it. The code works once.</p>
 </div>
 
 <div class="card" id="v-other" hidden>
@@ -156,7 +158,14 @@ $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email
   const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:HERE,shouldCreateUser:true}});
   $("b-send").disabled=false;
   if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
-  $("sent-to").textContent=email;show("sent")});
+  sentEmail=email;$("sent-to").textContent=email;$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
+let sentEmail="";
+$("f-code").addEventListener("submit",async e=>{e.preventDefault();const token=$("code").value.replace(/\D/g,"");if(token.length!==6){$("e-code").hidden=false;$("e-code").textContent="Enter the 6-digit code from the email.";return}
+  $("b-code").disabled=true;$("e-code").hidden=true;
+  const {error}=await sb.auth.verifyOtp({email:sentEmail,token,type:"email"});
+  $("b-code").disabled=false;
+  if(error){$("e-code").hidden=false;$("e-code").textContent="That code didn't work. Check it, or request a new email.";return}
+  setTok(null);check()});
 $("b-again").onclick=()=>show("signin");
 async function billing(body){const {data:{session}}=await sb.auth.getSession();if(!session)throw new Error("Not signed in");
   const r=await fetch(SB_URL+"/functions/v1/billing",{method:"POST",headers:{Authorization:"Bearer "+session.access_token,apikey:SB_KEY,"Content-Type":"application/json"},body:JSON.stringify(body)});
