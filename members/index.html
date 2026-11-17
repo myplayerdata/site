@@ -88,7 +88,7 @@ const SB_URL="https://nhojjvbgmyafckejcnbj.supabase.co",SB_KEY="sb_publishable_1
 const HERE=location.origin+location.pathname;
 const sb=supabase.createClient(SB_URL,SB_KEY);
 const $=id=>document.getElementById(id);
-const VIEWS=["load","signin","sent","other","join","member"];
+const VIEWS=["load","signin","name","sent","other","join","member"];
 function show(v){for(const k of VIEWS)$("v-"+k).hidden=k!==v}
 const TK="mpd-device-token";
 const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
