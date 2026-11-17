@@ -100,13 +100,13 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 @media (max-width:640px){.hero .in{padding:36px 16px 30px}.top nav a.hide{display:none}}
 </style></head><body>
 
-<div class="offer"><div class="in"><b>Limited-time introductory rate.</b> New members get their first month for $39. <button data-act="join" data-plan="monthly">Join now</button></div></div>
+<div class="offer"><div class="in"><b>Limited-time introductory rate.</b> New members get their first month for $20. <button data-act="join" data-plan="monthly">Join now</button></div></div>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
 <nav><a class="hide" href="#ratings">Live ratings</a><a class="hide" href="#weekend">This weekend</a><a class="hide" href="#preview">Players</a><a class="hide" href="#find">Find a player</a><a class="hide" href="#pricing">Pricing</a><button class="btn alt" data-act="signin">Sign in</button><button class="btn" data-act="join">Become a member</button></nav></div></div>
 <div class="hero"><div class="in">
 <h1>Live ratings. <em>Every top player.</em> Every weekend, in one place.</h1>
 <p>Team ratings that move as scores come in, a preview and recap of every weekend, and game-by-game stats for AAA players born 2011 through 2015. See where your player stands today, and measure his development all season.</p>
-<div class="cta"><button class="btn big" data-act="join" data-plan="monthly">Join now · first month $39</button><a class="btn big alt" href="#ratings" style="text-decoration:none">See the preview</a></div><p class="intro-note">Introductory rate for new members, for a limited time. Then $79/month. Cancel any time.</p>
+<div class="cta"><button class="btn big" data-act="join" data-plan="monthly">Join now · first month $20</button><a class="btn big alt" href="#ratings" style="text-decoration:none">See the preview</a></div><p class="intro-note">Introductory rate for new members, for a limited time. Then $79/month. Cancel any time.</p>
 </div>
 <div class="strip"><div><b id="s-sk"></b><span>Skaters</span></div><div><b id="s-gk"></b><span>Goalies</span></div><div><b id="s-tm"></b><span>Teams</span></div><div><b id="s-gm"></b><span>Games logged</span></div><div><b>5</b><span>Birth years</span></div><div><b>Daily</b><span>Updates</span></div></div></div>
 
@@ -146,7 +146,7 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 <section id="pricing"><h2>Membership</h2><p class="lede">Live ratings, weekend reports and full access to every birth year and every player profile, updated daily as games come in.</p>
 <div class="plans">
 <div class="plan best"><span class="tag">Best value</span><h3>Season pass</h3><div class="price">$349 <small>one payment</small></div><ul><li>The full 2026-27 season</li><li>Every birth year, 2011 to 2015</li><li>Skaters, goalies and team ratings</li><li>Live ratings and weekend reports</li><li>Player stats updated daily as games come in</li></ul><button class="btn" data-act="join" data-plan="season">Get the season pass</button></div>
-<div class="plan intro"><span class="tag">Limited time · new members</span><h3>Monthly</h3><div class="price">$39 <small>first month</small></div><p class="then">Then $79 per month</p><ul><li>Everything in the season pass</li><li>Introductory rate on your first month</li><li>Cancel any time</li></ul><button class="btn" data-act="join" data-plan="monthly">Join now for $39</button></div>
+<div class="plan intro"><span class="tag">Limited time · new members</span><h3>Monthly</h3><div class="price">$20 <small>first month</small></div><p class="then">Then $79 per month</p><ul><li>Everything in the season pass</li><li>Introductory rate on your first month</li><li>Cancel any time</li></ul><button class="btn" data-act="join" data-plan="monthly">Join now for $20</button></div>
 </div></section>
 
 <footer>Stats run through <span id="s-date"></span>. Team ratings are live; player stats are refreshed as games are posted. </footer>
@@ -191,7 +191,7 @@ function preview(x){const lk=l=>'<div><span>'+l+'</span><b>Members only</b></div
   $("prof-in").innerHTML='<button class="x" data-close>Close</button><h2>'+esc(x[0])+' <span class="born b'+(x[3]%100)+'" style="font-family:var(--body);vertical-align:middle">'+x[3]+' born</span></h2>'
    +'<p class="lede" style="margin-bottom:0">'+(x[5]!==undefined&&x[5]!==""?'#'+x[5]+' · ':'')+(gk?"Goalie":x[6]||"")+' · '+esc(x[1])+' '+x[2]+(x[8]?" (Ontario)":"")+'</p>'
    +'<p class="gor">'+n+(n===1?" game":" games")+' on record<small>'+(gk?"Full-game starts":"Games")+' in My Player Data for this player, updated as games come in.</small></p>'
-   +'<button class="btn unlock" data-act="join" data-plan="monthly">'+(INTRO?"Unlock full player profile · $39 first month":"Unlock full player profile · $79/month")+'</button><p class="alt-plan">'+(INTRO?"Limited-time introductory rate for new members, then $79/month. Cancel any time. ":"")+'Or $349 for the full season. Membership opens every player in every birth year.</p>'
+   +'<button class="btn unlock" data-act="join" data-plan="monthly">'+(INTRO?"Unlock full player profile · $20 first month":"Unlock full player profile · $79/month")+'</button><p class="alt-plan">'+(INTRO?"Limited-time introductory rate for new members, then $79/month. Cancel any time. ":"")+'Or $349 for the full season. Membership opens every player in every birth year.</p>'
    +'<div class="kv locked">'+main.map(lk).join("")+'</div>'
    +(gk?'':'<h3>Role on his team</h3><div class="kv locked">'+["Involvement","Team scoring rank","Team leader P/G","5th scorer P/G"].map(lk).join("")+'</div>'
    +'<h3>Power play</h3><div class="kv locked">'+["PP points","PP goals","PP assists","PP TOI / game"].map(lk).join("")+'</div>')
