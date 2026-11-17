@@ -12,7 +12,7 @@ main{max-width:520px;margin:40px auto;padding:0 16px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px}
 h1{font-size:22px;margin:0 0 6px}p{margin:0 0 14px}.muted{color:var(--muted);font-size:14px}
 label{display:block;font-size:13px;font-weight:600;margin:0 0 6px}
-input[type=email],input#fullname{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:16px}
+input[type=email],input#firstname,input#lastname{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:16px}
 .btn{display:inline-block;background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:11px 18px;font:inherit;font-weight:600;cursor:pointer;text-decoration:none}
 .btn.alt{background:var(--soft);color:var(--ink)}.btn[disabled]{opacity:.6;cursor:default}
 .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
@@ -46,8 +46,9 @@ body.app main{display:none}
 
 <div class="card" id="v-name" hidden>
 <h1>One quick thing</h1>
-<p class="muted">Tell us your name so we know who the account belongs to. You'll only be asked once.</p>
-<form id="f-name"><label for="fullname">Your name</label><input id="fullname" type="text" autocomplete="name" required minlength="2" maxlength="80" placeholder="First and last name">
+<p class="muted">Tell us your first and last name so we know who the account belongs to. You'll only be asked once.</p>
+<form id="f-name"><label for="firstname">First name</label><input id="firstname" type="text" autocomplete="given-name" required maxlength="40" placeholder="First name">
+<label for="lastname">Last name</label><input id="lastname" type="text" autocomplete="family-name" required minlength="2" maxlength="40" placeholder="Last name">
 <div class="row"><button class="btn" id="b-name">Continue</button></div>
 <div class="err" id="e-name" hidden></div></form>
 </div>
@@ -166,7 +167,9 @@ async function check(){
   if(!data.signed_in){closeApp();show("signin");return}
   if(!data.session_ok){closeApp();show("other");return}
   // every account gives a name once, before choosing a plan or opening the site
-  if(!((session.user.user_metadata||{}).name||"").trim()){closeApp();show("name");setTimeout(()=>{try{$("fullname").focus()}catch(e){}},50);return}
+  {const md=session.user.user_metadata||{};if(!(md.first_name||"").trim()||!(md.last_name||"").trim()){closeApp();
+    if(!$("firstname").value&&!$("lastname").value&&md.name){const w=String(md.name).trim().split(/\s+/);$("firstname").value=w[0]||"";$("lastname").value=w.slice(1).join(" ")}
+    show("name");setTimeout(()=>{try{($("firstname").value?$("lastname"):$("firstname")).focus()}catch(e){}},50);return}}
   if(!data.member){closeApp();$("b-account").hidden=true;show("join");
     // arriving from a locked player preview with a plan already chosen: go straight to checkout, once
     if(WANT&&!PAID&&!wantUsed){wantUsed=true;try{sessionStorage.removeItem("mpd_plan")}catch(e){}const pb=document.querySelector('.plan[data-plan="'+WANT+'"]');if(pb){pb.click();return}}
@@ -188,8 +191,9 @@ $("f-code").addEventListener("submit",async e=>{e.preventDefault();const token=$
   if(error){$("e-code").hidden=false;$("e-code").textContent="That code didn't work. Check it, or request a new email.";return}
   setTok(null);check()});
 $("b-again").onclick=()=>show("signin");
-$("f-name").addEventListener("submit",async e=>{e.preventDefault();const v=$("fullname").value.trim().replace(/\s+/g," ");if(v.length<2){$("e-name").hidden=false;$("e-name").textContent="Please enter your name.";return}
-  $("b-name").disabled=true;$("e-name").hidden=true;const {error}=await sb.auth.updateUser({data:{name:v.slice(0,80)}});$("b-name").disabled=false;
+$("f-name").addEventListener("submit",async e=>{e.preventDefault();const cl=x=>x.trim().replace(/\s+/g," ").slice(0,40);const f=cl($("firstname").value),l=cl($("lastname").value);
+  if(!f||l.length<2){$("e-name").hidden=false;$("e-name").textContent="Please enter both your first and last name.";return}
+  $("b-name").disabled=true;$("e-name").hidden=true;const {error}=await sb.auth.updateUser({data:{first_name:f,last_name:l,name:f+" "+l}});$("b-name").disabled=false;
   if(error){$("e-name").hidden=false;$("e-name").textContent="Could not save that. Try again.";return}
   check()});
 async function billing(body){const {data:{session}}=await sb.auth.getSession();if(!session)throw new Error("Not signed in");
