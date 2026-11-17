@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>My Player Data: live ratings, weekend reports and the player database</title>
+<title>My Player Data: the Weekend Report and player data for AAA hockey</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* Layout: demo ribbon, dark hero, stat strip, preview leaderboard (5 open rows + locked rows), player finder, pricing, footer. Dialogs for profile and the membership flow. */
@@ -20,11 +20,21 @@ button{font:inherit;cursor:pointer}a{color:inherit}
 .btn.alt{background:transparent;color:inherit;border:1px solid currentColor}
 .btn.big{font-size:18px;padding:13px 26px}
 .hero{background:linear-gradient(160deg,var(--night) 0%,var(--night2) 100%);color:#e9f1f6}
-.hero .in{max-width:1100px;margin:0 auto;padding:54px 16px 46px}
-.hero h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(40px,7vw,72px);line-height:.95;margin:0 0 16px;letter-spacing:.01em;max-width:15ch}
-.hero h1 em{font-style:normal;color:var(--gold)}
+.hero .in{max-width:1100px;margin:0 auto;padding:44px 16px 30px}
+.hero h1{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(36px,5.6vw,60px);line-height:.98;margin:0 0 16px;letter-spacing:.01em;max-width:22ch}
+.hero h1 em{font-style:normal;color:var(--gold);display:block}
 .hero p{max-width:58ch;font-size:18px;margin:0 0 24px;color:#c5d3dd}
 .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.kick{font-family:var(--display);font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 4px;display:block}
+.pillars{max-width:1100px;margin:0 auto;padding:0 16px 34px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.pillars a{display:block;text-decoration:none;color:#e9f1f6;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:20px}
+.pillars a:hover{background:rgba(255,255,255,.1)}
+.pillars .kick{color:var(--gold)}
+.pillars b{display:block;font-family:var(--display);font-size:30px;line-height:1.02;text-transform:uppercase;letter-spacing:.01em;margin:2px 0 8px;color:#fff}
+.pillars .pt{display:block;color:#c5d3dd;font-size:15px}
+.pillars .go{display:block;margin-top:12px;font-weight:600;color:var(--gold)}
+.more{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;justify-content:space-between;margin-top:14px;padding:16px 18px;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;background:var(--panel)}
+.more p{margin:0;max-width:60ch;color:var(--muted)}.more p b{color:var(--ink)}
 .strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;background:#24394a;border-top:1px solid #24394a}
 .strip div{background:var(--night);padding:16px;text-align:center}
 .strip b{display:block;font-family:var(--display);font-size:34px;line-height:1;color:#fff}
@@ -102,33 +112,32 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 
 <div class="offer"><div class="in"><b>Black Friday introductory rate.</b> New members get their first month for $19. <button data-act="join" data-plan="monthly">Join now</button></div></div>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
-<nav><a class="hide" href="#ratings">Live ratings</a><a class="hide" href="#weekend">This weekend</a><a class="hide" href="#preview">Players</a><a class="hide" href="#find">Find a player</a><a class="hide" href="#pricing">Pricing</a><button class="btn alt" data-act="signin">Sign in</button><button class="btn" data-act="join">Become a member</button></nav></div></div>
+<nav><a class="hide" href="#weekend">Weekend Report</a><a class="hide" href="#preview">Player Data</a><a class="hide" href="#find">Find a player</a><a class="hide" href="#ratings">Ratings</a><a class="hide" href="#pricing">Pricing</a><button class="btn alt" data-act="signin">Sign in</button><button class="btn" data-act="join">Become a member</button></nav></div></div>
 <div class="hero"><div class="in">
-<h1>Live ratings. <em>Every top player.</em> Every weekend, in one place.</h1>
-<p>Team ratings that move as scores come in, a preview and recap of every weekend, and game-by-game stats for AAA players born 2011 through 2016. See where your player stands today, and measure his development all season.</p>
-<div class="cta"><button class="btn big" data-act="join" data-plan="monthly">Join now · first month $19</button><a class="btn big alt" href="#ratings" style="text-decoration:none">See the preview</a></div><p class="intro-note">Black Friday introductory rate for new members, for a limited time. Then $79/month. Cancel any time.</p>
+<h1>Every weekend, covered. <em>Every top player, measured.</em></h1>
+<p>The Weekend Report tells you what happened in AAA hockey and what is coming next. Player Data gives you game-by-game stats for players born 2011 through 2016. See where your player stands today, and measure his development all season.</p>
+<div class="cta"><button class="btn big" data-act="join" data-plan="monthly">Join now · first month $19</button><a class="btn big alt" href="#weekend" style="text-decoration:none">See this weekend</a></div><p class="intro-note">Black Friday introductory rate for new members, for a limited time. Then $79/month. Cancel any time.</p>
 </div>
-<div class="strip"><div><b id="s-sk"></b><span>Skaters</span></div><div><b id="s-gk"></b><span>Goalies</span></div><div><b id="s-tm"></b><span>Teams</span></div><div><b id="s-gm"></b><span>Games logged</span></div><div><b>5</b><span>Birth years</span></div><div><b>Daily</b><span>Updates</span></div></div></div>
+<div class="pillars"><a href="#weekend"><span class="kick">1 · The Weekend Report</span><b>What happened, and what to watch</b><span class="pt">Games to watch with rankings, scores as they come in, then the full story: upsets, tournament results, top scorers and goalies.</span><span class="go">See this weekend &rsaquo;</span></a><a href="#preview"><span class="kick">2 · Player Data</span><b>Where your player really stands</b><span class="pt">Every game logged for every player. Points weighted by the strength of the opponent, ice time, power play, and rank against his birth year.</span><span class="go">See the top players &rsaquo;</span></a></div>
+<div class="strip"><div><b id="s-sk"></b><span>Skaters</span></div><div><b id="s-gk"></b><span>Goalies</span></div><div><b id="s-tm"></b><span>Teams</span></div><div><b id="s-gm"></b><span>Games logged</span></div><div><b>6</b><span>Birth years</span></div><div><b>Daily</b><span>Updates</span></div></div></div>
 
-<section id="ratings"><h2>Live team ratings</h2>
-<p class="lede">No waiting for a weekly release. Ratings move as each score is entered, so you know where a team stands before the weekend is over. Top ten USA teams shown here.</p>
-<div class="tabs ytabs"></div>
-<div class="sheet"><table><thead><tr><th>#</th><th>Team</th><th>Record</th><th>Rating</th></tr></thead><tbody id="rt"></tbody></table>
-<div class="gate"><b id="rt-n"></b><p>The full live ratings are for members: every team, USA and Canada, with schedule strength, game-by-game results and each roster's player stats.</p><button class="btn" data-act="join">Become a member</button></div></div>
-</section>
-
-<section id="weekend"><h2>This weekend</h2>
-<p class="lede"><span id="wk-label"></span>. A preview of the games that matter before the weekend, then a recap of what happened: upsets, big moves in the rankings and tournament results.</p>
+<section id="weekend"><div class="kick">The Weekend Report</div><h2>Every weekend, covered start to finish</h2>
+<p class="lede" style="margin-bottom:8px;color:var(--ink)"><b id="wk-label"></b></p>
+<p class="lede">Before the puck drops: the games worth watching, with both teams' rankings. While they play: scores as they come in. When it is over: the story of each birth year, with the upsets, the tournament results, the big moves in the rankings, and the top scorers and goalies. A sample for each birth year is below.</p>
 <div class="tabs ytabs"></div>
 <div id="wk"></div>
+<div class="more"><p><b>Members get the full Weekend Report</b> for every birth year: every score, tournament brackets, top scorers and goalies, updated through the weekend.</p><button class="btn" data-act="join" data-plan="monthly">Get the Weekend Report</button></div>
 </section>
 
-<section id="preview"><h2>Top five players, by birth year</h2>
-<p class="lede">These five profiles are open in full: tap a name to see every stat and the complete game log. Ranked by Adjusted Points per Game, which weights each game's points by the opponent's rating. Minimum <span id="s-min"></span> games.</p>
+<section id="preview"><div class="kick">Player Data</div><h2>Every top player, measured game by game</h2>
+<p class="lede">Ice time, goals, assists, power-play points and plus/minus for every game, for AAA players born 2011 through 2016, with each game weighted by how good the opponent was. The top five in each birth year are open in full: tap a name to see every stat and the complete game log. Ranked by Adjusted Points per Game, which weights each game's points by the opponent's rating. Minimum <span id="s-min"></span> games.</p>
 <div class="tabs ytabs"></div>
 <div class="sheet"><table><thead><tr><th>#</th><th>Player</th><th>Team</th><th>Pos</th><th>GP</th><th>G</th><th>A</th><th>P</th><th>PPP</th><th>INV%</th><th>P/G</th><th>Adj P/G</th><th>Avg opp</th></tr></thead><tbody id="tb"></tbody></table>
 <div class="gate"><b id="gate-n"></b><p>Full rankings, every profile and every game log are for members.</p><button class="btn" data-act="join">Become a member</button></div></div>
 </section>
+
+<section id="find"><h2>Is your player in the database?</h2><p class="lede">Search by name, then tap a player to see how many games we have on record for him.</p>
+<div class="find"><input id="q" type="text" placeholder="Type a player's name" autocomplete="off" aria-label="Player name"></div><div class="hits" id="hits"></div></section>
 
 <section><h2>What members get</h2><p class="lede">The same view a scout or advisor would build by hand, already done for every player.</p>
 <div class="grid3">
@@ -140,12 +149,24 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 <div class="card"><h3>Team ratings</h3><p>Every roster links to that team's rating, rank and schedule strength, updated as results come in.</p></div>
 </div></section>
 
-<section id="find"><h2>Is your player in the database?</h2><p class="lede">Search by name, then tap a player to see how many games we have on record for him.</p>
-<div class="find"><input id="q" type="text" placeholder="Type a player's name" autocomplete="off" aria-label="Player name"></div><div class="hits" id="hits"></div></section>
+<section id="ratings"><div class="kick">Also included</div><h2>Live team ratings</h2>
+<p class="lede">Membership also includes team ratings that move as each score is entered, so you know where a team stands before the weekend is over. They are what the player data uses to weight every game. Top ten USA teams shown here.</p>
+<div class="tabs ytabs"></div>
+<div class="sheet"><table><thead><tr><th>#</th><th>Team</th><th>Record</th><th>Rating</th></tr></thead><tbody id="rt"></tbody></table>
+<div class="gate"><b id="rt-n"></b><p>The full live ratings are for members: every team, USA and Canada, with schedule strength, game-by-game results and each roster's player stats.</p><button class="btn" data-act="join">Become a member</button></div></div>
+</section>
 
-<section id="pricing"><h2>Membership</h2><p class="lede">Live ratings, weekend reports and full access to every birth year and every player profile, updated daily as games come in.</p>
+
+
+
+
+
+
+
+
+<section id="pricing"><h2>Membership</h2><p class="lede">The Weekend Report every week, full Player Data for every birth year and every player profile, and live team ratings, updated daily as games come in.</p>
 <div class="plans">
-<div class="plan best"><span class="tag">Best value</span><h3>Season pass</h3><div class="price">$349 <small>one payment</small></div><ul><li>The full 2026-27 season</li><li>Every birth year, 2011 to 2016</li><li>Skaters, goalies and team ratings</li><li>Live ratings and weekend reports</li><li>Player stats updated daily as games come in</li></ul><button class="btn" data-act="join" data-plan="season">Get the season pass</button></div>
+<div class="plan best"><span class="tag">Best value</span><h3>Season pass</h3><div class="price">$349 <small>one payment</small></div><ul><li>The full 2026-27 season</li><li>Every birth year, 2011 to 2016</li><li>The Weekend Report, every week</li><li>Player Data: skaters and goalies, every game</li><li>Live team ratings</li><li>Player stats updated daily as games come in</li></ul><button class="btn" data-act="join" data-plan="season">Get the season pass</button></div>
 <div class="plan intro"><span class="tag">Black Friday · new members</span><h3>Monthly</h3><div class="price">$19 <small>first month</small></div><p class="then">Then $79 per month</p><ul><li>Everything in the season pass</li><li>Black Friday rate on your first month</li><li>Cancel any time</li></ul><button class="btn" data-act="join" data-plan="monthly">Join now for $19</button></div>
 </div></section>
 
@@ -170,7 +191,7 @@ $("s-sk").textContent=fmt(STATS.sk);$("s-gk").textContent=fmt(STATS.gk);$("s-tm"
 let year=2012;
 function tabs(){const h=Object.keys(P).map(y=>'<button class="tab" aria-pressed="'+(+y===year)+'" data-y="'+y+'">'+y+' born</button>').join("");document.querySelectorAll(".ytabs").forEach(e=>e.innerHTML=h);hub()}
 function hub(){$("rt").innerHTML=(TOP[year]||[]).map(r=>'<tr><td>'+r[0]+'</td><td style="text-align:left"><span class="name">'+esc(r[1])+'</span></td><td>'+r[2]+'</td><td><b>'+r[3].toFixed(2)+'</b></td></tr>').join("")+Array.from({length:5},(_,k)=>'<tr class="lock" aria-hidden="true"><td>'+(k+11)+'</td>'+[150,50,44].map((v,j)=>'<td><span class="bar" style="width:'+Math.round(v*(0.7+((k*7+j*3)%5)/10))+'px"></span></td>').join("")+'</tr>').join("");
-  $("rt-n").textContent=fmt(NT[year])+" more "+year+" teams";$("wk-label").textContent=WK.label+(WK.status?" ("+WK.status.toLowerCase()+")":"");
+  $("rt-n").textContent=fmt(NT[year])+" more "+year+" teams";$("wk-label").textContent=WK.label+(WK.status?": "+WK.status:"");
   const d=WK.divs[year];
   $("wk").innerHTML=d?'<div class="card"><h3>The story</h3>'+d.s.map(t=>'<p style="margin:0 0 10px">'+esc(t)+'</p>').join("")+'</div>'+(d.w.length?'<div class="sheet" style="margin-top:12px"><table><thead><tr><th>Day</th><th>Time</th><th>Games to watch</th><th>Rink</th></tr></thead><tbody>'+d.w.map(g=>'<tr><td>'+esc(g[0])+'</td><td>'+esc(g[1])+'</td><td style="text-align:left"><b>'+esc(g[2])+'</b>'+(g[3]?' <span class="sub">('+g[3]+')</span>':'')+' vs <b>'+esc(g[4])+'</b>'+(g[5]?' <span class="sub">('+g[5]+')</span>':'')+'</td><td style="text-align:left">'+esc(g[6])+'</td></tr>').join("")+'</tbody></table></div>':''):'<div class="card"><p style="margin:0">The weekend report for this birth year is being added.</p></div>'}
 function table(){const rows=P[year];const w=[30,120,110,18,18,14,14,18,16,26,30,34,30];
