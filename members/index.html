@@ -108,7 +108,7 @@ function hook(fr,kind){ // keep links between the two apps inside the member sit
   let d;try{d=fr.contentDocument}catch(e){return}
   if(!d||d.__mpd)return;d.__mpd=true;
   if(kind==="players"){let lastP="";d.addEventListener("click",e=>{const tl=e.target.closest&&e.target.closest(".tlink");if(tl)logEv("team",tl.innerText.trim());
-    setTimeout(()=>{try{const dl=d.getElementById("dlg");if(dl&&dl.open){const h=dl.querySelector("h1,h2,h3");const n=(h?h.innerText:dl.innerText).trim().split("\n")[0].slice(0,80);if(n&&n!==lastP){lastP=n;logEv("player",n)}}else lastP=""}catch(e){}},200)},true);
+    setTimeout(()=>{try{const dl=d.getElementById("dlg");if(dl&&dl.open){const h=dl.querySelector("h1,h2,h3");const n=(h?(h.firstChild&&h.firstChild.nodeType===3?h.firstChild.textContent:h.textContent):dl.textContent).trim().split("\n")[0].slice(0,80);if(n&&n!==lastP){lastP=n;logEv("player",n)}}else lastP=""}catch(e){}},200)},true);
     try{fr.contentWindow.addEventListener("hashchange",()=>logEv("view",fr.contentWindow.location.hash))}catch(e){}}
   d.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a");if(!a)return;const h=a.getAttribute("href")||"";
     if(kind==="ratings"&&/^players\//.test(h)){e.preventDefault();e.stopPropagation();go("players",h.includes("#")?h.slice(h.indexOf("#")):"")}
