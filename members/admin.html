@@ -13,9 +13,15 @@ table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:8px 10px;
 th{color:var(--mut);font-weight:600}tr:last-child td{border-bottom:0}td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
 .warn{color:#c2410c;font-weight:600}.ok{color:#15803d;font-weight:600}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
 .nm{border:0;background:none;padding:2px 0;text-align:left;font-weight:600}.nm:hover{text-decoration:underline}.nmi{font:inherit;padding:4px 6px;width:160px;border:1px solid var(--acc);border-radius:6px;background:var(--card);color:var(--ink)}
+.lnk{border:0;background:none;padding:0;color:var(--acc);cursor:pointer;font:inherit;text-decoration:underline}
+.bars{display:flex;align-items:flex-end;gap:3px;height:90px;padding:10px;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+.bars div{flex:1;min-width:10px;max-width:40px;background:var(--acc);border-radius:3px 3px 0 0;position:relative}.bars div span{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--mut);white-space:nowrap}
+.barwrap{padding-bottom:22px}.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:8px;padding:10px 12px;margin-top:10px}
+.hd{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}.pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 9px}
 button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
 </style></head><body><main>
 <h1>Member usage</h1><div class="mut" id="sub">Loading…</div>
+<div id="prof" hidden></div>
 <div id="out" hidden>
 <div class="tiles" id="tiles"></div>
 <h2>Members</h2><div class="wrap"><table id="t-mem"></table></div>
@@ -41,10 +47,10 @@ async function load(){
   const M=data.members||[],now=Date.now(),day=864e5;
   const active=M.filter(m=>m.status==="active"),seen7=M.filter(m=>m.last_seen&&now-new Date(m.last_seen)<7*day);
   const quiet=active.filter(m=>!m.last_seen||now-new Date(m.last_seen)>7*day);
-  $("sub").textContent="Updated "+when(new Date())+". Time is counted in minutes with the member site open and on screen. Click a name to add or change it.";
+  $("sub").textContent="Updated "+when(new Date())+". Time is counted in minutes with the member site open and on screen. Click Profile for a member's full usage sheet, or a name to change it.";
   $("tiles").innerHTML=[["Accounts",M.length],["Paying members",active.length],["Active in last 7 days",seen7.length],["Paying but quiet 7+ days",quiet.length],["Minutes, last 7 days",M.reduce((s,m)=>s+(m.min7||0),0)]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
-  tbl("t-mem",[["Name"],["Email"],["Plan"],["Status"],["Renews / ends"],["Joined"],["Last seen"],["7 days","n"],["30 days","n"],["Visits 30d","n"],["Devices 30d","n"]],
-    M.map(m=>[`<button class="nm" data-email="${esc(m.email)}" data-name="${esc(m.name||"")}">${m.name?esc(m.name):'<span class="mut">Add name</span>'}</button>`,esc(m.email),esc(m.plan||"—"),`<span class="${m.status==="active"?"ok":"mut"}">${esc(m.status||"no plan")}</span>`,m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",new Date(m.created_at).toLocaleDateString(),
+  tbl("t-mem",[[""],["Name"],["Email"],["Plan"],["Status"],["Renews / ends"],["Joined"],["Last seen"],["7 days","n"],["30 days","n"],["Visits 30d","n"],["Devices 30d","n"]],
+    M.map(m=>[`<button class="lnk" data-prof="${esc(m.email)}">Profile</button>`,`<button class="nm" data-email="${esc(m.email)}" data-name="${esc(m.name||"")}">${m.name?esc(m.name):'<span class="mut">Add name</span>'}</button>`,esc(m.email),esc(m.plan||"—"),`<span class="${m.status==="active"?"ok":"mut"}">${esc(m.status||"no plan")}</span>`,m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",new Date(m.created_at).toLocaleDateString(),
       (m.status==="active"&&(!m.last_seen||now-new Date(m.last_seen)>7*day)?'<span class="warn">':"<span>")+when(m.last_seen)+"</span>",dur(m.min7||0),dur(m.min30||0),m.sess30||0,(m.devices30>2?'<span class="warn">':"<span>")+(m.devices30||0)+"</span>"]));
   tbl("t-day",[["Day"],["Members active","n"],["Total time","n"]],(data.daily||[]).slice().reverse().map(d=>[esc(d.d),d.members,dur(d.minutes||0)]));
   tbl("t-pl",[["Player"],["Opens","n"],["Members","n"]],(data.players||[]).map(p=>[esc(p.detail),p.n,p.members]));
@@ -57,5 +63,45 @@ document.addEventListener("click",e=>{const b=e.target.closest(".nm");if(!b)retu
   const i=document.createElement("input");i.className="nmi";i.value=old;i.placeholder="Name";b.replaceWith(i);i.focus();let done=false;
   const save=async()=>{if(done)return;done=true;const v=i.value.trim();if(v!==old){await sb.rpc("admin_set_name",{p_email:email,p_name:v})}load()};
   i.addEventListener("keydown",ev=>{if(ev.key==="Enter")save();if(ev.key==="Escape"){done=true;load()}});i.addEventListener("blur",save)});
+const day0=t=>new Date(t).toLocaleDateString([], {month:"short",day:"numeric"});
+async function profile(email){
+  const {data,error}=await sb.rpc("admin_member",{p_email:email});
+  if(error||!data||!data.ok){$("sub").textContent="Could not load that member.";return}
+  const w=data.who||{},t=data.totals||{},P=data.players||[],S=data.sessions||[];
+  const mins=t.minutes||0,avg=t.visits?Math.round(mins/t.visits):0;
+  const last=(w.name||"").trim().split(/\s+/).slice(-1)[0]||"";
+  const kin=last.length>2?P.filter(p=>p.detail.toLowerCase().split(/\s+/).slice(-1)[0]===last.toLowerCase()):[];
+  const top=P[0];const insight=[];
+  if(kin.length)insight.push("Likely their player: <b>"+esc(kin.map(p=>p.detail).join(", "))+"</b> (same last name, opened "+kin.reduce((a,p)=>a+p.n,0)+" times).");
+  else if(top&&top.n>=2)insight.push("Most-opened player: <b>"+esc(top.detail)+"</b> ("+top.n+" times). Possibly their own player.");
+  if(t.min_players||t.min_ratings)insight.push("Time split: "+dur(t.min_players||0)+" in the player database, "+dur(t.min_ratings||0)+" in team ratings.");
+  const H=data.hours||[];if(H.length){const pk=H.slice().sort((a,b)=>b.n-a.n)[0];insight.push("Most active around "+((pk.h%12)||12)+(pk.h<12?" AM":" PM")+" Central.")}
+  if(w.status==="active"&&t.last&&Date.now()-new Date(t.last)>7*864e5)insight.push('<span class="warn">Paying but not seen for over a week.</span>');
+  if(w.status!=="active"&&w.in_stripe)insight.push("Reached the checkout page but did not pay.");
+  if(w.status!=="active"&&!w.in_stripe)insight.push("Signed in but never picked a plan.");
+  if((data.devices||[]).length>2)insight.push('<span class="warn">Used '+data.devices.length+' different devices.</span>');
+  const D=data.daily||[],mx=Math.max(1,...D.map(d=>d.minutes));
+  const h='<p><button id="back">&larr; All members</button></p><div class="hd"><h1>'+esc(w.name||w.email)+'</h1><span class="pill">'+esc(w.plan||"no plan")+' &middot; '+esc(w.status||"not paying")+'</span></div>'
+   +'<div class="mut">'+esc(w.email)+' &middot; joined '+day0(w.joined)+(w.renews?' &middot; renews '+day0(w.renews):'')+'</div>'
+   +(insight.length?'<div class="note">'+insight.join("<br>")+'</div>':'')
+   +'<div class="tiles">'+[["Time on site",dur(mins)],["Visits",t.visits||0],["Avg visit",dur(avg)],["Days active",t.days||0],["Players opened",t.player_opens||0],["First seen",t.first?day0(t.first):"never"],["Last seen",t.last?when(t.last):"never"]].map(x=>'<div class="tile"><b>'+x[1]+'</b><span class="mut">'+x[0]+'</span></div>').join("")+'</div>'
+   +'<h2>Minutes per day</h2><div class="barwrap"><div class="bars">'+(D.length?D.map(d=>'<div title="'+d.minutes+' min" style="height:'+Math.max(3,Math.round(100*d.minutes/mx))+'%"><span>'+esc(String(d.d).slice(5))+'</span></div>').join(""):'<span class="mut">No activity yet</span>')+'</div></div>'
+   +'<div class="cols"><div><h2>Players opened</h2><div class="wrap"><table id="p-pl"></table></div></div><div><h2>Teams opened</h2><div class="wrap"><table id="p-tm"></table></div><h2>Searches typed</h2><div class="wrap"><table id="p-se"></table></div></div></div>'
+   +'<div class="cols"><div><h2>Visits</h2><div class="wrap"><table id="p-ss"></table></div></div><div><h2>Where they went</h2><div class="wrap"><table id="p-vw"></table></div><h2>Devices</h2><div class="wrap"><table id="p-dv"></table></div></div></div>'
+   +'<h2>Activity log</h2><div class="wrap"><table id="p-rc"></table></div>';
+  $("prof").innerHTML=h;$("out").hidden=true;$("prof").hidden=false;window.scrollTo(0,0);
+  tbl("p-pl",[["Player"],["Opens","n"],["Last"]],P.map(p=>[esc(p.detail),p.n,when(p.last)]));
+  tbl("p-tm",[["Team"],["Opens","n"],["Last"]],(data.teams||[]).map(p=>[esc(p.detail),p.n,when(p.last)]));
+  tbl("p-se",[["Search"],["Times","n"],["Last"]],(data.searches||[]).map(p=>[esc(p.detail),p.n,when(p.last)]));
+  tbl("p-ss",[["Started"],["Length","n"],["Players opened","n"]],S.map(x=>[when(x.started),dur(x.minutes||0),x.players||0]));
+  const nice=v=>v.replace(/^players#?/,"Player database ").replace(/^ratings#?/,"Team ratings ").replace(/#?year=/,"birth year ").replace(/#?div=/,"division ").replace(/#?team=/,"team ");
+  tbl("p-vw",[["Page / view"],["Times","n"]],(data.views||[]).map(p=>[esc(nice(p.detail||"")),p.n]));
+  tbl("p-dv",[["Device"],["Visits","n"],["Last"]],(data.devices||[]).map(p=>[esc(p.detail),p.n,when(p.last)]));
+  const lab={open:"Opened the site",tab:"Switched tab",player:"Viewed player",team:"Viewed team",view:"Changed view",search:"Searched"};
+  tbl("p-rc",[["When"],["Action"],["Detail"]],(data.recent||[]).map(r=>[when(r.at),esc(lab[r.kind]||r.kind),esc(r.detail)]));
+  $("back").onclick=()=>{$("prof").hidden=true;$("out").hidden=false};
+}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-prof]");if(b)profile(b.dataset.prof)});
+
 $("again").onclick=load;load();
 </script></body></html>
