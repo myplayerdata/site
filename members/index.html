@@ -40,9 +40,16 @@ body.app main{display:none}
 <h1>Member sign-in</h1>
 <p class="muted">Enter your email and we'll send you a sign-in code. No password needed. New here? The same form creates your account.</p>
 <form id="f-signin"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required placeholder="you@example.com">
-<label for="fullname">Your name <span class="muted" style="font-weight:400">(new members)</span></label><input id="fullname" type="text" autocomplete="name" maxlength="80" placeholder="First and last name">
 <div class="row"><button class="btn" id="b-send">Email me a sign-in code</button><a class="btn alt" href="../">Back to the home page</a></div>
 <div class="err" id="e-signin" hidden></div></form>
+</div>
+
+<div class="card" id="v-name" hidden>
+<h1>One quick thing</h1>
+<p class="muted">Tell us your name so we know who the account belongs to. You'll only be asked once.</p>
+<form id="f-name"><label for="fullname">Your name</label><input id="fullname" type="text" autocomplete="name" required minlength="2" maxlength="80" placeholder="First and last name">
+<div class="row"><button class="btn" id="b-name">Continue</button></div>
+<div class="err" id="e-name" hidden></div></form>
 </div>
 
 <div class="card" id="v-sent" hidden>
@@ -158,6 +165,8 @@ async function check(){
   access=data;
   if(!data.signed_in){closeApp();show("signin");return}
   if(!data.session_ok){closeApp();show("other");return}
+  // every account gives a name once, before choosing a plan or opening the site
+  if(!((session.user.user_metadata||{}).name||"").trim()){closeApp();show("name");setTimeout(()=>{try{$("fullname").focus()}catch(e){}},50);return}
   if(!data.member){closeApp();$("b-account").hidden=true;show("join");
     // arriving from a locked player preview with a plan already chosen: go straight to checkout, once
     if(WANT&&!PAID&&!wantUsed){wantUsed=true;try{sessionStorage.removeItem("mpd_plan")}catch(e){}const pb=document.querySelector('.plan[data-plan="'+WANT+'"]');if(pb){pb.click();return}}
@@ -167,7 +176,7 @@ async function check(){
 }
 $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email=$("email").value.trim();if(!email)return;
   $("b-send").disabled=true;$("e-signin").hidden=true;
-  const nm=$("fullname").value.trim();const {error}=await sb.auth.signInWithOtp({email,options:Object.assign({emailRedirectTo:HERE,shouldCreateUser:true},nm?{data:{name:nm.slice(0,80)}}:{})});
+  const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:HERE,shouldCreateUser:true}});
   $("b-send").disabled=false;
   if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
   sentEmail=email;$("sent-to").textContent=email;$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
@@ -179,6 +188,10 @@ $("f-code").addEventListener("submit",async e=>{e.preventDefault();const token=$
   if(error){$("e-code").hidden=false;$("e-code").textContent="That code didn't work. Check it, or request a new email.";return}
   setTok(null);check()});
 $("b-again").onclick=()=>show("signin");
+$("f-name").addEventListener("submit",async e=>{e.preventDefault();const v=$("fullname").value.trim().replace(/\s+/g," ");if(v.length<2){$("e-name").hidden=false;$("e-name").textContent="Please enter your name.";return}
+  $("b-name").disabled=true;$("e-name").hidden=true;const {error}=await sb.auth.updateUser({data:{name:v.slice(0,80)}});$("b-name").disabled=false;
+  if(error){$("e-name").hidden=false;$("e-name").textContent="Could not save that. Try again.";return}
+  check()});
 async function billing(body){const {data:{session}}=await sb.auth.getSession();if(!session)throw new Error("Not signed in");
   const r=await fetch(SB_URL+"/functions/v1/billing",{method:"POST",headers:{Authorization:"Bearer "+session.access_token,apikey:SB_KEY,"Content-Type":"application/json"},body:JSON.stringify(body)});
   const j=await r.json().catch(()=>({}));if(!r.ok||!j.url)throw new Error(j.error||"Something went wrong");return j.url}
