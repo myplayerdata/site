@@ -88,6 +88,10 @@ const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}ca
 let access=null,timer=null,paidTries=0;const PAID=new URLSearchParams(location.search).get("paid")==="1";
 // ---- member app: the ratings site and the full player database, each in its own frame ----
 const RSITE="https://mikemuf.github.io/livehockeyratings/";
+// ---- usage log: what members open and how long they stay (shown only on the private admin page) ----
+const SID=Math.random().toString(36).slice(2,10);
+const DEVICE=(navigator.userAgent.match(/iPad|iPhone|Android|Macintosh|Windows|CrOS|Linux/)||["Other"])[0]+" "+(Math.min(screen.width,screen.height)||0);
+function logEv(kind,detail){try{if(!access||!access.member)return;sb.from("usage_events").insert({kind,detail:String(detail||"").slice(0,120),session:SID}).then(()=>{},()=>{})}catch(e){}}
 let appOpen=false,ratingsUrl=null,playersUrl=null,playersLoading=null,tab="ratings",pending={};
 const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
 async function decryptPage(file,keyB64){
@@ -101,13 +105,16 @@ function setHash(fr,h){try{const w=fr.contentWindow;if(h&&w.location.hash!==h){w
 function hook(fr,kind){ // keep links between the two apps inside the member site
   let d;try{d=fr.contentDocument}catch(e){return}
   if(!d||d.__mpd)return;d.__mpd=true;
+  if(kind==="players"){let lastP="";d.addEventListener("click",e=>{const tl=e.target.closest&&e.target.closest(".tlink");if(tl)logEv("team",tl.innerText.trim());
+    setTimeout(()=>{try{const dl=d.getElementById("dlg");if(dl&&dl.open){const h=dl.querySelector("h1,h2,h3");const n=(h?h.innerText:dl.innerText).trim().split("\n")[0].slice(0,80);if(n&&n!==lastP){lastP=n;logEv("player",n)}}else lastP=""}catch(e){}},200)},true);
+    try{fr.contentWindow.addEventListener("hashchange",()=>logEv("view",fr.contentWindow.location.hash))}catch(e){}}
   d.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a");if(!a)return;const h=a.getAttribute("href")||"";
     if(kind==="ratings"&&/^players\//.test(h)){e.preventDefault();e.stopPropagation();go("players",h.includes("#")?h.slice(h.indexOf("#")):"")}
     else if(kind==="players"&&(a.id==="rback"||h.startsWith(RSITE))){e.preventDefault();e.stopPropagation();const full=a.href||h;go("ratings",full.includes("#")?full.slice(full.indexOf("#")):"")}
   },true);
 }
 async function go(t,hash){
-  tab=t;document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  tab=t;logEv("tab",t+(hash||""));document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
   const fr=$("fr-ratings"),fp=$("fr-players");
   if(t==="ratings"){fp.hidden=true;$("app-msg").hidden=true;
     if(!fr.src){fr.onload=()=>{hook(fr,"ratings")};
@@ -130,7 +137,7 @@ function watermark(email){const t=(email||"member").replace(/[<>&"]/g,"");
   $("wm").style.backgroundImage='url("data:image/svg+xml,'+encodeURIComponent(svg)+'")'}
 function openApp(email){if(appOpen)return;appOpen=true;document.body.classList.add("app");
   document.documentElement.style.setProperty("--top",document.querySelector(".top").offsetHeight+"px");
-  $("tabs").hidden=false;$("app").hidden=false;watermark(email);go(tab)}
+  $("tabs").hidden=false;$("app").hidden=false;watermark(email);logEv("open",DEVICE);go(tab)}
 function closeApp(){if(!appOpen)return;appOpen=false;document.body.classList.remove("app");$("tabs").hidden=true;$("app").hidden=true;
   for(const id of ["fr-ratings","fr-players"]){const f=$(id);f.removeAttribute("src");f.hidden=true;try{f.contentWindow.location.replace("about:blank")}catch(e){}}
   if(playersUrl){URL.revokeObjectURL(playersUrl);playersUrl=null}playersLoading=null;if(ratingsUrl&&ratingsUrl.startsWith("blob:")){URL.revokeObjectURL(ratingsUrl)}ratingsUrl=null}
@@ -180,7 +187,7 @@ $("b-claim").onclick=async()=>{$("b-claim").disabled=true;try{await claim()}catc
 $("signout").onclick=async()=>{setTok(null);await sb.auth.signOut();check()};
 sb.auth.onAuthStateChange((ev)=>{if(ev==="SIGNED_IN"&&location.hash.includes("access_token")){setTok(null)}if(ev==="SIGNED_IN"||ev==="SIGNED_OUT")setTimeout(check,0)});
 check();
-timer=setInterval(()=>{if(access&&access.signed_in&&document.visibilityState==="visible")check()},60000);
+timer=setInterval(()=>{if(access&&access.signed_in&&document.visibilityState==="visible"){check();if(appOpen)logEv("beat",tab)}},60000);
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&access&&access.signed_in)check()});
 </script>
 </body></html>

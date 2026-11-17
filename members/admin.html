@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Usage</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1a1f2b;--mut:#667085;--line:#e3e6ec;--acc:#1f6feb}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1218;--card:#181c25;--ink:#e8ebf1;--mut:#98a2b3;--line:#2a303c;--acc:#5b9bff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:20px 16px 60px}h1{font-size:22px;margin:0 0 4px}h2{font-size:16px;margin:26px 0 8px}
+.mut{color:var(--mut)}.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}.tile b{display:block;font-size:24px}
+.wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--mut);font-weight:600}tr:last-child td{border-bottom:0}td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.warn{color:#c2410c;font-weight:600}.ok{color:#15803d;font-weight:600}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+</style></head><body><main>
+<h1>Member usage</h1><div class="mut" id="sub">Loading…</div>
+<div id="out" hidden>
+<div class="tiles" id="tiles"></div>
+<h2>Members</h2><div class="wrap"><table id="t-mem"></table></div>
+<h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
+<div class="cols"><div><h2>Most-viewed players (30 days)</h2><div class="wrap"><table id="t-pl"></table></div></div>
+<div><h2>Most-viewed teams (30 days)</h2><div class="wrap"><table id="t-tm"></table></div></div></div>
+<h2>Recent activity</h2><div class="wrap"><table id="t-rec"></table></div>
+<p><button id="again">Refresh</button></p>
+</div></main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const sb=supabase.createClient("https://nhojjvbgmyafckejcnbj.supabase.co","sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0");
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const when=t=>t?new Date(t).toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}):"never";
+const dur=m=>m>=60?Math.floor(m/60)+"h "+(m%60)+"m":m+"m";
+const tbl=(id,head,rows)=>{$(id).innerHTML="<thead><tr>"+head.map(h=>`<th class="${h[1]||""}">${esc(h[0])}</th>`).join("")+"</tr></thead><tbody>"+(rows.length?rows.map(r=>"<tr>"+r.map((c,i)=>`<td class="${head[i][1]||""}">${c}</td>`).join("")+"</tr>").join(""):`<tr><td colspan="${head.length}" class="mut">Nothing yet</td></tr>`)+"</tbody>"};
+async function load(){
+  const {data:{session}}=await sb.auth.getSession();
+  if(!session){$("sub").innerHTML='Sign in on the <a href="./">member page</a> first, then come back here.';return}
+  const {data,error}=await sb.rpc("admin_usage");
+  if(error||!data||!data.ok){$("sub").textContent="This page is not available for this account.";return}
+  const M=data.members||[],now=Date.now(),day=864e5;
+  const active=M.filter(m=>m.status==="active"),seen7=M.filter(m=>m.last_seen&&now-new Date(m.last_seen)<7*day);
+  const quiet=active.filter(m=>!m.last_seen||now-new Date(m.last_seen)>7*day);
+  $("sub").textContent="Updated "+when(new Date())+". Time is counted in minutes with the member site open and on screen.";
+  $("tiles").innerHTML=[["Accounts",M.length],["Paying members",active.length],["Active in last 7 days",seen7.length],["Paying but quiet 7+ days",quiet.length],["Minutes, last 7 days",M.reduce((s,m)=>s+(m.min7||0),0)]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
+  tbl("t-mem",[["Email"],["Plan"],["Status"],["Renews / ends"],["Joined"],["Last seen"],["7 days","n"],["30 days","n"],["Visits 30d","n"],["Devices 30d","n"]],
+    M.map(m=>[esc(m.email),esc(m.plan||"—"),`<span class="${m.status==="active"?"ok":"mut"}">${esc(m.status||"no plan")}</span>`,m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",new Date(m.created_at).toLocaleDateString(),
+      (m.status==="active"&&(!m.last_seen||now-new Date(m.last_seen)>7*day)?'<span class="warn">':"<span>")+when(m.last_seen)+"</span>",dur(m.min7||0),dur(m.min30||0),m.sess30||0,(m.devices30>2?'<span class="warn">':"<span>")+(m.devices30||0)+"</span>"]));
+  tbl("t-day",[["Day"],["Members active","n"],["Total time","n"]],(data.daily||[]).slice().reverse().map(d=>[esc(d.d),d.members,dur(d.minutes||0)]));
+  tbl("t-pl",[["Player"],["Opens","n"],["Members","n"]],(data.players||[]).map(p=>[esc(p.detail),p.n,p.members]));
+  tbl("t-tm",[["Team"],["Opens","n"],["Members","n"]],(data.teams||[]).map(p=>[esc(p.detail),p.n,p.members]));
+  const lab={open:"Opened the site",tab:"Switched tab",player:"Viewed player",team:"Viewed team",view:"Changed view"};
+  tbl("t-rec",[["When"],["Member"],["Action"],["Detail"]],(data.recent||[]).map(r=>[when(r.at),esc(r.email),esc(lab[r.kind]||r.kind),esc(r.detail)]));
+  $("out").hidden=false;
+}
+$("again").onclick=load;load();
+</script></body></html>
