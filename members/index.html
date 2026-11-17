@@ -26,7 +26,7 @@ button.plan{background:var(--panel);font:inherit;color:inherit;text-align:left;w
 body.app main{display:none}
 #app{position:fixed;left:0;right:0;bottom:0;top:var(--top,52px);background:var(--bg)}
 #app iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}
-#wm{position:absolute;inset:0;pointer-events:none;z-index:5;opacity:.17;background-repeat:repeat}
+#wm{position:absolute;inset:0;pointer-events:none;z-index:5;opacity:.11;background-repeat:repeat}
 #app .msg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted);z-index:1}
 </style></head>
 <body>
@@ -150,9 +150,9 @@ async function go(t,hash){
   $("app-msg").hidden=true;fp.hidden=false;
 }
 function watermark(email){const t=(email||"member").replace(/[<>&"]/g,"");
-  // the member's email is tiled across every screen, close enough together that any screenshot or photo of the data carries it
-  const tx=(x,y)=>'<text x="'+x+'" y="'+y+'" font-family="sans-serif" font-size="14" font-weight="700" fill="#000" stroke="#fff" stroke-width="0.5" paint-order="stroke">'+t+'</text>';
-  const svg='<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150"><g transform="rotate(-20 150 75)">'+tx(-30,50)+tx(120,125)+'</g></svg>';
+  // the member's email appears once per 460x260 block: light enough to read through, frequent enough that a full-screen screenshot carries it
+  const tx=(x,y)=>'<text x="'+x+'" y="'+y+'" font-family="sans-serif" font-size="14" font-weight="600" fill="#000" stroke="#fff" stroke-width="0.4" paint-order="stroke">'+t+'</text>';
+  const svg='<svg xmlns="http://www.w3.org/2000/svg" width="460" height="260"><g transform="rotate(-20 230 130)">'+tx(120,135)+'</g></svg>';
   $("wm").style.backgroundImage='url("data:image/svg+xml,'+encodeURIComponent(svg)+'")'}
 function openApp(email){if(appOpen)return;appOpen=true;document.body.classList.add("app");
   document.documentElement.style.setProperty("--top",document.querySelector(".top").offsetHeight+"px");
