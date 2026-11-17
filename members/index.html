@@ -85,7 +85,9 @@ function show(v){for(const k of VIEWS)$("v-"+k).hidden=k!==v}
 const TK="mpd-device-token";
 const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
 const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}catch(e){}};
-let access=null,timer=null,paidTries=0;const PAID=new URLSearchParams(location.search).get("paid")==="1";
+let access=null,timer=null,paidTries=0,wantUsed=false;
+let WANT=new URLSearchParams(location.search).get("plan");try{if(WANT==="monthly"||WANT==="season")sessionStorage.setItem("mpd_plan",WANT);else WANT=sessionStorage.getItem("mpd_plan")}catch(e){}
+if(WANT!=="monthly"&&WANT!=="season")WANT=null;const PAID=new URLSearchParams(location.search).get("paid")==="1";
 // ---- member app: the ratings site and the full player database, each in its own frame ----
 const RSITE="https://mikemuf.github.io/livehockeyratings/";
 // ---- usage log: what members open and how long they stay (shown only on the private admin page) ----
@@ -156,6 +158,8 @@ async function check(){
   if(!data.signed_in){closeApp();show("signin");return}
   if(!data.session_ok){closeApp();show("other");return}
   if(!data.member){closeApp();$("b-account").hidden=true;show("join");
+    // arriving from a locked player preview with a plan already chosen: go straight to checkout, once
+    if(WANT&&!PAID&&!wantUsed){wantUsed=true;try{sessionStorage.removeItem("mpd_plan")}catch(e){}const pb=document.querySelector('.plan[data-plan="'+WANT+'"]');if(pb){pb.click();return}}
     if(PAID&&paidTries<20){paidTries++;$("join-note").textContent="Payment received. Activating your membership…";setTimeout(check,2500)}return}
   $("b-account").hidden=!(data.plan==="monthly"||data.plan==="season");
   show("member");openApp(session.user.email||"");
