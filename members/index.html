@@ -119,6 +119,10 @@ function hook(fr,kind){ // keep links between the two apps inside the member sit
   if(kind==="players"){let lastP="";d.addEventListener("click",e=>{const tl=e.target.closest&&e.target.closest(".tlink");if(tl)logEv("team",tl.innerText.trim());
     setTimeout(()=>{try{const dl=d.getElementById("dlg");if(dl&&dl.open){const h=dl.querySelector("h1,h2,h3");const n=(h?(h.firstChild&&h.firstChild.nodeType===3?h.firstChild.textContent:h.textContent):dl.textContent).trim().split("\n")[0].slice(0,80);if(n&&n!==lastP){lastP=n;logEv("player",n)}}else lastP=""}catch(e){}},200)},true);
     try{fr.contentWindow.addEventListener("hashchange",()=>logEv("view",fr.contentWindow.location.hash))}catch(e){}
+    // favorites: the database page keeps a member's starred players and teams in the browser; here they are saved to his account (table member_favs) so they follow him to other devices
+    try{const w=fr.contentWindow;let ft=null;
+      w.__favSync=(f,what)=>{logEv("fav",what);clearTimeout(ft);const favs={p:(f.p||[]).slice(0,200),t:(f.t||[]).slice(0,200)};ft=setTimeout(()=>{sb.from("member_favs").upsert({favs,updated_at:new Date().toISOString()}).then(()=>{},()=>{})},700)};
+      sb.from("member_favs").select("favs").maybeSingle().then(({data,error})=>{if(error||!w.setFavs)return;w.setFavs(data&&data.favs?data.favs:{p:[],t:[]})},()=>{})}catch(e){}
     try{const qi=d.getElementById("q");let qt=null,lastQ="";if(qi)qi.addEventListener("input",()=>{clearTimeout(qt);qt=setTimeout(()=>{const v=qi.value.trim();if(v.length>=3&&v.toLowerCase()!==lastQ){lastQ=v.toLowerCase();logEv("search",v)}},1500)})}catch(e){}}
   d.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a");if(!a)return;const h=a.getAttribute("href")||"";
     if(kind==="ratings"&&/^players\//.test(h)){e.preventDefault();e.stopPropagation();go("players",h.includes("#")?h.slice(h.indexOf("#")):"")}
