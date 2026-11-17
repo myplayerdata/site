@@ -135,7 +135,7 @@ async function go(t,hash){
   if(t==="ratings"){fp.hidden=true;$("app-msg").hidden=true;
     if(!fr.src){fr.onload=()=>{hook(fr,"ratings")};
       // the ratings app is published separately; load a copy into this page so links between the two tabs keep working
-      if(!ratingsUrl){try{const t=await (await fetch(RSITE+"?v="+Date.now(),{cache:"no-store"})).text();ratingsUrl=URL.createObjectURL(new Blob([t],{type:"text/html"}))}catch(e){ratingsUrl=RSITE}}
+      if(!ratingsUrl){try{const t=await (await fetch(RSITE+"?v="+Date.now(),{cache:"no-store"})).text();ratingsUrl=URL.createObjectURL(new Blob([t],{type:"text/html"}))}catch(e){ratingsUrl=RSITE+"?stay=1"}}
       if(!appOpen||tab!=="ratings")return;
       fr.src=ratingsUrl+(hash||"")}else setHash(fr,hash);
     fr.hidden=false;return}
