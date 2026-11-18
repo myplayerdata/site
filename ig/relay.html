@@ -1,7 +1,0 @@
-<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><title>relay</title>
-<script>
-// Hands one of this folder's media files to the page that opened this window (used to post our own media to Instagram).
-(async()=>{try{const f=new URLSearchParams(location.search).get("f")||"";if(!/^[\w.-]+$/.test(f)||!window.opener)return;
-const r=await fetch("./"+f);const buf=await r.arrayBuffer();
-window.opener.postMessage({name:f,type:r.headers.get("content-type")||"",buf},"https://www.instagram.com",[buf]);document.title="sent";setTimeout(()=>window.close(),500)}catch(e){document.title="error"}})();
-</script>
