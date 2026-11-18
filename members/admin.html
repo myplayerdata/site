@@ -24,7 +24,7 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <div id="prof" hidden></div>
 <div id="out" hidden>
 <div class="tiles" id="tiles"></div>
-<h2>Members</h2><div class="wrap"><table id="t-mem"></table></div>
+<h2>Paying members</h2><div class="wrap"><table id="t-mem"></table></div>
 <h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
 <div class="cols"><div><h2>Most-viewed players (30 days)</h2><div class="wrap"><table id="t-pl"></table></div></div>
 <div><h2>Most-viewed teams (30 days)</h2><div class="wrap"><table id="t-tm"></table></div></div></div>
@@ -48,9 +48,9 @@ async function load(){
   const active=M.filter(m=>m.status==="active"),seen7=M.filter(m=>m.last_seen&&now-new Date(m.last_seen)<7*day);
   const quiet=active.filter(m=>!m.last_seen||now-new Date(m.last_seen)>7*day);
   $("sub").textContent="Updated "+when(new Date())+". Time is counted in minutes with the member site open and on screen. Click Profile for a member's full usage sheet, or a name to change it.";
-  $("tiles").innerHTML=[["Accounts",M.length],["Paying members",active.length],["Active in last 7 days",seen7.length],["Paying but quiet 7+ days",quiet.length],["Minutes, last 7 days",M.reduce((s,m)=>s+(m.min7||0),0)]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
+  $("tiles").innerHTML=[["Paying members",active.length],["Signed up, not paying",M.length-active.length],["Active in last 7 days",seen7.length],["Paying but quiet 7+ days",quiet.length],["Minutes, last 7 days",M.reduce((s,m)=>s+(m.min7||0),0)]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
   tbl("t-mem",[[""],["Name"],["Email"],["Plan"],["Status"],["Renews / ends"],["Joined"],["Last seen"],["7 days","n"],["30 days","n"],["Visits 30d","n"],["Devices 30d","n"]],
-    M.map(m=>[`<button class="lnk" data-prof="${esc(m.email)}">Profile</button>`,`<button class="nm" data-email="${esc(m.email)}" data-name="${esc(m.name||"")}">${m.name?esc(m.name):'<span class="mut">Add name</span>'}</button>`,esc(m.email),esc(m.plan||"—"),`<span class="${m.status==="active"?"ok":"mut"}">${esc(m.status||"no plan")}</span>`,m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",new Date(m.created_at).toLocaleDateString(),
+    active.map(m=>[`<button class="lnk" data-prof="${esc(m.email)}">Profile</button>`,`<button class="nm" data-email="${esc(m.email)}" data-name="${esc(m.name||"")}">${m.name?esc(m.name):'<span class="mut">Add name</span>'}</button>`,esc(m.email),esc(m.plan||"—"),`<span class="${m.status==="active"?"ok":"mut"}">${esc(m.status||"no plan")}</span>`,m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",new Date(m.created_at).toLocaleDateString(),
       (m.status==="active"&&(!m.last_seen||now-new Date(m.last_seen)>7*day)?'<span class="warn">':"<span>")+when(m.last_seen)+"</span>",dur(m.min7||0),dur(m.min30||0),m.sess30||0,(m.devices30>2?'<span class="warn">':"<span>")+(m.devices30||0)+"</span>"]));
   tbl("t-day",[["Day"],["Members active","n"],["Total time","n"]],(data.daily||[]).slice().reverse().map(d=>[esc(d.d),d.members,dur(d.minutes||0)]));
   tbl("t-pl",[["Player"],["Opens","n"],["Members","n"]],(data.players||[]).map(p=>[esc(p.detail),p.n,p.members]));
