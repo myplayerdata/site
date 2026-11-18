@@ -26,6 +26,7 @@ button{font:inherit;cursor:pointer}a{color:inherit}
 .hero p{max-width:58ch;font-size:18px;margin:0 0 24px;color:#c5d3dd}
 .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
 .kick{font-family:var(--display);font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 4px;display:block}
+.motto{font-family:var(--display);font-size:22px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:0 0 10px}
 .pillars{max-width:1100px;margin:0 auto;padding:0 16px 34px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
 .pillars a{display:block;text-decoration:none;color:#e9f1f6;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:20px}
 .pillars a:hover{background:rgba(255,255,255,.1)}
@@ -114,12 +115,21 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
 <nav><a class="hide" href="#weekend">Weekend Report</a><a class="hide" href="#preview">Player Data</a><a class="hide" href="#find">Find a player</a><a class="hide" href="#ratings">Ratings</a><a class="hide" href="#pricing">Pricing</a><button class="btn alt" data-act="signin">Sign in</button><button class="btn" data-act="join">Become a member</button></nav></div></div>
 <div class="hero"><div class="in">
+<div class="motto">Opinions vary. The numbers don’t.</div>
 <h1>Every weekend, covered. <em>Every player, measured.</em></h1>
-<p>The Weekend Report tells you what happened in AAA hockey and what is coming next. Player Data gives you game-by-game stats for players born 2011 through 2016. See where your player stands today, and measure his development all season.</p>
+<p>See where your player stands, with scores, stats and rankings in one place. The Weekend Report tells you what happened in AAA hockey and what is coming next. Player Data gives you game-by-game stats for players born 2011 through 2016, measured the same way for every player.</p>
 <div class="cta"><button class="btn big" data-act="join" data-plan="monthly">Join now · first month $19</button><a class="btn big alt" href="#weekend" style="text-decoration:none">See this weekend</a></div><p class="intro-note">Black Friday introductory rate for new members, for a limited time. Then $79/month. Cancel any time.</p>
 </div>
 <div class="pillars"><a href="#weekend"><span class="kick">1 · The Weekend Report</span><b>What happened, and what to watch</b><span class="pt">Games to watch with rankings, scores as they come in, then the full story: upsets, tournament results, top scorers and goalies.</span><span class="go">See this weekend &rsaquo;</span></a><a href="#preview"><span class="kick">2 · Player Data</span><b>Where your player really stands</b><span class="pt">Every game logged for every player. Points weighted by the strength of the opponent, ice time, power play, and rank against his birth year.</span><span class="go">See the top players &rsaquo;</span></a></div>
 <div class="strip"><div><b id="s-sk"></b><span>Skaters</span></div><div><b id="s-gk"></b><span>Goalies</span></div><div><b id="s-tm"></b><span>Teams</span></div><div><b id="s-gm"></b><span>Games logged</span></div><div><b>6</b><span>Birth years</span></div><div><b>Daily</b><span>Updates</span></div></div></div>
+
+<section id="why"><div class="kick">No opinions here</div><h2>We don’t rank your player. The numbers do.</h2>
+<p class="lede">We don’t decide how many goals a player scores, or who he scored them against. We record what happened in every game and apply the same math to every player. Nobody is scouted, picked or voted on.</p>
+<div class="grid3">
+<div class="card"><h3>Same math for everyone</h3><p>Every point is weighted by the rating of the team it was scored against, with one formula for every player. No votes, no scouts, no favorites.</p></div>
+<div class="card"><h3>Sort it your way</h3><p>Goals, points, ice time, power-play time, plus/minus. Tap the stat you care about and the whole birth year re-ranks. It is the same data either way.</p></div>
+<div class="card"><h3>One place, in seconds</h3><p>Scores, stats, team ratings and where to watch this weekend’s games, without bouncing between sites. Clean, fast, and easy to read on a phone.</p></div>
+</div></section>
 
 <section id="weekend"><div class="kick">The Weekend Report</div><h2>Every weekend, covered start to finish</h2>
 <p class="lede" style="margin-bottom:8px;color:var(--ink)"><b id="wk-label"></b></p>
