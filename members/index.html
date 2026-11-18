@@ -28,7 +28,8 @@ body.app main{display:none}
 #app iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}
 #wm{position:absolute;inset:0;pointer-events:none;z-index:5;opacity:.11;background-repeat:repeat}
 #app .msg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted);z-index:1}
-</style></head>
+</style><script>(function(){window.mpdLog=function(){};try{if(localStorage.getItem("mpd_notrack")||navigator.webdriver||/bot|crawl|spider|headless|lighthouse/i.test(navigator.userAgent))return;var SB="https://nhojjvbgmyafckejcnbj.supabase.co",K="sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0";var v=sessionStorage.getItem("mpd_v"),first=!v;if(!v){v=Math.random().toString(36).slice(2)+Date.now().toString(36);sessionStorage.setItem("mpd_v",v)}var s=sessionStorage.getItem("mpd_s");if(!s){var q=new URLSearchParams(location.search),ua=navigator.userAgent,h="";try{h=document.referrer?new URL(document.referrer).hostname.replace(/^www\./,""):""}catch(e){}s=q.get("utm_source")||(/Instagram/i.test(ua)?"instagram":/FBAN|FBAV/i.test(ua)?"facebook":/instagram\.com$/.test(h)?"instagram":h||"direct");if(/myplayerdata\.com$/.test(s))s="direct";s=s.toLowerCase().slice(0,60);sessionStorage.setItem("mpd_s",s)}window.mpdLog=function(kind,detail){try{var k="mpd_l_"+kind;if(sessionStorage.getItem(k))return;sessionStorage.setItem(k,"1");fetch(SB+"/rest/v1/site_events",{method:"POST",keepalive:true,headers:{apikey:K,Authorization:"Bearer "+K,"Content-Type":"application/json",Prefer:"return=minimal"},body:JSON.stringify({kind:kind,src:s,vid:v,detail:String(detail||"").slice(0,80)})}).catch(function(){})}catch(e){}};if(first)mpdLog("visit","/members/");mpdLog("member_page",new URLSearchParams(location.search).get("plan")||"");if(/[?&]paid=1/.test(location.search))mpdLog("paid","")}catch(e){}})();</script>
+</head>
 <body>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
 <div class="tabs" id="tabs" hidden><button data-tab="ratings" aria-selected="true">Team ratings</button><button data-tab="players" aria-selected="false">Players</button></div>
@@ -209,7 +210,7 @@ async function billing(body){const {data:{session}}=await sb.auth.getSession();i
   const j=await r.json().catch(()=>({}));if(!r.ok||!j.url)throw new Error(j.error||"Something went wrong");return j.url}
 document.querySelector(".plans").addEventListener("click",async e=>{const b=e.target.closest("button.plan");if(!b)return;
   document.querySelectorAll("button.plan").forEach(x=>x.disabled=true);$("e-join").hidden=true;
-  try{location.href=await billing({action:"checkout",plan:b.dataset.plan})}catch(err){$("e-join").hidden=false;$("e-join").textContent="Could not open checkout: "+err.message;document.querySelectorAll("button.plan").forEach(x=>x.disabled=false)}});
+  try{mpdLog("checkout_start",b.dataset.plan||"");location.href=await billing({action:"checkout",plan:b.dataset.plan})}catch(err){$("e-join").hidden=false;$("e-join").textContent="Could not open checkout: "+err.message;document.querySelectorAll("button.plan").forEach(x=>x.disabled=false)}});
 $("b-account").onclick=async()=>{$("b-account").disabled=true;try{location.href=await billing({action:"portal"})}catch(err){alertMsg("Billing is not available for this account yet.")}$("b-account").disabled=false};
 function alertMsg(t){const m=$("app-msg");if(m&&appOpen){m.hidden=false;m.style.zIndex=9;m.style.background="rgba(243,246,248,.92)";m.textContent=t;setTimeout(()=>{m.hidden=true;m.style.zIndex="";m.style.background=""},3500)}}
 document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b)go(b.dataset.tab)});

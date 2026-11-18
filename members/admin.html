@@ -24,6 +24,7 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <div id="prof" hidden></div>
 <div id="out" hidden>
 <div class="tiles" id="tiles"></div>
+<h2>Landing page funnel (last 30 days)</h2><div class="mut" id="fn-note"></div><div class="tiles" id="fn-tiles"></div><div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fn"></table></div></div><div><h2>Where visitors came from</h2><div class="wrap"><table id="t-src"></table></div></div></div>
 <h2>Paying members</h2><div class="wrap"><table id="t-mem"></table></div>
 <h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
 <div class="cols"><div><h2>Most-viewed players (30 days)</h2><div class="wrap"><table id="t-pl"></table></div></div>
@@ -40,6 +41,7 @@ const when=t=>t?new Date(t).toLocaleString([], {month:"short",day:"numeric",hour
 const dur=m=>m>=60?Math.floor(m/60)+"h "+(m%60)+"m":m+"m";
 const tbl=(id,head,rows)=>{$(id).innerHTML="<thead><tr>"+head.map(h=>`<th class="${h[1]||""}">${esc(h[0])}</th>`).join("")+"</tr></thead><tbody>"+(rows.length?rows.map(r=>"<tr>"+r.map((c,i)=>`<td class="${head[i][1]||""}">${c}</td>`).join("")+"</tr>").join(""):`<tr><td colspan="${head.length}" class="mut">Nothing yet</td></tr>`)+"</tbody>"};
 async function load(){
+  try{localStorage.setItem("mpd_notrack","1")}catch(e){}
   const {data:{session}}=await sb.auth.getSession();
   if(!session){$("sub").innerHTML='Sign in on the <a href="./">member page</a> first, then come back here.';return}
   const {data,error}=await sb.rpc("admin_usage");
@@ -57,6 +59,12 @@ async function load(){
   tbl("t-tm",[["Team"],["Opens","n"],["Members","n"]],(data.teams||[]).map(p=>[esc(p.detail),p.n,p.members]));
   const lab={open:"Opened the site",tab:"Switched tab",player:"Viewed player",team:"Viewed team",view:"Changed view"};
   tbl("t-rec",[["When"],["Member"],["Action"],["Detail"]],(data.recent||[]).map(r=>[when(r.at),esc(r.email),esc(lab[r.kind]||r.kind),esc(r.detail)]));
+  try{const F=(await sb.rpc("admin_funnel")).data;if(F&&F.ok){const D=F.daily||[],sum=k=>D.reduce((a,r)=>a+(r[k]||0),0),su=(F.signups||[]).reduce((a,r)=>a+r.n,0),V=sum("visitors"),pc=n=>V?" ("+Math.round(100*n/V)+"%)":"";
+    $("fn-note").textContent=F.since?"Counting since "+when(F.since)+". Visitors are counted once per visit, without cookies. Your own visits on this device are not counted.":"No visits recorded yet. Counting started when this section was added.";
+    $("fn-tiles").innerHTML=[["Landing page visitors",V],["Clicked Join",sum("join_clicks")+pc(sum("join_clicks"))],["Reached sign-up page",sum("signup_page")],["Accounts created",su],["Started checkout",sum("checkout")+pc(sum("checkout"))],["Paid",sum("paid")+pc(sum("paid"))]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
+    const sg={};(F.signups||[]).forEach(r=>sg[r.d]=r.n);
+    tbl("t-fn",[["Day"],["Visitors","n"],["Clicked Join","n"],["Sign-up page","n"],["Accounts","n"],["Checkout","n"],["Paid","n"]],D.map(r=>[esc(r.d),r.visitors,r.join_clicks,r.signup_page,sg[r.d]||0,r.checkout,r.paid]));
+    tbl("t-src",[["Source"],["Visitors","n"],["Clicked Join","n"],["Checkout","n"],["Paid","n"]],(F.sources||[]).map(r=>[esc(r.src),r.visitors,r.join_clicks,r.checkout,r.paid]))}}catch(e){}
   $("out").hidden=false;
 }
 document.addEventListener("click",e=>{const b=e.target.closest(".nm");if(!b)return;const email=b.dataset.email,old=b.dataset.name;
