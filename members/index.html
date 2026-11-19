@@ -100,7 +100,7 @@ let access=null,timer=null,paidTries=0,wantUsed=false;
 let WANT=new URLSearchParams(location.search).get("plan");try{if(WANT==="monthly"||WANT==="season")sessionStorage.setItem("mpd_plan",WANT);else WANT=sessionStorage.getItem("mpd_plan")}catch(e){}
 if(WANT!=="monthly"&&WANT!=="season")WANT=null;const PAID=new URLSearchParams(location.search).get("paid")==="1";
 // ---- member app: the ratings site and the full player database, each in its own frame ----
-const RSITE="https://mikemuf.github.io/livehockeyratings/";
+const RSITE=location.origin+"/members/ratings/";
 // ---- usage log: what members open and how long they stay (shown only on the private admin page) ----
 const SID=Math.random().toString(36).slice(2,10);
 const DEVICE=(navigator.userAgent.match(/iPad|iPhone|Android|Macintosh|Windows|CrOS|Linux/)||["Other"])[0]+" "+(Math.min(screen.width,screen.height)||0);
@@ -136,7 +136,7 @@ async function go(t,hash){
   const fr=$("fr-ratings"),fp=$("fr-players");
   if(t==="ratings"){fp.hidden=true;$("app-msg").hidden=true;
     if(!fr.src){fr.onload=()=>{hook(fr,"ratings")};
-      // the ratings app is published separately; load a copy into this page so links between the two tabs keep working
+      // the ratings app is its own file (/members/ratings/); load a copy into this page so links between the two tabs keep working
       if(!ratingsUrl){try{const t=await (await fetch(RSITE+"?v="+Date.now(),{cache:"no-store"})).text();ratingsUrl=URL.createObjectURL(new Blob([t],{type:"text/html"}))}catch(e){ratingsUrl=RSITE+"?stay=1"}}
       if(!appOpen||tab!=="ratings")return;
       fr.src=ratingsUrl+(hash||"")}else setHash(fr,hash);
