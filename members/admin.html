@@ -24,6 +24,8 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <div id="prof" hidden></div>
 <div id="out" hidden>
 <div class="tiles" id="tiles"></div>
+<h2>Today, 3 days, 7 days, 30 days</h2><div class="mut">Days are Central time. "Today" is since midnight. New, returning and member visitors are counted from Nov 19, 2026; earlier visits show as "not tagged".</div><div class="wrap"><table id="t-win"></table></div>
+<div class="cols"><div><h2>Who the visitors are, by source (30 days)</h2><div class="wrap"><table id="t-st"></table></div></div><div><h2>Direct visitors: first page they opened (30 days)</h2><div class="wrap"><table id="t-dp"></table></div></div></div>
 <h2>Landing page funnel (last 30 days)</h2><div class="mut" id="fn-note"></div><div class="tiles" id="fn-tiles"></div><div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fn"></table></div></div><div><h2>Where visitors came from</h2><div class="wrap"><table id="t-src"></table></div></div></div>
 <h2>Paying members</h2><div class="wrap"><table id="t-mem"></table></div>
 <h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
@@ -45,15 +47,20 @@ async function load(){
   const {data:{session}}=await sb.auth.getSession();
   if(!session){$("sub").innerHTML='Sign in on the <a href="./">member page</a> first, then come back here.';return}
   const {data,error}=await sb.rpc("admin_usage");
+  let TR=null;try{TR=(await sb.rpc("admin_traffic")).data}catch(e){}
+  const MM={};if(TR&&TR.ok)(TR.member_min||[]).forEach(r=>MM[r.email]=r);
   if(error||!data||!data.ok){$("sub").textContent="This page is not available for this account.";return}
   const M=data.members||[],now=Date.now(),day=864e5;
   const active=M.filter(m=>m.status==="active"),seen7=M.filter(m=>m.last_seen&&now-new Date(m.last_seen)<7*day);
   const quiet=active.filter(m=>!m.last_seen||now-new Date(m.last_seen)>7*day);
   $("sub").textContent="Updated "+when(new Date())+". Time is counted in minutes with the member site open and on screen. Click Profile for a member's full usage sheet, or a name to change it.";
   $("tiles").innerHTML=[["Paying members",active.length],["Signed up, not paying",M.length-active.length],["Active in last 7 days",seen7.length],["Paying but quiet 7+ days",quiet.length],["Minutes, last 7 days",M.reduce((s,m)=>s+(m.min7||0),0)]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
-  tbl("t-mem",[[""],["Name"],["Email"],["Plan"],["Status"],["Renews / ends"],["Joined"],["Last seen"],["7 days","n"],["30 days","n"],["Visits 30d","n"],["Devices 30d","n"]],
+  tbl("t-mem",[[""],["Name"],["Email"],["Plan"],["Status"],["Renews / ends"],["Joined"],["Last seen"],["Today","n"],["3 days","n"],["7 days","n"],["30 days","n"],["Visits 30d","n"]],
     active.map(m=>[`<button class="lnk" data-prof="${esc(m.email)}">Profile</button>`,`<button class="nm" data-email="${esc(m.email)}" data-name="${esc(m.name||"")}">${m.name?esc(m.name):'<span class="mut">Add name</span>'}</button>`,esc(m.email),esc(m.plan||"—"),`<span class="${m.status==="active"?"ok":"mut"}">${esc(m.status||"no plan")}</span>`,m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",new Date(m.created_at).toLocaleDateString(),
-      (m.status==="active"&&(!m.last_seen||now-new Date(m.last_seen)>7*day)?'<span class="warn">':"<span>")+when(m.last_seen)+"</span>",dur(m.min7||0),dur(m.min30||0),m.sess30||0,(m.devices30>2?'<span class="warn">':"<span>")+(m.devices30||0)+"</span>"]));
+      (m.status==="active"&&(!m.last_seen||now-new Date(m.last_seen)>7*day)?'<span class="warn">':"<span>")+when(m.last_seen)+"</span>",dur((MM[m.email]||{}).min1||0),dur((MM[m.email]||{}).min3||0),dur(m.min7||0),dur(m.min30||0),m.sess30||0]));
+  if(TR&&TR.ok){tbl("t-win",[["Period"],["Visitors","n"],["New","n"],["Returning","n"],["Members","n"],["Not tagged","n"],["Clicked Join","n"],["Accounts created","n"],["Checkout","n"],["Paid","n"],["Members active","n"],["Member time","n"]],(TR.windows||[]).map(w=>[esc(w.label),w.visitors,w.new_v,w.returning_v,w.member_v,w.untagged,w.join_clicks,w.signups,w.checkout,w.paid,w.active_members,dur(w.minutes||0)]));
+    tbl("t-st",[["Source"],["Visitors","n"],["New","n"],["Returning","n"],["Members","n"],["Not tagged","n"]],(TR.src_type||[]).map(r=>[esc(r.src),r.visitors,r.new_v,r.returning_v,r.member_v,r.untagged]));
+    tbl("t-dp",[["First page"],["Visitors","n"]],(TR.direct_pages||[]).map(r=>[esc(r.page==="/"?"Home page":r.page==="/members/"?"Member sign-in page":r.page),r.n]))}
   tbl("t-day",[["Day"],["Members active","n"],["Total time","n"]],(data.daily||[]).slice().reverse().map(d=>[esc(d.d),d.members,dur(d.minutes||0)]));
   tbl("t-pl",[["Player"],["Opens","n"],["Members","n"]],(data.players||[]).map(p=>[esc(p.detail),p.n,p.members]));
   tbl("t-tm",[["Team"],["Opens","n"],["Members","n"]],(data.teams||[]).map(p=>[esc(p.detail),p.n,p.members]));
