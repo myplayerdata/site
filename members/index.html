@@ -32,7 +32,7 @@ body.app main{display:none}
 </head>
 <body>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
-<div class="tabs" id="tabs" hidden><button data-tab="ratings" aria-selected="true">Live scores &amp; ratings</button><button data-tab="players" aria-selected="false">Players</button></div>
+<div class="tabs" id="tabs" hidden><button data-tab="ratings" aria-selected="true" id="tabLive">Live Scores &amp; Ratings</button><button data-tab="players" aria-selected="false">Players</button></div>
 <div class="who" id="who" hidden><span id="who-email"></span><button id="b-account" hidden>Billing</button><button id="signout">Sign out</button></div></div></div>
 <main>
 <div class="card" id="v-load"><p class="muted" style="margin:0">Loading…</p></div>
@@ -221,4 +221,6 @@ check();
 timer=setInterval(()=>{if(access&&access.signed_in&&document.visibilityState==="visible"){check();if(appOpen)logEv("beat",tab)}},60000);
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&access&&access.signed_in)check()});
 </script>
+<script src="ratings/live.js"></script>
+<script>(function(){function f(){var b=document.getElementById('tabLive'),L=window.MPD_LIVE||[],n=Date.now();if(!b)return;var on=L[0]&&L[1]&&n>=Date.parse(L[0])&&n<=Date.parse(L[1]);b.textContent=on?'\uD83D\uDEA8 Live Scores \uD83D\uDEA8 & Ratings':'Live Scores & Ratings'}f();setInterval(f,60000)})();</script>
 </body></html>
