@@ -28,6 +28,7 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <div class="cols"><div><h2>Who the visitors are, by source (30 days)</h2><div class="wrap"><table id="t-st"></table></div></div><div><h2>Direct visitors: first page they opened (30 days)</h2><div class="wrap"><table id="t-dp"></table></div></div></div>
 <h2>Landing page funnel (last 30 days)</h2><div class="mut" id="fn-note"></div><div class="tiles" id="fn-tiles"></div><div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fn"></table></div></div><div><h2>Where visitors came from</h2><div class="wrap"><table id="t-src"></table></div></div></div>
 <h2>Paying members</h2><div class="wrap"><table id="t-mem"></table></div>
+<h2>Signed up, not paying (joined in the last 30 days)</h2><div class="mut" id="np-note"></div><div class="wrap"><table id="t-np"></table></div>
 <h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
 <div class="cols"><div><h2>Most-viewed players (30 days)</h2><div class="wrap"><table id="t-pl"></table></div></div>
 <div><h2>Most-viewed teams (30 days)</h2><div class="wrap"><table id="t-tm"></table></div></div></div>
@@ -58,6 +59,11 @@ async function load(){
   tbl("t-mem",[[""],["Name"],["Email"],["Plan"],["Status"],["Renews / ends"],["Joined"],["Last seen"],["Today","n"],["3 days","n"],["7 days","n"],["30 days","n"],["Visits 30d","n"]],
     active.map(m=>[`<button class="lnk" data-prof="${esc(m.email)}">Profile</button>`,`<button class="nm" data-email="${esc(m.email)}" data-name="${esc(m.name||"")}">${m.name?esc(m.name):'<span class="mut">Add name</span>'}</button>`,esc(m.email),esc(m.plan||"—"),`<span class="${m.status==="active"?"ok":"mut"}">${esc(m.status||"no plan")}</span>`,m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",new Date(m.created_at).toLocaleDateString(),
       (m.status==="active"&&(!m.last_seen||now-new Date(m.last_seen)>7*day)?'<span class="warn">':"<span>")+when(m.last_seen)+"</span>",dur((MM[m.email]||{}).min1||0),dur((MM[m.email]||{}).min3||0),dur(m.min7||0),dur(m.min30||0),m.sess30||0]));
+  const np=M.filter(m=>m.status!=="active"&&now-new Date(m.created_at)<30*day).sort((a,b)=>new Date(b.created_at)-new Date(a.created_at));
+  const npAll=M.filter(m=>m.status!=="active").length;
+  $("np-note").textContent=np.length+" in the last 30 days"+(npAll>np.length?" ("+(npAll-np.length)+" older not shown)":"")+". Newest first. Click Profile to see what they looked at.";
+  tbl("t-np",[[""],["Name"],["Email"],["Joined"],["Last seen"],["Time, 7 days","n"],["Visits 30d","n"]],
+    np.map(m=>[`<button class="lnk" data-prof="${esc(m.email)}">Profile</button>`,m.name?esc(m.name):'<span class="mut">no name</span>',esc(m.email),when(m.created_at),when(m.last_seen),dur(m.min7||0),m.sess30||0]));
   if(TR&&TR.ok){tbl("t-win",[["Period"],["Visitors","n"],["New","n"],["Returning","n"],["Members","n"],["Not tagged","n"],["Clicked Join","n"],["Accounts created","n"],["Checkout","n"],["Payment page seen","n"],["Members active","n"],["Member time","n"]],(TR.windows||[]).map(w=>[esc(w.label),w.visitors,w.new_v,w.returning_v,w.member_v,w.untagged,w.join_clicks,w.signups,w.checkout,w.paid,w.active_members,dur(w.minutes||0)]));
     tbl("t-st",[["Source"],["Visitors","n"],["New","n"],["Returning","n"],["Members","n"],["Not tagged","n"]],(TR.src_type||[]).map(r=>[esc(r.src),r.visitors,r.new_v,r.returning_v,r.member_v,r.untagged]));
     tbl("t-dp",[["First page"],["Visitors","n"]],(TR.direct_pages||[]).map(r=>[esc(r.page==="/"?"Home page":r.page==="/members/"?"Member sign-in page":r.page),r.n]))}
