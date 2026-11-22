@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Sun Nov 22, 8:42 AM CT
+Updated: Sun Nov 22, 8:51 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 8:15 AM | #4 Mount St Charles Hockey Academy v #13 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
@@ -66,6 +66,7 @@ Sat 12:00 PM | #133 Chicago Fury v #114 Madison Capitols | Carol Stream Ice Rink
 2026-11-20 | HB Detroit 4, Belle Tire 1
 2026-11-21 | Oakland Jr Grizzlies 4, Fox Motors 0
 2026-11-21 | Compuware 3, Belle Tire 0
+2026-11-22 | Bishop Kearney Selects 4, Chicago Reapers 1
 
 == GAME WRITE-UPS ==
 Final: Mount St Charles Hockey Academy 5, Chicago Mission 4, at the Northeast Pack showcase in Pittsburgh. Scoring: Mount St Charles led 3-0 in the first on goals by Robert So, Austin Jeffries and Adam Harris. Gavin Thomas made it 4-2 in the second and Arjun Mangadu scored the game winner in the third, from Robert McCann. Shawn Lowery Jr had two assists. For Mission: Parker Stewart, Kaleb Jacques, Jameson Downs and Finn Helminen scored, the last two in the third period. Constantine Siavelis and Mason Marek had two assists each. Goalies: Mason Ecenrode got the win for Mount St Charles. Gavin Carnow went the distance for Mission. Standings: a regulation win, three points for Mount St Charles in Northeast Pack play. Ratings: little movement. Mount St Charles stays #4 in North America (USA #3), 95.56 to 95.54, because a one-goal win was less than its rating expected. Mission stays #13 (USA #8), 93.95 to 93.97. Next: Mount St Charles hosts the New Jersey Rockets on Saturday at 10:40 AM and Woodbridge Wolfpack on Sunday at 7:30 AM. Mission visits Mid-Fairfield on Saturday at 12:40 PM and Pittsburgh Penguins Elite on Sunday at 9:00 AM.
@@ -96,18 +97,20 @@ Final: Mississauga Rebels 5, North York Rangers 1, a GTHL league game. Scoring: 
 
 Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: two points for Markham Majors in the GTHL. Ratings: Markham Majors moves from #73 to #71 (89.72). Toronto Titans moves from #93 to #97 (88.73). Next: see the weekend list for each team's next game.
 
+Final: Bishop Kearney Selects 4, Chicago Reapers 1, in Northeast Pack league play outside Pittsburgh. Scoring: Smith Vantine scored twice and set up another. Brody Trost had the winner on a second-period power play and Cristophe Chabot added a power-play goal in the third. Jaxson Daughenbaugh scored for the Reapers. Goalies: James Hickey got the win with one against. Nolan Schmidt took the loss. Standings: Bishop Kearney moves to 24 points and stays first in the league. The Reapers stay on 14. Ratings: Bishop Kearney 95.85 to 95.91, still North America #3. The Reapers 94.35 to 94.31, still #8. Next: both teams are done for the weekend in Pittsburgh.
+
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Pittsburgh Penguins Elite (USA #1) 96.84
 2. Vaughan Kings (Canada #1) 96.09
-3. Bishop Kearney Selects (USA #2) 95.85
+3. Bishop Kearney Selects (USA #2) 95.91
 4. Mount St Charles Hockey Academy (USA #3) 95.63
 5. Toronto Jr Canadiens (Canada #2) 95.21
 6. Shattuck St Mary's (USA #4) 95.18
-7. Toronto Marlboros (Canada #3) 94.67
-8. Chicago Reapers (USA #5) 94.35
+7. Toronto Marlboros (Canada #3) 94.66
+8. Chicago Reapers (USA #5) 94.31
 9. Hamilton Steel (Canada #4) 94.29
 10. Halton Hurricanes (Canada #5) 94.21
-11. Oakland Jr Grizzlies (USA #6) 94.14
+11. Oakland Jr Grizzlies (USA #6) 94.13
 12. Little Caesars (USA #7) 94.05
 13. Chicago Mission (USA #8) 93.99
 14. Woodbridge Wolfpack (USA #9) 93.46
@@ -117,9 +120,9 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 18. Masters Academy (USA #10) 93.18
 19. Middlesex Islanders East (Prep) (USA #11) 93.06
 20. Toronto Nationals (Canada #9) 92.99
-21. Central Ontario Wolves (Canada #10) 92.98
+21. Central Ontario Wolves (Canada #10) 92.97
 22. St Louis Blues (USA #12) 92.81
-23. North Shore Whitecaps (Canada #11) 92.79
+23. North Shore Whitecaps (Canada #11) 92.78
 24. Peterborough Jr Petes (Canada #12) 92.58
 25. Pittsburgh Vengeance (USA #13) 92.46
 26. Seacoast Performance Academy (USA #14) 92.46
@@ -127,8 +130,8 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 28. Boston Jr Eagles (USA #15) 92.36
 29. Philadelphia Jr Flyers (USA #16) 92.32
 30. Palmyra Black Knights (USA #17) 92.27
-31. Mississauga Senators (Canada #14) 92.20
-32. Elgin Middlesex Canucks (Canada #15) 92.03
+31. Mississauga Senators (Canada #14) 92.19
+32. Elgin Middlesex Canucks (Canada #15) 92.02
 33. Team Wisconsin (USA #18) 92.01
 34. Ottawa Myers Automotive (Canada #16) 92.01
 35. Notre Dame Hockey Academy (USA #19) 91.86
@@ -139,7 +142,7 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 40. North Jersey Avalanche (USA #21) 91.52
 41. Cape Cod Whalers (USA #22) 91.31
 42. Ottawa Valley Titans (Canada #20) 91.24
-43. HB Detroit (USA #23) 91.20
+43. HB Detroit (USA #23) 91.19
 44. Victory Honda (USA #24) 91.19
 45. Northeast Generals (USA #25) 91.05
 46. Neponset Valley River Rats (USA #26) 91.02
@@ -157,9 +160,9 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 58. Soo Jr Greyhounds (Canada #24) 90.27
 59. Windsor Jr Spitfires (Canada #25) 90.25
 60. Oakville Rangers (Canada #26) 90.19
-61. Markham Waxers (Canada #27) 90.19
+61. Markham Waxers (Canada #27) 90.18
 62. Chatham-Kent Cyclones (Canada #28) 90.17
-63. CarShield (USA #35) 90.11
+63. CarShield (USA #35) 90.10
 64. Don Mills Flyers (Canada #29) 90.10
 65. Sioux Falls Power (USA #36) 90.09
 66. Burlington Eagles (Canada #30) 90.08
@@ -190,8 +193,8 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 91. MN Moose (USA #54) 88.94
 92. Toronto Reps (Canada #38) 88.92
 93. East Coast Militia (National) (USA #55) 88.91
-94. Team Illinois (USA #56) 88.87
-95. Brantford 99ers (Canada #39) 88.85
+94. Team Illinois (USA #56) 88.86
+95. Brantford 99ers (Canada #39) 88.84
 96. Boston Americans (USA #57) 88.84
 97. Toronto Titans (Canada #40) 88.73
 98. MN Walleye (USA #58) 88.67
@@ -202,12 +205,12 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 103. North Central Predators (Canada #41) 88.34
 104. North Bay Trappers (Canada #42) 88.28
 105. Credit River Capitals (Canada #43) 88.17
-106. Kitchener Jr Rangers (Canada #44) 87.98
+106. Kitchener Jr Rangers (Canada #44) 87.97
 107. Phoenix Jr Coyotes (USA #63) 87.92
 108. Belle Tire (USA #64) 87.90
 109. MN Polars (USA #65) 87.89
 110. Compuware (USA #66) 87.87
-111. Ajax Pickering Raiders (Canada #45) 87.83
+111. Ajax Pickering Raiders (Canada #45) 87.82
 112. Nashville Jr Predators (USA #67) 87.82
 113. Red Bank Generals (USA #68) 87.81
 114. Madison Capitols (USA #69) 87.69

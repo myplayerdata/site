@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2014 birth year (12U)
-Updated: Sun Nov 22, 8:42 AM CT
+Updated: Sun Nov 22, 8:51 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 6:25 PM | #12 Don Mills Flyers v #5 Toronto Marlboros | CWENCH Centre Etobicoke, Toronto area, ON
@@ -83,6 +83,7 @@ Sun 8:25 AM | #1 Middlesex Islanders East (Elite) v #60 Providence Capitals (Eli
 2026-11-21 | HB Detroit 3, Fox Motors 1
 2026-11-21 | HB Detroit 8, Fox Motors 5
 2026-11-22 | Dallas Stars Elite 9, Philadelphia Hockey Club 1
+2026-11-22 | St Louis Blues 4, Chicago Reapers 3
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 6, Chicago Mission 5 in overtime, in Pool B of the STL AAA Blues Showcase. Scoring: Jacob Prest two goals for St Louis, one on the power play and one shorthanded. Thomas Daake, Kraig Redick and Cruze Wulkopf one each; Harrison Miller two assists. For Mission, William Durband two goals, the second tying it 5-5 with 2:59 left. Lucas Walz, Henry Froelich and Timofey Madalli one each; Declan Pfeffer two assists. Goalies: William Salger got the win for St Louis with five against. Cal Roloff took the loss for Mission with six against. Standings: St Louis is 1-0 in Pool B. Mission is 0-1. Victory Honda and Dallas Stars Elite are the other two teams in the pool. Ratings: St Louis stays #16 in North America (USA #11, 96.28). Mission moves from #47 to #44 (USA #25, 94.08). Next: St Louis plays Dallas Stars Elite and Mission plays Victory Honda, both Friday at 4:20 PM.
@@ -129,6 +130,8 @@ Final: Toronto Nationals 5, Toronto Titans 2, a GTHL league game. Scoring: goal 
 
 Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement game at the STL AAA Blues Showcase. Scoring: Grant Hickey had a hat trick and Alexander Tsediakov scored twice. Jack Sneed, Christian Webb, Beckett Lampman and Holt Salyer had the others. Brendan Kilgallen scored for Philadelphia. Goalies: Brayton Dubinsky got the win with one against. Wyatt Bouchard took the loss. Standings: placement game only. Dallas finishes the showcase 2-3, Philadelphia 1-4. Ratings: Dallas 94.88 to 95.10, North America #35 to #34. Philadelphia 93.87 to 93.69, #53 to #57. Next: both teams are done at the showcase.
 
+Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL AAA Blues Showcase. Scoring: St Louis led 3-0 after one period, with goals from Thomas Daake and Jacob Prest 24 seconds apart, and Cruze Wulkopf made it 4-0 in the second. The Reapers answered with three straight from Eichelberger on the power play, Triptow and Tenjiku, the last with 3:09 left. Goalies: Nolan Blair got the win with three against. Boden Lynch took the loss. Standings: St Louis finishes third at its own showcase at 3-2. The Reapers finish fourth at 1-4. Ratings: almost no movement. St Louis stays 96.34 and North America #16. The Reapers go 95.57 to 95.56 and stay #29. Next: the championship, Florida Alliance against Victory Honda, follows on the same rink.
+
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Middlesex Islanders East (Elite) (USA #1) 99.99
 2. Little Caesars (USA #2) 99.50
@@ -143,7 +146,7 @@ Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement g
 11. Buffalo Jr Sabres (USA #8) 97.37
 12. Don Mills Flyers (Canada #4) 97.14
 13. Kuper Academy M13 D1 (Canada #5) 96.80
-14. Mid-Fairfield Hockey Club (Elite) (USA #9) 96.45
+14. Mid-Fairfield Hockey Club (Elite) (USA #9) 96.44
 15. Pittsburgh Penguins Elite (Mueller) (USA #10) 96.42
 16. St Louis Blues (USA #11) 96.34
 17. Toronto Nationals (Canada #6) 96.15
@@ -152,13 +155,13 @@ Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement g
 20. Upper Canada Cyclones (Canada #7) 95.97
 21. Sun County Panthers (Canada #8) 95.93
 22. Vaughan Kings (Canada #9) 95.90
-23. South Fraser Alliance U13 AA (Canada #10) 95.88
+23. South Fraser Alliance U13 AA (Canada #10) 95.87
 24. Ottawa Jr 67's (Canada #11) 95.80
 25. Eastern Ontario Wild (Canada #12) 95.74
-26. North Jersey Avalanche (USA #14) 95.72
+26. North Jersey Avalanche (USA #14) 95.73
 27. Florida Surf (USA #15) 95.70
 28. Vegas Jr Golden Knights (USA #16) 95.61
-29. Chicago Reapers (USA #17) 95.57
+29. Chicago Reapers (USA #17) 95.56
 30. Boston Jr Terriers (Elite) (USA #18) 95.53
 31. Quinte Red Devils (Canada #13) 95.36
 32. Anaheim Jr Ducks (USA #19) 95.20
@@ -237,13 +240,13 @@ Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement g
 105. Saskatoon Mission U13 AA (Canada #44) 91.93
 106. Elgin Middlesex Canucks (Canada #45) 91.85
 107. Texas Tigers 12U AA (USA #62) 91.81
-108. California Bears (#1) 12U AA (USA #63) 91.73
+108. California Bears (#1) 12U AA (USA #63) 91.72
 109. LA Jr Kings (USA #64) 91.72
 110. North Shore Whitecaps (Canada #46) 91.72
 111. Toronto Reps (Canada #47) 91.68
 112. Kingston Jr Gaels (Canada #48) 91.67
 113. Mississauga Rebels (Canada #49) 91.63
-114. Cambridge Hawks (Canada #50) 91.62
+114. Cambridge Hawks (Canada #50) 91.61
 115. Anaheim Jr Ducks (#1) 12U AA (USA #65) 91.57
 116. Boston Jr Falcons (USA #66) 91.50
 117. Philadelphia Jr Flyers (USA #67) 91.47
@@ -315,7 +318,7 @@ Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement g
 183. St Louis Knights 12U AA (USA #121) 88.66
 184. Top Gun (T1-Platinum) (USA #122) 88.64
 185. Mass Bay Chiefs (Indep) (USA #123) 88.52
-186. Nashville Jr Predators (USA #124) 88.48
+186. Nashville Jr Predators (USA #124) 88.47
 187. Minuteman Flames (T1-Platinum) (USA #125) 88.46
 188. Boston Advantage (Select #1) (USA #126) 88.45
 189. Queen City Royals (USA #127) 88.41
@@ -324,8 +327,8 @@ Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement g
 192. West Seneca Wings (TB) 12U AA (USA #130) 88.36
 193. St Louis Sting 12U AA (USA #131) 88.31
 194. Philadelphia Genesis Hockey Club (McGinty) 12U AA (USA #132) 88.19
-195. Troy Albany Titans (USA #133) 88.16
-196. New England Bulldogs (USA #134) 88.11
+195. Troy Albany Titans (USA #133) 88.15
+196. New England Bulldogs (USA #134) 88.10
 197. Assabet Valley Patriots (Select) (USA #135) 88.01
 198. Northern CT Nor'Easter (USA #136) 87.93
 199. Darien Youth 12U AA (USA #137) 87.91
@@ -344,9 +347,9 @@ Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement g
 212. Las Vegas Storm 12U AA (USA #149) 87.56
 213. Long Island Rebels (Major) 12U AA (USA #150) 87.56
 214. Austin Capitals 12U AA (USA #151) 87.46
-215. New Hampshire Avalanche (USA #152) 87.42
+215. New Hampshire Avalanche (USA #152) 87.41
 216. New York Saints (USA #153) 87.32
-217. Greater Boston Jr Bruins (USA #154) 87.25
+217. Greater Boston Jr Bruins (USA #154) 87.24
 218. Vegas Jr Golden Knights 12U AA (USA #155) 87.23
 219. Pittsburgh (PHA) Icemen 12U AA (USA #156) 87.22
 220. New York City Cyclones 12U AA (USA #157) 87.22
@@ -364,7 +367,7 @@ Final: Dallas Stars Elite 9, Philadelphia Hockey Club 1, in a Sunday placement g
 232. Westchester Express (USA #166) 85.57
 233. Forest Hill Force U13 A (Canada #67) 85.44
 234. 95 Giants (Elite) (USA #167) 85.39
-235. Middlesex Islanders East (Brooks) (USA #168) 85.25
+235. Middlesex Islanders East (Brooks) (USA #168) 85.24
 236. Talbot Trail Blazers U13 A (Canada #68) 85.16
 237. Ohio Prospects (USA #169) 84.44
 238. Scarborough Ice Raiders U13 AA (Canada #69) 82.89
