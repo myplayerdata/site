@@ -27,6 +27,10 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <h2>Today, 3 days, 7 days, 30 days</h2><div class="mut">Days are Central time. "Today" is since midnight. New, returning and member visitors are counted from Nov 19, 2026; earlier visits show as "not tagged".</div><div class="wrap"><table id="t-win"></table></div>
 <div class="cols"><div><h2>Who the visitors are, by source (30 days)</h2><div class="wrap"><table id="t-st"></table></div></div><div><h2>Direct visitors: first page they opened (30 days)</h2><div class="wrap"><table id="t-dp"></table></div></div></div>
 <h2>Landing page funnel (last 30 days)</h2><div class="mut" id="fn-note"></div><div class="tiles" id="fn-tiles"></div><div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fn"></table></div></div><div><h2>Where visitors came from</h2><div class="wrap"><table id="t-src"></table></div></div></div>
+<h2>Sales detail</h2><div class="mut" id="sa-note"></div><div class="tiles" id="sa-tiles"></div>
+<h2>People who signed up and are not paying (accounts under the same name are grouped)</h2><div class="wrap"><table id="t-sa-ppl"></table></div>
+<div class="cols"><div><h2>Sign-in code step, by sign-up day</h2><div class="wrap"><table id="t-sa-day"></table></div></div><div><h2>Free scores and ratings page (/live/), by day</h2><div class="wrap"><table id="t-sa-live"></table></div></div></div>
+<div class="cols"><div><h2>Funnel by source, last 7 days</h2><div class="wrap"><table id="t-sa-s7"></table></div></div><div><h2>Funnel by source, last 30 days</h2><div class="wrap"><table id="t-sa-s30"></table></div></div></div>
 <h2>Paying members</h2><div class="wrap"><table id="t-mem"></table></div>
 <h2>Signed up, not paying (joined in the last 30 days)</h2><div class="mut" id="np-note"></div><div class="wrap"><table id="t-np"></table></div>
 <h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
@@ -51,6 +55,14 @@ async function load(){
   let TR=null;try{TR=(await sb.rpc("admin_traffic")).data}catch(e){}
   const MM={};if(TR&&TR.ok)(TR.member_min||[]).forEach(r=>MM[r.email]=r);
   if(error||!data||!data.ok){$("sub").textContent="This page is not available for this account.";return}
+  try{const SA=(await sb.rpc("admin_sales")).data;if(SA&&SA.ok){const T=SA.totals||{},pc=(a,b)=>b?Math.round(100*a/b)+"%":"—";
+    $("sa-note").textContent="People = accounts grouped by the name typed at sign-up (no name: counted by email). The owner's account is left out. \"Returned from checkout\" is counted by browser, so it can differ from the paying count.";
+    $("sa-tiles").innerHTML=[["People signed up",T.people],["Accounts",T.accounts],["People with 2+ accounts",T.dup_people],["Extra accounts",T.extra_accounts],["People paying",T.paying_people],["People not paying",T.not_paying_people],["Paying, of people",pc(T.paying_people,T.people)]].map(t=>`<div class="tile"><b>${t[1]??0}</b><span class="mut">${t[0]}</span></div>`).join("");
+    tbl("t-sa-ppl",[["Name"],["Accounts","n"],["Emails"],["Code entered","n"],["First sign-up"],["Latest sign-up"]],(SA.people||[]).filter(p=>!p.paying).map(p=>[p.nm?esc(p.nm):'<span class="mut">no name</span>',p.accounts,esc(p.emails),p.confirmed+" of "+p.accounts,when(p.first_at),when(p.last_at)]));
+    tbl("t-sa-day",[["Day"],["Accounts","n"],["People","n"],["Code entered","n"],["Code not entered","n"],["Paying now","n"]],(SA.by_day||[]).map(r=>[esc(r.d),r.accounts,r.people,r.code_entered,r.code_not_entered,r.paying]));
+    tbl("t-sa-live",[["Day"],["Opened","n"],["Started there","n"],["New","n"],["Returning","n"],["Members","n"],["Join button","n"],["Locked player taps","n"]],(SA.live||[]).map(r=>[esc(r.d),r.opened,r.started_there,r.new_v,r.returning_v,r.member_v,r.join_button,r.locked_taps]));
+    const sr=a=>(a||[]).map(r=>[esc(r.src),r.visitors,r.live_page,r.join_click,pc(r.join_click,r.visitors),r.member_page,r.checkout,r.paid]),sh=[["Source"],["Visitors","n"],["Opened free page","n"],["Join clicks","n"],["Join rate","n"],["Sign-in page","n"],["Checkout started","n"],["Returned from checkout","n"]];
+    tbl("t-sa-s7",sh,sr(SA.src7));tbl("t-sa-s30",sh,sr(SA.src30))}}catch(e){}
   const M=data.members||[],now=Date.now(),day=864e5;
   const active=M.filter(m=>m.status==="active"),seen7=M.filter(m=>m.last_seen&&now-new Date(m.last_seen)<7*day);
   const quiet=active.filter(m=>!m.last_seen||now-new Date(m.last_seen)>7*day);
