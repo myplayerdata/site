@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2013 birth year (13U)
-Updated: Sun Nov 22, 11:55 AM CT
+Updated: Sun Nov 22, 11:56 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 5:50 PM | #34 Ohio Jr Bluejackets v #33 Philadelphia Jr Flyers | Chiller Ice Works, Worthington, OH
@@ -13,7 +13,7 @@ Sat 4:25 PM | #70 Don Mills Flyers v #30 Toronto Titans | Scotiabank Pond, Toron
 Sat 6:00 PM | #38 St. Louis Blues v #106 Madison Capitols | Centene Community Ice Center, Maryland Heights, MO
 Sun 9:00 AM | #32 HB Detroit v Belle Tire | Lincoln Park Civic Arena, Lincoln Park, MI
 Sun 10:10 AM | #34 Ohio Jr Bluejackets v #33 Philadelphia Jr Flyers | OhioHealth Ice Haus, Columbus, OH
-Sun 10:40 AM | #6 Little Caesars v #56 Compuware | USA Hockey Arena, Plymouth, MI
+Sun 10:40 AM | #5 Little Caesars v #56 Compuware | USA Hockey Arena, Plymouth, MI
 Sun 11:00 AM | #48 Sun County Panthers v #148 Chatham-Kent Cyclones | Blenheim Community and Recreation Centre
 Sun 12:00 PM | #36 Windy City Storm v #105 Indiana Elite | Orbit Ice Arena, Palatine, IL
 Sun 12:40 PM | #38 St. Louis Blues v #106 Madison Capitols | Centene Community Ice Center, Maryland Heights, MO
@@ -56,6 +56,7 @@ Sun 3:30 PM | #2 Chicago Reapers v #27 Milwaukee Jr Admirals | Pettit National I
 2026-11-20 | HB Detroit 2, Victory Honda 1
 2026-11-21 | St. Louis Blues 7, Madison Capitols 1
 2026-11-22 | Bay State Breakers 5, Minuteman Flames 4
+2026-11-22 | Little Caesars 10, Compuware 1
 
 == GAME WRITE-UPS ==
 Final: Toronto Red Wings 9, North York Rangers 0, in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: a shutout for the Red Wings. Names are not posted. Standings: two points for the Red Wings in the GTHL. Ratings: the Red Wings move from #25 to #24 in North America (CAN #8, 90.61). North York goes from #116 to #117 (CAN #42, 85.67). Next: see the weekend list for each team's next game.
@@ -72,43 +73,43 @@ Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at R
 
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. MN Lakers (USA #1) 94.86
-2. Chicago Reapers (USA #2) 94.78
+2. Chicago Reapers (USA #2) 94.79
 3. Toronto Marlboros (Canada #1) 94.32
-4. Anaheim Jr Ducks (USA #3) 94.22
-5. Mid-Fairfield (USA #4) 93.53
-6. Little Caesars (USA #5) 93.51
-7. Woodbridge Wolfpack (USA #6) 93.11
+4. Anaheim Jr Ducks (USA #3) 94.23
+5. Little Caesars (USA #4) 93.58
+6. Mid-Fairfield (USA #5) 93.54
+7. Woodbridge Wolfpack (USA #6) 93.12
 8. Toronto Jr Canadiens (Canada #2) 93.03
-9. Syracuse Nationals (USA #7) 92.85
+9. Syracuse Nationals (USA #7) 92.86
 10. Vaughan Kings (Canada #3) 92.75
 11. Toronto Nationals (Canada #4) 92.56
-12. Cleveland Barons (USA #8) 92.33
+12. Cleveland Barons (USA #8) 92.35
 13. Waterloo Wolves (Canada #5) 91.55
-14. Chicago Mission (USA #9) 91.39
+14. Chicago Mission (USA #9) 91.40
 15. Quinte Red Devils (Canada #6) 91.37
 16. MN Moose (USA #10) 91.31
-17. Nor'easters (USA #11) 91.27
+17. Nor'easters (USA #11) 91.28
 18. MN Grey Ducks (USA #12) 91.10
-19. Pittsburgh Penguins Elite (USA #13) 91.06
+19. Pittsburgh Penguins Elite (USA #13) 91.07
 20. Boston Jr Eagles (USA #14) 91.05
 21. Huron-Perth Lakers (Canada #7) 90.94
 22. Dallas Stars (USA #15) 90.92
 23. Middlesex Islanders (USA #16) 90.87
-24. Toronto Red Wings (Canada #8) 90.73
-25. Colorado Thunderbirds (USA #17) 90.68
+24. Toronto Red Wings (Canada #8) 90.74
+25. Colorado Thunderbirds (USA #17) 90.69
 26. MN Walleye (USA #18) 90.52
-27. Milwaukee Jr Admirals (USA #19) 90.47
+27. Milwaukee Jr Admirals (USA #19) 90.48
 28. Ottawa Myers Automotive (Canada #9) 90.37
-29. Philadelphia Hockey Club (USA #20) 90.21
+29. Philadelphia Hockey Club (USA #20) 90.22
 30. Toronto Titans (Canada #10) 90.20
-31. Niagara North Stars (Canada #11) 90.15
-32. HB Detroit (USA #21) 90.14
+31. Niagara North Stars (Canada #11) 90.16
+32. HB Detroit (USA #21) 90.15
 33. Philadelphia Jr Flyers (USA #22) 90.10
-34. Ohio Jr Bluejackets (USA #23) 90.09
+34. Ohio Jr Bluejackets (USA #23) 90.10
 35. MN Loons (USA #24) 90.07
 36. Windy City Storm (USA #25) 89.95
 37. Team North Dakota (USA #26) 89.90
-38. St. Louis Blues (USA #27) 89.78
+38. St. Louis Blues (USA #27) 89.79
 39. Music City Marauders (USA #28) 89.54
 40. Elgin Middlesex Canucks (Canada #12) 89.52
 41. Ottawa Valley Titans (Canada #13) 89.49
@@ -119,14 +120,14 @@ Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at R
 46. Buffalo Jr Sabres (USA #31) 89.08
 47. Sarnia-Lambton Jr Sting (Canada #16) 88.98
 48. Sun County Panthers (Canada #17) 88.98
-49. Windsor Jr Spitfires (Canada #18) 88.94
+49. Windsor Jr Spitfires (Canada #18) 88.95
 50. Oakville Rangers (Canada #19) 88.93
 51. North Shore Whitecaps (Canada #20) 88.89
 52. Eastern Ontario Wild (Canada #21) 88.87
 53. Markham Majors (Canada #22) 88.84
 54. Long Island Royals (USA #32) 88.81
-55. NJ Rockets (USA #33) 88.80
-56. Compuware (USA #34) 88.79
+55. NJ Rockets (USA #33) 88.81
+56. Compuware (USA #34) 88.70
 57. Team Maryland (USA #35) 88.69
 58. Phoenix Jr Coyotes (USA #36) 88.58
 59. LA Jr Kings (USA #37) 88.54
@@ -155,7 +156,7 @@ Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at R
 82. Chicago Fury (USA #50) 87.45
 83. Pittsburgh Predators (USA #51) 87.43
 84. Hamilton Steel (Canada #33) 87.37
-85. Victory Honda (USA #52) 87.30
+85. Victory Honda (USA #52) 87.31
 86. Mercer Chiefs (USA #53) 87.29
 87. Grey Bruce Highlanders (Canada #34) 87.26
 88. Providence Capitals (USA #54) 87.23
@@ -165,18 +166,18 @@ Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at R
 92. CarShield (USA #57) 87.11
 93. Southeast Blades (USA #58) 87.06
 94. Guelph Gryphons (Canada #36) 87.03
-95. Oakland Jr Grizzlies (USA #59) 86.97
-96. Seacoast Performance Academy (USA #60) 86.92
+95. Oakland Jr Grizzlies (USA #59) 86.96
+96. Seacoast Performance Academy (USA #60) 86.93
 97. Team Wisconsin (USA #61) 86.91
 98. Soo Jr Greyhounds (Canada #37) 86.74
 99. Sudbury Wolves (Canada #38) 86.72
 100. North Bay Trappers (Canada #39) 86.47
 101. Florida Jr Panthers (USA #62) 86.44
-102. Carolina Junior Canes (USA #63) 86.44
-103. Cleveland Barons AA (USA #64) 86.43
+102. Cleveland Barons AA (USA #63) 86.43
+103. Carolina Junior Canes (USA #64) 86.43
 104. Middlesex Icemen (Elite) (USA #65) 86.31
 105. Indiana Elite (USA #66) 86.20
-106. Madison Capitols (USA #67) 86.20
+106. Madison Capitols (USA #67) 86.19
 107. MN Polars (USA #68) 86.19
 108. New Jersey Jr Titans (USA #69) 86.14
 109. Wilkes Barre Scranton Knights (USA #70) 86.14
@@ -188,7 +189,7 @@ Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at R
 115. Omaha Mastery (USA #74) 85.89
 116. Rocky Mountain RoughRiders (USA #75) 85.89
 117. North York Rangers (Canada #42) 85.77
-118. North Jersey Avalanche (USA #76) 85.73
+118. North Jersey Avalanche (USA #76) 85.74
 119. Brantford 99ers (Canada #43) 85.66
 120. Okanagan (USA #77) 85.65
 121. Valley Forge Minutemen (USA #78) 85.63
@@ -205,13 +206,13 @@ Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at R
 132. Boston Advantage (Elite) (USA #85) 84.93
 133. Team Dallas (USA #86) 84.87
 134. Pittsburgh Stars (USA #87) 84.85
-135. Toledo Cherokee (USA #88) 84.77
+135. Toledo Cherokee (USA #88) 84.76
 136. East Coast Militia (National) (USA #89) 84.71
-137. Buffalo Regals (Elliott) (USA #90) 84.68
-138. Washington Little Capitals (USA #91) 84.68
+137. Washington Little Capitals (USA #90) 84.68
+138. Buffalo Regals (Elliott) (USA #91) 84.68
 139. Central Ontario Wolves (Canada #48) 84.68
 140. Boston Americans (USA #92) 84.56
-141. St Clair Shores Saints (Red) (USA #93) 84.54
+141. St Clair Shores Saints (Red) (USA #93) 84.53
 142. Yale Junior Bulldogs (USA #94) 84.47
 143. MN Voyageurs (USA #95) 84.46
 144. Northern CT Nor'Easter (Showcase) (USA #96) 84.40
