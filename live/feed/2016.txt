@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2016 birth year (10U)
-Updated: Sun Nov 22, 9:29 AM CT
+Updated: Sun Nov 22, 9:36 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 7:40 PM | #12 St Louis Blues v #33 Chicago Mission | Elk Grove Ice Arena (West Rink), Elk Grove Village, IL
@@ -44,6 +44,7 @@ Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | Th
 2026-11-21 | HB Detroit 2, Victory Honda 2
 2026-11-21 | Biggby Coffee 5, Belle Tire 4
 2026-11-22 | Middlesex Islanders East (Elite) 3, Boston Jr Terriers (Elite) 0
+2026-11-22 | Bay State Breakers (Elite) 4, Boston Jr Eagles (Elite) 3
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 3, Chicago Mission 2, decided after regulation, at Elk Grove. Scoring: Mission scored twice in the second period to lead 2-0. St Louis got one back on the power play with 5:18 left in the third and tied it with 1:45 to play, then took the extra point after regulation. The scoresheet does not list the scorers. Goalies: not listed on the scoresheet. Standings: an exhibition game. Ratings: St Louis goes from #11 to #12 in North America (USA #8, 96.57) after needing extra time against a lower-ranked team. Mission moves from #34 to #33 (USA #18, 94.63). Next: no other games are listed for either team this weekend.
@@ -73,11 +74,11 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 14. Ottawa Valley Silver Seven AA (Canada #6) 96.00
 15. Chicago Fury (USA #9) 95.90
 16. Pittsburgh Penguins Elite (MacKinnon) (USA #10) 95.90
-17. Bay State Breakers (Elite) (USA #11) 95.80
+17. Bay State Breakers (Elite) (USA #11) 95.83
 18. Toronto Nationals (Canada #7) 95.71
 19. HB Detroit (USA #12) 95.64
 20. Kitchener Jr Rangers (Canada #8) 95.52
-21. Boston Jr Eagles (Elite) (USA #13) 95.48
+21. Boston Jr Eagles (Elite) (USA #13) 95.46
 22. Don Mills Flyers (Canada #9) 95.30
 23. London Jr Knights (Canada #10) 95.28
 24. Windsor Jr Spitfires (Canada #11) 95.23

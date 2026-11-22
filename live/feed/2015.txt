@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Sun Nov 22, 9:29 AM CT
+Updated: Sun Nov 22, 9:36 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 5:30 PM | #54 Mississauga Senators v #72 Toronto Red Wings | Chesswood, Toronto area, ON
@@ -61,7 +61,7 @@ Final: Toronto Reps 2, Vaughan Kings 1, in a GTHL league game. The lower-ranked 
 Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fairfield 7, Providence Capitals 2 in the afternoon. A two-game sweep on the road in North Smithfield. Scoring: the morning game was 1-1 after one period and 3-2 Mid-Fairfield after two. In the afternoon Mid-Fairfield led 3-1 after one and 5-1 after two. This league does not post goal scorers for this age group. Goalies: not posted for this age group. Standings: two league wins. Mid-Fairfield is unbeaten in its league (4-0-2); Providence is 7-6-1. Ratings: Mid-Fairfield stays #6 in North America (USA #4) and goes from 93.60 to 93.73. Providence slips from #15 to #16 (USA #13, 91.95). Next: Mid-Fairfield plays Bay State Breakers twice on Sunday, 9:30 AM and 1:30 PM CT.
 
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
-1. Toronto Jr Canadiens (Canada #1) 95.11
+1. Toronto Jr Canadiens (Canada #1) 95.10
 2. Little Caesars (USA #1) 95.06
 3. Don Mills Flyers (Canada #2) 94.21
 4. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.10
@@ -75,15 +75,15 @@ Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fair
 12. St Louis Blues (USA #9) 92.55
 13. South Shore Kings (Elite) (USA #10) 92.55
 14. Top Gun (Elite) (USA #11) 92.51
-15. Biggby Coffee (USA #12) 92.17
+15. Biggby Coffee (USA #12) 92.16
 16. Providence Capitals (Elite) (USA #13) 92.03
-17. Florida Surf (USA #14) 91.86
-18. Whitby Wildcats (Canada #4) 91.77
+17. Florida Surf (USA #14) 91.85
+18. Whitby Wildcats (Canada #4) 91.76
 19. Elgin Middlesex Canucks (Canada #5) 91.75
 20. Chicago Fury (USA #15) 91.72
 21. Cleveland Barons (USA #16) 91.69
-22. Bay State Breakers (Elite) (USA #17) 91.58
-23. Toronto Titans (Canada #6) 91.39
+22. Bay State Breakers (Elite) (USA #17) 91.57
+23. Toronto Titans (Canada #6) 91.38
 24. Kitchener Jr Rangers (Canada #7) 91.27
 25. London Jr Knights (Canada #8) 90.94
 26. PAL Jr Islanders (Blue) (USA #18) 90.91
@@ -121,12 +121,12 @@ Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fair
 58. Halton Hurricanes (Canada #22) 89.12
 59. Connecticut Jr Rangers (USA #37) 89.11
 60. Quinte Red Devils (Canada #23) 89.10
-61. Kingston Jr Gaels (Canada #24) 89.01
+61. Kingston Jr Gaels (Canada #24) 89.00
 62. Valley Jr Warriors (Elite) (USA #38) 89.00
 63. Madison Capitols (USA #39) 88.99
 64. Middlesex Islanders East (Elite) (USA #40) 88.95
-65. West Seneca Wings (Gold) 11U AA (USA #41) 88.92
-66. Ottawa Myers Automotive (Canada #25) 88.92
+65. West Seneca Wings (Gold) 11U AA (USA #41) 88.91
+66. Ottawa Myers Automotive (Canada #25) 88.91
 67. Soo Jr Greyhounds (Canada #26) 88.89
 68. Eastern Ontario Wild (Canada #27) 88.87
 69. Battle Creek Bombers 11U A (USA #42) 88.86
@@ -136,7 +136,7 @@ Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fair
 73. Team Illinois (USA #43) 88.77
 74. North Shore Whitecaps (Canada #31) 88.77
 75. Windsor Jr Spitfires (Canada #32) 88.71
-76. Upper Canada Cyclones (Canada #33) 88.65
+76. Upper Canada Cyclones (Canada #33) 88.64
 77. East Coast Wizards (Elite) (USA #44) 88.62
 78. Markham Waxers (Canada #34) 88.61
 79. Sarnia-Lambton Jr Sting (Canada #35) 88.58
@@ -172,10 +172,10 @@ Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fair
 109. Carolina Junior Canes (USA #62) 86.54
 110. New York City Hockey Club (USA #63) 86.51
 111. Brantford 99ers (Canada #48) 86.46
-112. North Central Predators (Canada #49) 86.39
+112. North Central Predators (Canada #49) 86.38
 113. Casco Bay Mariners (USA #64) 86.34
 114. Queen City Royals (USA #65) 86.32
-115. Compuware (USA #66) 86.24
+115. Compuware (USA #66) 86.23
 116. Boston Jr Terriers (T1-Platinum-Red) (USA #67) 86.19
 117. Mercer Chiefs (USA #68) 86.18
 118. Boston Junior Rangers (USA #69) 85.93
@@ -183,17 +183,17 @@ Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fair
 120. Tampa Bay Jr Lightning (USA #71) 85.75
 121. Pittsburgh Penguins Elite (Anderson) (USA #72) 85.60
 122. Middlesex Islanders West (T1-Platinum) (USA #73) 85.54
-123. Amherst Knights (USA #74) 85.53
+123. Amherst Knights (USA #74) 85.52
 124. Connecticut Chiefs (USA #75) 85.51
 125. New Jersey Colonials (USA #76) 85.51
 126. Nashville Jr Predators (USA #77) 85.48
-127. Connecticut Elite Hockey Academy (USA #78) 85.43
+127. Connecticut Elite Hockey Academy (USA #78) 85.42
 128. Boston Jr Terriers (T1-Platinum-White) (USA #79) 85.30
 129. Boston Jr Eagles (T1) (USA #80) 85.29
 130. New Jersey Rockets (USA #81) 85.24
 131. Belle Tire (USA #82) 85.22
 132. PAL Jr Islanders (Orange) (USA #83) 85.18
-133. Lehigh Valley Phantoms (USA #84) 85.16
+133. Lehigh Valley Phantoms (USA #84) 85.15
 134. Greater Boston Jr Bruins (USA #85) 85.09
 135. Minuteman Flames (T1-Platinum) (USA #86) 85.09
 136. Team Maryland (USA #87) 85.06
