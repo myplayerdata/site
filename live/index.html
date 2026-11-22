@@ -25,7 +25,7 @@ function fit(){try{var h=document.getElementById("top").offsetHeight;var f=docum
 document.getElementById("join").addEventListener("click",function(){try{mpdLog("join_click","live")}catch(e){}});
 (async function(){try{
  let t=await (await fetch("/members/ratings/?v="+Date.now(),{cache:"no-store"})).text();
- const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();try{parent.mpdLog("join_click","live-locked")}catch(x){}parent.location.href="/#pricing"}},true);<\/script>';
+ const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();try{parent.mpdLog("join_click","live-locked")}catch(x){}parent.location.href=parent.location.origin+"/#pricing"}},true);<\/script>';
  t=t.replace("</head>",add+"</head>");
  const fr=document.getElementById("fr");fr.src=URL.createObjectURL(new Blob([t],{type:"text/html"}));fr.hidden=false;document.getElementById("msg").hidden=true;
 }catch(e){document.getElementById("msg").textContent="Could not load the scores. Refresh the page to try again."}})();
