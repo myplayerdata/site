@@ -238,7 +238,7 @@ Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL A
 101. Palmyra Black Knights (USA #59) 92.27
 102. Grey Bruce Highlanders (Canada #43) 92.22
 103. New Jersey Colonials (USA #60) 92.21
-104. Springfield Jr Thunderbirds (Elite) (USA #61) 92.11
+104. Springfield Jr Thunderbirds (Elite) (USA #61) 92.10
 105. Saskatoon Mission U13 AA (Canada #44) 92.03
 106. Elgin Middlesex Canucks (Canada #45) 91.99
 107. Texas Tigers 12U AA (USA #62) 91.94
@@ -276,9 +276,9 @@ Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL A
 139. Southeast Blades (USA #85) 90.84
 140. North Toronto U13 AA (Canada #55) 90.68
 141. Soo Jr Greyhounds (Canada #56) 90.65
-142. East Coast Wizards (Elite) (USA #86) 90.57
+142. East Coast Wizards (Elite) (USA #86) 90.56
 143. South Shore Kings (T1-Platinum) (USA #87) 90.55
-144. Nicolas Gatineau Polyvalente M13 D1 (Canada #57) 90.50
+144. Nicolas Gatineau Polyvalente M13 D1 (Canada #57) 90.48
 145. Philadelphia Revolution (USA #88) 90.41
 146. Valley Jr Warriors (Elite) (USA #89) 90.30
 147. Mercer Chiefs (USA #90) 90.30
@@ -296,7 +296,7 @@ Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL A
 159. Fort Frances Canadians (Canada #60) 89.82
 160. Allegheny Badgers (#1) 12U AA (USA #100) 89.78
 161. New Jersey Rockets (USA #101) 89.78
-162. Crimson HC (White) (USA #102) 89.71
+162. Crimson HC (White) (USA #102) 89.70
 163. Detroit Bulldogs 12U AA (USA #103) 89.65
 164. Music City Marauders (French) 12U AA (USA #104) 89.57
 165. West Haven Blue Devil Rangers 12U AA (USA #105) 89.50
@@ -307,7 +307,7 @@ Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL A
 170. Dallas Penguins 12U AA (USA #109) 89.22
 171. New England Stars (Conley) (USA #110) 89.20
 172. AY NorthStars (T1-Platinum) (USA #111) 89.18
-173. Carolina Junior Canes (USA #112) 89.08
+173. Carolina Junior Canes (USA #112) 89.09
 174. Washington Little Capitals (USA #113) 89.08
 175. Nassau County Lions 12U AA (USA #114) 89.08
 176. West Dundee Leafs (CSDHL) 12U AA (USA #115) 89.06
@@ -342,8 +342,8 @@ Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL A
 205. Cleveland Barons 12U AA (USA #142) 87.88
 206. Boston Junior Rangers (USA #143) 87.87
 207. California Heat 12U AA (USA #144) 87.83
-208. Vermont Flames (Elite) (USA #145) 87.81
-209. Adirondack Thunder 12U AA (USA #146) 87.81
+208. Adirondack Thunder 12U AA (USA #145) 87.81
+209. Vermont Flames (Elite) (USA #146) 87.81
 210. Boston Jr Eagles (T1) (USA #147) 87.78
 211. Providence Capitals North (Batista) (USA #148) 87.74
 212. Long Island Rebels (Major) 12U AA (USA #149) 87.69
@@ -363,7 +363,7 @@ Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL A
 226. Stoney Creek Warriors U13 AA (Canada #66) 87.03
 227. Yale Bulldogs (USA #161) 86.94
 228. Walpole Express (Elite) (USA #162) 86.58
-229. Philadelphia Flyers Elite (USA #163) 86.27
+229. Philadelphia Flyers Elite (USA #163) 86.26
 230. Hartford Jr Wolfpack (USA #164) 86.25
 231. Long Island Arrows (USA #165) 86.12
 232. Westchester Express (USA #166) 85.71
