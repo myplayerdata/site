@@ -27,6 +27,9 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <h2>Today, 3 days, 7 days, 30 days</h2><div class="mut">Days are Central time. "Today" is since midnight. New, returning and member visitors are counted from Nov 19, 2026; earlier visits show as "not tagged".</div><div class="wrap"><table id="t-win"></table></div>
 <div class="cols"><div><h2>Who the visitors are, by source (30 days)</h2><div class="wrap"><table id="t-st"></table></div></div><div><h2>Direct visitors: first page they opened (30 days)</h2><div class="wrap"><table id="t-dp"></table></div></div></div>
 <h2>Landing page funnel (last 30 days)</h2><div class="mut" id="fn-note"></div><div class="tiles" id="fn-tiles"></div><div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fn"></table></div></div><div><h2>Where visitors came from</h2><div class="wrap"><table id="t-src"></table></div></div></div>
+<h2>Revenue (before card fees)</h2><div class="mut" id="rv-note"></div><div class="tiles" id="rv-tiles"></div>
+<h2>Renewals coming up, and who is at risk</h2><div class="mut">At risk = a monthly member who renews within 10 days and has used the site on fewer than 2 of the last 7 days.</div><div class="wrap"><table id="t-rv"></table></div>
+<h2>What members use (retention)</h2><div class="mut">Counts are times used; "Members" is how many different members did it. Minutes rows count minutes with that part open.</div><div class="wrap"><table id="t-feat"></table></div>
 <h2>Sales detail</h2><div class="mut" id="sa-note"></div><div class="tiles" id="sa-tiles"></div>
 <h2>People who signed up and are not paying (accounts under the same name are grouped)</h2><div class="wrap"><table id="t-sa-ppl"></table></div>
 <div class="cols"><div><h2>Sign-in code step, by sign-up day</h2><div class="wrap"><table id="t-sa-day"></table></div></div><div><h2>Free scores and ratings page (/live/), by day</h2><div class="wrap"><table id="t-sa-live"></table></div></div></div>
@@ -34,8 +37,8 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <h2>Paying members</h2><div class="wrap"><table id="t-mem"></table></div>
 <h2>Signed up, not paying (joined in the last 30 days)</h2><div class="mut" id="np-note"></div><div class="wrap"><table id="t-np"></table></div>
 <h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
-<div class="cols"><div><h2>Most-viewed players (30 days)</h2><div class="wrap"><table id="t-pl"></table></div></div>
-<div><h2>Most-viewed teams (30 days)</h2><div class="wrap"><table id="t-tm"></table></div></div></div>
+<details style="margin:18px 0"><summary class="mut" style="cursor:pointer">Most-viewed players and teams (kept for reference; tap to open)</summary><div class="cols"><div><h2>Most-viewed players (30 days)</h2><div class="wrap"><table id="t-pl"></table></div></div>
+<div><h2>Most-viewed teams (30 days)</h2><div class="wrap"><table id="t-tm"></table></div></div></div></details>
 <h2>Recent activity</h2><div class="wrap"><table id="t-rec"></table></div>
 <p><button id="again">Refresh</button></p>
 </div></main>
@@ -72,6 +75,12 @@ async function load(){
     tbl("t-sa-ppl",[["Name"],["Accounts","n"],["Emails"],["Code entered","n"],["Likely the same person as"],["First sign-up"],["Latest sign-up"]],NP.map((p,i)=>[p.nm?esc(p.nm):'<span class="mut">no name</span>',p.accounts,esc(p.emails),p.confirmed+" of "+p.accounts,LK[i]?esc(LK[i]):"",when(p.first_at),when(p.last_at)]));
     tbl("t-sa-day",[["Day"],["Accounts","n"],["People","n"],["Code entered","n"],["Code not entered","n"],["Paying now","n"]],(SA.by_day||[]).map(r=>[esc(r.d),r.accounts,r.people,r.code_entered,r.code_not_entered,r.paying]));
     tbl("t-sa-live",[["Day"],["Opened","n"],["Started there","n"],["New","n"],["Returning","n"],["Members","n"],["Join button","n"],["Locked player taps","n"]],(SA.live||[]).map(r=>[esc(r.d),r.opened,r.started_there,r.new_v,r.returning_v,r.member_v,r.join_button,r.locked_taps]));
+    const R=SA.rev||{},mo=R.monthly||0,se=R.season||0,intro=R.monthly_intro||0,full=R.monthly_full||0,usd=n=>"$"+Number(n).toLocaleString();
+    $("rv-note").textContent="Monthly members pay $19 for the first month, then $79. Season passes are one payment of $349. Figures are worked out from the membership records, not read from Stripe.";
+    $("rv-tiles").innerHTML=[["Monthly members",mo],["Season passes",se],["Billing this month at current prices",usd(intro*19+full*79)],["Monthly run rate if every monthly member renews at $79",usd(mo*79)],["Season pass money collected",usd(se*349)],["Monthly renewals due in 7 days",R.due7||0],["Monthly renewals due in 31 days",R.due30||0],["Memberships ended",SA.ended||0]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
+    const soon=t=>t&&(new Date(t)-Date.now())<10*864e5;
+    tbl("t-rv",[["Member"],["Plan"],["First paid"],["Renews / ends"],["Next charge","n"],["Last seen"],["Days used, last 7","n"],["Minutes, last 7","n"],["Status"]],(SA.renewals||[]).map(r=>{const risk=r.plan==="monthly"&&soon(r.renews)&&(r.days7||0)<2;return [esc(r.who),esc(r.plan||""),when(r.first_paid_at),when(r.renews),r.plan==="monthly"?"$79":"—",when(r.last_seen),r.days7||0,r.min7||0,risk?'<b style="color:#b3262d">At risk</b>':(r.days7||0)>=3?'<span class="ok">Active</span>':'<span class="mut">Quiet</span>']}));
+    tbl("t-feat",[["What"],["Last 7 days","n"],["Members, 7 days","n"],["Last 30 days","n"],["Members, 30 days","n"]],(SA.feat||[]).map(r=>[esc(r.feature),r.n7,r.members7,r.n30,r.members30]));
     const sr=a=>(a||[]).map(r=>[esc(r.src),r.visitors,r.live_page,r.join_click,pc(r.join_click,r.visitors),r.member_page,r.checkout,r.paid]),sh=[["Source"],["Visitors","n"],["Opened free page","n"],["Join clicks","n"],["Join rate","n"],["Sign-in page","n"],["Checkout started","n"],["Returned from checkout","n"]];
     tbl("t-sa-s7",sh,sr(SA.src7));tbl("t-sa-s30",sh,sr(SA.src30))}}catch(e){}
   const M=data.members||[],now=Date.now(),day=864e5;

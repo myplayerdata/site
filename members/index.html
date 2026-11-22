@@ -118,6 +118,9 @@ function setHash(fr,h){try{const w=fr.contentWindow;if(h&&w.location.hash!==h){w
 function hook(fr,kind){ // keep links between the two apps inside the member site
   let d;try{d=fr.contentDocument}catch(e){return}
   if(!d||d.__mpd)return;d.__mpd=true;
+  if(kind==="ratings"){ // which part of Live Scores and Ratings members open (for the retention report): tabs, game pages, team weekend pages
+    try{logEv("rview","wk");d.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("nav.tabs button[data-view]");if(b)logEv("rview",b.getAttribute("data-view"))},true);
+      fr.contentWindow.addEventListener("hashchange",()=>{const x=(fr.contentWindow.location.hash.match(/^#(game|wkteam)/)||[])[1];if(x)logEv("rview",x==="game"?"game":"team weekend")})}catch(e){}}
   if(kind==="players"){let lastP="";d.addEventListener("click",e=>{const tl=e.target.closest&&e.target.closest(".tlink,.favt");if(tl){const id=tl.getAttribute("data-t")||"",m=id.match(/^(\d\d)-(C?)/);let nm=tl.innerText.trim().replace(/^★\s*/,"").replace(/\s+roster$/,"").replace(/\s+ON$/,"").replace(/\s+20\d\d$/,"");logEv("team",m?nm+" · 20"+m[1]+(m[2]?" Ontario":""):nm)}
     setTimeout(()=>{try{const dl=d.getElementById("dlg");if(dl&&dl.open){const h=dl.querySelector("h1,h2,h3");const n=(h?(h.firstChild&&h.firstChild.nodeType===3?h.firstChild.textContent:h.textContent):dl.textContent).trim().split("\n")[0].slice(0,80);if(n&&n!==lastP){lastP=n;logEv("player",n)}}else lastP=""}catch(e){}},200)},true);
     try{fr.contentWindow.addEventListener("hashchange",()=>logEv("view",fr.contentWindow.location.hash))}catch(e){}
