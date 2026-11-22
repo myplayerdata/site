@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2016 birth year (10U)
-Updated: Sun Nov 22, 9:23 AM CT
+Updated: Sun Nov 22, 9:29 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 7:40 PM | #12 St Louis Blues v #33 Chicago Mission | Elk Grove Ice Arena (West Rink), Elk Grove Village, IL
@@ -43,6 +43,7 @@ Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | Th
 2026-11-21 | Ohio Blue Jackets 9, Philadelphia Jr Flyers 2
 2026-11-21 | HB Detroit 2, Victory Honda 2
 2026-11-21 | Biggby Coffee 5, Belle Tire 4
+2026-11-22 | Middlesex Islanders East (Elite) 3, Boston Jr Terriers (Elite) 0
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 3, Chicago Mission 2, decided after regulation, at Elk Grove. Scoring: Mission scored twice in the second period to lead 2-0. St Louis got one back on the power play with 5:18 left in the third and tied it with 1:45 to play, then took the extra point after regulation. The scoresheet does not list the scorers. Goalies: not listed on the scoresheet. Standings: an exhibition game. Ratings: St Louis goes from #11 to #12 in North America (USA #8, 96.57) after needing extra time against a lower-ranked team. Mission moves from #34 to #33 (USA #18, 94.63). Next: no other games are listed for either team this weekend.
@@ -65,7 +66,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 7. Vaughan Kings (Canada #4) 97.44
 8. Team Illinois (USA #4) 97.40
 9. Top Gun (Elite) (USA #5) 97.20
-10. Middlesex Islanders East (Elite) (USA #6) 96.83
+10. Middlesex Islanders East (Elite) (USA #6) 96.81
 11. Florida Surf (USA #7) 96.60
 12. St Louis Blues (USA #8) 96.57
 13. Elgin Middlesex Canucks (Canada #5) 96.54
@@ -110,7 +111,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 52. Toronto Reps (Canada #23) 93.40
 53. Providence Capitals (Elite) (USA #30) 93.37
 54. Mississauga Rebels (Canada #24) 93.30
-55. Boston Jr Terriers (Elite) (USA #31) 93.21
+55. Boston Jr Terriers (Elite) (USA #31) 93.23
 56. Sarnia-Lambton Jr Sting (Canada #25) 93.20
 57. Chatham-Kent Cyclones (Canada #26) 93.19
 58. Florida Alliance (USA #32) 93.10
