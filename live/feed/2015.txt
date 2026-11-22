@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Sun Nov 22, 1:30 PM CT
+Updated: Sun Nov 22, 1:36 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 5:30 PM | #54 Mississauga Senators v #72 Toronto Red Wings | Chesswood, Toronto area, ON
@@ -51,6 +51,7 @@ Sun 1:30 PM | #6 Mid-Fairfield Hockey Club (Elite) v #21 Bay State Breakers (Eli
 2026-11-22 | Top Gun (Elite) 4, South Shore Kings (Elite) 1
 2026-11-22 | Bay State Breakers (Elite) 4, Mid-Fairfield Hockey Club (Elite) 3
 2026-11-22 | HB Detroit 4, Oakland Jr Grizzlies 0
+2026-11-22 | Providence Capitals (Elite) 3, Boston Jr Terriers (Elite) 1
 
 == GAME WRITE-UPS ==
 Final: Mississauga Senators 3, Toronto Red Wings 3, a tie in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: a point each in the GTHL. Ratings: the Senators stay #54 in North America (CAN #19, 89.33). The Red Wings move from #71 to #70 (CAN #28, 88.70). Next: see the weekend list for each team's next game.
@@ -81,7 +82,7 @@ Final: HB Detroit 4, Oakland Jr Grizzlies 0 at Buffalo Wild Wings Arena. A road 
 13. St Louis Blues (USA #10) 92.66
 14. South Shore Kings (Elite) (USA #11) 92.60
 15. Biggby Coffee (USA #12) 92.28
-16. Providence Capitals (Elite) (USA #13) 92.16
+16. Providence Capitals (Elite) (USA #13) 92.15
 17. Florida Surf (USA #14) 91.98
 18. Whitby Wildcats (Canada #4) 91.90
 19. Elgin Middlesex Canucks (Canada #5) 91.89
@@ -169,7 +170,7 @@ Final: HB Detroit 4, Oakland Jr Grizzlies 0 at Buffalo Wild Wings Arena. A road 
 101. Bay State Breakers (T1-Platinum) (USA #55) 86.93
 102. Valley Forge Minutemen (USA #56) 86.84
 103. CarShield (USA #57) 86.82
-104. Minuteman Flames (Elite) (USA #58) 86.81
+104. Minuteman Flames (Elite) (USA #58) 86.82
 105. New England Bulldogs (USA #59) 86.76
 106. Ajax Pickering Raiders (Canada #47) 86.75
 107. New Jersey Devils (USA #60) 86.75
@@ -183,7 +184,7 @@ Final: HB Detroit 4, Oakland Jr Grizzlies 0 at Buffalo Wild Wings Arena. A road 
 115. Compuware (USA #66) 86.38
 116. Boston Jr Terriers (T1-Platinum-Red) (USA #67) 86.32
 117. Mercer Chiefs (USA #68) 86.32
-118. Boston Junior Rangers (USA #69) 86.06
+118. Boston Junior Rangers (USA #69) 86.07
 119. Boston Advantage (Elite) (USA #70) 86.02
 120. Tampa Bay Jr Lightning (USA #71) 85.88
 121. Pittsburgh Penguins Elite (Anderson) (USA #72) 85.75
@@ -201,7 +202,7 @@ Final: HB Detroit 4, Oakland Jr Grizzlies 0 at Buffalo Wild Wings Arena. A road 
 133. Lehigh Valley Phantoms (USA #84) 85.29
 134. Greater Boston Jr Bruins (USA #85) 85.22
 135. Minuteman Flames (T1-Platinum) (USA #86) 85.22
-136. Milwaukee Jr Admirals (USA #87) 85.21
+136. Milwaukee Jr Admirals (USA #87) 85.20
 137. Team Maryland (USA #88) 85.20
 138. Pittsburgh Predators (USA #89) 85.17
 139. Seacoast Spartans (T1-Upper) (USA #90) 85.08
