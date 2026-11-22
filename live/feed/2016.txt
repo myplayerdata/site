@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2016 birth year (10U)
-Updated: Sun Nov 22, 2:46 PM CT
+Updated: Sun Nov 22, 2:48 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 7:40 PM | #12 St Louis Blues v #33 Chicago Mission | Elk Grove Ice Arena (West Rink), Elk Grove Village, IL
@@ -14,7 +14,7 @@ Sun 9:30 AM | #41 New Jersey Rockets v #172 Palmyra Black Knights | Rock Ice Cen
 Sun 12:25 PM | #41 New Jersey Rockets v #172 Palmyra Black Knights | Rock Ice Center, Dunellen, NJ
 Sun 2:40 PM | #39 Long Island Gulls v #74 Long Island Royals | Superior Ice Rink, Kings Park, NY
 Sun 8:00 PM | #30 LA Jr Kings (Voulelikas) 10U A v SDIA Oilers 12U A | San Diego Ice Arena, San Diego, CA
-Sat 9:25 AM | #18 Toronto Nationals v #61 North York Rangers | , Toronto, ON
+Sat 9:25 AM | #18 Toronto Nationals v #60 North York Rangers | , Toronto, ON
 Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | The Bog, Kingston, MA
 
 == FINAL SCORES, LAST 4 DAYS ==
@@ -45,6 +45,7 @@ Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | Th
 2026-11-21 | Biggby Coffee 5, Belle Tire 4
 2026-11-22 | Middlesex Islanders East (Elite) 3, Boston Jr Terriers (Elite) 0
 2026-11-22 | Bay State Breakers (Elite) 4, Boston Jr Eagles (Elite) 3
+2026-11-22 | North York Rangers 2, Markham Majors 1
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 3, Chicago Mission 2, decided after regulation, at Elk Grove. Scoring: Mission scored twice in the second period to lead 2-0. St Louis got one back on the power play with 5:18 left in the third and tied it with 1:45 to play, then took the extra point after regulation. The scoresheet does not list the scorers. Goalies: not listed on the scoresheet. Standings: an exhibition game. Ratings: St Louis goes from #11 to #12 in North America (USA #8, 96.57) after needing extra time against a lower-ranked team. Mission moves from #34 to #33 (USA #18, 94.63). Next: no other games are listed for either team this weekend.
@@ -64,7 +65,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 4. Toronto Marlboros (Canada #3) 97.90
 5. Buffalo Jr Sabres (USA #2) 97.80
 6. Mid-Fairfield Hockey Club (Elite) (USA #3) 97.60
-7. Vaughan Kings (Canada #4) 97.44
+7. Vaughan Kings (Canada #4) 97.43
 8. Team Illinois (USA #4) 97.40
 9. Top Gun (Elite) (USA #5) 97.20
 10. Middlesex Islanders East (Elite) (USA #6) 96.81
@@ -117,8 +118,8 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 57. Chatham-Kent Cyclones (Canada #26) 93.19
 58. Florida Alliance (USA #32) 93.10
 59. Central Ontario Wolves (Canada #27) 93.10
-60. Halton Hurricanes (Canada #28) 92.90
-61. North York Rangers (Canada #29) 92.90
+60. North York Rangers (Canada #28) 92.91
+61. Halton Hurricanes (Canada #29) 92.90
 62. Philadelphia Hockey Club (USA #33) 92.80
 63. Littleton Hawks (Black) 10U AA (USA #34) 92.80
 64. Hamilton Steel (Canada #30) 92.79
@@ -128,7 +129,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 68. Mississauga Senators (Canada #34) 92.60
 69. Rideau St Lawrence Kings AA (Canada #35) 92.50
 70. Oakland Jr Grizzlies (USA #35) 92.40
-71. Markham Majors (Canada #36) 92.31
+71. Markham Majors (Canada #36) 92.29
 72. Tampa Bay Crunch 10U AA (USA #36) 92.20
 73. St Louis Knights 10U AA (USA #37) 92.20
 74. Long Island Royals (USA #38) 92.20
