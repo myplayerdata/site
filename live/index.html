@@ -1,14 +1,18 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Live Scores and Team Ratings · My Player Data</title>
 <meta name="description" content="Live AAA youth hockey scores and team ratings for birth years 2011 to 2016.">
-<style>html,body{margin:0;height:100%;background:#0c1a24;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#fff}
-#bar{display:flex;align-items:center;gap:10px;padding:8px 12px;background:#0c1a24;border-bottom:2px solid #f4d35e;box-sizing:border-box;height:54px}
-#bar a.brand{color:#fff;font-weight:800;text-decoration:none;font-size:16px;white-space:nowrap}
-#bar span{flex:1;color:#cfd8dc;font-size:12px;line-height:1.2}
-#bar a.join{background:#f4d35e;color:#0c1a24;font-weight:800;text-decoration:none;border-radius:999px;padding:8px 14px;font-size:13px;white-space:nowrap}
-#fr{border:0;width:100%;height:calc(100% - 54px);display:block;background:#0c1a24}
-#msg{padding:24px;color:#cfd8dc}</style></head><body>
-<div id="bar"><a class="brand" href="/">My Player Data</a><span>Live scores and team ratings are free. Player data is for members.</span><a class="join" id="join" href="/members/?plan=monthly">Join · first month $19</a></div>
+<style>html,body{margin:0;height:100%;background:#f3f6f8;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#14212b}
+.top{background:#0c1a24;color:#fff}.top .in{max-width:1100px;margin:0 auto;padding:8px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;box-sizing:border-box;min-height:52px}
+.brand{font-weight:700;font-size:18px;letter-spacing:.2px;color:#fff;text-decoration:none}.brand span{color:#7cc4ee}
+.tabs{display:flex;gap:6px}.tabs a{border-bottom:3px solid transparent;color:#b9c7d2;padding:8px 10px;font-size:15px;font-weight:600;text-decoration:none}
+.tabs a.on{color:#fff;border-bottom-color:#7cc4ee}
+.who{margin-left:auto;display:flex;align-items:center;gap:10px}.who a.si{color:#b9c7d2;font-size:14px;text-decoration:none}
+.who a.join{background:#f4d35e;color:#0c1a24;font-weight:800;text-decoration:none;border-radius:8px;padding:8px 14px;font-size:14px;white-space:nowrap}
+#fr{border:0;width:100%;display:block;background:#f3f6f8;position:fixed;left:0;right:0;bottom:0;top:52px;height:calc(100% - 52px)}
+#msg{padding:24px;color:#5b6b78}</style></head><body>
+<div class="top" id="top"><div class="in"><a class="brand" href="/">My Player <span>Data</span></a>
+<div class="tabs"><a class="on" href="/live/">Live Scores &amp; Ratings</a><a href="/#pricing" id="tabPlayers">Players</a></div>
+<div class="who"><a class="si" href="/members/">Sign in</a><a class="join" id="join" href="/members/?plan=monthly">Join &middot; first month $19</a></div></div></div>
 <div id="msg">Loading this weekend's scores…</div><iframe id="fr" hidden title="Live Scores"></iframe>
 <script>try{window.__mpdT=localStorage.getItem("mpd_m")?"member":localStorage.getItem("mpd_f")?"ret":"new"}catch(e){window.__mpdT="new"}</script>
 <script>(function(){window.mpdLog=function(){};try{if(localStorage.getItem("mpd_notrack")||navigator.webdriver||/bot|crawl|spider|headless|lighthouse/i.test(navigator.userAgent))return;var SB="https://nhojjvbgmyafckejcnbj.supabase.co",K="sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0";var v=sessionStorage.getItem("mpd_v"),first=!v;if(!v){v=Math.random().toString(36).slice(2)+Date.now().toString(36);sessionStorage.setItem("mpd_v",v)}var s=sessionStorage.getItem("mpd_s");if(!s){var q=new URLSearchParams(location.search),ua=navigator.userAgent,h="";try{h=document.referrer?new URL(document.referrer).hostname.replace(/^www\./,""):""}catch(e){}s=q.get("utm_source")||(/Instagram/i.test(ua)?"instagram":/FBAN|FBAV/i.test(ua)?"facebook":/instagram\.com$/.test(h)?"instagram":h||"direct");if(/myplayerdata\.com$|stripe\.com$/.test(s))s="direct";s=s.toLowerCase().slice(0,60);sessionStorage.setItem("mpd_s",s)}var T="new";try{var L=localStorage;T=L.getItem("mpd_m")?"member":L.getItem("mpd_f")?"ret":"new";if(!L.getItem("mpd_f"))L.setItem("mpd_f",String(Date.now()))}catch(e){}window.mpdLog=function(kind,detail){try{var k="mpd_l_"+kind;if(sessionStorage.getItem(k))return;sessionStorage.setItem(k,"1");fetch(SB+"/rest/v1/site_events",{method:"POST",keepalive:true,headers:{apikey:K,Authorization:"Bearer "+K,"Content-Type":"application/json",Prefer:"return=minimal"},body:JSON.stringify({kind:kind,src:s,vid:v,detail:String(detail||"").slice(0,80)})}).catch(function(){})}catch(e){}};mpdLog("visit","/live/|"+T)}catch(e){}})();</script>
@@ -16,10 +20,12 @@
 // Free Live Scores page (owner, Nov 21 2026, 8:51 PM): the weekend's live scores are open to everyone "for now".
 // Loads the same ratings app the member page loads, shows ALL of it (Live Scores, North America, USA, Canada: owner 8:52 PM), and sends player-database links to the join page. Only the player database stays members-only.
 try{mpdLog("live_page",window.__mpdT)}catch(e){}
+document.getElementById("tabPlayers").addEventListener("click",function(){try{mpdLog("join_click","live-locked")}catch(e){}});
+function fit(){try{var h=document.getElementById("top").offsetHeight;var f=document.getElementById("fr");f.style.top=h+"px";f.style.height="calc(100% - "+h+"px)"}catch(e){}}window.addEventListener("resize",fit);fit();
 document.getElementById("join").addEventListener("click",function(){try{mpdLog("join_click","live")}catch(e){}});
 (async function(){try{
  let t=await (await fetch("/members/ratings/?v="+Date.now(),{cache:"no-store"})).text();
- const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();try{parent.mpdLog("join_click","live-locked")}catch(x){}parent.location.href="/members/?plan=monthly"}},true);<\/script>';
+ const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();try{parent.mpdLog("join_click","live-locked")}catch(x){}parent.location.href="/#pricing"}},true);<\/script>';
  t=t.replace("</head>",add+"</head>");
  const fr=document.getElementById("fr");fr.src=URL.createObjectURL(new Blob([t],{type:"text/html"}));fr.hidden=false;document.getElementById("msg").hidden=true;
 }catch(e){document.getElementById("msg").textContent="Could not load the scores. Refresh the page to try again."}})();
