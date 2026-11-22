@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Sat Nov 21, 11:55 PM CT
+Updated: Sun Nov 22, 12:02 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 8:15 AM | #4 Mount St Charles Hockey Academy v #13 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
@@ -30,10 +30,10 @@ Sun 9:00 AM | #13 Chicago Mission v #1 Pittsburgh Penguins Elite | UPMC Lemieux 
 Sun 9:00 AM | #25 Pittsburgh Vengeance v #30 Palmyra Black Knights | Alpha Ice Complex, Pittsburgh, PA
 Sun 11:30 AM | #11 Oakland Jr Grizzlies v #55 Fox Motors | Southside Ice Arena, Byron Center, MI
 Sun 12:40 PM | #48 Mid-Fairfield Hockey Club (National) v #49 New Jersey Rockets (Premier) | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sun 12:45 PM | #63 Don Mills Flyers v #71 Markham Majors | Thornhill Centre West, Toronto area, ON
+Sun 12:45 PM | #64 Don Mills Flyers v #71 Markham Majors | Thornhill Centre West, Toronto area, ON
 Sun 3:45 PM | #7 Toronto Marlboros v #5 Toronto Jr Canadiens | Scotiabank Pond, Toronto, ON
-Fri 2:50 PM | #62 CarShield v #114 Madison Capitols | Canlan Ice Sports (Rink 2), West Dundee, IL
-Sat 10:00 AM | #93 Team Illinois v #62 CarShield | Carol Stream Ice Rink, Carol Stream, IL
+Fri 2:50 PM | #63 CarShield v #114 Madison Capitols | Canlan Ice Sports (Rink 2), West Dundee, IL
+Sat 10:00 AM | #94 Team Illinois v #63 CarShield | Carol Stream Ice Rink, Carol Stream, IL
 Sat 12:00 PM | #133 Chicago Fury v #114 Madison Capitols | Carol Stream Ice Rink, Carol Stream, IL
 
 == FINAL SCORES, LAST 4 DAYS ==
@@ -57,6 +57,12 @@ Sat 12:00 PM | #133 Chicago Fury v #114 Madison Capitols | Carol Stream Ice Rink
 2026-11-21 | Kitchener Jr Rangers 2, Windsor Jr Spitfires 2
 2026-11-21 | London Jr Knights 8, Sarnia-Lambton Jr Sting 0
 2026-11-21 | Waterloo Wolves 4, Brantford 99ers 0
+2026-11-20 | Halton Hurricanes 8, Hamilton Steel 8
+2026-11-20 | York Simcoe Express 3, Kingston Jr Gaels 1
+2026-11-21 | Whitby Wildcats 6, Ajax Pickering Raiders 1
+2026-11-21 | Markham Waxers 12, Quinte Red Devils 1
+2026-11-21 | Credit River Capitals 2, Guelph Gryphons 1
+2026-11-21 | Elgin Middlesex Canucks 7, Huron-Perth Lakers 2
 
 == GAME WRITE-UPS ==
 Final: Mount St Charles Hockey Academy 5, Chicago Mission 4, at the Northeast Pack showcase in Pittsburgh. Scoring: Mount St Charles led 3-0 in the first on goals by Robert So, Austin Jeffries and Adam Harris. Gavin Thomas made it 4-2 in the second and Arjun Mangadu scored the game winner in the third, from Robert McCann. Shawn Lowery Jr had two assists. For Mission: Parker Stewart, Kaleb Jacques, Jameson Downs and Finn Helminen scored, the last two in the third period. Constantine Siavelis and Mason Marek had two assists each. Goalies: Mason Ecenrode got the win for Mount St Charles. Gavin Carnow went the distance for Mission. Standings: a regulation win, three points for Mount St Charles in Northeast Pack play. Ratings: little movement. Mount St Charles stays #4 in North America (USA #3), 95.56 to 95.54, because a one-goal win was less than its rating expected. Mission stays #13 (USA #8), 93.95 to 93.97. Next: Mount St Charles hosts the New Jersey Rockets on Saturday at 10:40 AM and Woodbridge Wolfpack on Sunday at 7:30 AM. Mission visits Mid-Fairfield on Saturday at 12:40 PM and Pittsburgh Penguins Elite on Sunday at 9:00 AM.
@@ -97,14 +103,14 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 7. Toronto Marlboros (Canada #3) 94.67
 8. Chicago Reapers (USA #5) 94.35
 9. Hamilton Steel (Canada #4) 94.29
-10. Halton Hurricanes (Canada #5) 94.20
+10. Halton Hurricanes (Canada #5) 94.21
 11. Oakland Jr Grizzlies (USA #6) 94.12
 12. Little Caesars (USA #7) 94.05
 13. Chicago Mission (USA #8) 93.99
 14. Woodbridge Wolfpack (USA #9) 93.46
 15. Mississauga Rebels (Canada #6) 93.35
-16. Waterloo Wolves (Canada #7) 93.27
-17. York Simcoe Express (Canada #8) 93.25
+16. York Simcoe Express (Canada #7) 93.28
+17. Waterloo Wolves (Canada #8) 93.27
 18. Masters Academy (USA #10) 93.18
 19. Middlesex Islanders East (Prep) (USA #11) 93.06
 20. Toronto Nationals (Canada #9) 92.99
@@ -119,11 +125,11 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 29. Philadelphia Jr Flyers (USA #16) 92.32
 30. Palmyra Black Knights (USA #17) 92.27
 31. Mississauga Senators (Canada #14) 92.20
-32. Team Wisconsin (USA #18) 92.01
-33. Ottawa Myers Automotive (Canada #15) 92.01
-34. Elgin Middlesex Canucks (Canada #16) 91.93
+32. Elgin Middlesex Canucks (Canada #15) 92.03
+33. Team Wisconsin (USA #18) 92.01
+34. Ottawa Myers Automotive (Canada #16) 92.01
 35. Notre Dame Hockey Academy (USA #19) 91.86
-36. Kingston Jr Gaels (Canada #17) 91.85
+36. Kingston Jr Gaels (Canada #17) 91.83
 37. London Jr Knights (Canada #18) 91.82
 38. North York Rangers (Canada #19) 91.72
 39. Buffalo Jr Sabres (USA #20) 91.65
@@ -148,10 +154,10 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 58. Soo Jr Greyhounds (Canada #24) 90.27
 59. Windsor Jr Spitfires (Canada #25) 90.25
 60. Oakville Rangers (Canada #26) 90.19
-61. Chatham-Kent Cyclones (Canada #27) 90.17
-62. CarShield (USA #35) 90.11
-63. Don Mills Flyers (Canada #28) 90.10
-64. Markham Waxers (Canada #29) 90.10
+61. Markham Waxers (Canada #27) 90.19
+62. Chatham-Kent Cyclones (Canada #28) 90.17
+63. CarShield (USA #35) 90.11
+64. Don Mills Flyers (Canada #29) 90.10
 65. Sioux Falls Power (USA #36) 90.09
 66. Burlington Eagles (Canada #30) 90.08
 67. Dallas Stars Elite (USA #37) 89.82
@@ -163,9 +169,9 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 73. Windy City Storm (USA #42) 89.60
 74. Pittsburgh Predators (USA #43) 89.57
 75. Niagara North Stars (Canada #32) 89.56
-76. Huron-Perth Lakers (Canada #33) 89.55
-77. Long Island Arrows (USA #44) 89.45
-78. Pittsburgh Stars (USA #45) 89.44
+76. Long Island Arrows (USA #44) 89.45
+77. Pittsburgh Stars (USA #45) 89.44
+78. Huron-Perth Lakers (Canada #33) 89.44
 79. LA Jr Kings (USA #46) 89.41
 80. Team North Dakota (USA #47) 89.39
 81. Philadelphia Hockey Club (USA #48) 89.28
@@ -175,15 +181,15 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 85. Toronto Red Wings (Canada #35) 89.20
 86. PAL Jr Islanders (USA #51) 89.15
 87. MN Lakers (USA #52) 89.05
-88. Guelph Gryphons (Canada #36) 89.04
-89. Tampa Bay Jr Lightning (USA #53) 89.02
-90. MN Moose (USA #54) 88.94
-91. Toronto Reps (Canada #37) 88.92
-92. East Coast Militia (National) (USA #55) 88.91
-93. Team Illinois (USA #56) 88.87
-94. Brantford 99ers (Canada #38) 88.85
-95. Boston Americans (USA #57) 88.84
-96. Whitby Wildcats (Canada #39) 88.83
+88. Tampa Bay Jr Lightning (USA #53) 89.02
+89. Whitby Wildcats (Canada #36) 89.01
+90. Guelph Gryphons (Canada #37) 88.96
+91. MN Moose (USA #54) 88.94
+92. Toronto Reps (Canada #38) 88.92
+93. East Coast Militia (National) (USA #55) 88.91
+94. Team Illinois (USA #56) 88.87
+95. Brantford 99ers (Canada #39) 88.85
+96. Boston Americans (USA #57) 88.84
 97. Toronto Titans (Canada #40) 88.73
 98. MN Walleye (USA #58) 88.67
 99. Rochester Coalition (USA #59) 88.56
@@ -192,12 +198,12 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 102. Rocky Mountain RoughRiders (USA #62) 88.35
 103. North Central Predators (Canada #41) 88.34
 104. North Bay Trappers (Canada #42) 88.28
-105. Credit River Capitals (Canada #43) 88.09
-106. Ajax Pickering Raiders (Canada #44) 88.01
-107. Belle Tire (USA #63) 87.98
-108. Kitchener Jr Rangers (Canada #45) 87.98
-109. Phoenix Jr Coyotes (USA #64) 87.92
-110. MN Polars (USA #65) 87.89
+105. Credit River Capitals (Canada #43) 88.17
+106. Belle Tire (USA #63) 87.98
+107. Kitchener Jr Rangers (Canada #44) 87.98
+108. Phoenix Jr Coyotes (USA #64) 87.92
+109. MN Polars (USA #65) 87.89
+110. Ajax Pickering Raiders (Canada #45) 87.83
 111. Nashville Jr Predators (USA #66) 87.82
 112. Red Bank Generals (USA #67) 87.81
 113. Compuware (USA #68) 87.76
@@ -239,8 +245,8 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 149. Grey Bruce Highlanders (Canada #50) 85.10
 150. Assabet Valley Patriots (USA #100) 85.08
 151. Tri-State Spartans (USA #101) 84.97
-152. Quinte Red Devils (Canada #51) 84.97
-153. Vermont Jr Catamounts (USA #102) 84.90
+152. Vermont Jr Catamounts (USA #102) 84.90
+153. Quinte Red Devils (Canada #51) 84.88
 154. Boston Hockey Academy (USA #103) 84.83
 155. New York City Hockey Club (USA #104) 84.64
 156. Carolina Junior Canes (USA #105) 84.52
