@@ -1,0 +1,12 @@
+MY PLAYER DATA: live team ratings and weekend scores (plain text)
+Updated: Sat Nov 21, 9:46 PM CT
+Human page: https://myplayerdata.com/live/
+Times are US Central. Ranks are North American ranks; the rank in parentheses is the team's rank inside its own pool (USA or Canada).
+
+One file per birth year:
+https://myplayerdata.com/live/feed/2011.txt  (2011 birth year, 15U, 166 ranked teams)
+https://myplayerdata.com/live/feed/2012.txt  (2012 birth year, 14U, 184 ranked teams)
+https://myplayerdata.com/live/feed/2013.txt  (2013 birth year, 13U, 150 ranked teams)
+https://myplayerdata.com/live/feed/2014.txt  (2014 birth year, 12U, 238 ranked teams)
+https://myplayerdata.com/live/feed/2015.txt  (2015 birth year, 11U, 146 ranked teams)
+https://myplayerdata.com/live/feed/2016.txt  (2016 birth year, 10U, 203 ranked teams)
