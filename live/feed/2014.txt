@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2014 birth year (12U)
-Updated: Sun Nov 22, 11:41 AM CT
+Updated: Sun Nov 22, 11:42 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 6:25 PM | #12 Don Mills Flyers v #5 Toronto Marlboros | CWENCH Centre Etobicoke, Toronto area, ON
@@ -185,7 +185,7 @@ Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday pla
 43. Barrie Colts (Canada #19) 94.43
 44. Guelph Gryphons (Canada #20) 94.30
 45. Chicago Mission (USA #25) 94.28
-46. Windsor Jr Spitfires (Canada #21) 94.26
+46. Windsor Jr Spitfires (Canada #21) 94.27
 47. Indiana Elite (USA #26) 94.24
 48. Long Island Royals (USA #27) 94.22
 49. Buffalo Bisons 12U AA (USA #28) 94.16
@@ -260,10 +260,10 @@ Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday pla
 118. Philadelphia Jr Flyers (USA #68) 91.61
 119. Madison Capitols (USA #69) 91.59
 120. Windy City Storm (USA #70) 91.57
-121. Belle Tire 12U AA (USA #71) 91.48
+121. Belle Tire 12U AA (USA #71) 91.49
 122. Houston Jr Aeros 12U AA (USA #72) 91.48
 123. Markham Waxers (Canada #51) 91.41
-124. Great Lakes HC 12U AA (USA #73) 91.40
+124. Great Lakes HC 12U AA (USA #73) 91.41
 125. North Central Predators (Canada #52) 91.39
 126. Danbury Jr Hat Tricks (USA #74) 91.25
 127. Phoenix Jr Coyotes (USA #75) 91.22
@@ -283,7 +283,7 @@ Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday pla
 141. Soo Jr Greyhounds (Canada #56) 90.66
 142. East Coast Wizards (Elite) (USA #86) 90.57
 143. South Shore Kings (T1-Platinum) (USA #87) 90.55
-144. Nicolas Gatineau Polyvalente M13 D1 (Canada #57) 90.49
+144. Nicolas Gatineau Polyvalente M13 D1 (Canada #57) 90.48
 145. Philadelphia Revolution (USA #88) 90.41
 146. Mercer Chiefs (USA #89) 90.30
 147. Valley Jr Warriors (Elite) (USA #90) 90.30
@@ -316,7 +316,7 @@ Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday pla
 174. Washington Little Capitals (USA #113) 89.09
 175. Nassau County Lions 12U AA (USA #114) 89.08
 176. West Dundee Leafs (CSDHL) 12U AA (USA #115) 89.06
-177. Compuware 12U AA (USA #116) 88.99
+177. Compuware 12U AA (USA #116) 89.00
 178. Bay State Breakers (T1-Platinum) (USA #117) 88.92
 179. Team Philadelphia 12U AA (USA #118) 88.91
 180. Oakland Jr Grizzlies 12U AA (USA #119) 88.83
@@ -372,9 +372,9 @@ Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday pla
 230. Hartford Jr Wolfpack (USA #164) 86.25
 231. Long Island Arrows (USA #165) 86.12
 232. Westchester Express (USA #166) 85.71
-233. Forest Hill Force U13 A (Canada #67) 85.58
+233. Forest Hill Force U13 A (Canada #67) 85.57
 234. 95 Giants (Elite) (USA #167) 85.52
 235. Middlesex Islanders East (Brooks) (USA #168) 85.38
 236. Talbot Trail Blazers U13 A (Canada #68) 85.30
-237. Ohio Prospects (USA #169) 84.57
+237. Ohio Prospects (USA #169) 84.58
 238. Scarborough Ice Raiders U13 AA (Canada #69) 83.03
