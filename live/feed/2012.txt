@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2012 birth year (14U)
-Updated: Sun Nov 22, 12:40 PM CT
+Updated: Sun Nov 22, 12:46 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 1:30 PM | #17 Nashville Jr. Predators v #6 Delta Hockey Academy | Planet Ice Delta, Delta, BC
@@ -111,6 +111,7 @@ Sun 3:00 PM | #9 Yale Hockey Academy v #6 Delta Hockey Academy | Pat Quinn Class
 2026-11-22 | Team Illinois 13, CarShield 0
 2026-11-22 | Chicago Mission 4, NJ Rockets 1
 2026-11-22 | Mid-Fairfield 5, Chicago Reapers 3
+2026-11-22 | Shattuck St Mary's 4, Little Caesars 1
 
 == GAME WRITE-UPS ==
 Final: Delta Hockey Academy 3, Nashville Jr. Predators 0, in the opening game of Flight 1 at the Pat Quinn Classic. Scoring: Aleksandr Iaichkin two goals, one on the power play. Kayden Krestanovich a goal and an assist, with the game winner. Qirun Xie and Sajan Chatha two assists each, Easton Isfeld one. Goalies: Logan Wagner had the shutout for Delta. For Nashville, John Nolan Blankush allowed two in 20 minutes and Lucas Katona one in 40. Standings: Delta, St George's School and Yale Hockey Academy are 1-0 in the six-team flight. Nashville, Burnaby Winter Club Academy and Pacific Coast Academy are 0-1. Ratings: Delta is a rated team and sits ahead of Nashville, so a three-goal loss cost Nashville a little. After both of its games here Nashville is #16 in North America, USA #9, 96.24; Delta is #7 in North America, Canada #4, 97.19. Next for Nashville: Burnaby Winter Club Academy on Friday at 11:00 AM, then a placement game on Saturday.
@@ -171,9 +172,11 @@ Final: Chicago Mission 4, NJ Rockets 1, in Northeast Pack league play outside Pi
 
 Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pittsburgh. Scoring: Mid-Fairfield led 2-0 after one on goals from Jax Tardif and Austin Jarvi. Leonardo Odoardi and Edmund Martin, shorthanded, made it 4-1 in the second. The Reapers got within one in the third on goals from William Stewart and Thomas Halack before Egor Karpovtsev scored into the empty net. Noah Keen had a goal and an assist for the Reapers. Goalies: Landon Sherwood got the win with three against. Matthew Ignoffo took the loss. Standings: Mid-Fairfield goes to 29 points and stays unbeaten in the league at 10-0. The Reapers stay on 6. Ratings: Mid-Fairfield stays 99.99 and North America #1. The Reapers go 95.59 to 95.72 and stay #30. Next: both teams are done for the weekend in Pittsburgh.
 
+Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuck sweeps the three-game series (5-1, 8-3, 4-1). Scoring: Vinny Defazio opened it for Shattuck and Isaac Lee tied it for Little Caesars in the first. Jack Keiser scored the game winner in the second. Dean Zuccaro and Christian Talapila, on the power play, added goals in the third. Keiser finished with a goal and an assist; Talapila a goal and an assist; Miles Maruk two assists. Goalies: Liam Mayhew allowed one goal for Shattuck. Asher Schwartz allowed four for Little Caesars. Standings: three games, three Shattuck wins, 17-5 on aggregate. Ratings: Shattuck came in #2 in North America (99.93); Little Caesars #7 (USA #3, 97.24). Next: both teams are done for the weekend.
+
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Mid-Fairfield (USA #1) 99.99
-2. Shattuck St Mary's (USA #2) 99.93
+2. Shattuck St Mary's (USA #2) 99.95
 3. Toronto Jr Canadiens (Canada #1) 98.32
 4. North York Rangers (Canada #2) 98.26
 5. Toronto Marlboros (Canada #3) 98.25
@@ -183,7 +186,7 @@ Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pitt
 9. Yale Hockey Academy (Canada #5) 97.17
 10. Team Illinois (USA #5) 97.09
 11. Woodbridge Wolfpack (USA #6) 96.75
-12. MN Green Giants (USA #7) 96.61
+12. MN Green Giants (USA #7) 96.62
 13. York Simcoe Express (Canada #6) 96.60
 14. Bishop Kearney Selects (USA #8) 96.56
 15. Ottawa Valley Titans (Canada #7) 96.36
@@ -198,7 +201,7 @@ Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pitt
 24. Chatham-Kent Cyclones (Canada #11) 95.96
 25. HB Detroit (USA #14) 95.92
 26. Mississauga Rebels (Canada #12) 95.92
-27. Pittsburgh Penguins Elite (USA #15) 95.92
+27. Pittsburgh Penguins Elite (USA #15) 95.91
 28. Vaughan Kings (Canada #13) 95.78
 29. NJ Rockets (USA #16) 95.72
 30. Chicago Reapers (USA #17) 95.72
@@ -217,7 +220,7 @@ Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pitt
 43. Philadelphia Hockey Club (USA #22) 94.28
 44. Eastern Ontario Wild (Canada #22) 94.21
 45. Ottawa Myers Automotive (Canada #23) 94.21
-46. Seacoast Performance Academy (USA #23) 94.18
+46. Seacoast Performance Academy (USA #23) 94.17
 47. Halton Hurricanes (Canada #24) 94.17
 48. Barrie Colts (Canada #25) 94.07
 49. Neponset Valley River Rats (USA #24) 94.04
@@ -225,10 +228,10 @@ Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pitt
 51. Thunder Bay Kings (Canada #26) 94.00
 52. Peterborough Jr Petes (Canada #27) 93.87
 53. Masters Academy (USA #26) 93.83
-54. MN Grey Ducks (USA #27) 93.81
-55. St. Louis Blues (USA #28) 93.79
-56. Fox Motors (USA #29) 93.79
-57. Team North Dakota (USA #30) 93.70
+54. MN Grey Ducks (USA #27) 93.82
+55. Fox Motors (USA #28) 93.79
+56. St. Louis Blues (USA #29) 93.79
+57. Team North Dakota (USA #30) 93.71
 58. Kitchener Jr Rangers (Canada #28) 93.70
 59. Toronto Red Wings (Canada #29) 93.68
 60. North Shore Whitecaps (Canada #30) 93.64
@@ -251,15 +254,15 @@ Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pitt
 77. Okanagan (USA #39) 93.19
 78. Connecticut Jr Rangers (National) (USA #40) 93.08
 79. The Hill Academy (Canada #39) 93.07
-80. Upper Canada College (Canada #40) 93.02
+80. Upper Canada College (Canada #40) 93.03
 81. Credit River Capitals (Canada #41) 93.02
 82. North Bay Trappers (Canada #42) 92.97
-83. MN Blue Ox (USA #41) 92.94
+83. MN Blue Ox (USA #41) 92.95
 84. South Shore Kings Elite (USA #42) 92.90
 85. Chicago Fury (USA #43) 92.88
 86. Guelph Gryphons (Canada #43) 92.84
 87. Pacific Coast Academy (Canada #44) 92.79
-88. Pittsburgh Stars (USA #44) 92.62
+88. Pittsburgh Stars (USA #44) 92.61
 89. Phoenix Jr Coyotes (USA #45) 92.57
 90. Milwaukee Jr Admirals (USA #46) 92.49
 91. CDA Hockey Academy (Canada #45) 92.45
@@ -269,7 +272,7 @@ Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pitt
 95. Don Mills Flyers (Canada #47) 92.30
 96. Markham Waxers (Canada #48) 92.28
 97. MN Polars (USA #49) 92.20
-98. MN Voyageurs (USA #50) 92.17
+98. MN Voyageurs (USA #50) 92.18
 99. Florida Alliance (USA #51) 92.07
 100. Team Wisconsin (USA #52) 92.06
 101. East Coast Militia (National) (USA #53) 92.00
