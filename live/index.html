@@ -19,7 +19,12 @@
 <script>
 // Free Live Scores page (owner, Nov 21 2026, 8:51 PM): the weekend's live scores are open to everyone "for now".
 // Loads the same ratings app the member page loads, shows ALL of it (Live Scores, North America, USA, Canada: owner 8:52 PM), and sends player-database links to the join page. Only the player database stays members-only.
-try{mpdLog("live_page",window.__mpdT)}catch(e){}
+// Device id + time on page (owner, Nov 22 2026): a random id kept in this browser (no personal data) tells a returning device from a new one;
+// time markers are sent only while the page is visible. Rows: live_page '<type>|d:<id>', live_time 'd:<id>|t:<seconds>'.
+var __did="";try{__did=localStorage.getItem("mpd_d")||"";if(!__did){__did=Math.random().toString(36).slice(2,10)+Date.now().toString(36);localStorage.setItem("mpd_d",__did)}}catch(e){}
+try{mpdLog("live_page",window.__mpdT+"|d:"+__did)}catch(e){}
+(function(){try{if(localStorage.getItem("mpd_notrack")||navigator.webdriver)return;var SB="https://nhojjvbgmyafckejcnbj.supabase.co",K="sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0",marks=[30,60,120,300,600,1200,1800],sec=0,i=0,src=sessionStorage.getItem("mpd_s")||"direct",vid=sessionStorage.getItem("mpd_v")||"";
+setInterval(function(){if(document.visibilityState!=="visible"||i>=marks.length)return;sec+=5;if(sec>=marks[i]){var t=marks[i];i++;fetch(SB+"/rest/v1/site_events",{method:"POST",keepalive:true,headers:{apikey:K,Authorization:"Bearer "+K,"Content-Type":"application/json",Prefer:"return=minimal"},body:JSON.stringify({kind:"live_time",src:src,vid:vid,detail:"d:"+__did+"|t:"+t})}).catch(function(){})}},5000)}catch(e){}})();
 document.getElementById("tabPlayers").addEventListener("click",function(){try{mpdLog("join_click","live-locked")}catch(e){}});
 function fit(){try{var h=document.getElementById("top").offsetHeight;var f=document.getElementById("fr");f.style.top=h+"px";f.style.height="calc(100% - "+h+"px)"}catch(e){}}window.addEventListener("resize",fit);fit();
 document.getElementById("join").addEventListener("click",function(){try{mpdLog("join_click","live")}catch(e){}});
