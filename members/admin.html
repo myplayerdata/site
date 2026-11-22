@@ -30,6 +30,9 @@ button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--li
 <h2>Revenue (before card fees)</h2><div class="mut" id="rv-note"></div><div class="tiles" id="rv-tiles"></div>
 <h2>Renewals coming up, and who is at risk</h2><div class="mut">At risk = a monthly member who renews within 10 days and has used the site on fewer than 2 of the last 7 days.</div><div class="wrap"><table id="t-rv"></table></div>
 <h2>What members use (retention)</h2><div class="mut">Counts are times used; "Members" is how many different members did it. Minutes rows count minutes with that part open.</div><div class="wrap"><table id="t-feat"></table></div>
+<h2>Free page: devices and time on page</h2><div class="mut">Counted from Nov 22, 2026. A device is one browser on one phone or computer (random id, no personal data). Instagram's built-in browser and Safari on the same phone count as two. Time counts only while the page is on screen.</div><div class="tiles" id="fr-tiles"></div>
+<div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fr-day"></table></div></div><div><h2>By where they came from</h2><div class="wrap"><table id="t-fr-src"></table></div></div></div>
+<details><summary>Most active devices (top 25)</summary><div class="wrap"><table id="t-fr-top"></table></div></details>
 <h2>Sales detail</h2><div class="mut" id="sa-note"></div><div class="tiles" id="sa-tiles"></div>
 <h2>People who signed up and are not paying (accounts under the same name are grouped)</h2><div class="wrap"><table id="t-sa-ppl"></table></div>
 <div class="cols"><div><h2>Sign-in code step, by sign-up day</h2><div class="wrap"><table id="t-sa-day"></table></div></div><div><h2>Free scores and ratings page (/live/), by day</h2><div class="wrap"><table id="t-sa-live"></table></div></div></div>
@@ -58,6 +61,11 @@ async function load(){
   let TR=null;try{TR=(await sb.rpc("admin_traffic")).data}catch(e){}
   const MM={};if(TR&&TR.ok)(TR.member_min||[]).forEach(r=>MM[r.email]=r);
   if(error||!data||!data.ok){$("sub").textContent="This page is not available for this account.";return}
+  try{const FR=(await sb.rpc("admin_free")).data;if(FR&&FR.ok){const T=FR.totals||{},n=x=>x??0;
+    $("fr-tiles").innerHTML=[["Devices seen",n(T.devices)],["Came back another day",n(T.back_another_day)],["Here 3+ days",n(T.three_plus_days)],["Visits",n(T.visits)],["Minutes on the free page",n(T.minutes)],["Minutes per visit",T.visits?(T.minutes/T.visits).toFixed(1):"—"]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
+    tbl("t-fr-day",[["Day"],["Visits","n"],["Devices","n"],["New","n"],["Returning","n"],["30s+","n"],["2 min+","n"],["5 min+","n"],["10 min+","n"],["Minutes","n"]],(FR.by_day||[]).map(r=>[esc(r.d),r.visits,r.devices,r.new_devices,r.returning_devices,r.v30,r.v2m,r.v5m,r.v10m,r.minutes]));
+    tbl("t-fr-src",[["Source"],["Devices","n"],["Came back another day","n"],["Minutes","n"]],(FR.by_src||[]).map(r=>[esc(r.src||"direct"),r.devices,r.back,r.minutes]));
+    tbl("t-fr-top",[["Device"],["Source"],["First day"],["Last day"],["Days","n"],["Visits","n"],["Minutes","n"]],(FR.top||[]).map(r=>[esc(String(r.did||"").slice(0,6)),esc(r.src||"direct"),esc(r.first_d),esc(r.last_d),r.days,r.visits,r.minutes]));}}catch(e){console.log("free",e)}
   try{const SA=(await sb.rpc("admin_sales")).data;if(SA&&SA.ok){const T=SA.totals||{},pc=(a,b)=>b?Math.round(100*a/b)+"%":"—";
     $("sa-note").textContent="People = accounts grouped by the name typed at sign-up (no name: counted by email). The owner's account is left out. \"Returned from checkout\" is counted by browser, so it can differ from the paying count.";
     $("sa-tiles").innerHTML=[["People signed up",T.people],["Accounts",T.accounts],["People with 2+ accounts",T.dup_people],["Extra accounts",T.extra_accounts],["People paying",T.paying_people],["People not paying",T.not_paying_people],["Paying, of people",pc(T.paying_people,T.people)]].map(t=>`<div class="tile"><b>${t[1]??0}</b><span class="mut">${t[0]}</span></div>`).join("");
