@@ -58,7 +58,18 @@ async function load(){
   try{const SA=(await sb.rpc("admin_sales")).data;if(SA&&SA.ok){const T=SA.totals||{},pc=(a,b)=>b?Math.round(100*a/b)+"%":"—";
     $("sa-note").textContent="People = accounts grouped by the name typed at sign-up (no name: counted by email). The owner's account is left out. \"Returned from checkout\" is counted by browser, so it can differ from the paying count.";
     $("sa-tiles").innerHTML=[["People signed up",T.people],["Accounts",T.accounts],["People with 2+ accounts",T.dup_people],["Extra accounts",T.extra_accounts],["People paying",T.paying_people],["People not paying",T.not_paying_people],["Paying, of people",pc(T.paying_people,T.people)]].map(t=>`<div class="tile"><b>${t[1]??0}</b><span class="mut">${t[0]}</span></div>`).join("");
-    tbl("t-sa-ppl",[["Name"],["Accounts","n"],["Emails"],["Code entered","n"],["First sign-up"],["Latest sign-up"]],(SA.people||[]).filter(p=>!p.paying).map(p=>[p.nm?esc(p.nm):'<span class="mut">no name</span>',p.accounts,esc(p.emails),p.confirmed+" of "+p.accounts,when(p.first_at),when(p.last_at)]));
+    // Likely duplicates (a guess, shown as "likely"): an account with no name whose email contains a named person's last name, or first name + last initial,
+    // or that shares a private (non-webmail) email domain with another account. Typed-wrong emails that never got the code usually land here.
+    const P=SA.people||[],WEB=/^(gmail|icloud|me|yahoo|hotmail|outlook|live|aol|msn|comcast|att|sbcglobal|verizon|protonmail|proton|mac)\./,lp=e=>String(e).split("@")[0].toLowerCase().replace(/[^a-z]/g,""),dm=e=>(String(e).split("@")[1]||"").toLowerCase();
+    const named=P.filter(q=>q.nm).map(q=>{const w=q.nm.toLowerCase().replace(/[^a-z ]/g,"").split(/\s+/).filter(Boolean);return {q,f:w[0]||"",l:w[w.length-1]||""}});
+    const like=p=>{if(p.nm)return null;const e=p.emails.split(", ")[0],L=lp(e),D=dm(e);
+      const n=named.find(x=>(x.l.length>=4&&L.includes(x.l))||(x.f.length>=4&&x.l&&L.startsWith(x.f+x.l[0]))||(x.f.length>=4&&x.l.length>=4&&L.includes(x.l.slice(0,4))&&L.includes(x.f.slice(0,4))));
+      if(n)return n.q.nm+(n.q.paying?" (paying member)":"");
+      if(D&&!WEB.test(D)){const o=P.find(q=>q!==p&&q.emails.split(", ").some(x=>dm(x)===D));if(o)return (o.nm||o.emails.split(", ")[0])+(o.paying?" (paying member)":"")+", same email domain"}
+      return null};
+    const NP=P.filter(p=>!p.paying),LK=NP.map(like),dupN=LK.filter(Boolean).length;
+    $("sa-tiles").innerHTML+=[["Not paying, likely a second email of someone above",dupN],["Not paying, likely separate people",NP.length-dupN]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
+    tbl("t-sa-ppl",[["Name"],["Accounts","n"],["Emails"],["Code entered","n"],["Likely the same person as"],["First sign-up"],["Latest sign-up"]],NP.map((p,i)=>[p.nm?esc(p.nm):'<span class="mut">no name</span>',p.accounts,esc(p.emails),p.confirmed+" of "+p.accounts,LK[i]?esc(LK[i]):"",when(p.first_at),when(p.last_at)]));
     tbl("t-sa-day",[["Day"],["Accounts","n"],["People","n"],["Code entered","n"],["Code not entered","n"],["Paying now","n"]],(SA.by_day||[]).map(r=>[esc(r.d),r.accounts,r.people,r.code_entered,r.code_not_entered,r.paying]));
     tbl("t-sa-live",[["Day"],["Opened","n"],["Started there","n"],["New","n"],["Returning","n"],["Members","n"],["Join button","n"],["Locked player taps","n"]],(SA.live||[]).map(r=>[esc(r.d),r.opened,r.started_there,r.new_v,r.returning_v,r.member_v,r.join_button,r.locked_taps]));
     const sr=a=>(a||[]).map(r=>[esc(r.src),r.visitors,r.live_page,r.join_click,pc(r.join_click,r.visitors),r.member_page,r.checkout,r.paid]),sh=[["Source"],["Visitors","n"],["Opened free page","n"],["Join clicks","n"],["Join rate","n"],["Sign-in page","n"],["Checkout started","n"],["Returned from checkout","n"]];
