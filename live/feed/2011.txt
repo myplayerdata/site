@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Sun Nov 22, 1:17 PM CT
+Updated: Sun Nov 22, 1:24 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 8:15 AM | #4 Mount St Charles Hockey Academy v #13 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
@@ -14,7 +14,7 @@ Sat 10:30 AM | #44 Victory Honda v #47 Indiana Elite | SportONE Parkview Icehous
 Sat 10:40 AM | #49 New Jersey Rockets (Premier) v #4 Mount St Charles Hockey Academy | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sat 12:40 PM | #13 Chicago Mission v #48 Mid-Fairfield Hockey Club (National) | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sat 12:55 PM | #5 Toronto Jr Canadiens v #2 Vaughan Kings | Westwood Arenas, Toronto, ON
-Sat 1:00 PM | #11 Oakland Jr Grizzlies v #55 Fox Motors | Buffalo Wild Wings Arena, Troy, MI
+Sat 1:00 PM | #12 Oakland Jr Grizzlies v #55 Fox Motors | Buffalo Wild Wings Arena, Troy, MI
 Sat 1:00 PM | #15 Mississauga Rebels v #38 North York Rangers | Herbert Carnegie, Toronto area, ON
 Sat 2:00 PM | #35 Notre Dame Hockey Academy v Atlantic Coast Academy | Boys & Girls Club of the Berkshires
 Sat 2:40 PM | #3 Bishop Kearney Selects v #1 Pittsburgh Penguins Elite | UPMC Lemieux Sports Complex, Cranberry Township, PA
@@ -28,7 +28,7 @@ Sun 7:00 AM | #35 Notre Dame Hockey Academy v Atlantic Coast Academy | Boys & Gi
 Sun 7:30 AM | #14 Woodbridge Wolfpack v #4 Mount St Charles Hockey Academy | RMU Island Sports Center, Pittsburgh, PA
 Sun 9:00 AM | #13 Chicago Mission v #1 Pittsburgh Penguins Elite | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sun 9:00 AM | #25 Pittsburgh Vengeance v #30 Palmyra Black Knights | Alpha Ice Complex, Pittsburgh, PA
-Sun 11:30 AM | #11 Oakland Jr Grizzlies v #55 Fox Motors | Southside Ice Arena, Byron Center, MI
+Sun 11:30 AM | #12 Oakland Jr Grizzlies v #55 Fox Motors | Southside Ice Arena, Byron Center, MI
 Sun 12:40 PM | #48 Mid-Fairfield Hockey Club (National) v #49 New Jersey Rockets (Premier) | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sun 12:45 PM | #64 Don Mills Flyers v #71 Markham Majors | Thornhill Centre West, Toronto area, ON
 Sun 3:45 PM | #7 Toronto Marlboros v #5 Toronto Jr Canadiens | Scotiabank Pond, Toronto, ON
@@ -69,6 +69,7 @@ Sat 12:00 PM | #133 Chicago Fury v #114 Madison Capitols | Carol Stream Ice Rink
 2026-11-22 | Bishop Kearney Selects 4, Chicago Reapers 1
 2026-11-22 | Mount St Charles Hockey Academy 4, Woodbridge Wolfpack 1
 2026-11-22 | Pittsburgh Penguins Elite 7, Chicago Mission 3
+2026-11-22 | Oakland Jr Grizzlies 5, Fox Motors 4
 
 == GAME WRITE-UPS ==
 Final: Mount St Charles Hockey Academy 5, Chicago Mission 4, at the Northeast Pack showcase in Pittsburgh. Scoring: Mount St Charles led 3-0 in the first on goals by Robert So, Austin Jeffries and Adam Harris. Gavin Thomas made it 4-2 in the second and Arjun Mangadu scored the game winner in the third, from Robert McCann. Shawn Lowery Jr had two assists. For Mission: Parker Stewart, Kaleb Jacques, Jameson Downs and Finn Helminen scored, the last two in the third period. Constantine Siavelis and Mason Marek had two assists each. Goalies: Mason Ecenrode got the win for Mount St Charles. Gavin Carnow went the distance for Mission. Standings: a regulation win, three points for Mount St Charles in Northeast Pack play. Ratings: little movement. Mount St Charles stays #4 in North America (USA #3), 95.56 to 95.54, because a one-goal win was less than its rating expected. Mission stays #13 (USA #8), 93.95 to 93.97. Next: Mount St Charles hosts the New Jersey Rockets on Saturday at 10:40 AM and Woodbridge Wolfpack on Sunday at 7:30 AM. Mission visits Mid-Fairfield on Saturday at 12:40 PM and Pittsburgh Penguins Elite on Sunday at 9:00 AM.
@@ -116,8 +117,8 @@ Final: Pittsburgh Penguins Elite 7, Chicago Mission 3, in Northeast Pack league 
 8. Chicago Reapers (USA #5) 94.26
 9. Hamilton Steel (Canada #4) 94.24
 10. Halton Hurricanes (Canada #5) 94.16
-11. Oakland Jr Grizzlies (USA #6) 94.09
-12. Little Caesars (USA #7) 94.01
+11. Little Caesars (USA #6) 94.01
+12. Oakland Jr Grizzlies (USA #7) 93.99
 13. Chicago Mission (USA #8) 93.91
 14. Woodbridge Wolfpack (USA #9) 93.39
 15. Mississauga Rebels (Canada #6) 93.30
@@ -160,7 +161,7 @@ Final: Pittsburgh Penguins Elite 7, Chicago Mission 3, in Northeast Pack league 
 52. Okanagan Hockey Colorado (USA #31) 90.59
 53. MN Blue Ox (USA #32) 90.47
 54. Milwaukee Jr Admirals (USA #33) 90.44
-55. Fox Motors (USA #34) 90.34
+55. Fox Motors (USA #34) 90.42
 56. Upper Canada Cyclones (Canada #22) 90.27
 57. Eastern Ontario Wild (Canada #23) 90.26
 58. Soo Jr Greyhounds (Canada #24) 90.23
