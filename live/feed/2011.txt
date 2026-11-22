@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Sun Nov 22, 12:02 AM CT
+Updated: Sun Nov 22, 12:08 AM CT
 
 == GAMES THIS WEEKEND ==
 Fri 8:15 AM | #4 Mount St Charles Hockey Academy v #13 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
@@ -63,6 +63,9 @@ Sat 12:00 PM | #133 Chicago Fury v #114 Madison Capitols | Carol Stream Ice Rink
 2026-11-21 | Markham Waxers 12, Quinte Red Devils 1
 2026-11-21 | Credit River Capitals 2, Guelph Gryphons 1
 2026-11-21 | Elgin Middlesex Canucks 7, Huron-Perth Lakers 2
+2026-11-20 | HB Detroit 4, Belle Tire 1
+2026-11-21 | Oakland Jr Grizzlies 4, Fox Motors 0
+2026-11-21 | Compuware 3, Belle Tire 0
 
 == GAME WRITE-UPS ==
 Final: Mount St Charles Hockey Academy 5, Chicago Mission 4, at the Northeast Pack showcase in Pittsburgh. Scoring: Mount St Charles led 3-0 in the first on goals by Robert So, Austin Jeffries and Adam Harris. Gavin Thomas made it 4-2 in the second and Arjun Mangadu scored the game winner in the third, from Robert McCann. Shawn Lowery Jr had two assists. For Mission: Parker Stewart, Kaleb Jacques, Jameson Downs and Finn Helminen scored, the last two in the third period. Constantine Siavelis and Mason Marek had two assists each. Goalies: Mason Ecenrode got the win for Mount St Charles. Gavin Carnow went the distance for Mission. Standings: a regulation win, three points for Mount St Charles in Northeast Pack play. Ratings: little movement. Mount St Charles stays #4 in North America (USA #3), 95.56 to 95.54, because a one-goal win was less than its rating expected. Mission stays #13 (USA #8), 93.95 to 93.97. Next: Mount St Charles hosts the New Jersey Rockets on Saturday at 10:40 AM and Woodbridge Wolfpack on Sunday at 7:30 AM. Mission visits Mid-Fairfield on Saturday at 12:40 PM and Pittsburgh Penguins Elite on Sunday at 9:00 AM.
@@ -104,7 +107,7 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 8. Chicago Reapers (USA #5) 94.35
 9. Hamilton Steel (Canada #4) 94.29
 10. Halton Hurricanes (Canada #5) 94.21
-11. Oakland Jr Grizzlies (USA #6) 94.12
+11. Oakland Jr Grizzlies (USA #6) 94.14
 12. Little Caesars (USA #7) 94.05
 13. Chicago Mission (USA #8) 93.99
 14. Woodbridge Wolfpack (USA #9) 93.46
@@ -199,14 +202,14 @@ Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal sco
 103. North Central Predators (Canada #41) 88.34
 104. North Bay Trappers (Canada #42) 88.28
 105. Credit River Capitals (Canada #43) 88.17
-106. Belle Tire (USA #63) 87.98
-107. Kitchener Jr Rangers (Canada #44) 87.98
-108. Phoenix Jr Coyotes (USA #64) 87.92
+106. Kitchener Jr Rangers (Canada #44) 87.98
+107. Phoenix Jr Coyotes (USA #63) 87.92
+108. Belle Tire (USA #64) 87.90
 109. MN Polars (USA #65) 87.89
-110. Ajax Pickering Raiders (Canada #45) 87.83
-111. Nashville Jr Predators (USA #66) 87.82
-112. Red Bank Generals (USA #67) 87.81
-113. Compuware (USA #68) 87.76
+110. Compuware (USA #66) 87.87
+111. Ajax Pickering Raiders (Canada #45) 87.83
+112. Nashville Jr Predators (USA #67) 87.82
+113. Red Bank Generals (USA #68) 87.81
 114. Madison Capitols (USA #69) 87.69
 115. Sudbury Wolves (Canada #46) 87.55
 116. Yale Junior Bulldogs (National) (USA #70) 87.51

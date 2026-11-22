@@ -1,10 +1,10 @@
 MY PLAYER DATA: 2012 birth year (14U)
-Updated: Sun Nov 22, 12:02 AM CT
+Updated: Sun Nov 22, 12:08 AM CT
 
 == GAMES THIS WEEKEND ==
 Thu 1:30 PM | #17 Nashville Jr. Predators v #6 Delta Hockey Academy | Planet Ice Delta, Delta, BC
 Fri 6:00 AM | #37 Biggby Coffee v #92 Jersey Hitmen | cfsbank Event Center
-Fri 7:00 AM | #28 NJ Rockets v #30 Chicago Reapers | UPMC Lemieux Sports Complex, Cranberry Township, PA
+Fri 7:00 AM | #29 NJ Rockets v #30 Chicago Reapers | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Fri 10:30 AM | #11 Woodbridge Wolfpack v #15 Mount St Charles | RMU Island Sports Center, Pittsburgh, PA
 Fri 11:00 AM | #17 Nashville Jr. Predators v #41 Burnaby Winter Club Academy | Burnaby Winter Club, Burnaby, BC
 Fri 12:30 PM | #1 Mid-Fairfield v #27 Pittsburgh Penguins Elite | RMU Island Sports Center, Pittsburgh, PA
@@ -14,24 +14,24 @@ Fri 5:00 PM | #2 Shattuck St Mary's v #7 Little Caesars | Belfor Training Center
 Fri 6:40 PM | #3 Toronto Jr Canadiens v #4 Toronto Marlboros | CWENCH Centre, Etobicoke, ON
 Fri 7:15 PM | #34 Mississauga Senators v #124 Toronto Reps | Westwood, Toronto area, ON
 Fri 7:15 PM | #35 Elgin Middlesex Canucks v #73 London Jr Knights | Middlesex Wellness Centre
-Fri 7:55 PM | #29 Vaughan Kings v #59 Toronto Red Wings | Chesswood, Toronto area, ON
+Fri 7:55 PM | #28 Vaughan Kings v #59 Toronto Red Wings | Chesswood, Toronto area, ON
 Sat 7:00 AM | #27 Pittsburgh Penguins Elite v #9 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sat 7:40 AM | #37 Biggby Coffee v #88 Pittsburgh Stars | Printscape Arena, Canonsburg, PA
 Sat 8:00 AM | #10 Team Illinois v #132 Midwest Warriors | Carol Stream Ice Rink, Carol Stream, IL
 Sat 8:00 AM | #15 Mount St Charles v #30 Chicago Reapers | RMU Island Sports Center, Pittsburgh, PA
 Sat 9:50 AM | #20 Top Gun (Elite) v #36 Boston Jr Eagles (Elite) | ICENTER, Salem, NH
 Sat 11:15 AM | #35 Elgin Middlesex Canucks v #74 Huron Perth Lakers | Middlesex Wellness Centre
-Sat 12:45 PM | #26 HB Detroit v #76 Victory Honda | Suburban Ice Farmington Hills, Farmington Hills, MI
+Sat 12:45 PM | #25 HB Detroit v #76 Victory Honda | Suburban Ice Farmington Hills, Farmington Hills, MI
 Sat 1:10 PM | #10 Team Illinois v #90 Milwaukee Jr Admirals | Canlan Ice Sports (Rink 3), West Dundee, IL
 Sat 1:25 PM | #65 Toronto Nationals v #18 Toronto Titans | Scotiabank Pond, Toronto area, ON
 Sat 2:00 PM | #37 Biggby Coffee v #136 Palmyra Black Knights | Printscape Arena, Canonsburg, PA
 Sat 2:00 PM | #21 Niagara North Stars v #80 Credit River Capitals | Seymour-Hannah Sports & Entertainment Center
-Sat 2:30 PM | #29 Vaughan Kings v #5 North York Rangers | Herbert Carnegie Centennial Centre, Toronto, ON
+Sat 2:30 PM | #28 Vaughan Kings v #5 North York Rangers | Herbert Carnegie Centennial Centre, Toronto, ON
 Sat 3:00 PM | #1 Mid-Fairfield v #11 Woodbridge Wolfpack | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sat 4:00 PM | #2 Shattuck St Mary's v #7 Little Caesars | Belfor Training Center, Detroit, MI
 Sat 4:00 PM | #38 PAL Jr Islanders v #60 Atlantic Coast Academy | Northwell Health Ice Center
 Sat 4:30 PM | #48 Barrie Colts v #102 Kingston Jr Gaels | Cataraqui Community Centre
-Sat 4:45 PM | #14 Bishop Kearney Selects v #28 NJ Rockets | RMU Island Sports Center, Pittsburgh, PA
+Sat 4:45 PM | #14 Bishop Kearney Selects v #29 NJ Rockets | RMU Island Sports Center, Pittsburgh, PA
 Sat 5:15 PM | #24 Chatham-Kent Cyclones v #138 Waterloo Wolves | RIM Park
 Sat 5:25 PM | #23 Oakville Rangers v #117 Grey Bruce Highlanders | Joshua's Creek Arenas
 Sat 5:30 PM | #13 York Simcoe Express v #127 North Central Predators | La Brier Family Arena
@@ -39,7 +39,7 @@ Sat 7:30 PM | #38 PAL Jr Islanders v #60 Atlantic Coast Academy | Northwell Heal
 Sun 7:00 AM | #11 Woodbridge Wolfpack v #27 Pittsburgh Penguins Elite | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sun 7:00 AM | #14 Bishop Kearney Selects v #15 Mount St Charles | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sun 8:00 AM | #10 Team Illinois v #129 CarShield | Canlan Ice Sports, West Dundee, IL
-Sun 8:35 AM | #9 Chicago Mission v #28 NJ Rockets | Baierl Ice Complex, Warrendale, PA
+Sun 8:35 AM | #9 Chicago Mission v #29 NJ Rockets | Baierl Ice Complex, Warrendale, PA
 Sun 9:15 AM | #30 Chicago Reapers v #1 Mid-Fairfield | RMU Island Sports Center, Pittsburgh, PA
 Sun 9:40 AM | #37 Biggby Coffee v #105 Team Maryland | cfsbank Event Center
 Sun 11:00 AM | #2 Shattuck St Mary's v #7 Little Caesars | Belfor Training Center, Detroit, MI
@@ -100,6 +100,12 @@ Sun 3:00 PM | #8 Yale Hockey Academy v #6 Delta Hockey Academy | Pat Quinn Class
 2026-11-20 | Cambridge Hawks 3, Windsor Jr Spitfires 0
 2026-11-20 | Elgin Middlesex Canucks 2, London Jr Knights 0
 2026-11-21 | Elgin Middlesex Canucks 5, Huron Perth Lakers 1
+2026-11-21 | Southeast Blades 2, Philadelphia Jr Flyers 1
+2026-11-21 | Ohio Blue Jackets 5, Southeast Blades 3
+2026-11-21 | Ohio Blue Jackets 7, Philadelphia Jr Flyers 0
+2026-11-21 | Fox Motors 5, Oakland Jr Grizzlies 2
+2026-11-21 | Belle Tire 3, Compuware 1
+2026-11-21 | HB Detroit 4, Victory Honda 1
 
 == GAME WRITE-UPS ==
 Final: Delta Hockey Academy 3, Nashville Jr. Predators 0, in the opening game of Flight 1 at the Pat Quinn Classic. Scoring: Aleksandr Iaichkin two goals, one on the power play. Kayden Krestanovich a goal and an assist, with the game winner. Qirun Xie and Sajan Chatha two assists each, Easton Isfeld one. Goalies: Logan Wagner had the shutout for Delta. For Nashville, John Nolan Blankush allowed two in 20 minutes and Lucas Katona one in 40. Standings: Delta, St George's School and Yale Hockey Academy are 1-0 in the six-team flight. Nashville, Burnaby Winter Club Academy and Pacific Coast Academy are 0-1. Ratings: Delta is a rated team and sits ahead of Nashville, so a three-goal loss cost Nashville a little. After both of its games here Nashville is #16 in North America, USA #9, 96.24; Delta is #7 in North America, Canada #4, 97.19. Next for Nashville: Burnaby Winter Club Academy on Friday at 11:00 AM, then a placement game on Saturday.
@@ -154,13 +160,13 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 1. Mid-Fairfield (USA #1) 99.99
 2. Shattuck St Mary's (USA #2) 99.84
 3. Toronto Jr Canadiens (Canada #1) 98.26
-4. Toronto Marlboros (Canada #2) 98.19
+4. Toronto Marlboros (Canada #2) 98.20
 5. North York Rangers (Canada #3) 98.19
 6. Delta Hockey Academy (Canada #4) 97.30
-7. Little Caesars (USA #3) 97.17
-8. Yale Hockey Academy (Canada #5) 97.09
+7. Little Caesars (USA #3) 97.16
+8. Yale Hockey Academy (Canada #5) 97.10
 9. Chicago Mission (USA #4) 97.06
-10. Team Illinois (USA #5) 96.99
+10. Team Illinois (USA #5) 96.98
 11. Woodbridge Wolfpack (USA #6) 96.74
 12. MN Green Giants (USA #7) 96.53
 13. York Simcoe Express (Canada #6) 96.53
@@ -169,17 +175,17 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 16. Ottawa Valley Titans (Canada #7) 96.29
 17. Nashville Jr. Predators (USA #10) 96.25
 18. Toronto Titans (Canada #8) 96.24
-19. MN Lakers (USA #11) 96.21
+19. MN Lakers (USA #11) 96.22
 20. Top Gun (Elite) (USA #12) 96.15
 21. Niagara North Stars (Canada #9) 95.96
 22. LA Jr Kings (USA #13) 95.95
 23. Oakville Rangers (Canada #10) 95.91
 24. Chatham-Kent Cyclones (Canada #11) 95.88
-25. Mississauga Rebels (Canada #12) 95.84
-26. HB Detroit (USA #14) 95.84
-27. Pittsburgh Penguins Elite (USA #15) 95.79
-28. NJ Rockets (USA #16) 95.71
-29. Vaughan Kings (Canada #13) 95.71
+25. HB Detroit (USA #14) 95.86
+26. Mississauga Rebels (Canada #12) 95.85
+27. Pittsburgh Penguins Elite (USA #15) 95.78
+28. Vaughan Kings (Canada #13) 95.71
+29. NJ Rockets (USA #16) 95.71
 30. Chicago Reapers (USA #17) 95.58
 31. Brantford 99ers (Canada #14) 95.25
 32. Hamilton Steel (Canada #15) 95.15
@@ -189,15 +195,15 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 36. Boston Jr Eagles (Elite) (USA #18) 94.65
 37. Biggby Coffee (USA #19) 94.63
 38. PAL Jr Islanders (USA #20) 94.59
-39. NJ Colonials (USA #21) 94.45
+39. NJ Colonials (USA #21) 94.44
 40. Ottawa Jr 67's (Canada #19) 94.39
 41. Burnaby Winter Club Academy (Canada #20) 94.37
 42. Soo Jr Greyhounds (Canada #21) 94.28
 43. Philadelphia Hockey Club (USA #22) 94.22
 44. Eastern Ontario Wild (Canada #22) 94.14
-45. Ottawa Myers Automotive (Canada #23) 94.13
+45. Ottawa Myers Automotive (Canada #23) 94.14
 46. Seacoast Performance Academy (USA #23) 94.12
-47. Halton Hurricanes (Canada #24) 94.09
+47. Halton Hurricanes (Canada #24) 94.10
 48. Barrie Colts (Canada #25) 94.00
 49. Neponset Valley River Rats (USA #24) 93.99
 50. Dallas Stars Elite (USA #25) 93.94
@@ -205,28 +211,28 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 52. Peterborough Jr Petes (Canada #27) 93.80
 53. Masters Academy (USA #26) 93.77
 54. MN Grey Ducks (USA #27) 93.73
-55. Fox Motors (USA #28) 93.71
+55. Fox Motors (USA #28) 93.72
 56. St. Louis Blues (USA #29) 93.71
 57. Kitchener Jr Rangers (Canada #28) 93.62
 58. Team North Dakota (USA #30) 93.62
-59. Toronto Red Wings (Canada #29) 93.60
+59. Toronto Red Wings (Canada #29) 93.61
 60. Atlantic Coast Academy (USA #31) 93.59
-61. Ohio Blue Jackets (USA #32) 93.58
-62. North Shore Whitecaps (Canada #30) 93.57
-63. North Jersey Avalanche (USA #33) 93.53
-64. Whitby Wildcats (Canada #31) 93.53
-65. Toronto Nationals (Canada #32) 93.45
+61. North Shore Whitecaps (Canada #30) 93.57
+62. North Jersey Avalanche (USA #32) 93.53
+63. Whitby Wildcats (Canada #31) 93.53
+64. Ohio Blue Jackets (USA #33) 93.48
+65. Toronto Nationals (Canada #32) 93.46
 66. Windy City Storm (USA #34) 93.44
 67. Minuteman Flames (Elite) (USA #35) 93.43
 68. MN Moose (USA #36) 93.40
 69. Upper Canada Cyclones (Canada #33) 93.30
-70. Markham Majors (Canada #34) 93.27
+70. Markham Majors (Canada #34) 93.28
 71. Burlington Eagles (Canada #35) 93.26
 72. Washington Little Capitals (USA #37) 93.22
 73. London Jr Knights (Canada #36) 93.21
 74. Huron Perth Lakers (Canada #37) 93.21
 75. Ajax Pickering Raiders (Canada #38) 93.16
-76. Victory Honda (USA #38) 93.16
+76. Victory Honda (USA #38) 93.15
 77. Okanagan (USA #39) 93.10
 78. Connecticut Jr Rangers (National) (USA #40) 93.02
 79. The Hill Academy (Canada #39) 92.99
@@ -234,11 +240,11 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 81. Upper Canada College (Canada #41) 92.95
 82. North Bay Trappers (Canada #42) 92.90
 83. MN Blue Ox (USA #41) 92.86
-84. South Shore Kings Elite (USA #42) 92.84
+84. South Shore Kings Elite (USA #42) 92.83
 85. Chicago Fury (USA #43) 92.80
 86. Guelph Gryphons (Canada #43) 92.77
 87. Pacific Coast Academy (Canada #44) 92.71
-88. Pittsburgh Stars (USA #44) 92.55
+88. Pittsburgh Stars (USA #44) 92.54
 89. Phoenix Jr Coyotes (USA #45) 92.49
 90. Milwaukee Jr Admirals (USA #46) 92.42
 91. CDA Hockey Academy (Canada #45) 92.38
@@ -246,70 +252,70 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 93. Sarnia-Lambton Jr Sting (Canada #46) 92.24
 94. Buffalo Jr Sabres (USA #48) 92.24
 95. Don Mills Flyers (Canada #47) 92.23
-96. Markham Waxers (Canada #48) 92.21
+96. Markham Waxers (Canada #48) 92.22
 97. MN Polars (USA #49) 92.12
 98. MN Voyageurs (USA #50) 92.09
 99. Florida Alliance (USA #51) 92.00
 100. Team Wisconsin (USA #52) 91.98
 101. East Coast Militia (National) (USA #53) 91.94
-102. Kingston Jr Gaels (Canada #49) 91.89
-103. Sylvania North Stars (USA #54) 91.87
-104. MN Loons (USA #55) 91.83
+102. Kingston Jr Gaels (Canada #49) 91.90
+103. Sylvania North Stars (USA #54) 91.86
+104. MN Loons (USA #55) 91.84
 105. Team Maryland (USA #56) 91.73
-106. Middlesex Islanders East (Elite) (USA #57) 91.73
+106. Middlesex Islanders East (Elite) (USA #57) 91.72
 107. Florida Surf (USA #58) 91.54
-108. Indiana Elite (USA #59) 91.54
-109. MN Walleye (USA #60) 91.44
-110. Syracuse Nationals (USA #61) 91.42
-111. Tampa Bay Jr Lightning (USA #62) 91.42
+108. Indiana Elite (USA #59) 91.53
+109. MN Walleye (USA #60) 91.45
+110. Syracuse Nationals (USA #61) 91.43
+111. Tampa Bay Jr Lightning (USA #62) 91.41
 112. Colorado Thunderbirds (USA #63) 91.37
 113. Tri-Valley Bulls (14U AA) (USA #64) 91.31
-114. Belle Tire (USA #65) 91.25
-115. Quinte Red Devils (Canada #50) 91.22
-116. Oakland Jr Grizzlies (USA #66) 91.16
+114. Belle Tire (USA #65) 91.31
+115. Quinte Red Devils (Canada #50) 91.23
+116. Oakland Jr Grizzlies (USA #66) 91.14
 117. Grey Bruce Highlanders (Canada #51) 91.09
 118. Boston Advantage (Elite) (USA #67) 91.07
 119. Sun County Panthers (Canada #52) 90.99
-120. Compuware (USA #68) 90.96
-121. Yale Jr Bulldogs (USA #69) 90.94
-122. Team Dallas (USA #70) 90.89
-123. Team Alaska (USA #71) 90.89
-124. Toronto Reps (Canada #53) 90.81
+120. Yale Jr Bulldogs (USA #68) 90.94
+121. Team Dallas (USA #69) 90.90
+122. Team Alaska (USA #70) 90.89
+123. Compuware (USA #71) 90.88
+124. Toronto Reps (Canada #53) 90.82
 125. Southern Tier Admirals (Canada #54) 90.78
-126. Fairmont Prep (Green) (USA #72) 90.74
+126. Fairmont Prep (Green) (USA #72) 90.75
 127. North Central Predators (Canada #55) 90.74
 128. Cleveland Barons (USA #73) 90.64
 129. CarShield (USA #74) 90.62
-130. Pittsburgh Predators (USA #75) 90.56
+130. Pittsburgh Predators (USA #75) 90.55
 131. Rochester Coalition (USA #76) 90.51
 132. Midwest Warriors (USA #77) 90.43
 133. Valley Jr Warriors (Elite) (USA #78) 90.37
-134. Buffalo Regals (USA #79) 90.36
+134. Buffalo Regals (USA #79) 90.37
 135. Cape Cod Whalers (USA #80) 90.36
 136. Palmyra Black Knights (USA #81) 90.27
 137. Red Bank Generals (USA #82) 90.25
 138. Waterloo Wolves (Canada #56) 90.23
 139. Madison Capitols (USA #83) 90.18
 140. New York City Hockey Club (USA #84) 90.16
-141. West Seneca Wings (14U AA) (USA #85) 89.92
+141. West Seneca Wings (14U AA) (USA #85) 89.93
 142. Hartland Huskies (Black) (14U AA) (USA #86) 89.69
 143. Springfield Jr Thunderbirds (Elite #1) (USA #87) 89.57
 144. Windsor Jr Spitfires (Canada #57) 89.42
-145. Southeast Blades (USA #88) 89.28
+145. Southeast Blades (USA #88) 89.29
 146. Vegas Jr Golden Knights (USA #89) 89.23
-147. Seattle Jr Kraken (USA #90) 89.20
+147. Seattle Jr Kraken (USA #90) 89.21
 148. Sioux Falls Power (USA #91) 89.19
 149. Anaheim Jr Ducks (USA #92) 89.15
-150. Providence Capitals (Elite) (USA #93) 89.14
+150. Providence Capitals (Elite) (USA #93) 89.15
 151. Central Ontario Wolves (Canada #58) 89.10
-152. Mercer Chiefs (USA #94) 89.07
+152. Mercer Chiefs (USA #94) 89.08
 153. Rocky Mountain RoughRiders (USA #95) 89.04
 154. Cambridge Hawks (Canada #59) 89.04
 155. Timmins Jr Rock (Canada #60) 88.94
 156. St Louis Knights (14U AA) (USA #96) 88.68
 157. San Jose Jr Sharks (USA #97) 88.66
-158. Boston Jr Terriers (Elite) (USA #98) 88.62
-159. Middlesex Islanders East (Half) (USA #99) 88.60
+158. Boston Jr Terriers (Elite) (USA #98) 88.63
+159. Middlesex Islanders East (Half) (USA #99) 88.61
 160. Plymouth Flyers Black (14U AA) (USA #100) 88.60
 161. St Lawrence Steel (14U AA) (USA #101) 88.56
 162. Valley Forge Minutemen (USA #102) 88.55
@@ -320,9 +326,9 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 167. New Hampshire Mountain Kings (USA #107) 88.28
 168. New York Saints (USA #108) 88.18
 169. Ohio Prospects (USA #109) 88.14
-170. Sudbury Wolves (Canada #61) 87.96
-171. Chicago Phantoms (USA #110) 87.90
-172. Hartford Jr Wolfpack (USA #111) 87.72
+170. Sudbury Wolves (Canada #61) 87.97
+171. Chicago Phantoms (USA #110) 87.91
+172. Hartford Jr Wolfpack (USA #111) 87.73
 173. Amherst Knights (USA #112) 87.55
 174. Carolina Jr Canes (USA #113) 87.54
 175. Mid-Fairfield (T1) (USA #114) 87.52
@@ -333,5 +339,5 @@ Final: Delta Hockey Academy 9, Nashville Jr. Predators 6 in a Pat Quinn Classic 
 180. Rochester Jr Americans (USA #119) 86.66
 181. Boston Hockey Academy (USA #120) 86.63
 182. East Coast Militia (Heap) (USA #121) 86.18
-183. Philadelphia Jr Flyers (USA #122) 85.98
+183. Philadelphia Jr Flyers (USA #122) 86.10
 184. Queen City Royals (USA #123) 85.30
