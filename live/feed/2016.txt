@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2016 birth year (10U)
-Updated: Sun Nov 22, 4:38 PM CT
+Updated: Sun Nov 22, 5:36 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 7:40 PM | #12 St Louis Blues v #33 Chicago Mission | Elk Grove Ice Arena (West Rink), Elk Grove Village, IL
@@ -46,6 +46,7 @@ Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | Th
 2026-11-22 | Middlesex Islanders East (Elite) 3, Boston Jr Terriers (Elite) 0
 2026-11-22 | Bay State Breakers (Elite) 4, Boston Jr Eagles (Elite) 3
 2026-11-22 | North York Rangers 2, Markham Majors 1
+2026-11-22 | Toronto Jr Canadiens 2, Toronto Titans 1
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 3, Chicago Mission 2, decided after regulation, at Elk Grove. Scoring: Mission scored twice in the second period to lead 2-0. St Louis got one back on the power play with 5:18 left in the third and tied it with 1:45 to play, then took the extra point after regulation. The scoresheet does not list the scorers. Goalies: not listed on the scoresheet. Standings: an exhibition game. Ratings: St Louis goes from #11 to #12 in North America (USA #8, 96.57) after needing extra time against a lower-ranked team. Mission moves from #34 to #33 (USA #18, 94.63). Next: no other games are listed for either team this weekend.
@@ -61,8 +62,8 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Little Caesars (USA #1) 99.90
 2. Whitby Wildcats (Canada #1) 98.55
-3. Toronto Jr Canadiens (Canada #2) 97.90
-4. Toronto Marlboros (Canada #3) 97.90
+3. Toronto Marlboros (Canada #2) 97.90
+4. Toronto Jr Canadiens (Canada #3) 97.83
 5. Buffalo Jr Sabres (USA #2) 97.80
 6. Mid-Fairfield Hockey Club (Elite) (USA #3) 97.60
 7. Vaughan Kings (Canada #4) 97.43
@@ -87,7 +88,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 26. North Jersey Avalanche (USA #14) 95.00
 27. Chicago Reapers (USA #15) 95.00
 28. Niagara North Stars (Canada #13) 95.00
-29. Toronto Titans (Canada #14) 94.82
+29. Toronto Titans (Canada #14) 94.89
 30. LA Jr Kings (Voulelikas) 10U A (USA #16) 94.80
 31. Minuteman Flames (Elite) (USA #17) 94.80
 32. Burlington Eagles (Canada #15) 94.70
@@ -95,7 +96,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 34. Philadelphia Little Flyers (USA #19) 94.60
 35. Huron-Perth Lakers (Canada #16) 94.56
 36. York Simcoe Express (Canada #17) 94.44
-37. Toronto Red Wings (Canada #18) 94.36
+37. Toronto Red Wings (Canada #18) 94.37
 38. Biggby Coffee (USA #20) 94.32
 39. Long Island Gulls (USA #21) 94.30
 40. Woodbridge Wolfpack (USA #22) 94.20
