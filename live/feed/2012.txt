@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2012 birth year (14U)
-Updated: Sun Nov 22, 4:33 PM CT
+Updated: Sun Nov 22, 4:38 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 1:30 PM | #17 Nashville Jr. Predators v #6 Delta Hockey Academy | Planet Ice Delta, Delta, BC
@@ -9,13 +9,13 @@ Fri 10:30 AM | #11 Woodbridge Wolfpack v #16 Mount St Charles | RMU Island Sport
 Fri 11:00 AM | #17 Nashville Jr. Predators v #41 Burnaby Winter Club Academy | Burnaby Winter Club, Burnaby, BC
 Fri 12:30 PM | #1 Mid-Fairfield v #27 Pittsburgh Penguins Elite | RMU Island Sports Center, Pittsburgh, PA
 Fri 12:50 PM | #10 Team Illinois v #139 Madison Capitols | Canlan Ice Sports (Rink 2), West Dundee, IL
-Fri 4:30 PM | #8 Chicago Mission v #14 Bishop Kearney Selects | RMU Island Sports Center, Pittsburgh, PA
+Fri 4:30 PM | #9 Chicago Mission v #14 Bishop Kearney Selects | RMU Island Sports Center, Pittsburgh, PA
 Fri 5:00 PM | #2 Shattuck St Mary's v #7 Little Caesars | Belfor Training Center, Detroit, MI
 Fri 6:40 PM | #3 Toronto Jr Canadiens v #5 Toronto Marlboros | CWENCH Centre, Etobicoke, ON
 Fri 7:15 PM | #34 Mississauga Senators v #124 Toronto Reps | Westwood, Toronto area, ON
 Fri 7:15 PM | #35 Elgin Middlesex Canucks v #73 London Jr Knights | Middlesex Wellness Centre
 Fri 7:55 PM | #28 Vaughan Kings v #59 Toronto Red Wings | Chesswood, Toronto area, ON
-Sat 7:00 AM | #27 Pittsburgh Penguins Elite v #8 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
+Sat 7:00 AM | #27 Pittsburgh Penguins Elite v #9 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sat 7:40 AM | #37 Biggby Coffee v #88 Pittsburgh Stars | Printscape Arena, Canonsburg, PA
 Sat 8:00 AM | #10 Team Illinois v #132 Midwest Warriors | Carol Stream Ice Rink, Carol Stream, IL
 Sat 8:00 AM | #16 Mount St Charles v #30 Chicago Reapers | RMU Island Sports Center, Pittsburgh, PA
@@ -39,7 +39,7 @@ Sat 7:30 PM | #38 PAL Jr Islanders v #61 Atlantic Coast Academy | Northwell Heal
 Sun 7:00 AM | #11 Woodbridge Wolfpack v #27 Pittsburgh Penguins Elite | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sun 7:00 AM | #14 Bishop Kearney Selects v #16 Mount St Charles | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sun 8:00 AM | #10 Team Illinois v #129 CarShield | Canlan Ice Sports, West Dundee, IL
-Sun 8:35 AM | #8 Chicago Mission v #29 NJ Rockets | Baierl Ice Complex, Warrendale, PA
+Sun 8:35 AM | #9 Chicago Mission v #29 NJ Rockets | Baierl Ice Complex, Warrendale, PA
 Sun 9:15 AM | #30 Chicago Reapers v #1 Mid-Fairfield | RMU Island Sports Center, Pittsburgh, PA
 Sun 9:40 AM | #37 Biggby Coffee v #105 Team Maryland | cfsbank Event Center
 Sun 11:00 AM | #2 Shattuck St Mary's v #7 Little Caesars | Belfor Training Center, Detroit, MI
@@ -55,7 +55,7 @@ Fri 7:00 PM | #129 CarShield v #132 Midwest Warriors | Carol Stream Ice Rink, Ca
 Sat 7:50 AM | #139 Madison Capitols v #129 CarShield | Canlan Ice Sports (Rink 2), West Dundee, IL
 Fri 9:00 PM | #17 Nashville Jr. Predators v #33 St George's School | Planet Ice Delta (American), Delta, BC
 Sat 6:15 PM | #17 Nashville Jr. Predators v #6 Delta Hockey Academy | Planet Ice Delta, Delta, BC
-Sun 3:00 PM | #9 Yale Hockey Academy v #6 Delta Hockey Academy | Pat Quinn Classic, Delta, BC
+Sun 3:00 PM | #8 Yale Hockey Academy v #6 Delta Hockey Academy | Pat Quinn Classic, Delta, BC
 
 == FINAL SCORES, LAST 4 DAYS ==
 2026-11-20 | NJ Rockets 6, Chicago Reapers 2
@@ -112,6 +112,7 @@ Sun 3:00 PM | #9 Yale Hockey Academy v #6 Delta Hockey Academy | Pat Quinn Class
 2026-11-22 | Chicago Mission 4, NJ Rockets 1
 2026-11-22 | Mid-Fairfield 5, Chicago Reapers 3
 2026-11-22 | Shattuck St Mary's 4, Little Caesars 1
+2026-11-22 | Yale Hockey Academy 3, Delta Hockey Academy 2
 
 == GAME WRITE-UPS ==
 Final: Delta Hockey Academy 3, Nashville Jr. Predators 0, in the opening game of Flight 1 at the Pat Quinn Classic. Scoring: Aleksandr Iaichkin two goals, one on the power play. Kayden Krestanovich a goal and an assist, with the game winner. Qirun Xie and Sajan Chatha two assists each, Easton Isfeld one. Goalies: Logan Wagner had the shutout for Delta. For Nashville, John Nolan Blankush allowed two in 20 minutes and Lucas Katona one in 40. Standings: Delta, St George's School and Yale Hockey Academy are 1-0 in the six-team flight. Nashville, Burnaby Winter Club Academy and Pacific Coast Academy are 0-1. Ratings: Delta is a rated team and sits ahead of Nashville, so a three-goal loss cost Nashville a little. After both of its games here Nashville is #16 in North America, USA #9, 96.24; Delta is #7 in North America, Canada #4, 97.19. Next for Nashville: Burnaby Winter Club Academy on Friday at 11:00 AM, then a placement game on Saturday.
@@ -174,16 +175,18 @@ Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pitt
 
 Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuck sweeps the three-game series (5-1, 8-3, 4-1). Scoring: Vinny Defazio opened it for Shattuck and Isaac Lee tied it for Little Caesars in the first. Jack Keiser scored the game winner in the second. Dean Zuccaro and Christian Talapila, on the power play, added goals in the third. Keiser finished with a goal and an assist; Talapila a goal and an assist; Miles Maruk two assists. Goalies: Liam Mayhew allowed one goal for Shattuck. Asher Schwartz allowed four for Little Caesars. Standings: three games, three Shattuck wins, 17-5 on aggregate. Ratings: Shattuck came in #2 in North America (99.93); Little Caesars #7 (USA #3, 97.24). Next: both teams are done for the weekend.
 
+Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic championship game. Yale finished the event 5-0. Delta, which beat Nashville 9-6 in its semifinal, finished 3-2. Goal-by-goal details have not been posted for this game.
+
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Mid-Fairfield (USA #1) 99.99
 2. Shattuck St Mary's (USA #2) 99.95
 3. Toronto Jr Canadiens (Canada #1) 98.32
 4. North York Rangers (Canada #2) 98.26
 5. Toronto Marlboros (Canada #3) 98.25
-6. Delta Hockey Academy (Canada #4) 97.37
+6. Delta Hockey Academy (Canada #4) 97.32
 7. Little Caesars (USA #3) 97.24
-8. Chicago Mission (USA #4) 97.21
-9. Yale Hockey Academy (Canada #5) 97.17
+8. Yale Hockey Academy (Canada #5) 97.23
+9. Chicago Mission (USA #4) 97.21
 10. Team Illinois (USA #5) 97.09
 11. Woodbridge Wolfpack (USA #6) 96.75
 12. MN Green Giants (USA #7) 96.62
@@ -207,7 +210,7 @@ Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuc
 30. Chicago Reapers (USA #17) 95.72
 31. Brantford 99ers (Canada #14) 95.33
 32. Hamilton Steel (Canada #15) 95.23
-33. St George's School (Canada #16) 95.18
+33. St George's School (Canada #16) 95.19
 34. Mississauga Senators (Canada #17) 94.98
 35. Elgin Middlesex Canucks (Canada #18) 94.83
 36. Boston Jr Eagles (Elite) (USA #18) 94.72
@@ -215,7 +218,7 @@ Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuc
 38. PAL Jr Islanders (USA #20) 94.66
 39. NJ Colonials (USA #21) 94.52
 40. Ottawa Jr 67's (Canada #19) 94.46
-41. Burnaby Winter Club Academy (Canada #20) 94.44
+41. Burnaby Winter Club Academy (Canada #20) 94.45
 42. Soo Jr Greyhounds (Canada #21) 94.36
 43. Philadelphia Hockey Club (USA #22) 94.28
 44. Eastern Ontario Wild (Canada #22) 94.21
@@ -271,7 +274,7 @@ Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuc
 94. Buffalo Jr Sabres (USA #48) 92.31
 95. Don Mills Flyers (Canada #47) 92.30
 96. Markham Waxers (Canada #48) 92.28
-97. MN Polars (USA #49) 92.20
+97. MN Polars (USA #49) 92.21
 98. MN Voyageurs (USA #50) 92.18
 99. Florida Alliance (USA #51) 92.07
 100. Team Wisconsin (USA #52) 92.06
@@ -287,8 +290,8 @@ Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuc
 110. Syracuse Nationals (USA #61) 91.50
 111. Tampa Bay Jr Lightning (USA #62) 91.49
 112. Colorado Thunderbirds (USA #63) 91.45
-113. Belle Tire (USA #64) 91.39
-114. Tri-Valley Bulls (14U AA) (USA #65) 91.38
+113. Tri-Valley Bulls (14U AA) (USA #64) 91.39
+114. Belle Tire (USA #65) 91.39
 115. Quinte Red Devils (Canada #50) 91.30
 116. Oakland Jr Grizzlies (USA #66) 91.21
 117. Grey Bruce Highlanders (Canada #51) 91.16
@@ -327,7 +330,7 @@ Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuc
 150. Providence Capitals (Elite) (USA #93) 89.21
 151. Central Ontario Wolves (Canada #58) 89.18
 152. Mercer Chiefs (USA #94) 89.15
-153. Rocky Mountain RoughRiders (USA #95) 89.11
+153. Rocky Mountain RoughRiders (USA #95) 89.12
 154. Cambridge Hawks (Canada #59) 89.11
 155. Timmins Jr Rock (Canada #60) 89.01
 156. St Louis Knights (14U AA) (USA #96) 88.75
