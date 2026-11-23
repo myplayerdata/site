@@ -1,18 +1,18 @@
 MY PLAYER DATA: 2014 birth year (12U)
-Updated: Sun Nov 22, 7:46 PM CT
+Updated: Sun Nov 22, 8:54 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 6:25 PM | #12 Don Mills Flyers v #5 Toronto Marlboros | CWENCH Centre Etobicoke, Toronto area, ON
-Fri 6:45 PM | #74 Markham Majors v #62 Toronto Red Wings | Chesswood, Toronto area, ON
+Fri 6:45 PM | #75 Markham Majors v #62 Toronto Red Wings | Chesswood, Toronto area, ON
 Sat 10:30 AM | #7 Toronto Jr Canadiens v #135 North York Rangers | Herbert Carnegie, Toronto area, ON
 Sat 10:45 AM | #42 Woodbridge Wolfpack v #128 Red Bank Generals | The Club at Woodbridge, Woodbridge, NJ
-Sat 11:40 AM | #48 Long Island Royals v #69 New York City Hockey Club | City Ice Pavilion, Long Island City, NY
+Sat 11:40 AM | #48 Long Island Royals v #70 New York City Hockey Club | City Ice Pavilion, Long Island City, NY
 Sat 2:25 PM | #62 Toronto Red Wings v #21 Vaughan Kings | Westwood, Toronto area, ON
 Sat 4:15 PM | #17 Toronto Nationals v #53 Toronto Titans | Scotiabank Pond, Toronto area, ON
 Sat 6:30 PM | #20 Sun County Panthers v #41 Cleveland Barons | Ice Cube - Brighton
 Sun 8:00 AM | #41 Cleveland Barons v #110 LA Jr Kings | Ice Cube, Brighton, MI
-Sun 11:30 AM | #12 Don Mills Flyers v #74 Markham Majors | Thornhill Centre West, Toronto area, ON
-Sun 1:00 PM | #5 Toronto Marlboros v #75 Mississauga Senators | Westwood, Toronto area, ON
+Sun 11:30 AM | #12 Don Mills Flyers v #75 Markham Majors | Thornhill Centre West, Toronto area, ON
+Sun 1:00 PM | #5 Toronto Marlboros v #67 Mississauga Senators | Westwood, Toronto area, ON
 Sun 2:00 PM | #48 Long Island Royals v #103 New Jersey Colonials | Mennen Sports Arena, Morristown, NJ
 Sun 2:55 PM | #108 Toronto Reps v #7 Toronto Jr Canadiens | Scotiabank Pond, Toronto area, ON
 Fri 8:40 AM | #6 Florida Alliance v #57 Philadelphia Hockey Club | Centene Community Ice Center (Plager Rink), Maryland Heights, MO
@@ -89,6 +89,7 @@ Sun 8:25 AM | #1 Middlesex Islanders East (Elite) v #58 Providence Capitals (Eli
 2026-11-22 | Florida Alliance 8, Victory Honda 6
 2026-11-22 | Don Mills Flyers 1, Markham Majors 1
 2026-11-22 | Toronto Jr Canadiens 7, Toronto Reps 2
+2026-11-22 | Toronto Marlboros 5, Mississauga Senators 1
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 6, Chicago Mission 5 in overtime, in Pool B of the STL AAA Blues Showcase. Scoring: Jacob Prest two goals for St Louis, one on the power play and one shorthanded. Thomas Daake, Kraig Redick and Cruze Wulkopf one each; Harrison Miller two assists. For Mission, William Durband two goals, the second tying it 5-5 with 2:59 left. Lucas Walz, Henry Froelich and Timofey Madalli one each; Declan Pfeffer two assists. Goalies: William Salger got the win for St Louis with five against. Cal Roloff took the loss for Mission with six against. Standings: St Louis is 1-0 in Pool B. Mission is 0-1. Victory Honda and Dallas Stars Elite are the other two teams in the pool. Ratings: St Louis stays #16 in North America (USA #11, 96.28). Mission moves from #47 to #44 (USA #25, 94.08). Next: St Louis plays Dallas Stars Elite and Mission plays Victory Honda, both Friday at 4:20 PM.
@@ -146,7 +147,7 @@ Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday pla
 2. Little Caesars (USA #2) 99.61
 3. Huron-Perth Lakers (Canada #1) 99.09
 4. Boston Advantage (Elite) (USA #3) 98.98
-5. Toronto Marlboros (Canada #2) 98.93
+5. Toronto Marlboros (Canada #2) 98.85
 6. Florida Alliance (USA #4) 98.64
 7. Toronto Jr Canadiens (Canada #3) 98.58
 8. Boston Jr Eagles (Elite) (USA #5) 97.93
@@ -208,15 +209,15 @@ Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday pla
 64. Belle Tire (USA #37) 93.40
 65. Niagara North Stars (Canada #28) 93.34
 66. Oakland Jr Grizzlies (USA #38) 93.34
-67. Alaska Oilers 12U AA (USA #39) 93.27
-68. Chicago Phantoms (USA #40) 93.20
-69. New York City Hockey Club (USA #41) 93.10
-70. Philadelphia Little Flyers (USA #42) 93.09
-71. Ottawa Myers Automotive (Canada #29) 93.06
-72. Kitchener Jr Rangers (Canada #30) 92.97
-73. Calgary NWCAA Flames (Black) (Canada #31) 92.97
-74. Markham Majors (Canada #32) 92.97
-75. Mississauga Senators (Canada #33) 92.95
+67. Mississauga Senators (Canada #29) 93.27
+68. Alaska Oilers 12U AA (USA #39) 93.27
+69. Chicago Phantoms (USA #40) 93.20
+70. New York City Hockey Club (USA #41) 93.10
+71. Philadelphia Little Flyers (USA #42) 93.09
+72. Ottawa Myers Automotive (Canada #30) 93.06
+73. Kitchener Jr Rangers (Canada #31) 92.97
+74. Calgary NWCAA Flames (Black) (Canada #32) 92.97
+75. Markham Majors (Canada #33) 92.97
 76. NY Dynamo (USA #43) 92.93
 77. Minuteman Flames (Elite) (USA #44) 92.92
 78. CarShield (USA #45) 92.91
