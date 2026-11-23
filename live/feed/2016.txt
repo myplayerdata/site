@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2016 birth year (10U)
-Updated: Sun Nov 22, 5:36 PM CT
+Updated: Sun Nov 22, 6:37 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 7:40 PM | #12 St Louis Blues v #33 Chicago Mission | Elk Grove Ice Arena (West Rink), Elk Grove Village, IL
@@ -9,7 +9,7 @@ Sat 1:50 PM | #23 London Jr Knights v #24 Windsor Jr Spitfires | Nichols Arena
 Sat 4:00 PM | #47 Washington Little Capitals v #97 New Jersey Colonials | ION International Training Center, Leesburg, VA
 Sun 7:40 AM | #47 Washington Little Capitals v #97 New Jersey Colonials | ION International Training Center, Leesburg, VA
 Sun 8:00 AM | #20 Kitchener Jr Rangers v #24 Windsor Jr Spitfires | Windsor Family Credit Union Centre
-Sun 8:20 AM | #10 Middlesex Islanders East (Elite) v #55 Boston Jr Terriers (Elite) | Canton Sportsplex, Canton, MA
+Sun 8:20 AM | #10 Middlesex Islanders East (Elite) v #54 Boston Jr Terriers (Elite) | Canton Sportsplex, Canton, MA
 Sun 9:30 AM | #41 New Jersey Rockets v #172 Palmyra Black Knights | Rock Ice Center, Dunellen, NJ
 Sun 12:25 PM | #41 New Jersey Rockets v #172 Palmyra Black Knights | Rock Ice Center, Dunellen, NJ
 Sun 2:40 PM | #39 Long Island Gulls v #74 Long Island Royals | Superior Ice Rink, Kings Park, NY
@@ -47,6 +47,7 @@ Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | Th
 2026-11-22 | Bay State Breakers (Elite) 4, Boston Jr Eagles (Elite) 3
 2026-11-22 | North York Rangers 2, Markham Majors 1
 2026-11-22 | Toronto Jr Canadiens 2, Toronto Titans 1
+2026-11-22 | Don Mills Flyers 5, Mississauga Rebels 1
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 3, Chicago Mission 2, decided after regulation, at Elk Grove. Scoring: Mission scored twice in the second period to lead 2-0. St Louis got one back on the power play with 5:18 left in the third and tied it with 1:45 to play, then took the extra point after regulation. The scoresheet does not list the scorers. Goalies: not listed on the scoresheet. Standings: an exhibition game. Ratings: St Louis goes from #11 to #12 in North America (USA #8, 96.57) after needing extra time against a lower-ranked team. Mission moves from #34 to #33 (USA #18, 94.63). Next: no other games are listed for either team this weekend.
@@ -81,7 +82,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 19. HB Detroit (USA #12) 95.64
 20. Kitchener Jr Rangers (Canada #8) 95.52
 21. Boston Jr Eagles (Elite) (USA #13) 95.46
-22. Don Mills Flyers (Canada #9) 95.30
+22. Don Mills Flyers (Canada #9) 95.39
 23. London Jr Knights (Canada #10) 95.28
 24. Windsor Jr Spitfires (Canada #11) 95.23
 25. Oakville Rangers (Canada #12) 95.12
@@ -113,9 +114,9 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 51. Cleveland Barons (USA #29) 93.40
 52. Toronto Reps (Canada #23) 93.40
 53. Providence Capitals (Elite) (USA #30) 93.37
-54. Mississauga Rebels (Canada #24) 93.30
-55. Boston Jr Terriers (Elite) (USA #31) 93.23
-56. Sarnia-Lambton Jr Sting (Canada #25) 93.20
+54. Boston Jr Terriers (Elite) (USA #31) 93.23
+55. Sarnia-Lambton Jr Sting (Canada #24) 93.20
+56. Mississauga Rebels (Canada #25) 93.20
 57. Chatham-Kent Cyclones (Canada #26) 93.19
 58. Florida Alliance (USA #32) 93.10
 59. Central Ontario Wolves (Canada #27) 93.10
