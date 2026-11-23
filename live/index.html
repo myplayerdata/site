@@ -41,7 +41,7 @@ try{mpdLog("live_page",window.__mpdT+"|d:"+__did)}catch(e){}
 setInterval(function(){if(document.visibilityState!=="visible"||i>=marks.length)return;sec+=5;if(sec>=marks[i]){var t=marks[i];i++;fetch(SB+"/rest/v1/site_events",{method:"POST",keepalive:true,headers:{apikey:K,Authorization:"Bearer "+K,"Content-Type":"application/json",Prefer:"return=minimal"},body:JSON.stringify({kind:"live_time",src:src,vid:vid,detail:"d:"+__did+"|t:"+t})}).catch(function(){})}},5000)}catch(e){}})();
 // Locked player tap (owner said yes Nov 23, 2026): a tap on anything that leads to the player database logs 'live-locked' as before. With the panel switched on
 // (LP: ?lp=1 in the address, or localStorage mpd_lp) it opens a panel with the offer right there; the panel's button logs 'lock_join'. Without it: the old jump to the pricing section.
-var LP=false;try{LP=/[?&]lp=1/.test(location.search)||!!localStorage.getItem("mpd_lp")}catch(e){}
+var LP=true;try{if(/[?&]lp=0/.test(location.search))LP=false}catch(e){} // panel ON for everyone from Nov 23, 2026 8:45 AM (owner: Claude runs the company and makes these calls); ?lp=0 shows the old jump to pricing
 window.mpdLocked=function(team){try{mpdLog("join_click","live-locked")}catch(e){}if(!LP){location.href=location.origin+"/#pricing";return}
  var p=document.getElementById("lp");document.getElementById("lp-t").textContent=team?team+": roster and player stats":"The player database";p.hidden=false};
 document.getElementById("tabPlayers").addEventListener("click",function(e){if(LP)e.preventDefault();mpdLocked("")});
