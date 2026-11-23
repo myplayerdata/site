@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2012 birth year (14U)
-Updated: Sun Nov 22, 8:54 PM CT
+Updated: Sun Nov 22, 10:46 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 1:30 PM | #17 Nashville Jr. Predators v #6 Delta Hockey Academy | Planet Ice Delta, Delta, BC
@@ -114,6 +114,7 @@ Sun 3:00 PM | #8 Yale Hockey Academy v #6 Delta Hockey Academy | Pat Quinn Class
 2026-11-22 | Shattuck St Mary's 4, Little Caesars 1
 2026-11-22 | Yale Hockey Academy 3, Delta Hockey Academy 2
 2026-11-22 | Toronto Jr Canadiens 3, Markham Majors 0
+2026-11-22 | Toronto Marlboros 7, Don Mills Flyers 1
 
 == GAME WRITE-UPS ==
 Final: Delta Hockey Academy 3, Nashville Jr. Predators 0, in the opening game of Flight 1 at the Pat Quinn Classic. Scoring: Aleksandr Iaichkin two goals, one on the power play. Kayden Krestanovich a goal and an assist, with the game winner. Qirun Xie and Sajan Chatha two assists each, Easton Isfeld one. Goalies: Logan Wagner had the shutout for Delta. For Nashville, John Nolan Blankush allowed two in 20 minutes and Lucas Katona one in 40. Standings: Delta, St George's School and Yale Hockey Academy are 1-0 in the six-team flight. Nashville, Burnaby Winter Club Academy and Pacific Coast Academy are 0-1. Ratings: Delta is a rated team and sits ahead of Nashville, so a three-goal loss cost Nashville a little. After both of its games here Nashville is #16 in North America, USA #9, 96.24; Delta is #7 in North America, Canada #4, 97.19. Next for Nashville: Burnaby Winter Club Academy on Friday at 11:00 AM, then a placement game on Saturday.
@@ -180,7 +181,7 @@ Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic c
 
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Mid-Fairfield (USA #1) 99.99
-2. Shattuck St Mary's (USA #2) 99.96
+2. Shattuck St Mary's (USA #2) 99.95
 3. North York Rangers (Canada #1) 98.26
 4. Toronto Jr Canadiens (Canada #2) 98.26
 5. Toronto Marlboros (Canada #3) 98.25
@@ -235,7 +236,7 @@ Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic c
 54. MN Grey Ducks (USA #27) 93.82
 55. Fox Motors (USA #28) 93.80
 56. St. Louis Blues (USA #29) 93.79
-57. Team North Dakota (USA #30) 93.72
+57. Team North Dakota (USA #30) 93.71
 58. Kitchener Jr Rangers (Canada #28) 93.70
 59. Toronto Red Wings (Canada #29) 93.68
 60. North Shore Whitecaps (Canada #30) 93.65
@@ -273,7 +274,7 @@ Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic c
 92. Jersey Hitmen (USA #47) 92.44
 93. Sarnia-Lambton Jr Sting (Canada #46) 92.32
 94. Buffalo Jr Sabres (USA #48) 92.32
-95. Don Mills Flyers (Canada #47) 92.32
+95. Don Mills Flyers (Canada #47) 92.31
 96. Markham Waxers (Canada #48) 92.28
 97. MN Polars (USA #49) 92.21
 98. MN Voyageurs (USA #50) 92.18
@@ -303,7 +304,7 @@ Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic c
 122. Team Alaska (USA #70) 90.97
 123. Compuware (USA #71) 90.96
 124. Toronto Reps (Canada #53) 90.89
-125. Southern Tier Admirals (Canada #54) 90.87
+125. Southern Tier Admirals (Canada #54) 90.86
 126. Fairmont Prep (Green) (USA #72) 90.83
 127. North Central Predators (Canada #55) 90.82
 128. Cleveland Barons (USA #73) 90.73
@@ -325,7 +326,7 @@ Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic c
 144. Windsor Jr Spitfires (Canada #57) 89.50
 145. Southeast Blades (USA #88) 89.37
 146. Vegas Jr Golden Knights (USA #89) 89.31
-147. Seattle Jr Kraken (USA #90) 89.29
+147. Seattle Jr Kraken (USA #90) 89.28
 148. Sioux Falls Power (USA #91) 89.27
 149. Anaheim Jr Ducks (USA #92) 89.23
 150. Providence Capitals (Elite) (USA #93) 89.22
