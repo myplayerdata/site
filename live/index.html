@@ -54,6 +54,8 @@ document.getElementById("join").addEventListener("click",function(){try{mpdLog("
  let t=await (await fetch("/members/ratings/?v="+Date.now(),{cache:"no-store"})).text();
  const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();var c=a.closest(".card"),t="";try{if(/#team=/.test(h)&&c){var hh=c.querySelector("h2,h3");t=hh?hh.textContent.trim():""}}catch(x){}try{parent.mpdLocked(t)}catch(x){parent.location.href=parent.location.origin+"/#pricing"}}},true);<\/script>';
  t=t.replace("</head>",add+"</head>");
+ // Open on a birth year named in the address: /live/?y=2011 (owner, Nov 24 2026: each Silver Stick ad lands on its own year). No y = the app's own default.
+ try{var yq=(location.search.match(/[?&]y=(201[1-6])(?:&|$)/)||[])[1];if(yq)t=t.replace(/let div='201\d', view='wk'/,"let div='"+yq+"', view='wk'")}catch(e){}
  const fr=document.getElementById("fr");fr.src=URL.createObjectURL(new Blob([t],{type:"text/html"}));fr.hidden=false;document.getElementById("msg").hidden=true;
 }catch(e){document.getElementById("msg").textContent="Could not load the scores. Refresh the page to try again."}})();
 </script></body></html>
