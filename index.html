@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta charset="utf-8"><script>/* Front door (Nov 23, 2026): the bare address opens the free Live Scores page. The full home page stays at /?home=1 and for any link with a # (e.g. /#pricing). Signed-in members go to the member site. The visitor source is passed along so it is not lost. */(function(){try{var L=location,q=new URLSearchParams(L.search);if(L.hash||q.has("home"))return;try{if(localStorage.getItem("mpd_m")){L.replace("/members/");return}}catch(e){}if(!q.get("utm_source")){var ua=navigator.userAgent,h="";try{h=document.referrer?new URL(document.referrer).hostname.replace(/^www\./,""):""}catch(e){}var s=/Instagram/i.test(ua)?"":/myplayerdata\.com$|stripe\.com$/.test(h)?"":h;if(s)q.set("utm_source",s.toLowerCase().slice(0,60))}var qs=q.toString();L.replace("/live/"+(qs?"?"+qs:""))}catch(e){}})();</script><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>My Player Data | AAA Hockey Player Stats and Rankings, 2011 to 2016</title>
 <meta name="description" content="Game-by-game stats, rankings and weekend reports for AAA youth hockey players born 2011 to 2016 in the USA and Ontario. See where your player stands.">
 <link rel="canonical" href="https://myplayerdata.com/">
