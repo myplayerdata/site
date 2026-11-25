@@ -1,68 +1,71 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Wed Nov 25, 1:30 AM CT
+Updated: Wed Nov 25, 1:39 AM CT
 
 == GAMES THIS WEEKEND ==
-Fri 8:15 AM | #4 Mount St Charles Hockey Academy v #13 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Fri 2:10 PM | #49 Mid-Fairfield Hockey Club (National) v #9 Chicago Reapers | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Fri 2:30 PM | #1 Pittsburgh Penguins Elite v #46 New Jersey Rockets (Premier) | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Fri 2:30 PM | #30 Seacoast Performance Academy v South Kent School | Admiral James and Sybil Stockdale Arena
-Fri 4:30 PM | #14 Woodbridge Wolfpack v #3 Bishop Kearney Selects | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Fri 6:00 PM | #26 Pittsburgh Vengeance v #28 Palmyra Black Knights | Alpha Ice Complex, Pittsburgh, PA
-Fri 8:10 PM | #32 Mississauga Senators v #7 Toronto Marlboros | CWENCH Centre Etobicoke, Toronto area, ON
-Sat 10:00 AM | #43 HB Detroit v BioSteel Sports Academy | Central Park Athletics, Windsor, ON
-Sat 10:30 AM | #41 Victory Honda v #48 Indiana Elite | SportONE Parkview Icehouse, Fort Wayne, IN
-Sat 10:40 AM | #46 New Jersey Rockets (Premier) v #4 Mount St Charles Hockey Academy | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sat 12:40 PM | #13 Chicago Mission v #49 Mid-Fairfield Hockey Club (National) | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sat 12:55 PM | #5 Toronto Jr Canadiens v #2 Vaughan Kings | Westwood Arenas, Toronto, ON
-Sat 1:00 PM | #12 Oakland Jr Grizzlies v #58 Fox Motors | Buffalo Wild Wings Arena, Troy, MI
-Sat 1:00 PM | #15 Mississauga Rebels v #36 North York Rangers | Herbert Carnegie, Toronto area, ON
-Sat 2:00 PM | #35 Notre Dame Hockey Academy v Atlantic Coast Academy | Boys & Girls Club of the Berkshires
-Sat 2:40 PM | #3 Bishop Kearney Selects v #1 Pittsburgh Penguins Elite | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sat 2:55 PM | #68 Markham Majors v #97 Toronto Titans | Scotiabank Pond, Toronto area, ON
-Sat 3:30 PM | #24 Peterborough Jr Petes v Upper Canada College | Healthy Planet Arena
-Sat 4:40 PM | #9 Chicago Reapers v #14 Woodbridge Wolfpack | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sat 4:40 PM | #41 Victory Honda v #48 Indiana Elite | SportONE Parkview Icehouse, Fort Wayne, IN
-Sat 6:00 PM | #26 Pittsburgh Vengeance v #28 Palmyra Black Knights | Alpha Ice Complex, Pittsburgh, PA
-Sun 7:00 AM | #3 Bishop Kearney Selects v #9 Chicago Reapers | Baierl Ice Complex, Warrendale, PA
-Sun 7:00 AM | #35 Notre Dame Hockey Academy v Atlantic Coast Academy | Boys & Girls Club of the Berkshires
-Sun 7:30 AM | #14 Woodbridge Wolfpack v #4 Mount St Charles Hockey Academy | RMU Island Sports Center, Pittsburgh, PA
-Sun 9:00 AM | #13 Chicago Mission v #1 Pittsburgh Penguins Elite | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sun 9:00 AM | #26 Pittsburgh Vengeance v #28 Palmyra Black Knights | Alpha Ice Complex, Pittsburgh, PA
-Sun 11:30 AM | #12 Oakland Jr Grizzlies v #58 Fox Motors | Southside Ice Arena, Byron Center, MI
-Sun 12:40 PM | #49 Mid-Fairfield Hockey Club (National) v #46 New Jersey Rockets (Premier) | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sun 12:45 PM | #67 Don Mills Flyers v #68 Markham Majors | Thornhill Centre West, Toronto area, ON
-Sun 3:45 PM | #7 Toronto Marlboros v #5 Toronto Jr Canadiens | Scotiabank Pond, Toronto, ON
-Fri 2:50 PM | #65 CarShield v #114 Madison Capitols | Canlan Ice Sports (Rink 2), West Dundee, IL
-Sat 10:00 AM | #92 Team Illinois v #65 CarShield | Carol Stream Ice Rink, Carol Stream, IL
-Sat 12:00 PM | #134 Chicago Fury v #114 Madison Capitols | Carol Stream Ice Rink, Carol Stream, IL
+Thu 2:15 PM | #20 Central Ontario Wolves v #15 Mississauga Rebels | Iroquois Park Sports Centre, Rink 1, Whitby
+Thu 2:35 PM | #31 Elgin Middlesex Canucks v #23 North Shore Whitecaps | Iroquois Park Sports Centre, Rink 3, Whitby
+Thu 2:45 PM | #2 Vaughan Kings v #16 York Simcoe Express | Iroquois Park Sports Centre, Rink 4, Whitby
+Thu 4:20 PM | #11 Little Caesars v #28 Palmyra Black Knights | Iroquois Park Sports Centre, Rink 3, Whitby
+Thu 5:20 PM | #10 Hamilton Steel v #32 Mississauga Senators | Iroquois Park Sports Centre, Rink 2, Whitby
+Thu 5:40 PM | #18 Toronto Nationals v #17 Waterloo Wolves | Iroquois Park Sports Centre, Rink 6, Whitby
+Thu 5:45 PM | #13 Chicago Mission v #89 Whitby Wildcats | Iroquois Park Sports Centre, Rink 1, Whitby
+Thu 5:45 PM | #26 Pittsburgh Vengeance v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 4, Whitby
+Thu 7:05 PM | #8 Halton Hurricanes v #1 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 2, Whitby
+Thu 7:25 PM | #70 Windy City Storm v #57 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 3, Whitby
+Thu 7:30 PM | #12 Oakland Jr Grizzlies v #29 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 1, Whitby
+Thu 7:30 PM | #3 Bishop Kearney Selects v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 7:00 AM | #31 Elgin Middlesex Canucks v #26 Pittsburgh Vengeance | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 7:00 AM | #23 North Shore Whitecaps v #78 Thunder Bay Kings | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 7:15 AM | #44 Ottawa Valley Titans v #89 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
+Fri 7:15 AM | #38 Kingston Jr Gaels v #15 Mississauga Rebels | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 8:20 AM | #13 Chicago Mission v #32 Mississauga Senators | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 8:30 AM | #33 Ottawa Myers Automotive v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 8:45 AM | #63 Chatham-Kent Cyclones v #12 Oakland Jr Grizzlies | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 9:00 AM | #20 Central Ontario Wolves v #1 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 9:00 AM | #11 Little Caesars v #18 Toronto Nationals | Iroquois Park Sports Centre, Rink 6, Whitby
+Fri 10:15 AM | #28 Palmyra Black Knights v Upper Canada College | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 10:45 AM | #29 Ottawa Jr 67's v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 11:25 AM | #70 Windy City Storm v #16 York Simcoe Express | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 11:50 AM | #10 Hamilton Steel v #44 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 12:30 PM | #8 Halton Hurricanes v #38 Kingston Jr Gaels | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 1:10 PM | #63 Chatham-Kent Cyclones v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 1:20 PM | #78 Thunder Bay Kings v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
+Fri 1:55 PM | #57 Soo Jr Greyhounds v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 2:40 PM | #32 Mississauga Senators v #89 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 2:55 PM | #23 North Shore Whitecaps v #26 Pittsburgh Vengeance | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 3:05 PM | #11 Little Caesars v #17 Waterloo Wolves | Iroquois Park Sports Centre, Rink 6, Whitby
+Fri 3:40 PM | #12 Oakland Jr Grizzlies v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 4:25 PM | #15 Mississauga Rebels v #1 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 5:25 PM | #70 Windy City Storm v #33 Ottawa Myers Automotive | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 5:55 PM | #31 Elgin Middlesex Canucks v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 6:00 PM | #13 Chicago Mission v #10 Hamilton Steel | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 6:40 PM | #18 Toronto Nationals v Upper Canada College | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 7:10 PM | #29 Ottawa Jr 67's v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 7:30 PM | #20 Central Ontario Wolves v #8 Halton Hurricanes | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 7:40 PM | #28 Palmyra Black Knights v #17 Waterloo Wolves | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 7:45 PM | #57 Soo Jr Greyhounds v #16 York Simcoe Express | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 7:00 AM | #63 Chatham-Kent Cyclones v #29 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 3, Whitby
+Sat 7:15 AM | #20 Central Ontario Wolves v #38 Kingston Jr Gaels | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 8:10 AM | #32 Mississauga Senators v #44 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 8:15 AM | #11 Little Caesars v Upper Canada College | Iroquois Park Sports Centre, Rink 2, Whitby
+Sat 8:30 AM | #31 Elgin Middlesex Canucks v #78 Thunder Bay Kings | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 9:55 AM | #33 Ottawa Myers Automotive v #57 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 12:05 PM | #70 Windy City Storm v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 5, Whitby
+Sat 12:35 PM | #12 Oakland Jr Grizzlies v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 3, Whitby
+Sat 12:40 PM | #10 Hamilton Steel v #89 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
+Sat 12:50 PM | #28 Palmyra Black Knights v #18 Toronto Nationals | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 1:00 PM | #38 Kingston Jr Gaels v #1 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 1:00 PM | Upper Canada College v #17 Waterloo Wolves | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 1:50 PM | #26 Pittsburgh Vengeance v #78 Thunder Bay Kings | Iroquois Park Sports Centre, Rink 5, Whitby
+Sat 2:20 PM | #63 Chatham-Kent Cyclones v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 3, Whitby
+Sat 2:25 PM | #8 Halton Hurricanes v #15 Mississauga Rebels | Iroquois Park Sports Centre, Rink 2, Whitby
+Sat 2:35 PM | #33 Ottawa Myers Automotive v #16 York Simcoe Express | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 2:45 PM | #13 Chicago Mission v #44 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 2:45 PM | #23 North Shore Whitecaps v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
 
 == FINAL SCORES, LAST 4 DAYS ==
 
 == GAME WRITE-UPS ==
-Final: Mount St Charles 5, NJ Rockets 0, in a Northeast Pack 15U league game in Pittsburgh. Scoring: Jack Cross scored twice and added an assist. Jasper Goulet opened the scoring in the second period after a scoreless first; Adam Harris and Robert So also scored. Stratton Scarlette, Arjun Mangadu and Sam Archibald had two assists each. Goalies: Mason Ecenrode got the shutout. Mark Dybas took the loss with five against. Standings: a regulation win, worth three points in the league. The Rockets lost 11-1 to Pittsburgh Penguins Elite on Friday. Ratings: Mount St Charles stays #4 in North America (USA #3, 95.50). NJ Rockets stays #48 in North America (USA #28, 90.77). Next: Sunday league games for both teams.
-
-Final: CarShield 3, Team Illinois 1, at the Team Illinois Showcase. Scoring: Team Illinois led 1-0 after one on a goal by Joseph Balsavich. Frederik Erri tied it on a second-period power play, Evan Barth scored the game winner shorthanded early in the third, and Lucas Pickering added a power-play goal. Pickering and Trey Douglas each had two points. Goalies: Caleb Hudson got the win with one against. Anthony Ranieri took the loss with three against. Standings: CarShield is 2-0 at the showcase after a 4-0 win over Madison on Friday. Ratings: CarShield goes from #66 to #64 in North America (USA #35, 89.97). Team Illinois goes from #93 to #94 in North America (USA #56, 88.73). Next: not listed yet.
-
-Final: Chicago Mission 3, Mid-Fairfield 2, in a Northeast Pack 15U league game in Pittsburgh. Scoring: all three Mission goals came on the power play. Parker Stewart opened the scoring in the first; John Shannon and Kacper Godzwon (power play) put Mid-Fairfield ahead 2-1 in the second. Lachlan Tantaro tied it early in the third and scored the game winner with 9:09 left. Stewart and Jackson Wallace each had two points besides; Jaxson Wakefield had two assists for Mid-Fairfield. Goalies: Nolan O'Brien got the win with two against. Henry Gilbert took the loss with three against. Standings: a regulation win, worth three points in the league. Ratings: Chicago Mission stays #13 in North America (USA #8, 93.86). Mid-Fairfield goes from #49 to #48 in North America (USA #28, 90.78). Next: Sunday league games for both teams.
-
-Final: Bishop Kearney 4, Pittsburgh Penguins Elite 2, in a Northeast Pack 15U league game in Pittsburgh. The #3 team in North America beat #1. Scoring: Smith Vantine had a hat trick: two goals in the first period and an empty-net goal with 13 seconds left. Cedric Dery scored the game winner in the second and had two assists; Cristophe Chabot also had two assists. For the Penguins: Jimmy Halliday and Brando Duncan. Goalies: Logan Horkey got the win with two against. Brooks Del Signore took the loss. Standings: Bishop Kearney leads the league with 22 points after two regulation wins this weekend. Mount St Charles has 20 and the Penguins 16. Ratings: Bishop Kearney stays #3 in North America (USA #2, 95.85), up 0.26. Pittsburgh Penguins Elite stays #1 (USA #1, 96.84); its lead over Bishop Kearney is down from 1.25 to 0.99. Next: Sunday league games for both teams.
-
-Final: Vaughan Kings 2, Toronto Jr Canadiens 0, in a GTHL league game between Ontario's top two teams. Scoring: goal scorers are not posted for this league. Goalies: names are not posted for this league. Standings: a league game. Ratings: Vaughan Kings stays #2 in North America (CAN #1, 96.09). Toronto Jr Canadiens stays #5 (CAN #2, 95.21). Next: Toronto Jr Canadiens host Toronto Marlboros on Sunday at 3:45 PM.
-
-Final: Woodbridge Wolfpack 4, Chicago Reapers 3, in a Northeast Pack 15U league game in Pittsburgh. Scoring: the Wolfpack led 4-0 after two periods on goals by Angelo Pace, Jayden Johnson, Emrick Vaillancourt and Conor Laffey, the last with two seconds left in the second. The Reapers scored three in the third, two by Masen Van Patten and one by Mason Altangerel, the last with 7:09 to play. Owen McGall had two assists for the Wolfpack; Bryce Falconi and Grayson Tomczak two each for the Reapers. Goalies: King Levine got the win with three against. Joshua Vander Velde took the loss with four against. Standings: the Wolfpack moves to 11 points. The Reapers stay on 14. Ratings: Woodbridge Wolfpack stays #14 in North America (USA #9, 93.46). Chicago Reapers stays #8 (USA #5, 94.35). Next: Sunday 7:00 AM, Bishop Kearney at Chicago Reapers. Sunday 7:30 AM, the Wolfpack against Mount St Charles.
-
-Final: Mississauga Rebels 5, North York Rangers 1, a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: two points for Mississauga Rebels in the GTHL. Ratings: Mississauga Rebels moves from #16 to #15 (93.35). North York Rangers moves from #37 to #38 (91.72). Next: see the weekend list for each team's next game.
-
-Final: Markham Majors 6, Toronto Titans 2, a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: two points for Markham Majors in the GTHL. Ratings: Markham Majors moves from #73 to #71 (89.72). Toronto Titans moves from #93 to #97 (88.73). Next: see the weekend list for each team's next game.
-
-Final: Bishop Kearney Selects 4, Chicago Reapers 1, in Northeast Pack league play outside Pittsburgh. Scoring: Smith Vantine scored twice and set up another. Brody Trost had the winner on a second-period power play and Cristophe Chabot added a power-play goal in the third. Jaxson Daughenbaugh scored for the Reapers. Goalies: James Hickey got the win with one against. Nolan Schmidt took the loss. Standings: Bishop Kearney moves to 24 points and stays first in the league. The Reapers stay on 14. Ratings: Bishop Kearney 95.85 to 95.91, still North America #3. The Reapers 94.35 to 94.31, still #8. Next: both teams are done for the weekend in Pittsburgh.
-
-Final: Mount St Charles Hockey Academy 4, Woodbridge Wolfpack 1, in Northeast Pack league play in Pittsburgh. Scoring: Jack Cross opened it on the power play. Sam Archibald and Robert So scored 24 seconds apart in the second, and Gavin Thomas added a power-play goal in the third. Owen Baxendell scored for Wolfpack. Goalies: Evan Ladd got the win with one against. Jordan Silvetti took the loss. Standings: Mount St Charles goes to 22 points, two behind Bishop Kearney. That is eight straight league wins. Ratings: Mount St Charles 95.63 to 95.66, still North America #4. Wolfpack 93.46 to 93.44, still #14. Next: both teams are done for the weekend in Pittsburgh.
-
-Final: Pittsburgh Penguins Elite 7, Chicago Mission 3, in Northeast Pack league play outside Pittsburgh. Scoring: Penguins Elite scored three in the first and three more in the second. Cameron Pelle had a goal and two assists; Jack Carlson, Cameron Cline and Dangelo Flume each had a goal and an assist. Cullen Hall, Tyler Bowlus and Jimmy Halliday had the others. Luke Georgy, Mason Marek and Finn Helminen scored for the Mission. Goalies: Nicholas Ryan got the win with three against. Gavin Carnow took the loss. Standings: Penguins Elite goes to 18 points, third in the league. The Mission stays on 10. Ratings: Penguins Elite stays 96.84 and North America #1. The Mission goes 93.99 to 93.91 and stays #13. Next: both teams are done for the weekend.
-
-Final: Oakland Jr Grizzlies 5, Fox Motors 4 at Southside Ice Arena. Oakland won it late after trailing 4-3 in the third. Scoring: Oakland led 2-0 after one on goals from Rex Balcom and Luke Smude. Fox Motors scored three of the four goals in the second and went ahead 4-3 on Eli Ferrell's goal early in the third. Mason Mills tied it with his second of the game, and Nicholas Bauer scored the winner with 1:14 left. William Nystuen had two goals and two assists for Fox Motors; Smude a goal and two assists for Oakland. Goalies: Andrew Sawinski allowed four for Oakland; Dimitrios Alabakopoulos allowed five for Fox Motors. Standings: a league win; Oakland came in 8-0-0 in league play, Fox Motors 4-5-0. Ratings: Oakland came in #11 in North America (USA #6, 94.09); Fox Motors #55 (USA #34, 90.34). A one-goal win over a lower-rated team costs Oakland a little. Next: no more games for either team this weekend.
-
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Pittsburgh Penguins Elite (USA #1) 96.81
 2. Vaughan Kings (Canada #1) 95.95

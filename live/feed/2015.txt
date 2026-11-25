@@ -1,43 +1,71 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Wed Nov 25, 1:30 AM CT
+Updated: Wed Nov 25, 1:39 AM CT
 
 == GAMES THIS WEEKEND ==
-Fri 5:30 PM | #55 Mississauga Senators v #75 Toronto Red Wings | Chesswood, Toronto area, ON
-Sat 8:00 AM | #6 Mid-Fairfield Hockey Club (Elite) v #16 Providence Capitals (Elite) | Rhode Island Sports Center, North Smithfield, RI
-Sat 8:45 AM | #32 Philadelphia Little Flyers v #33 North Jersey Avalanche | Ice House, Hackensack, NJ
-Sat 11:15 AM | #1 Toronto Jr Canadiens v #7 Toronto Marlboros | CWENCH Centre, Etobicoke, ON
-Sat 12:10 PM | #69 Mississauga Rebels v #36 Toronto Nationals | Westwood, Toronto area, ON
-Sat 12:15 PM | #6 Mid-Fairfield Hockey Club (Elite) v #16 Providence Capitals (Elite) | Rhode Island Sports Center, North Smithfield, RI
-Sat 1:15 PM | #43 Toronto Reps v #27 Vaughan Kings | Westwood, Toronto area, ON
-Sat 2:40 PM | #11 Chicago Mission v #94 Windy City Storm | Orbit Ice Arena, Palatine, IL
-Sat 3:30 PM | #32 Philadelphia Little Flyers v #33 North Jersey Avalanche | Ice House, Hackensack, NJ
-Sat 4:20 PM | #10 Dallas Stars Elite v Houston Jr Aeros 12U AA | Bellerive Ice Center
-Sun 8:25 AM | #14 South Shore Kings (Elite) v #12 Top Gun (Elite) | ICENTER, Salem, NH
-Sun 9:00 AM | #25 PAL Jr Islanders (Blue) v #42 Mid-Fairfield Hockey Club (T1) | Chelsea Piers Athletic Club
-Sun 9:30 AM | #6 Mid-Fairfield Hockey Club (Elite) v #22 Bay State Breakers (Elite) | Bog Ice Arena, Kingston, MA
-Sun 9:50 AM | #10 Dallas Stars Elite v Houston Jr Aeros 12U AA | Deep South Ice Sports Complex
-Sun 10:25 AM | #43 Toronto Reps v #95 Markham Majors | Thornhill Centre West, Toronto area, ON
-Sun 10:30 AM | #39 Oakland Jr Grizzlies v #83 HB Detroit | Buffalo Wild Wings Arena, Troy, MI
-Sun 11:20 AM | #21 Chicago Fury v #94 Windy City Storm | Arctic Ice Arena, Orland Park, IL
-Sun 12:20 PM | #16 Providence Capitals (Elite) v #48 Boston Jr Terriers (Elite) | Canton Sportsplex, Canton, MA
-Sun 12:40 PM | #75 Toronto Red Wings v #1 Toronto Jr Canadiens | Scotiabank Pond, Toronto area, ON
-Sun 1:30 PM | #6 Mid-Fairfield Hockey Club (Elite) v #22 Bay State Breakers (Elite) | Bog Ice Arena, Kingston, MA
+Thu 12:30 PM | #85 Sudbury Wolves v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
+Thu 1:00 PM | #1 Toronto Jr Canadiens v #77 York Simcoe Express | Iroquois Park Sports Centre, Rink 5, Whitby
+Thu 1:30 PM | #58 Quinte Red Devils v #36 Toronto Nationals | Iroquois Park Sports Centre, Rink 2, Whitby
+Thu 1:30 PM | #24 Kitchener Jr Rangers v #46 Niagara North Stars | Iroquois Park Sports Centre, Rink 4, Whitby
+Thu 1:45 PM | #19 Cleveland Barons v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
+Thu 3:30 PM | #28 London Jr Knights v #49 Oakville Rangers | McKinney Centre, Rink 1, Whitby
+Thu 3:35 PM | #5 Don Mills Flyers v #60 Middlesex Islanders East (Elite) | Iroquois Park Sports Centre, Rink 5, Whitby
+Thu 4:05 PM | #35 Buffalo Jr Sabres v #2 Little Caesars | Iroquois Park Sports Centre, Rink 2, Whitby
+Thu 4:30 PM | #9 Boston Jr Eagles (Elite) v #39 Oakland Jr Grizzlies | Iroquois Park Sports Centre, Rink 4, Whitby
+Thu 5:15 PM | #11 Chicago Mission v #4 Worcester Shamrocks | McKinney Centre, Rink 2, Whitby
+Fri 7:00 AM | #16 Providence Capitals (Elite) v #58 Quinte Red Devils | Fieldgate Sports Complex, Rink 2
+Fri 7:15 AM | #82 Ottawa Jr 67's v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 8:35 AM | #14 South Shore Kings (Elite) v #1 Toronto Jr Canadiens | Fieldgate Sports Complex, Rink 1
+Fri 9:30 AM | #12 Top Gun (Elite) v #21 Chicago Fury | Thornhill Community Centre (West), Markham
+Fri 9:50 AM | #11 Chicago Mission v #36 Toronto Nationals | McKinney Centre, Rink 1, Whitby
+Fri 9:50 AM | #5 Don Mills Flyers v #20 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
+Fri 10:05 AM | #35 Buffalo Jr Sabres v #72 Upper Canada Cyclones | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 10:05 AM | #2 Little Caesars v #46 Niagara North Stars | McKinney Centre, Rink 2, Whitby
+Fri 12:00 PM | #17 Florida Surf v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 12:20 PM | #19 Cleveland Barons v #3 Pittsburgh Penguins Elite (Mueller) | Canlan Ice Sports, Rink 1, Oshawa
+Fri 12:20 PM | #39 Oakland Jr Grizzlies v #85 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
+Fri 12:40 PM | #16 Providence Capitals (Elite) v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 1:35 PM | #14 South Shore Kings (Elite) v #77 York Simcoe Express | Canlan Ice Sports, Rink 1, Oshawa
+Fri 1:35 PM | #28 London Jr Knights v #1 Toronto Jr Canadiens | McKinney Centre, Rink 1, Whitby
+Fri 1:35 PM | #6 Mid-Fairfield Hockey Club (Elite) v #82 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 3:10 PM | #12 Top Gun (Elite) v #60 Middlesex Islanders East (Elite) | McKinney Centre, Rink 2, Whitby
+Fri 3:30 PM | #11 Chicago Mission v #58 Quinte Red Devils | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 4:10 PM | #9 Boston Jr Eagles (Elite) v #7 Toronto Marlboros | McKinney Centre, Rink 1, Whitby
+Fri 4:45 PM | #21 Chicago Fury v #20 Elgin Middlesex Canucks | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 4:50 PM | #24 Kitchener Jr Rangers v #72 Upper Canada Cyclones | Iroquois Park Sports Centre, Rink 6, Whitby
+Fri 5:25 PM | #36 Toronto Nationals v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 6:30 PM | #6 Mid-Fairfield Hockey Club (Elite) v #3 Pittsburgh Penguins Elite (Mueller) | Fieldgate Sports Complex, Rink 2
+Fri 6:40 PM | #17 Florida Surf v #85 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
+Fri 6:55 PM | #49 Oakville Rangers v #77 York Simcoe Express | McKinney Centre, Rink 2, Whitby
+Sat 7:15 AM | #6 Mid-Fairfield Hockey Club (Elite) v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 8:15 AM | #21 Chicago Fury v #5 Don Mills Flyers | Fieldgate Sports Complex, Rink 2
+Sat 8:15 AM | #46 Niagara North Stars v #72 Upper Canada Cyclones | McKinney Centre, Rink 1, Whitby
+Sat 8:30 AM | #2 Little Caesars v #24 Kitchener Jr Rangers | Canlan Ice Sports, Rink 1, Oshawa
+Sat 9:00 AM | #17 Florida Surf v #39 Oakland Jr Grizzlies | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 9:30 AM | #49 Oakville Rangers v #1 Toronto Jr Canadiens | McKinney Centre, Rink 1, Whitby
+Sat 9:45 AM | #11 Chicago Mission v #16 Providence Capitals (Elite) | Canlan Ice Sports, Rink 1, Oshawa
+Sat 9:55 AM | #12 Top Gun (Elite) v #20 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
+Sat 10:45 AM | #9 Boston Jr Eagles (Elite) v #85 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
+Sat 10:50 AM | #14 South Shore Kings (Elite) v #28 London Jr Knights | Iroquois Park Sports Centre, Rink 5, Whitby
+Sat 11:15 AM | #19 Cleveland Barons v #82 Ottawa Jr 67's | McKinney Centre, Rink 2, Whitby
+Sat 11:20 AM | #58 Quinte Red Devils v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 3, Whitby
+Sat 11:35 AM | #3 Pittsburgh Penguins Elite (Mueller) v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 1:20 PM | #21 Chicago Fury v #60 Middlesex Islanders East (Elite) | McKinney Centre, Rink 1, Whitby
+Sat 1:30 PM | #35 Buffalo Jr Sabres v #46 Niagara North Stars | Canlan Ice Sports, Rink 1, Oshawa
+Sat 1:45 PM | #2 Little Caesars v #72 Upper Canada Cyclones | Fieldgate Sports Complex, Rink 1
+Sat 3:00 PM | #39 Oakland Jr Grizzlies v #7 Toronto Marlboros | Fieldgate Sports Complex, Rink 1
+Sat 4:00 PM | #16 Providence Capitals (Elite) v #36 Toronto Nationals | Fieldgate Sports Complex, Rink 2
+Sat 4:15 PM | #19 Cleveland Barons v #6 Mid-Fairfield Hockey Club (Elite) | Fieldgate Sports Complex, Rink 1
+Sat 4:20 PM | #14 South Shore Kings (Elite) v #49 Oakville Rangers | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 4:30 PM | #28 London Jr Knights v #77 York Simcoe Express | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 4:30 PM | #12 Top Gun (Elite) v #5 Don Mills Flyers | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 5:30 PM | #9 Boston Jr Eagles (Elite) v #17 Florida Surf | Iroquois Park Sports Centre, Rink 2, Whitby
+Sat 5:35 PM | #82 Ottawa Jr 67's v #3 Pittsburgh Penguins Elite (Mueller) | McKinney Centre, Rink 2, Whitby
+Sat 5:45 PM | #20 Elgin Middlesex Canucks v #60 Middlesex Islanders East (Elite) | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 5:45 PM | #35 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park Sports Centre, Rink 1, Whitby
 
 == FINAL SCORES, LAST 4 DAYS ==
 
 == GAME WRITE-UPS ==
-Final: Toronto Jr Canadiens 7, Toronto Marlboros 1, in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: names are not posted for this league. Standings: a league game. Ratings: Toronto Jr Canadiens goes from #2 to #1 in North America (CAN #1, 95.03). Toronto Marlboros goes from #7 to #9 in North America (CAN #3, 93.24). Next: not listed yet.
-
-Final: Mississauga Rebels 3, Toronto Nationals 2, in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: names are not posted for this league. Standings: a league game. Ratings: Mississauga Rebels goes from #75 to #69 in North America (CAN #27, 88.73). Toronto Nationals goes from #34 to #35 in North America (CAN #12, 90.30). Next: not listed yet.
-
-Final: Toronto Reps 2, Vaughan Kings 1, in a GTHL league game. The lower-ranked team won. Scoring: goal scorers are not posted for this league. Goalies: names are not posted for this league. Standings: a league game. Ratings: Toronto Reps stays #42 in North America (CAN #14, 90.06). Vaughan Kings stays #28 (CAN #10, 90.72). Next: not listed yet.
-
-Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fairfield 7, Providence Capitals 2 in the afternoon. A two-game sweep on the road in North Smithfield. Scoring: the morning game was 1-1 after one period and 3-2 Mid-Fairfield after two. In the afternoon Mid-Fairfield led 3-1 after one and 5-1 after two. This league does not post goal scorers for this age group. Goalies: not posted for this age group. Standings: two league wins. Mid-Fairfield is unbeaten in its league (4-0-2); Providence is 7-6-1. Ratings: Mid-Fairfield stays #6 in North America (USA #4) and goes from 93.60 to 93.73. Providence slips from #15 to #16 (USA #13, 91.95). Next: Mid-Fairfield plays Bay State Breakers twice on Sunday, 9:30 AM and 1:30 PM CT.
-
-Final: HB Detroit 4, Oakland Jr Grizzlies 0 at Buffalo Wild Wings Arena. A road shutout for the lower-ranked team. Scoring: HB Detroit scored three in the first period and one in the second; the third was scoreless. Goalies: HB Detroit did not allow a goal. Standings: a league win for HB Detroit, which came in 2-0-1 in league play; Oakland came in 4-2-1. Ratings: HB Detroit moves from #87 to #84 in North America (87.95 to 88.16). Oakland drops from #32 to #39 (90.66 to 90.40). Next: no more games for either team this weekend.
-
-Final: a split. Bay State Breakers won the morning game 4-3; Mid-Fairfield won the afternoon game 6-0. Both at Bog Ice Arena. Scoring: the morning game was decided in the third period. In the afternoon Mid-Fairfield scored six without an answer. This league does not post goal scorers for this age group. Goalies: not posted for this age group. Mid-Fairfield did not allow a goal in the afternoon. Standings: one league win each. The morning loss was Mid-Fairfield's first in league play. Ratings: Mid-Fairfield came into the day #6 in North America (USA #4); the Breakers came in #22 (USA #16). The morning result was the upset; the afternoon result went the way the ratings pointed, and by more. Next: no more games for either team this weekend.
-
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Toronto Jr Canadiens (Canada #1) 95.40
 2. Little Caesars (USA #1) 95.29

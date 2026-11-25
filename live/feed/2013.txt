@@ -1,44 +1,71 @@
 MY PLAYER DATA: 2013 birth year (13U)
-Updated: Wed Nov 25, 1:30 AM CT
+Updated: Wed Nov 25, 1:39 AM CT
 
 == GAMES THIS WEEKEND ==
-Fri 5:50 PM | #29 Ohio Jr Bluejackets v #36 Philadelphia Jr Flyers | Chiller Ice Works, Worthington, OH
-Fri 6:40 PM | #117 North York Rangers v #24 Toronto Red Wings | Chesswood, Toronto area, ON
-Fri 7:00 PM | #48 Sun County Panthers v #99 Soo Jr Greyhounds | Essex Centre Sports Complex
-Fri 7:40 PM | #9 Vaughan Kings v #3 Toronto Marlboros | CWENCH Centre, Etobicoke, ON
-Sat 11:40 AM | #24 Toronto Red Wings v #9 Vaughan Kings | Westwood, Toronto area, ON
-Sat 11:45 AM | #43 Toronto Reps v #11 Toronto Nationals | Herbert Carnegie, Toronto area, ON
-Sat 3:00 PM | #29 Ohio Jr Bluejackets v #36 Philadelphia Jr Flyers | Chiller Ice Works, Worthington, OH
-Sat 4:25 PM | #69 Don Mills Flyers v #31 Toronto Titans | Scotiabank Pond, Toronto area, ON
-Sat 6:00 PM | #37 St. Louis Blues v #107 Madison Capitols | Centene Community Ice Center, Maryland Heights, MO
-Sun 9:00 AM | #33 HB Detroit v Belle Tire | Lincoln Park Civic Arena, Lincoln Park, MI
-Sun 10:10 AM | #29 Ohio Jr Bluejackets v #36 Philadelphia Jr Flyers | OhioHealth Ice Haus, Columbus, OH
-Sun 10:40 AM | #6 Little Caesars v #54 Compuware | USA Hockey Arena, Plymouth, MI
-Sun 11:00 AM | #48 Sun County Panthers v #148 Chatham-Kent Cyclones | Blenheim Community and Recreation Centre
-Sun 12:00 PM | #35 Windy City Storm v #105 Indiana Elite | Orbit Ice Arena, Palatine, IL
-Sun 12:40 PM | #37 St. Louis Blues v #107 Madison Capitols | Centene Community Ice Center, Maryland Heights, MO
-Sun 12:55 PM | #119 Mississauga Rebels v #7 Toronto Jr Canadiens | Scotiabank Pond, Toronto area, ON
-Sun 2:15 PM | #117 North York Rangers v #53 Markham Majors | Thornhill Centre West, Toronto area, ON
-Sun 2:15 PM | #125 Mississauga Senators v #43 Toronto Reps | Westwood, Toronto area, ON
-Sun 6:45 PM | #3 Toronto Marlboros v #69 Don Mills Flyers | Victoria Village, Toronto area, ON
-Sun 8:00 AM | #84 Minuteman Flames v #46 Bay State Breakers | Rockland Ice Rink, Rockland, MA
-Sun 11:20 AM | #23 Middlesex Islanders v #87 Providence Capitals | Rhode Island Sports Center, North Smithfield, RI
-Sun 10:00 AM | #2 Chicago Reapers v #26 Milwaukee Jr Admirals | Pettit National Ice Center, Milwaukee, WI
-Sun 3:30 PM | #2 Chicago Reapers v #26 Milwaukee Jr Admirals | Pettit National Ice Center, Milwaukee, WI
+Thu 1:15 PM | #65 Credit River Capitals v #11 Toronto Nationals | Iroquois Park Sports Centre, Rink 3, Whitby
+Thu 2:15 PM | #76 Hamilton Steel v #96 Sudbury Wolves | Iroquois Park Sports Centre, Rink 5, Whitby
+Thu 2:45 PM | #7 Toronto Jr Canadiens v #13 Waterloo Wolves | Iroquois Park Sports Centre, Rink 2, Whitby
+Thu 3:00 PM | #49 Buffalo Jr Sabres v #9 Vaughan Kings | Iroquois Park Sports Centre, Rink 6, Whitby
+Thu 4:00 PM | #39 Elgin Middlesex Canucks v #21 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 1, Whitby
+Thu 4:20 PM | #84 Minuteman Flames v #42 York Simcoe Express | Iroquois Park Sports Centre, Rink 6, Whitby
+Thu 4:45 PM | #6 Little Caesars v #40 Ottawa Valley Titans | McKinney Centre, Rink 1, Whitby
+Thu 6:05 PM | #72 Barrie Colts v #151 Whitby Wildcats | Iroquois Park Sports Centre, Rink 5, Whitby
+Thu 6:05 PM | #22 Huron-Perth Lakers v #28 Ottawa Myers Automotive | McKinney Centre, Rink 1, Whitby
+Thu 6:05 PM | #15 Chicago Mission v #14 Quinte Red Devils | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 7:00 AM | #40 Ottawa Valley Titans v #21 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 7:15 AM | #26 Milwaukee Jr Admirals v #13 Waterloo Wolves | Fieldgate Sports Complex, Rink 1
+Fri 7:30 AM | #39 Elgin Middlesex Canucks v #30 Niagara North Stars | McKinney Centre, Rink 2, Whitby
+Fri 8:30 AM | #18 Nor'easters v #76 Hamilton Steel | McKinney Centre, Rink 1, Whitby
+Fri 8:45 AM | #5 Mid-Fairfield v #151 Whitby Wildcats | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 9:30 AM | #77 Rochester Saints v #9 Vaughan Kings | Fieldgate Sports Complex, Rink 2
+Fri 10:05 AM | #7 Toronto Jr Canadiens v #42 York Simcoe Express | Iroquois Park Sports Centre, Rink 1, Whitby
+Fri 10:30 AM | #10 Syracuse Nationals v #3 Toronto Marlboros | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 10:45 AM | #2 Chicago Reapers v #73 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 6, Whitby
+Fri 11:05 AM | #49 Buffalo Jr Sabres v #22 Huron-Perth Lakers | Fieldgate Sports Complex, Rink 1
+Fri 11:20 AM | #15 Chicago Mission v #11 Toronto Nationals | McKinney Centre, Rink 2, Whitby
+Fri 11:20 AM | #65 Credit River Capitals v #23 Middlesex Islanders | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 12:25 PM | #6 Little Caesars v #21 Pittsburgh Penguins Elite | Fieldgate Sports Complex, Rink 1
+Fri 1:20 PM | #72 Barrie Colts v #5 Mid-Fairfield | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 1:45 PM | #39 Elgin Middlesex Canucks v #40 Ottawa Valley Titans | Fieldgate Sports Complex, Rink 1
+Fri 2:35 PM | #28 Ottawa Myers Automotive v #77 Rochester Saints | Fieldgate Sports Complex, Rink 2
+Fri 2:50 PM | #84 Minuteman Flames v #26 Milwaukee Jr Admirals | McKinney Centre, Rink 1, Whitby
+Fri 2:50 PM | #18 Nor'easters v #10 Syracuse Nationals | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 3:05 PM | #96 Sudbury Wolves v #3 Toronto Marlboros | Fieldgate Sports Complex, Rink 1
+Fri 3:55 PM | #2 Chicago Reapers v #151 Whitby Wildcats | Fieldgate Sports Complex, Rink 2
+Fri 4:25 PM | #23 Middlesex Islanders v #14 Quinte Red Devils | Fieldgate Sports Complex, Rink 1
+Fri 6:10 PM | #6 Little Caesars v #30 Niagara North Stars | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 7:25 PM | #72 Barrie Colts v #73 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 6:55 AM | #14 Quinte Red Devils v #11 Toronto Nationals | Fieldgate Sports Complex, Rink 2
+Sat 7:15 AM | #18 Nor'easters v #96 Sudbury Wolves | Fieldgate Sports Complex, Rink 1
+Sat 8:15 AM | #49 Buffalo Jr Sabres v #77 Rochester Saints | Iroquois Park Sports Centre, Rink 5, Whitby
+Sat 8:35 AM | #84 Minuteman Flames v #13 Waterloo Wolves | McKinney Centre, Rink 2, Whitby
+Sat 8:35 AM | #76 Hamilton Steel v #10 Syracuse Nationals | Fieldgate Sports Complex, Rink 1
+Sat 8:45 AM | #30 Niagara North Stars v #40 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 3, Whitby
+Sat 9:30 AM | #22 Huron-Perth Lakers v #9 Vaughan Kings | Fieldgate Sports Complex, Rink 2
+Sat 9:55 AM | #72 Barrie Colts v #2 Chicago Reapers | McKinney Centre, Rink 2, Whitby
+Sat 10:15 AM | #26 Milwaukee Jr Admirals v #42 York Simcoe Express | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 10:15 AM | #15 Chicago Mission v #23 Middlesex Islanders | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 10:50 AM | #5 Mid-Fairfield v #73 Ottawa Jr 67's | Fieldgate Sports Complex, Rink 2
+Sat 11:20 AM | #65 Credit River Capitals v #14 Quinte Red Devils | Iroquois Park Sports Centre, Rink 2, Whitby
+Sat 12:00 PM | #18 Nor'easters v #3 Toronto Marlboros | McKinney Centre, Rink 1, Whitby
+Sat 12:25 PM | #6 Little Caesars v #39 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
+Sat 1:25 PM | #96 Sudbury Wolves v #10 Syracuse Nationals | Fieldgate Sports Complex, Rink 2
+Sat 1:45 PM | #49 Buffalo Jr Sabres v #28 Ottawa Myers Automotive | McKinney Centre, Rink 2, Whitby
+Sat 2:35 PM | #84 Minuteman Flames v #7 Toronto Jr Canadiens | McKinney Centre, Rink 1, Whitby
+Sat 3:55 PM | #30 Niagara North Stars v #21 Pittsburgh Penguins Elite | McKinney Centre, Rink 1, Whitby
+Sat 4:10 PM | #13 Waterloo Wolves v #42 York Simcoe Express | Iroquois Park Sports Centre, Rink 2, Whitby
+Sat 6:05 PM | #2 Chicago Reapers v #5 Mid-Fairfield | Iroquois Park Sports Centre, Rink 5, Whitby
+Sat 6:30 PM | #73 Ottawa Jr 67's v #151 Whitby Wildcats | McKinney Centre, Rink 1, Whitby
+Sat 6:30 PM | #23 Middlesex Islanders v #11 Toronto Nationals | Fieldgate Sports Complex, Rink 2
+Sat 6:35 PM | #76 Hamilton Steel v #3 Toronto Marlboros | Iroquois Park Sports Centre, Rink 3, Whitby
+Sat 6:50 PM | #26 Milwaukee Jr Admirals v #7 Toronto Jr Canadiens | McKinney Centre, Rink 2, Whitby
+Sat 6:50 PM | #22 Huron-Perth Lakers v #77 Rochester Saints | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 7:00 PM | #28 Ottawa Myers Automotive v #9 Vaughan Kings | Iroquois Park Sports Centre, Rink 6, Whitby
+Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sports Centre, Rink 1, Whitby
 
 == FINAL SCORES, LAST 4 DAYS ==
 
 == GAME WRITE-UPS ==
-Final: Vaughan Kings 5, Toronto Red Wings 3, in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: names are not posted for this league. Standings: a league game. Ratings: Vaughan Kings stays #10 in North America (CAN #3, 92.64). Toronto Red Wings stays #24 in North America (CAN #8, 90.63). Next: not listed yet.
-
-Final: Toronto Nationals 7, Toronto Reps 1, a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: two points for Toronto Nationals in the GTHL. Ratings: Toronto Nationals stays #11 (92.47). Toronto Reps stays #44 (89.12). Next: see the weekend list for each team's next game.
-
-Final: Toronto Titans 6, Don Mills Flyers 1, a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: two points for Toronto Titans in the GTHL. Ratings: Toronto Titans moves from #33 to #31 (90.12). Don Mills Flyers moves from #69 to #70 (87.81). Next: see the weekend list for each team's next game.
-
-Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at Rockland. Scoring: a one-goal game throughout; it was 1-1, 2-2 and 3-3 before the Breakers went ahead for good. Goalies: not listed on the sheet summary. Standings: league game. Ratings: see the team pages for the change. Next: no more games this weekend for either team on our list.
-
-Sunday doubleheader in Milwaukee: Chicago Reapers 8, Milwaukee Jr Admirals 0 in the morning game; Milwaukee Jr Admirals 5, Chicago Reapers 2 in the afternoon. The split is the Reapers' fourth loss of the season. Goal-by-goal details have not been posted for these games.
-
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. MN Lakers (USA #1) 94.75
 2. Chicago Reapers (USA #2) 94.63
