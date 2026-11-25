@@ -14,6 +14,7 @@
 #lp .box{background:#fff;width:100%;max-width:460px;border-radius:18px 18px 0 0;padding:20px 20px 22px;box-sizing:border-box;box-shadow:0 -8px 30px rgba(0,0,0,.25)}
 @media(min-width:700px){#lp{align-items:center}#lp .box{border-radius:18px}}
 #lp .k{font-size:12px;font-weight:800;letter-spacing:.08em;color:#c8102e}#lp h2{margin:4px 0 12px;font-size:21px;line-height:1.2}
+#lp .n{margin:-4px 0 12px;font-size:15px;font-weight:700;color:#0c5a8a}#lp .n[hidden]{display:none}
 #lp .pv{border:1px solid #e3e9ee;border-radius:10px;padding:4px 12px;position:relative;margin-bottom:12px}#lp .pv .r{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid #eef2f5;font-size:14px;font-weight:600;filter:blur(5px);user-select:none}#lp .pv .r:last-child{border:0}
 #lp .pv .lk{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#0c1a24}#lp .pv .lk span{background:#fff;border:1px solid #d5dde4;border-radius:999px;padding:6px 14px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
 #lp ul{margin:0 0 14px;padding-left:18px;font-size:14.5px;line-height:1.45;color:#2b3b47}
@@ -23,7 +24,7 @@
 <div class="top" id="top"><div class="in"><a class="brand" href="/">My Player <span>Data</span></a>
 <div class="tabs"><a class="on" href="/live/">Live Scores &amp; Ratings</a><a href="/#pricing" id="tabPlayers">Players</a></div>
 <div class="who"><a class="si" href="/members/">Sign in</a><a class="join" id="join" href="/members/?plan=monthly">Join &middot; first month $19</a></div></div></div>
-<div id="lp" hidden><div class="box" role="dialog" aria-labelledby="lp-t"><div class="k">MEMBERS ONLY</div><h2 id="lp-t">The player database</h2>
+<div id="lp" hidden><div class="box" role="dialog" aria-labelledby="lp-t"><div class="k">MEMBERS ONLY</div><h2 id="lp-t">The player database</h2><p class="n" id="lp-n" hidden></p>
 <div class="pv" aria-hidden="true"><div class="r"><span>Forward, #19</span><span>18:42 a game</span><span>1.36</span></div><div class="r"><span>Defenseman, #4</span><span>22:10 a game</span><span>0.91</span></div><div class="r"><span>Forward, #88</span><span>16:05 a game</span><span>1.12</span></div><div class="lk"><span>&#128274; Player stats are for members</span></div></div>
 <ul><li>Every player's ice time, power-play time and scoring.</li><li>How each player does against top-10 teams.</li><li>Birth years 2011 to 2016, updated after every weekend.</li></ul>
 <a class="go" id="lp-go" href="/members/?plan=monthly">Unlock for $19 the first month</a><p class="sm">Then $39 a month. Cancel any time.</p><p class="sm"><a href="/?home=1#preview" style="color:#0c5a8a">See what is inside first</a></p><button id="lp-x" type="button">Not now</button></div></div>
@@ -42,8 +43,12 @@ setInterval(function(){if(document.visibilityState!=="visible"||i>=marks.length)
 // Locked player tap (owner said yes Nov 23, 2026): a tap on anything that leads to the player database logs 'live-locked' as before. With the panel switched on
 // (LP: ?lp=1 in the address, or localStorage mpd_lp) it opens a panel with the offer right there; the panel's button logs 'lock_join'. Without it: the old jump to the pricing section.
 var LP=true;try{if(/[?&]lp=0/.test(location.search))LP=false}catch(e){} // panel ON for everyone from Nov 23, 2026 8:45 AM (owner: Claude runs the company and makes these calls); ?lp=0 shows the old jump to pricing
-window.mpdLocked=function(team){try{mpdLog("join_click","live-locked")}catch(e){}if(!LP){location.href=location.origin+"/#pricing";return}
- var p=document.getElementById("lp");document.getElementById("lp-t").textContent=team?team+": roster and player stats":"The player database";p.hidden=false};
+// Nov 25, 2026: the panel also says what is on record for the tapped team (players and games, counts only, from /live/teams.json written by
+// player/build/live_counts.py). Reason: Nov 24 had 97 locked taps and 6 panel joins; a visitor has no proof their own team is in there.
+var TC={};try{fetch("/live/teams.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(j){TC=j||{}}).catch(function(){})}catch(e){}
+window.mpdLocked=function(team,key){try{mpdLog("join_click","live-locked")}catch(e){}if(!LP){location.href=location.origin+"/#pricing";return}
+ var p=document.getElementById("lp"),n=document.getElementById("lp-n"),c=key&&TC[key];document.getElementById("lp-t").textContent=team?team+": roster and player stats":"The player database";
+ if(c){n.textContent="On record for this team: "+c[0]+" players, "+c[1]+(c[1]===1?" game.":" games.");n.hidden=false}else{n.hidden=true}p.hidden=false};
 document.getElementById("tabPlayers").addEventListener("click",function(e){if(LP)e.preventDefault();mpdLocked("")});
 document.getElementById("lp-x").addEventListener("click",function(){document.getElementById("lp").hidden=true});
 document.getElementById("lp").addEventListener("click",function(e){if(e.target===this)this.hidden=true});
@@ -52,7 +57,7 @@ function fit(){try{var h=document.getElementById("top").offsetHeight;var f=docum
 document.getElementById("join").addEventListener("click",function(){try{mpdLog("join_click","live")}catch(e){}});
 (async function(){try{
  let t=await (await fetch("/members/ratings/?v="+Date.now(),{cache:"no-store"})).text();
- const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();var c=a.closest(".card"),t="";try{if(/#team=/.test(h)&&c){var hh=c.querySelector("h2,h3");t=hh?hh.textContent.trim():""}}catch(x){}try{parent.mpdLocked(t)}catch(x){parent.location.href=parent.location.origin+"/#pricing"}}},true);<\/script>';
+ const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();var c=a.closest(".card"),t="";try{if(/#team=/.test(h)&&c){var hh=c.querySelector("h2,h3");t=hh?hh.textContent.trim():""}}catch(x){}var k=(h.match(/#team=([\\w-]+)/)||[])[1]||"";try{parent.mpdLocked(t,k)}catch(x){parent.location.href=parent.location.origin+"/#pricing"}}},true);<\/script>';
  t=t.replace("</head>",add+"</head>");
  // Open on a birth year named in the address: /live/?y=2011 (owner, Nov 24 2026: each Silver Stick ad lands on its own year). No y = the app's own default.
  try{var yq=(location.search.match(/[?&]y=(201[1-6])(?:&|$)/)||[])[1];if(yq)t=t.replace(/let div='201\d', view='wk'/,"let div='"+yq+"', view='wk'")}catch(e){}
