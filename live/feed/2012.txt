@@ -1,170 +1,65 @@
 MY PLAYER DATA: 2012 birth year (14U)
-Updated: Tue Nov 24, 11:07 PM CT
+Updated: Wed Nov 25, 1:30 AM CT
 
 == GAMES THIS WEEKEND ==
-Thu 1:30 PM | #18 Nashville Jr. Predators v #7 Delta Hockey Academy | Planet Ice Delta, Delta, BC
-Fri 6:00 AM | #38 Biggby Coffee v #92 Jersey Hitmen | cfsbank Event Center
-Fri 7:00 AM | #29 NJ Rockets v #30 Chicago Reapers | UPMC Lemieux Sports Complex, Cranberry Township, PA
+Thu 1:30 PM | #18 Nashville Jr. Predators v #9 Delta Hockey Academy | Planet Ice Delta, Delta, BC
+Fri 6:00 AM | #38 Biggby Coffee v #96 Jersey Hitmen | cfsbank Event Center
+Fri 7:00 AM | #29 NJ Rockets v #27 Chicago Reapers | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Fri 10:30 AM | #11 Woodbridge Wolfpack v #16 Mount St Charles | RMU Island Sports Center, Pittsburgh, PA
-Fri 11:00 AM | #18 Nashville Jr. Predators v #40 Burnaby Winter Club Academy | Burnaby Winter Club, Burnaby, BC
-Fri 12:30 PM | #1 Mid-Fairfield v #25 Pittsburgh Penguins Elite | RMU Island Sports Center, Pittsburgh, PA
-Fri 12:50 PM | #10 Team Illinois v #139 Madison Capitols | Canlan Ice Sports (Rink 2), West Dundee, IL
-Fri 4:30 PM | #9 Chicago Mission v #14 Bishop Kearney Selects | RMU Island Sports Center, Pittsburgh, PA
-Fri 5:00 PM | #2 Shattuck St Mary's v #6 Little Caesars | Belfor Training Center, Detroit, MI
-Fri 6:40 PM | #5 Toronto Jr Canadiens v #4 Toronto Marlboros | CWENCH Centre, Etobicoke, ON
+Fri 11:00 AM | #18 Nashville Jr. Predators v #50 Burnaby Winter Club Academy | Burnaby Winter Club, Burnaby, BC
+Fri 12:30 PM | #2 Mid-Fairfield v #25 Pittsburgh Penguins Elite | RMU Island Sports Center, Pittsburgh, PA
+Fri 12:50 PM | #8 Team Illinois v #139 Madison Capitols | Canlan Ice Sports (Rink 2), West Dundee, IL
+Fri 4:30 PM | #7 Chicago Mission v #14 Bishop Kearney Selects | RMU Island Sports Center, Pittsburgh, PA
+Fri 5:00 PM | #1 Shattuck St Mary's v #6 Little Caesars | Belfor Training Center, Detroit, MI
+Fri 6:40 PM | #5 Toronto Jr Canadiens v #3 Toronto Marlboros | CWENCH Centre, Etobicoke, ON
 Fri 7:15 PM | #34 Mississauga Senators v #124 Toronto Reps | Westwood, Toronto area, ON
-Fri 7:15 PM | #35 Elgin Middlesex Canucks v #70 London Jr Knights | Middlesex Wellness Centre
-Fri 7:55 PM | #27 Vaughan Kings v #60 Toronto Red Wings | Chesswood, Toronto area, ON
-Sat 7:00 AM | #25 Pittsburgh Penguins Elite v #9 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sat 7:40 AM | #38 Biggby Coffee v #88 Pittsburgh Stars | Printscape Arena, Canonsburg, PA
-Sat 8:00 AM | #10 Team Illinois v #132 Midwest Warriors | Carol Stream Ice Rink, Carol Stream, IL
-Sat 8:00 AM | #16 Mount St Charles v #30 Chicago Reapers | RMU Island Sports Center, Pittsburgh, PA
+Fri 7:15 PM | #35 Elgin Middlesex Canucks v #78 London Jr Knights | Middlesex Wellness Centre
+Fri 7:55 PM | #28 Vaughan Kings v #66 Toronto Red Wings | Chesswood, Toronto area, ON
+Sat 7:00 AM | #25 Pittsburgh Penguins Elite v #7 Chicago Mission | UPMC Lemieux Sports Complex, Cranberry Township, PA
+Sat 7:40 AM | #38 Biggby Coffee v #87 Pittsburgh Stars | Printscape Arena, Canonsburg, PA
+Sat 8:00 AM | #8 Team Illinois v #130 Midwest Warriors | Carol Stream Ice Rink, Carol Stream, IL
+Sat 8:00 AM | #16 Mount St Charles v #27 Chicago Reapers | RMU Island Sports Center, Pittsburgh, PA
 Sat 9:50 AM | #20 Top Gun (Elite) v #36 Boston Jr Eagles (Elite) | ICENTER, Salem, NH
 Sat 11:15 AM | #35 Elgin Middlesex Canucks v #75 Huron Perth Lakers | Middlesex Wellness Centre
-Sat 12:45 PM | #24 HB Detroit v #76 Victory Honda | Suburban Ice Farmington Hills, Farmington Hills, MI
-Sat 1:10 PM | #10 Team Illinois v #90 Milwaukee Jr Admirals | Canlan Ice Sports (Rink 3), West Dundee, IL
-Sat 1:25 PM | #61 Toronto Nationals v #17 Toronto Titans | Scotiabank Pond, Toronto area, ON
-Sat 2:00 PM | #38 Biggby Coffee v #138 Palmyra Black Knights | Printscape Arena, Canonsburg, PA
-Sat 2:00 PM | #26 Niagara North Stars v #81 Credit River Capitals | Seymour-Hannah Sports & Entertainment Center
-Sat 2:30 PM | #27 Vaughan Kings v #3 North York Rangers | Herbert Carnegie Centennial Centre, Toronto, ON
-Sat 3:00 PM | #1 Mid-Fairfield v #11 Woodbridge Wolfpack | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sat 4:00 PM | #2 Shattuck St Mary's v #6 Little Caesars | Belfor Training Center, Detroit, MI
+Sat 12:45 PM | #23 HB Detroit v #74 Victory Honda | Suburban Ice Farmington Hills, Farmington Hills, MI
+Sat 1:10 PM | #8 Team Illinois v #88 Milwaukee Jr Admirals | Canlan Ice Sports (Rink 3), West Dundee, IL
+Sat 1:25 PM | #58 Toronto Nationals v #19 Toronto Titans | Scotiabank Pond, Toronto area, ON
+Sat 2:00 PM | #38 Biggby Coffee v #136 Palmyra Black Knights | Printscape Arena, Canonsburg, PA
+Sat 2:00 PM | #26 Niagara North Stars v #77 Credit River Capitals | Seymour-Hannah Sports & Entertainment Center
+Sat 2:30 PM | #28 Vaughan Kings v #4 North York Rangers | Herbert Carnegie Centennial Centre, Toronto, ON
+Sat 3:00 PM | #2 Mid-Fairfield v #11 Woodbridge Wolfpack | UPMC Lemieux Sports Complex, Cranberry Township, PA
+Sat 4:00 PM | #1 Shattuck St Mary's v #6 Little Caesars | Belfor Training Center, Detroit, MI
 Sat 4:00 PM | #39 PAL Jr Islanders v #59 Atlantic Coast Academy | Northwell Health Ice Center
-Sat 4:30 PM | #48 Barrie Colts v #103 Kingston Jr Gaels | Cataraqui Community Centre
+Sat 4:30 PM | #46 Barrie Colts v #105 Kingston Jr Gaels | Cataraqui Community Centre
 Sat 4:45 PM | #14 Bishop Kearney Selects v #29 NJ Rockets | RMU Island Sports Center, Pittsburgh, PA
-Sat 5:15 PM | #23 Chatham-Kent Cyclones v #137 Waterloo Wolves | RIM Park
-Sat 5:25 PM | #22 Oakville Rangers v #117 Grey Bruce Highlanders | Joshua's Creek Arenas
-Sat 5:30 PM | #12 York Simcoe Express v #127 North Central Predators | La Brier Family Arena
+Sat 5:15 PM | #22 Chatham-Kent Cyclones v #137 Waterloo Wolves | RIM Park
+Sat 5:25 PM | #21 Oakville Rangers v #119 Grey Bruce Highlanders | Joshua's Creek Arenas
+Sat 5:30 PM | #13 York Simcoe Express v #131 North Central Predators | La Brier Family Arena
 Sat 7:30 PM | #39 PAL Jr Islanders v #59 Atlantic Coast Academy | Northwell Health Ice Center
 Sun 7:00 AM | #11 Woodbridge Wolfpack v #25 Pittsburgh Penguins Elite | UPMC Lemieux Sports Complex, Cranberry Township, PA
 Sun 7:00 AM | #14 Bishop Kearney Selects v #16 Mount St Charles | UPMC Lemieux Sports Complex, Cranberry Township, PA
-Sun 8:00 AM | #10 Team Illinois v #129 CarShield | Canlan Ice Sports, West Dundee, IL
-Sun 8:35 AM | #9 Chicago Mission v #29 NJ Rockets | Baierl Ice Complex, Warrendale, PA
-Sun 9:15 AM | #30 Chicago Reapers v #1 Mid-Fairfield | RMU Island Sports Center, Pittsburgh, PA
-Sun 9:40 AM | #38 Biggby Coffee v #106 Team Maryland | cfsbank Event Center
-Sun 11:00 AM | #2 Shattuck St Mary's v #6 Little Caesars | Belfor Training Center, Detroit, MI
+Sun 8:00 AM | #8 Team Illinois v #127 CarShield | Canlan Ice Sports, West Dundee, IL
+Sun 8:35 AM | #7 Chicago Mission v #29 NJ Rockets | Baierl Ice Complex, Warrendale, PA
+Sun 9:15 AM | #27 Chicago Reapers v #2 Mid-Fairfield | RMU Island Sports Center, Pittsburgh, PA
+Sun 9:40 AM | #38 Biggby Coffee v #110 Team Maryland | cfsbank Event Center
+Sun 11:00 AM | #1 Shattuck St Mary's v #6 Little Caesars | Belfor Training Center, Detroit, MI
 Sun 12:20 PM | #39 PAL Jr Islanders v #59 Atlantic Coast Academy | The Rinx at Hauppauge
-Sun 12:30 PM | #23 Chatham-Kent Cyclones v #152 Cambridge Hawks | Blenheim Community and Recreation Centre
+Sun 12:30 PM | #22 Chatham-Kent Cyclones v #152 Cambridge Hawks | Blenheim Community and Recreation Centre
 Sun 12:30 PM | #31 Brantford 99ers v #75 Huron Perth Lakers | Stratford Rotary Complex
-Sun 2:15 PM | #68 Markham Majors v #5 Toronto Jr Canadiens | Scotiabank Pond, Toronto area, ON
-Sun 4:05 PM | #22 Oakville Rangers v #45 Halton Hurricanes | Trafalgar Park
-Sun 4:45 PM | #12 York Simcoe Express v #56 Peterborough Jr Petes | Healthy Planet Arena
-Sun 4:45 PM | #48 Barrie Colts v #103 Kingston Jr Gaels | INVISTA Centre
-Sun 8:00 PM | #4 Toronto Marlboros v #95 Don Mills Flyers | Victoria Village, Toronto area, ON
-Fri 7:00 PM | #129 CarShield v #132 Midwest Warriors | Carol Stream Ice Rink, Carol Stream, IL
-Sat 7:50 AM | #139 Madison Capitols v #129 CarShield | Canlan Ice Sports (Rink 2), West Dundee, IL
+Sun 2:15 PM | #67 Markham Majors v #5 Toronto Jr Canadiens | Scotiabank Pond, Toronto area, ON
+Sun 4:05 PM | #21 Oakville Rangers v #44 Halton Hurricanes | Trafalgar Park
+Sun 4:45 PM | #13 York Simcoe Express v #57 Peterborough Jr Petes | Healthy Planet Arena
+Sun 4:45 PM | #46 Barrie Colts v #105 Kingston Jr Gaels | INVISTA Centre
+Sun 8:00 PM | #3 Toronto Marlboros v #100 Don Mills Flyers | Victoria Village, Toronto area, ON
+Fri 7:00 PM | #127 CarShield v #130 Midwest Warriors | Carol Stream Ice Rink, Carol Stream, IL
+Sat 7:50 AM | #139 Madison Capitols v #127 CarShield | Canlan Ice Sports (Rink 2), West Dundee, IL
 Fri 9:00 PM | #18 Nashville Jr. Predators v #33 St George's School | Planet Ice Delta (American), Delta, BC
-Sat 6:15 PM | #18 Nashville Jr. Predators v #7 Delta Hockey Academy | Planet Ice Delta, Delta, BC
-Sun 3:00 PM | #8 Yale Hockey Academy v #7 Delta Hockey Academy | Pat Quinn Classic, Delta, BC
+Sat 6:15 PM | #18 Nashville Jr. Predators v #9 Delta Hockey Academy | Planet Ice Delta, Delta, BC
+Sun 3:00 PM | #10 Yale Hockey Academy v #9 Delta Hockey Academy | Pat Quinn Classic, Delta, BC
 
 == FINAL SCORES, LAST 4 DAYS ==
-2026-11-20 | NJ Rockets 6, Chicago Reapers 2
-2026-11-20 | Mount St Charles 5, Woodbridge Wolfpack 4
-2026-11-20 | Mid-Fairfield 6, Pittsburgh Penguins Elite 0
-2026-11-20 | Team Illinois 8, Madison Capitols 0
-2026-11-20 | Bishop Kearney Selects 5, Chicago Mission 3
-2026-11-20 | Shattuck St Mary's 5, Little Caesars 1
-2026-11-20 | Midwest Warriors 3, CarShield 1
-2026-11-20 | Toronto Jr Canadiens 2, Toronto Marlboros 0
-2026-11-20 | Mississauga Senators 3, Toronto Reps 3
-2026-11-20 | Nashville Jr. Predators 4, Burnaby Winter Club Academy 2
-2026-11-20 | Nashville Jr. Predators 7, St George's School 4
-2026-11-20 | Toronto Red Wings 3, Vaughan Kings 0
-2026-11-21 | Chicago Mission 9, Pittsburgh Penguins Elite 3
-2026-11-21 | Madison Capitols 7, CarShield 1
-2026-11-21 | Chicago Reapers 5, Mount St Charles 4
-2026-11-21 | Team Illinois 7, Midwest Warriors 0
-2026-11-21 | Team Illinois 5, Milwaukee Jr Admirals 3
-2026-11-21 | Mid-Fairfield 7, Woodbridge Wolfpack 3
-2026-11-21 | Shattuck St Mary's 8, Little Caesars 3
-2026-11-21 | Bishop Kearney Selects 9, NJ Rockets 1
-2026-11-21 | Top Gun (Elite) 5, Boston Jr Eagles (Elite) 5
-2026-11-21 | Middlesex Islanders East (Elite) 6, Providence Capitals (Elite) 0
-2026-11-21 | Toronto Titans 6, Toronto Nationals 1
-2026-11-21 | North York Rangers 6, Vaughan Kings 3
-2026-11-21 | Delta Hockey Academy 9, Nashville Jr. Predators 6
-2026-11-21 | Kingston Jr Gaels 5, Barrie Colts 4
-2026-11-21 | Oakville Rangers 7, Grey Bruce Highlanders 1
-2026-11-21 | York Simcoe Express 10, North Central Predators 1
-2026-11-21 | Quinte Red Devils 7, Central Ontario Wolves 2
-2026-11-21 | Sarnia-Lambton Jr Sting 4, Windsor Jr Spitfires 0
-2026-11-21 | Chatham-Kent Cyclones 9, Waterloo Wolves 3
-2026-11-21 | Sun County Panthers 11, Cambridge Hawks 1
-2026-11-21 | Yale Hockey Academy 2, St George's School 0
-2026-11-20 | Guelph Gryphons 7, Grey Bruce Highlanders 1
-2026-11-20 | Whitby Wildcats 4, Central Ontario Wolves 1
-2026-11-20 | Peterborough Jr Petes 9, North Central Predators 3
-2026-11-21 | Niagara North Stars 8, Credit River Capitals 0
-2026-11-21 | North Shore Whitecaps 3, Ajax Pickering Raiders 1
-2026-11-20 | Cambridge Hawks 3, Windsor Jr Spitfires 0
-2026-11-20 | Elgin Middlesex Canucks 2, London Jr Knights 0
-2026-11-21 | Elgin Middlesex Canucks 5, Huron Perth Lakers 1
-2026-11-21 | Southeast Blades 2, Philadelphia Jr Flyers 1
-2026-11-21 | Ohio Blue Jackets 5, Southeast Blades 3
-2026-11-21 | Ohio Blue Jackets 7, Philadelphia Jr Flyers 0
-2026-11-21 | Fox Motors 5, Oakland Jr Grizzlies 2
-2026-11-21 | Belle Tire 3, Compuware 1
-2026-11-21 | HB Detroit 4, Victory Honda 1
-2026-11-22 | Bishop Kearney Selects 4, Mount St Charles 2
-2026-11-22 | Pittsburgh Penguins Elite 3, Woodbridge Wolfpack 2
-2026-11-22 | Team Illinois 13, CarShield 0
-2026-11-22 | Chicago Mission 4, NJ Rockets 1
-2026-11-22 | Mid-Fairfield 5, Chicago Reapers 3
-2026-11-22 | Shattuck St Mary's 4, Little Caesars 1
-2026-11-22 | Yale Hockey Academy 3, Delta Hockey Academy 2
-2026-11-22 | Toronto Jr Canadiens 3, Markham Majors 0
-2026-11-22 | Toronto Marlboros 7, Don Mills Flyers 1
-2026-11-22 | York Simcoe Express 6, Peterborough Jr Petes 0
-2026-11-22 | Chatham-Kent Cyclones 6, Cambridge Hawks 0
-2026-11-23 | Toronto Jr Canadiens 1, Mississauga Senators 1
-2026-11-20 | Biggby Coffee 5, Jersey Hitmen 1
-2026-11-20 | Yale Hockey Academy 4, Delta Hockey Academy 3
-2026-11-20 | Delta Hockey Academy 4, Pacific Coast Academy 1
-2026-11-20 | Yale Hockey Academy 3, St George's School 1
-2026-11-21 | Atlantic Coast Academy 4, PAL Jr Islanders 3
-2026-11-21 | Atlantic Coast Academy 4, PAL Jr Islanders 4
-2026-11-21 | Pittsburgh Stars 4, Biggby Coffee 1
-2026-11-21 | Biggby Coffee 6, Palmyra Black Knights 0
-2026-11-21 | Ottawa Myers Automotive 2, Eastern Ontario Wild 1
-2026-11-21 | Ohio Blue Jackets 16, Philadelphia Jr Flyers 0
-2026-11-21 | Ottawa Jr 67's 5, Upper Canada Cyclones 2
-2026-11-22 | PAL Jr Islanders 4, Atlantic Coast Academy 2
-2026-11-22 | Barrie Colts 5, Kingston Jr Gaels 1
-2026-11-22 | Fox Motors 7, Belle Tire 1
-2026-11-22 | Biggby Coffee 7, Team Maryland 3
-2026-11-22 | Brantford 99ers 4, Huron Perth Lakers 0
-2026-11-22 | Oakville Rangers 2, Halton Hurricanes 1
-2026-11-22 | NJ Colonials 9, North Jersey Avalanche 1
-2026-11-22 | Ohio Blue Jackets 4, Southeast Blades 3
-2026-11-22 | Ottawa Myers Automotive 6, Ottawa Jr 67's 1
-2026-11-23 | Hamilton Steel 5, Burlington Eagles 1
-2026-11-23 | Guelph Gryphons 6, Niagara North Stars 4
 
 == GAME WRITE-UPS ==
-Final: NJ Rockets 6, Chicago Reapers 2, the first Northeast Pack game of the Pittsburgh Showcase. Scoring: the Rockets scored four times in the first period (Garrett Fleming, Greyson Dragann, Boston Guinn with the game winner, Kieren Harris). Joseph Bringman and Jakub Uhersky added goals in the second and third. For the Reapers, Ty Demarasse had a goal and an assist and Thomas Halack scored late in the second. Goalies: Hudson DePiero allowed two for the win. The Reapers used Cameron Kmetz and Matthew Ignoffo. Standings: the Rockets move to 3-5-0 in Northeast Pack play, the Reapers to 1-7-0. Ratings: the Rockets rise from #25 to #20 in North America (USA #16 to #14, 95.90 to 96.05). The Reapers stay #28 (USA #17), 95.70 to 95.60. Next: the Rockets host Bishop Kearney Selects on Saturday at 4:45 PM and Chicago Mission on Sunday at 8:35 AM. The Reapers host Mount St Charles on Saturday at 8:00 AM and visit Mid-Fairfield on Sunday at 9:15 AM.
-
-Final: Mount St Charles 5, Woodbridge Wolfpack 4 in overtime, in the Northeast Pack 14U division. Scoring: Mount St Charles trailed 2-0 and 4-2. Jayden Widen made it 4-3 in the third, Jacob Goumenis tied it with 50 seconds left, and Liam Labucki won it 1:11 into overtime. Asher Joslin-White and Devin Fisher had the other Mount St Charles goals. For the Wolfpack, William Bechtol had a goal and an assist, Easton Hanson a goal and an assist, Bryce Dagenais and Brody Grill a goal each, and Charlie Donovan two assists. Goalies: Justin Charbonneau got the win for Mount St Charles with four against. Logan Morgida took the loss for the Wolfpack with five against. Standings: this counts in the Northeast Pack 14U table. Mount St Charles is now 15-6-1 on the season, the Wolfpack 26-8-1. Ratings: Mount St Charles moves from #12 to #11 in North America (USA #7, 96.53). The Wolfpack stays #9 (USA #6, 96.84). Next: Mount St Charles plays Chicago Reapers on Saturday at 8:00 AM. The Wolfpack plays Mid-Fairfield on Saturday at 3:00 PM.
-
-Final: Nashville Jr. Predators 4, Burnaby Winter Club Academy 2, in Flight 1 of the Pat Quinn Classic. Scoring: Nashville trailed 2-1 after two periods and scored three in the third. Sebastien Erat tied it, William Mathews scored the game winner, and Lincoln Brown added the fourth. Patrick Peterson opened the scoring in the first. Erat and Brown each finished with a goal and two assists; Roderick McDaniel had two assists. Max Darlow and Jack Wagner scored for Burnaby 35 seconds apart in the second. Goalies: Lucas Katona played all 60 minutes for the win with two against. Tyler Rydberg took the loss for Burnaby with four against. Standings: Delta Hockey Academy and Yale Hockey Academy are 2-0 in the six-team flight. Nashville and St George's School are 1-1. Burnaby and Pacific Coast Academy are 0-2. Ratings: a two-goal win over Burnaby (#41 in North America, Canada #20, 94.36) was about what the ratings expected, so it barely moved Nashville. After the loss to Delta and this win, Nashville is #16 in North America, USA #9, 96.24. Next for Nashville: St George's School on Friday at 9:00 PM Central, the last round-robin game, then a placement game on Saturday.
-
-Final: Mid-Fairfield 6, Pittsburgh Penguins Elite 0, in the Northeast Pack 14U division. Scoring: scoreless after one, then five in the second. David Botchenko scored twice and added an assist. Egor Karpovtsev scored twice in 21 seconds late in the second. Jax Tardif and Leonardo Odoardi had the others. Jack Brayman had three assists. Goalies: Luke Thompson got the win and shared the shutout with Landon Sherwood. Nathaniel Kinney allowed six for the Penguins. Standings: this counts in the Northeast Pack 14U table. Mid-Fairfield is 30-0-3 on the season, the Penguins 16-10-2. Ratings: Mid-Fairfield stays #1 in North America (USA #1, 99.99). The Penguins go from #19 to #20 (USA #14, 95.96). Next: Mid-Fairfield plays Woodbridge Wolfpack on Saturday at 3:00 PM. The Penguins play Chicago Mission on Saturday at 7:00 AM.
-
-Final: Team Illinois 8, Madison Capitols 0, at the Team Illinois Showcase. Scoring: four in the first period. Declan Petersen had two goals and three assists. Harry Marshall III scored twice in the third and added an assist. Noah Mahery Moreau, Taylor Farquhar, Carson Esser and Caleb Berg one each. Dylan Mounce and Levi Freeman three assists each. Goalies: Grady Macejko had the shutout for Team Illinois. Blake Sykes allowed eight for Madison. Standings: showcase games; no table. Team Illinois is 28-5-0 on the season, Madison 5-14-2. Ratings: Team Illinois stays #7 in North America (USA #4, 97.03). Madison stays #135 (USA #84, 89.99). Next: Team Illinois plays Midwest Warriors on Saturday at 8:00 AM and Milwaukee Jr Admirals at 1:10 PM. Madison plays CarShield on Saturday at 7:50 AM.
-
-Final: Bishop Kearney 5, Chicago Mission 3, in Northeast Pack play in Pittsburgh. Scoring: Kearney led 2-0 and 3-1 before Mission tied it 3-3 with two goals in 35 seconds in the second, Adam Eggers Jr and then Cash Cieslak from Michael Mufarreh and Anthony Bakiej. Gavin McCann put Kearney back ahead with his second of the game, the game winner, and Luc Genest added a short-handed empty-net goal. TJ Gabriel Piao had a goal and an assist, and Maddox Peddle opened the scoring. Sasha Gresl had Mission's first. Goalies: Clay Kramer got the win for Kearney with three against. Evan Monahan took the loss for Mission with four against plus the empty-netter. Standings: a regulation win, three points for Bishop Kearney in Northeast Pack play. Ratings: Bishop Kearney moves from #17 to #15 in North America (USA #10, 96.20). Mission stays #8 (USA #5), 96.96 to 96.85. Next: Bishop Kearney plays NJ Rockets on Saturday at 4:45 PM. Mission plays Pittsburgh Penguins Elite on Saturday at 7:00 AM.
-
-Final: Shattuck St Mary's 5, Little Caesars 1, at Belfor Training Center in Detroit. Game one of a three-game set this weekend. Scoring: the scoresheet has not been posted yet. Goal scorers will be added when it is. Goalies: not posted yet. Standings: Shattuck leads the weekend set 1-0. This is an exhibition series, not a league game. Ratings: Shattuck stays #2 in North America (USA #2), rating up from 99.59 to 99.68. Little Caesars stays #6 (USA #3), 97.27 to 97.22. Next: game two on Saturday at 4:00 PM, game three on Sunday at 11:00 AM, both in Detroit.
-
-Final: Midwest Warriors 3, CarShield 1, at the Team Illinois Showcase in Carol Stream. Scoring: Keegan McCarty put CarShield ahead in the first and Brayden Fletcher tied it 40 seconds later. Calin Brunkhorst scored the game winner on the power play early in the second, from Isaiah Schinke, and Schinke added an empty-net goal with two seconds left. Goalies: Jaxon Sturtz got the win for the Warriors with one against. Grady Schene took the loss for CarShield with two against plus the empty-netter. Standings: Team Illinois and Midwest Warriors are 1-0 at the showcase. CarShield and Madison are 0-1. Ratings: Midwest Warriors move from #130 to #127 in North America (USA #77, 90.41). CarShield goes from #118 to #119 (USA #72, 90.79). Next: the Warriors play Team Illinois on Saturday at 8:00 AM. CarShield plays Madison Capitols on Saturday at 7:50 AM.
-
-Final: Toronto Jr Canadiens 2, Toronto Marlboros 0, in a GTHL league game in Etobicoke. Scoring: goal scorers are not posted for this league. Goalies: a shutout for the Jr Canadiens. Names are not posted. Standings: a league game between the top two Ontario teams in this birth year. Ratings: the Jr Canadiens pass the Marlboros, moving from #4 to #3 in North America (CAN #1, 98.25). The Marlboros go from #3 to #4 (CAN #2, 98.20). Next: the Jr Canadiens play Markham Majors on Sunday at 2:15 PM. The Marlboros play Don Mills Flyers on Sunday at 8:00 PM.
-
-Final: Mississauga Senators 3, Toronto Reps 3, a tie in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: a point each in the GTHL. Ratings: the Senators stay #31 in North America (CAN #14), rating down from 95.07 to 94.90 after a tie with a much lower-ranked team. The Reps move from #124 to #119 (CAN #48, 90.79). Next: see the weekend list for each team's next game.
-
-Final: Nashville Jr. Predators 7, St George's School 4, in the last round-robin game of Flight 1 at the Pat Quinn Classic. Scoring: Sebastien Erat had three goals and two assists. Alexander Katona a goal and two assists, with the game winner at 14:00 of the second. Lev Tikhonov, William Mathews and Vincent Pugliese also scored; Pugliese added an assist. Nashville led 2-1 after one and 5-2 after two. For St George's, Marcus Nuyen had a goal and two assists, Emerson Papadatos a goal and an assist, Edmund Hung and Eli Faulds a goal each. Goalies: John Nolan Blankush played all 60 minutes for the win with four against. For St George's, Theo Wang allowed two in the first 18:39 and David Itin five the rest of the way. Standings: Nashville finishes the round robin 2-1. St George's is 1-2. Ratings: Nashville moves from #16 to #15 in North America (USA #9, 96.30). St George's goes from #32 to #33 in North America (CAN #16, 95.09). Next for Nashville: a placement game on Saturday. The matchup was not posted yet late Friday.
-
-Final: Toronto Red Wings 3, Vaughan Kings 0, in a GTHL league game at Chesswood. Scoring: goal scorers are not posted for this league. Goalies: a shutout for Toronto Red Wings. Names are not posted. Standings: a league game. The Red Wings were 35 spots behind Vaughan in the North American order before it. Ratings: Toronto Red Wings goes from #68 to #60 in North America (CAN #29, 93.58). Vaughan Kings goes from #23 to #29 in North America (CAN #13, 95.71). Next: Vaughan plays North York Rangers on Saturday at 2:30 PM.
-
 Final: Chicago Mission 9, Pittsburgh Penguins Elite 3, in a Northeast Pack 14U league game in Pittsburgh. Scoring: Matthew Cudio had three goals. Cash Cieslak had three goals and an assist, all three goals in the third period. Allan Smutek scored the game winner in the second; Grant Tucker and Chase Hutter also scored, and Hutter and Adam Eggers Jr each had two points. Mission led 4-1, the Penguins got within 4-3 on two goals 78 seconds apart, and Mission scored the last five. For the Penguins: Theo Lessard, Tristan Leduc and Gunner Rieling. Goalies: Caleb Wertheimer got the win with three against. Donovan Chavez took the loss. Standings: Mission moves to 13 points in the league, one behind Bishop Kearney and the Wolfpack for second with today's other games still to play. Ratings: Chicago Mission goes from #10 to #9 in North America (USA #4, 97.06). Pittsburgh Penguins Elite goes from #22 to #27 in North America (USA #16, 95.79). Next: Mission plays NJ Rockets on Sunday at 8:35 AM. The Penguins play Woodbridge Wolfpack on Sunday at 7:00 AM.
 
 Final: Madison Capitols 7, CarShield 1, at the Team Illinois Showcase. Scoring: Adrian Graf and Calvin Wroblewski each scored twice for Madison; Wroblewski's two came 22 seconds apart in the second period. Wade Sieja scored the game winner late in the first. Mason Beale and Ford Springer also scored. George Jost scored for CarShield. Goalies: Johnny Weberg got the win with one against. Keegan Ritter took the loss. Standings: Madison's first win of the showcase after an 8-0 loss to Team Illinois on Friday. CarShield lost to the Midwest Warriors on Friday. Ratings: Madison Capitols goes from #140 to #139 in North America (USA #83, 90.18). CarShield goes from #125 to #129 in North America (USA #74, 90.61). Next: not listed yet.
@@ -202,187 +97,187 @@ Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuc
 Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic championship game. Yale finished the event 5-0. Delta, which beat Nashville 9-6 in its semifinal, finished 3-2. Goal-by-goal details have not been posted for this game.
 
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
-1. Mid-Fairfield (USA #1) 99.99
-2. Shattuck St Mary's (USA #2) 99.97
-3. North York Rangers (Canada #1) 98.26
-4. Toronto Marlboros (Canada #2) 98.25
-5. Toronto Jr Canadiens (Canada #3) 98.16
-6. Little Caesars (USA #3) 97.24
-7. Delta Hockey Academy (Canada #4) 97.23
-8. Yale Hockey Academy (Canada #5) 97.21
-9. Chicago Mission (USA #4) 97.21
-10. Team Illinois (USA #5) 97.10
-11. Woodbridge Wolfpack (USA #6) 96.76
-12. York Simcoe Express (Canada #6) 96.73
-13. MN Green Giants (USA #7) 96.64
-14. Bishop Kearney Selects (USA #8) 96.57
-15. Ottawa Valley Titans (Canada #7) 96.41
-16. Mount St Charles (USA #9) 96.37
-17. Toronto Titans (Canada #8) 96.34
-18. Nashville Jr. Predators (USA #10) 96.33
-19. MN Lakers (USA #11) 96.33
-20. Top Gun (Elite) (USA #12) 96.24
-21. LA Jr Kings (USA #13) 96.05
-22. Oakville Rangers (Canada #9) 95.99
-23. Chatham-Kent Cyclones (Canada #10) 95.96
-24. HB Detroit (USA #14) 95.91
-25. Pittsburgh Penguins Elite (USA #15) 95.89
-26. Niagara North Stars (Canada #11) 95.83
-27. Vaughan Kings (Canada #12) 95.80
-28. Mississauga Rebels (Canada #13) 95.73
-29. NJ Rockets (USA #16) 95.72
-30. Chicago Reapers (USA #17) 95.71
-31. Brantford 99ers (Canada #14) 95.42
-32. Hamilton Steel (Canada #15) 95.31
-33. St George's School (Canada #16) 95.23
-34. Mississauga Senators (Canada #17) 95.13
-35. Elgin Middlesex Canucks (Canada #18) 94.85
-36. Boston Jr Eagles (Elite) (USA #18) 94.75
-37. NJ Colonials (USA #19) 94.70
-38. Biggby Coffee (USA #20) 94.69
-39. PAL Jr Islanders (USA #21) 94.61
-40. Burnaby Winter Club Academy (Canada #19) 94.56
-41. Ottawa Myers Automotive (Canada #20) 94.44
-42. Soo Jr Greyhounds (Canada #21) 94.38
-43. Ottawa Jr 67's (Canada #22) 94.34
-44. Philadelphia Hockey Club (USA #22) 94.31
-45. Halton Hurricanes (Canada #23) 94.23
-46. Seacoast Performance Academy (USA #23) 94.20
-47. Eastern Ontario Wild (Canada #24) 94.18
-48. Barrie Colts (Canada #25) 94.15
-49. Neponset Valley River Rats (USA #24) 94.06
-50. Dallas Stars Elite (USA #25) 94.03
-51. Thunder Bay Kings (Canada #26) 94.02
-52. Fox Motors (USA #26) 93.90
-53. MN Grey Ducks (USA #27) 93.84
-54. Masters Academy (USA #28) 93.82
-55. St. Louis Blues (USA #29) 93.80
-56. Peterborough Jr Petes (Canada #27) 93.78
-57. Team North Dakota (USA #30) 93.73
-58. Kitchener Jr Rangers (Canada #28) 93.72
-59. Atlantic Coast Academy (USA #31) 93.70
-60. Toronto Red Wings (Canada #29) 93.70
-61. Toronto Nationals (Canada #30) 93.69
-62. North Shore Whitecaps (Canada #31) 93.67
-63. Whitby Wildcats (Canada #32) 93.62
-64. Windy City Storm (USA #32) 93.53
-65. Minuteman Flames (Elite) (USA #33) 93.52
-66. MN Moose (USA #34) 93.51
-67. Ohio Blue Jackets (USA #35) 93.46
-68. Markham Majors (Canada #33) 93.43
-69. North Jersey Avalanche (USA #36) 93.37
-70. London Jr Knights (Canada #34) 93.33
-71. Upper Canada Cyclones (Canada #35) 93.31
-72. Washington Little Capitals (USA #37) 93.29
-73. Burlington Eagles (Canada #36) 93.28
-74. Ajax Pickering Raiders (Canada #37) 93.27
-75. Huron Perth Lakers (Canada #38) 93.26
-76. Victory Honda (USA #38) 93.24
-77. Okanagan (USA #39) 93.20
-78. The Hill Academy (Canada #39) 93.11
-79. Connecticut Jr Rangers (National) (USA #40) 93.09
-80. Upper Canada College (Canada #40) 93.07
-81. Credit River Capitals (Canada #41) 93.03
-82. Guelph Gryphons (Canada #42) 93.03
-83. North Bay Trappers (Canada #43) 92.98
-84. MN Blue Ox (USA #41) 92.97
-85. South Shore Kings Elite (USA #42) 92.91
-86. Chicago Fury (USA #43) 92.91
-87. Pacific Coast Academy (Canada #44) 92.85
-88. Pittsburgh Stars (USA #44) 92.80
-89. Phoenix Jr Coyotes (USA #45) 92.58
-90. Milwaukee Jr Admirals (USA #46) 92.52
-91. CDA Hockey Academy (Canada #45) 92.48
-92. Jersey Hitmen (USA #47) 92.38
-93. Buffalo Jr Sabres (USA #48) 92.36
-94. Sarnia-Lambton Jr Sting (Canada #46) 92.34
-95. Don Mills Flyers (Canada #47) 92.33
-96. Markham Waxers (Canada #48) 92.30
-97. MN Polars (USA #49) 92.23
-98. MN Voyageurs (USA #50) 92.20
-99. Florida Alliance (USA #51) 92.09
-100. Team Wisconsin (USA #52) 92.09
-101. East Coast Militia (National) (USA #53) 92.02
-102. Sylvania North Stars (USA #54) 91.96
-103. Kingston Jr Gaels (Canada #49) 91.95
-104. MN Loons (USA #55) 91.94
-105. Middlesex Islanders East (Elite) (USA #56) 91.81
-106. Team Maryland (USA #57) 91.77
-107. Florida Surf (USA #58) 91.64
-108. Indiana Elite (USA #59) 91.62
-109. MN Walleye (USA #60) 91.55
-110. Tampa Bay Jr Lightning (USA #61) 91.52
-111. Syracuse Nationals (USA #62) 91.51
-112. Colorado Thunderbirds (USA #63) 91.46
-113. Tri-Valley Bulls (14U AA) (USA #64) 91.41
-114. Quinte Red Devils (Canada #50) 91.34
-115. Belle Tire (USA #65) 91.24
-116. Oakland Jr Grizzlies (USA #66) 91.24
-117. Grey Bruce Highlanders (Canada #51) 91.18
-118. Boston Advantage (Elite) (USA #67) 91.17
-119. Sun County Panthers (Canada #52) 91.09
-120. Yale Jr Bulldogs (USA #68) 91.03
-121. Team Dallas (USA #69) 91.00
-122. Team Alaska (USA #70) 90.99
-123. Compuware (USA #71) 90.98
-124. Toronto Reps (Canada #53) 90.91
-125. Southern Tier Admirals (Canada #54) 90.86
-126. Fairmont Prep (Green) (USA #72) 90.84
-127. North Central Predators (Canada #55) 90.82
-128. Cleveland Barons (USA #73) 90.73
-129. CarShield (USA #74) 90.70
-130. Pittsburgh Predators (USA #75) 90.63
-131. Rochester Coalition (USA #76) 90.61
-132. Midwest Warriors (USA #77) 90.52
-133. Buffalo Regals (USA #78) 90.47
-134. Valley Jr Warriors (Elite) (USA #79) 90.46
-135. Cape Cod Whalers (USA #80) 90.44
-136. Red Bank Generals (USA #81) 90.34
-137. Waterloo Wolves (Canada #56) 90.34
-138. Palmyra Black Knights (USA #82) 90.32
-139. Madison Capitols (USA #83) 90.28
-140. New York City Hockey Club (USA #84) 90.25
-141. West Seneca Wings (14U AA) (USA #85) 90.02
-142. Hartland Huskies (Black) (14U AA) (USA #86) 89.78
-143. Springfield Jr Thunderbirds (Elite #1) (USA #87) 89.66
-144. Windsor Jr Spitfires (Canada #57) 89.53
-145. Southeast Blades (USA #88) 89.49
-146. Vegas Jr Golden Knights (USA #89) 89.33
-147. Seattle Jr Kraken (USA #90) 89.30
-148. Sioux Falls Power (USA #91) 89.30
-149. Anaheim Jr Ducks (USA #92) 89.25
-150. Providence Capitals (Elite) (USA #93) 89.23
-151. Central Ontario Wolves (Canada #58) 89.21
-152. Cambridge Hawks (Canada #59) 89.17
-153. Mercer Chiefs (USA #94) 89.17
-154. Rocky Mountain RoughRiders (USA #95) 89.13
-155. Timmins Jr Rock (Canada #60) 89.03
-156. St Louis Knights (14U AA) (USA #96) 88.78
-157. San Jose Jr Sharks (USA #97) 88.76
-158. Boston Jr Terriers (Elite) (USA #98) 88.72
-159. Plymouth Flyers Black (14U AA) (USA #99) 88.70
-160. Middlesex Islanders East (Half) (USA #100) 88.70
-161. St Lawrence Steel (14U AA) (USA #101) 88.65
-162. Valley Forge Minutemen (USA #102) 88.65
-163. Long Island Royals (USA #103) 88.61
-164. Great Lakes HC (USA #104) 88.49
-165. California Bears (USA #105) 88.42
-166. NY Dynamo (USA #106) 88.39
-167. New Hampshire Mountain Kings (USA #107) 88.37
-168. New York Saints (USA #108) 88.28
-169. Ohio Prospects (USA #109) 88.24
-170. Sudbury Wolves (Canada #61) 88.07
-171. Chicago Phantoms (USA #110) 88.00
-172. Hartford Jr Wolfpack (USA #111) 87.82
-173. Amherst Knights (USA #112) 87.66
-174. Carolina Jr Canes (USA #113) 87.64
-175. Mid-Fairfield (T1) (USA #114) 87.62
-176. East Coast Wizards (Elite) (USA #115) 87.50
-177. California Jr Reign (14U AA) (USA #116) 87.24
-178. Westchester Express (South) (USA #117) 87.07
+1. Shattuck St Mary's (USA #1) 99.99
+2. Mid-Fairfield (USA #2) 99.91
+3. Toronto Marlboros (Canada #1) 98.14
+4. North York Rangers (Canada #2) 98.13
+5. Toronto Jr Canadiens (Canada #3) 98.06
+6. Little Caesars (USA #3) 97.17
+7. Chicago Mission (USA #4) 97.16
+8. Team Illinois (USA #5) 97.05
+9. Delta Hockey Academy (Canada #4) 97.00
+10. Yale Hockey Academy (Canada #5) 96.97
+11. Woodbridge Wolfpack (USA #6) 96.67
+12. MN Green Giants (USA #7) 96.66
+13. York Simcoe Express (Canada #6) 96.60
+14. Bishop Kearney Selects (USA #8) 96.48
+15. MN Lakers (USA #9) 96.35
+16. Mount St Charles (USA #10) 96.26
+17. Ottawa Valley Titans (Canada #7) 96.26
+18. Nashville Jr. Predators (USA #11) 96.23
+19. Toronto Titans (Canada #8) 96.20
+20. Top Gun (Elite) (USA #12) 96.14
+21. Oakville Rangers (Canada #9) 95.89
+22. Chatham-Kent Cyclones (Canada #10) 95.85
+23. HB Detroit (USA #13) 95.84
+24. LA Jr Kings (USA #14) 95.84
+25. Pittsburgh Penguins Elite (USA #15) 95.83
+26. Niagara North Stars (Canada #11) 95.79
+27. Chicago Reapers (USA #16) 95.67
+28. Vaughan Kings (Canada #12) 95.67
+29. NJ Rockets (USA #17) 95.64
+30. Mississauga Rebels (Canada #13) 95.59
+31. Brantford 99ers (Canada #14) 95.32
+32. Hamilton Steel (Canada #15) 95.21
+33. St George's School (Canada #16) 95.03
+34. Mississauga Senators (Canada #17) 95.02
+35. Elgin Middlesex Canucks (Canada #18) 94.78
+36. Boston Jr Eagles (Elite) (USA #18) 94.68
+37. NJ Colonials (USA #19) 94.63
+38. Biggby Coffee (USA #20) 94.61
+39. PAL Jr Islanders (USA #21) 94.53
+40. Ottawa Myers Automotive (Canada #19) 94.28
+41. Soo Jr Greyhounds (Canada #20) 94.24
+42. Philadelphia Hockey Club (USA #22) 94.21
+43. Seacoast Performance Academy (USA #23) 94.13
+44. Halton Hurricanes (Canada #21) 94.12
+45. Ottawa Jr 67's (Canada #22) 94.12
+46. Barrie Colts (Canada #23) 94.04
+47. Eastern Ontario Wild (Canada #24) 94.04
+48. Dallas Stars Elite (USA #24) 94.00
+49. Neponset Valley River Rats (USA #25) 93.97
+50. Burnaby Winter Club Academy (Canada #25) 93.96
+51. Thunder Bay Kings (Canada #26) 93.90
+52. Fox Motors (USA #26) 93.86
+53. MN Grey Ducks (USA #27) 93.86
+54. Team North Dakota (USA #28) 93.75
+55. Masters Academy (USA #29) 93.73
+56. St. Louis Blues (USA #30) 93.73
+57. Peterborough Jr Petes (Canada #27) 93.64
+58. Toronto Nationals (Canada #28) 93.64
+59. Atlantic Coast Academy (USA #31) 93.61
+60. Whitby Wildcats (Canada #29) 93.57
+61. MN Moose (USA #32) 93.53
+62. Kitchener Jr Rangers (Canada #30) 93.51
+63. Minuteman Flames (Elite) (USA #33) 93.48
+64. Ohio Blue Jackets (USA #34) 93.44
+65. North Shore Whitecaps (Canada #31) 93.42
+66. Toronto Red Wings (Canada #32) 93.36
+67. Markham Majors (Canada #33) 93.31
+68. North Jersey Avalanche (USA #35) 93.31
+69. Windy City Storm (USA #36) 93.31
+70. Upper Canada College (Canada #34) 93.29
+71. Ajax Pickering Raiders (Canada #35) 93.26
+72. Okanagan (USA #37) 93.26
+73. Washington Little Capitals (USA #38) 93.22
+74. Victory Honda (USA #39) 93.21
+75. Huron Perth Lakers (Canada #36) 93.18
+76. Upper Canada Cyclones (Canada #37) 93.18
+77. Credit River Capitals (Canada #38) 93.09
+78. London Jr Knights (Canada #39) 93.09
+79. Burlington Eagles (Canada #40) 93.06
+80. The Hill Academy (Canada #41) 93.06
+81. MN Blue Ox (USA #40) 92.99
+82. Pacific Coast Academy (Canada #42) 92.96
+83. Connecticut Jr Rangers (National) (USA #41) 92.94
+84. Guelph Gryphons (Canada #43) 92.89
+85. Chicago Fury (USA #42) 92.86
+86. South Shore Kings Elite (USA #43) 92.83
+87. Pittsburgh Stars (USA #44) 92.62
+88. Milwaukee Jr Admirals (USA #45) 92.49
+89. North Bay Trappers (Canada #44) 92.45
+90. Phoenix Jr Coyotes (USA #46) 92.40
+91. CDA Hockey Academy (Canada #45) 92.29
+92. Buffalo Jr Sabres (USA #47) 92.26
+93. MN Polars (USA #48) 92.25
+94. Sarnia-Lambton Jr Sting (Canada #46) 92.24
+95. MN Voyageurs (USA #49) 92.22
+96. Jersey Hitmen (USA #50) 92.12
+97. Team Wisconsin (USA #51) 92.10
+98. Florida Alliance (USA #52) 92.08
+99. Markham Waxers (Canada #47) 92.08
+100. Don Mills Flyers (Canada #48) 92.05
+101. MN Loons (USA #53) 91.97
+102. Sylvania North Stars (USA #54) 91.91
+103. East Coast Militia (National) (USA #55) 91.90
+104. Indiana Elite (USA #56) 91.87
+105. Kingston Jr Gaels (Canada #49) 91.82
+106. Colorado Thunderbirds (USA #57) 91.78
+107. Middlesex Islanders East (Elite) (USA #58) 91.72
+108. MN Walleye (USA #59) 91.57
+109. Florida Surf (USA #60) 91.56
+110. Team Maryland (USA #61) 91.49
+111. Syracuse Nationals (USA #62) 91.38
+112. Tampa Bay Jr Lightning (USA #63) 91.38
+113. Tri-Valley Bulls (14U AA) (USA #64) 91.36
+114. Quinte Red Devils (Canada #50) 91.30
+115. Belle Tire (USA #65) 91.17
+116. Oakland Jr Grizzlies (USA #66) 91.17
+117. Boston Advantage (Elite) (USA #67) 91.15
+118. Yale Jr Bulldogs (USA #68) 91.14
+119. Grey Bruce Highlanders (Canada #51) 91.05
+120. Team Dallas (USA #69) 91.04
+121. Sun County Panthers (Canada #52) 90.99
+122. Team Alaska (USA #70) 90.88
+123. Compuware (USA #71) 90.87
+124. Toronto Reps (Canada #53) 90.87
+125. Fairmont Prep (Green) (USA #72) 90.76
+126. Cleveland Barons (USA #73) 90.67
+127. CarShield (USA #74) 90.66
+128. Pittsburgh Predators (USA #75) 90.66
+129. Southern Tier Admirals (Canada #54) 90.64
+130. Midwest Warriors (USA #76) 90.59
+131. North Central Predators (Canada #55) 90.59
+132. Rochester Coalition (USA #77) 90.50
+133. Buffalo Regals (USA #78) 90.42
+134. Valley Jr Warriors (Elite) (USA #79) 90.37
+135. Cape Cod Whalers (USA #80) 90.33
+136. Palmyra Black Knights (USA #81) 90.32
+137. Waterloo Wolves (Canada #56) 90.28
+138. New York City Hockey Club (USA #82) 90.27
+139. Madison Capitols (USA #83) 90.25
+140. Hartland Huskies (Black) (14U AA) (USA #84) 90.14
+141. Red Bank Generals (USA #85) 90.07
+142. West Seneca Wings (14U AA) (USA #86) 89.87
+143. Springfield Jr Thunderbirds (Elite #1) (USA #87) 89.78
+144. Southeast Blades (USA #88) 89.57
+145. Windsor Jr Spitfires (Canada #57) 89.53
+146. Vegas Jr Golden Knights (USA #89) 89.46
+147. Sioux Falls Power (USA #90) 89.45
+148. Mercer Chiefs (USA #91) 89.42
+149. Anaheim Jr Ducks (USA #92) 89.21
+150. Rocky Mountain RoughRiders (USA #93) 89.14
+151. Central Ontario Wolves (Canada #58) 89.08
+152. Cambridge Hawks (Canada #59) 89.06
+153. Providence Capitals (Elite) (USA #94) 89.06
+154. Seattle Jr Kraken (USA #95) 88.93
+155. Timmins Jr Rock (Canada #60) 88.84
+156. Middlesex Islanders East (Half) (USA #96) 88.76
+157. San Jose Jr Sharks (USA #97) 88.74
+158. Boston Jr Terriers (Elite) (USA #98) 88.68
+159. Plymouth Flyers Black (14U AA) (USA #99) 88.68
+160. St Lawrence Steel (14U AA) (USA #100) 88.61
+161. Valley Forge Minutemen (USA #101) 88.57
+162. Great Lakes HC (USA #102) 88.56
+163. St Louis Knights (14U AA) (USA #103) 88.53
+164. Long Island Royals (USA #104) 88.52
+165. California Bears (USA #105) 88.33
+166. New Hampshire Mountain Kings (USA #106) 88.32
+167. NY Dynamo (USA #107) 88.30
+168. New York Saints (USA #108) 88.27
+169. Chicago Phantoms (USA #109) 88.10
+170. Ohio Prospects (USA #110) 88.01
+171. Sudbury Wolves (Canada #61) 87.91
+172. Carolina Jr Canes (USA #111) 87.68
+173. Mid-Fairfield (T1) (USA #112) 87.60
+174. Hartford Jr Wolfpack (USA #113) 87.58
+175. Amherst Knights (USA #114) 87.57
+176. East Coast Wizards (Elite) (USA #115) 87.25
+177. California Jr Reign (14U AA) (USA #116) 87.13
+178. Westchester Express (South) (USA #117) 87.06
 179. 95 Giants (Elite) (USA #118) 86.85
-180. Rochester Jr Americans (USA #119) 86.76
-181. Boston Hockey Academy (USA #120) 86.73
-182. East Coast Militia (Heap) (USA #121) 86.28
-183. Philadelphia Jr Flyers (USA #122) 86.20
-184. Queen City Royals (USA #123) 85.40
+180. Rochester Jr Americans (USA #119) 86.69
+181. Boston Hockey Academy (USA #120) 86.64
+182. East Coast Militia (Heap) (USA #121) 86.32
+183. Philadelphia Jr Flyers (USA #122) 86.16
+184. Queen City Royals (USA #123) 85.43

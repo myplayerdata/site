@@ -1,83 +1,31 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Tue Nov 24, 11:07 PM CT
+Updated: Wed Nov 25, 1:30 AM CT
 
 == GAMES THIS WEEKEND ==
-Fri 5:30 PM | #54 Mississauga Senators v #75 Toronto Red Wings | Chesswood, Toronto area, ON
+Fri 5:30 PM | #55 Mississauga Senators v #75 Toronto Red Wings | Chesswood, Toronto area, ON
 Sat 8:00 AM | #6 Mid-Fairfield Hockey Club (Elite) v #16 Providence Capitals (Elite) | Rhode Island Sports Center, North Smithfield, RI
-Sat 8:45 AM | #33 Philadelphia Little Flyers v #31 North Jersey Avalanche | Ice House, Hackensack, NJ
+Sat 8:45 AM | #32 Philadelphia Little Flyers v #33 North Jersey Avalanche | Ice House, Hackensack, NJ
 Sat 11:15 AM | #1 Toronto Jr Canadiens v #7 Toronto Marlboros | CWENCH Centre, Etobicoke, ON
-Sat 12:10 PM | #71 Mississauga Rebels v #34 Toronto Nationals | Westwood, Toronto area, ON
+Sat 12:10 PM | #69 Mississauga Rebels v #36 Toronto Nationals | Westwood, Toronto area, ON
 Sat 12:15 PM | #6 Mid-Fairfield Hockey Club (Elite) v #16 Providence Capitals (Elite) | Rhode Island Sports Center, North Smithfield, RI
-Sat 1:15 PM | #43 Toronto Reps v #26 Vaughan Kings | Westwood, Toronto area, ON
-Sat 2:40 PM | #11 Chicago Mission v #93 Windy City Storm | Orbit Ice Arena, Palatine, IL
-Sat 3:30 PM | #33 Philadelphia Little Flyers v #31 North Jersey Avalanche | Ice House, Hackensack, NJ
+Sat 1:15 PM | #43 Toronto Reps v #27 Vaughan Kings | Westwood, Toronto area, ON
+Sat 2:40 PM | #11 Chicago Mission v #94 Windy City Storm | Orbit Ice Arena, Palatine, IL
+Sat 3:30 PM | #32 Philadelphia Little Flyers v #33 North Jersey Avalanche | Ice House, Hackensack, NJ
 Sat 4:20 PM | #10 Dallas Stars Elite v Houston Jr Aeros 12U AA | Bellerive Ice Center
 Sun 8:25 AM | #14 South Shore Kings (Elite) v #12 Top Gun (Elite) | ICENTER, Salem, NH
 Sun 9:00 AM | #25 PAL Jr Islanders (Blue) v #42 Mid-Fairfield Hockey Club (T1) | Chelsea Piers Athletic Club
 Sun 9:30 AM | #6 Mid-Fairfield Hockey Club (Elite) v #22 Bay State Breakers (Elite) | Bog Ice Arena, Kingston, MA
 Sun 9:50 AM | #10 Dallas Stars Elite v Houston Jr Aeros 12U AA | Deep South Ice Sports Complex
-Sun 10:25 AM | #43 Toronto Reps v #94 Markham Majors | Thornhill Centre West, Toronto area, ON
-Sun 10:30 AM | #39 Oakland Jr Grizzlies v #84 HB Detroit | Buffalo Wild Wings Arena, Troy, MI
-Sun 11:20 AM | #21 Chicago Fury v #93 Windy City Storm | Arctic Ice Arena, Orland Park, IL
+Sun 10:25 AM | #43 Toronto Reps v #95 Markham Majors | Thornhill Centre West, Toronto area, ON
+Sun 10:30 AM | #39 Oakland Jr Grizzlies v #83 HB Detroit | Buffalo Wild Wings Arena, Troy, MI
+Sun 11:20 AM | #21 Chicago Fury v #94 Windy City Storm | Arctic Ice Arena, Orland Park, IL
 Sun 12:20 PM | #16 Providence Capitals (Elite) v #48 Boston Jr Terriers (Elite) | Canton Sportsplex, Canton, MA
 Sun 12:40 PM | #75 Toronto Red Wings v #1 Toronto Jr Canadiens | Scotiabank Pond, Toronto area, ON
 Sun 1:30 PM | #6 Mid-Fairfield Hockey Club (Elite) v #22 Bay State Breakers (Elite) | Bog Ice Arena, Kingston, MA
 
 == FINAL SCORES, LAST 4 DAYS ==
-2026-11-20 | Mississauga Senators 3, Toronto Red Wings 3
-2026-11-21 | Toronto Jr Canadiens 7, Toronto Marlboros 1
-2026-11-21 | Mississauga Rebels 3, Toronto Nationals 2
-2026-11-21 | Toronto Reps 2, Vaughan Kings 1
-2026-11-21 | Mid-Fairfield Hockey Club (Elite) 5, Providence Capitals (Elite) 2
-2026-11-21 | Mid-Fairfield Hockey Club (Elite) 7, Providence Capitals (Elite) 2
-2026-11-21 | Boston Jr Terriers (Elite) 4, Bay State Breakers (Elite) 2
-2026-11-21 | Top Gun (Elite) 4, Boston Jr Eagles (Elite) 4
-2026-11-21 | Oakville Rangers 4, Southern Tier Admirals 3
-2026-11-21 | Kitchener Jr Rangers 10, Sun County Panthers 0
-2026-11-21 | London Jr Knights 5, Soo Jr Greyhounds 4
-2026-11-21 | Niagara North Stars 6, Grey Bruce Highlanders 2
-2026-11-21 | Whitby Wildcats 3, Barrie Colts 1
-2026-11-21 | Hamilton Steel 6, Credit River Capitals 1
-2026-11-21 | Ajax Pickering Raiders 3, Quinte Red Devils 1
-2026-11-21 | Niagara North Stars 6, Grey Bruce Highlanders 4
-2026-11-21 | Central Ontario Wolves 3, North Shore Whitecaps 2
-2026-11-20 | Elgin Middlesex Canucks 5, London Jr Knights 4
-2026-11-21 | Elgin Middlesex Canucks 3, Soo Jr Greyhounds 2
-2026-11-20 | Waterloo Wolves 3, Huron-Perth Lakers 1
-2026-11-21 | Huron-Perth Lakers 3, Sarnia-Lambton Jr Sting 2
-2026-11-21 | Chicago Mission 5, Windy City Storm 2
-2026-11-21 | Oakland Jr Grizzlies 4, Victory Honda 4
-2026-11-21 | Belle Tire 6, Compuware 4
-2026-11-22 | Top Gun (Elite) 4, South Shore Kings (Elite) 1
-2026-11-22 | Bay State Breakers (Elite) 4, Mid-Fairfield Hockey Club (Elite) 3
-2026-11-22 | HB Detroit 4, Oakland Jr Grizzlies 0
-2026-11-22 | Providence Capitals (Elite) 3, Boston Jr Terriers (Elite) 1
-2026-11-22 | Mid-Fairfield Hockey Club (Elite) 6, Bay State Breakers (Elite) 0
-2026-11-22 | Toronto Reps 1, Markham Majors 1
-2026-11-22 | Toronto Jr Canadiens 10, Toronto Red Wings 1
-2026-11-21 | Lovell Winter Club (Elite) 8, East Coast Wizards (Elite) 4
-2026-11-22 | Lovell Winter Club (Elite) 1, Valley Jr Warriors (Elite) 1
-2026-11-22 | Boston Jr Eagles (Elite) 3, Middlesex Islanders East (Elite) 3
-2026-11-22 | Elgin Middlesex Canucks 10, Sun County Panthers 6
-2026-11-22 | Whitby Wildcats 11, Ajax Pickering Raiders 0
-2026-11-22 | Windsor Jr Spitfires 2, Kitchener Jr Rangers 1
-2026-11-21 | North Jersey Avalanche 2, Philadelphia Little Flyers 2
-2026-11-21 | North Jersey Avalanche 4, Philadelphia Little Flyers 2
-2026-11-22 | Victory Honda 7, Belle Tire 0
-2026-11-22 | Buffalo Jr Sabres 5, Utica Jr Comets 5
-2026-11-22 | Buffalo Jr Sabres 10, Utica Jr Comets 2
-2026-11-22 | Grey Bruce Highlanders 4, Burlington Eagles 3
-2026-11-22 | Central Ontario Wolves 4, Peterborough Jr Petes 2
-2026-11-22 | Chicago Fury 4, Windy City Storm 2
-2026-11-22 | Niagara North Stars 3, Credit River Capitals 2
-2026-11-22 | Southern Tier Admirals 4, Hamilton Steel 3
-2026-11-22 | Mid-Fairfield Hockey Club (T1) 3, PAL Jr Islanders (Blue) 2
-2026-11-22 | Philadelphia Flyers Elite 3, Philadelphia Little Flyers 1
-2026-11-23 | Brantford 99ers 3, London Jr Knights 3
 
 == GAME WRITE-UPS ==
-Final: Mississauga Senators 3, Toronto Red Wings 3, a tie in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: not posted. Standings: a point each in the GTHL. Ratings: the Senators stay #54 in North America (CAN #19, 89.33). The Red Wings move from #71 to #70 (CAN #28, 88.70). Next: see the weekend list for each team's next game.
-
 Final: Toronto Jr Canadiens 7, Toronto Marlboros 1, in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: names are not posted for this league. Standings: a league game. Ratings: Toronto Jr Canadiens goes from #2 to #1 in North America (CAN #1, 95.03). Toronto Marlboros goes from #7 to #9 in North America (CAN #3, 93.24). Next: not listed yet.
 
 Final: Mississauga Rebels 3, Toronto Nationals 2, in a GTHL league game. Scoring: goal scorers are not posted for this league. Goalies: names are not posted for this league. Standings: a league game. Ratings: Mississauga Rebels goes from #75 to #69 in North America (CAN #27, 88.73). Toronto Nationals goes from #34 to #35 in North America (CAN #12, 90.30). Next: not listed yet.
@@ -91,149 +39,152 @@ Final: HB Detroit 4, Oakland Jr Grizzlies 0 at Buffalo Wild Wings Arena. A road 
 Final: a split. Bay State Breakers won the morning game 4-3; Mid-Fairfield won the afternoon game 6-0. Both at Bog Ice Arena. Scoring: the morning game was decided in the third period. In the afternoon Mid-Fairfield scored six without an answer. This league does not post goal scorers for this age group. Goalies: not posted for this age group. Mid-Fairfield did not allow a goal in the afternoon. Standings: one league win each. The morning loss was Mid-Fairfield's first in league play. Ratings: Mid-Fairfield came into the day #6 in North America (USA #4); the Breakers came in #22 (USA #16). The morning result was the upset; the afternoon result went the way the ratings pointed, and by more. Next: no more games for either team this weekend.
 
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
-1. Toronto Jr Canadiens (Canada #1) 95.33
-2. Little Caesars (USA #1) 95.21
-3. Don Mills Flyers (Canada #2) 94.35
-4. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.23
-5. Worcester Shamrocks (USA #3) 94.13
-6. Mid-Fairfield Hockey Club (Elite) (USA #4) 93.98
-7. Toronto Marlboros (Canada #3) 93.53
-8. Lovell Winter Club (Elite) (USA #5) 93.45
-9. Boston Jr Eagles (Elite) (USA #6) 93.34
-10. Dallas Stars Elite (USA #7) 93.07
-11. Chicago Mission (USA #8) 92.85
-12. Top Gun (Elite) (USA #9) 92.79
-13. St Louis Blues (USA #10) 92.71
-14. South Shore Kings (Elite) (USA #11) 92.63
-15. Biggby Coffee (USA #12) 92.35
-16. Providence Capitals (Elite) (USA #13) 92.18
-17. Florida Surf (USA #14) 92.01
-18. Whitby Wildcats (Canada #4) 91.99
-19. Cleveland Barons (USA #15) 91.87
-20. Elgin Middlesex Canucks (Canada #5) 91.82
-21. Chicago Fury (USA #16) 91.79
-22. Bay State Breakers (Elite) (USA #17) 91.71
-23. Toronto Titans (Canada #6) 91.49
-24. Kitchener Jr Rangers (Canada #7) 91.33
-25. PAL Jr Islanders (Blue) (USA #18) 91.04
-26. Vaughan Kings (Canada #8) 91.00
-27. Grey Bruce Highlanders (Canada #9) 90.98
-28. London Jr Knights (Canada #10) 90.96
-29. Victory Honda (USA #19) 90.92
-30. Guelph Gryphons (Canada #11) 90.83
-31. North Jersey Avalanche (USA #20) 90.68
-32. Chicago Reapers (USA #21) 90.66
-33. Philadelphia Little Flyers (USA #22) 90.62
-34. Toronto Nationals (Canada #12) 90.59
-35. Philadelphia Hockey Club (USA #23) 90.56
-36. Buffalo Jr Sabres (USA #24) 90.56
-37. Vegas Jr Golden Knights (USA #25) 90.49
-38. Florida Alliance (USA #26) 90.48
-39. Oakland Jr Grizzlies (USA #27) 90.46
-40. Phoenix Jr Coyotes (USA #28) 90.43
-41. Barrie Colts (Canada #13) 90.37
-42. Mid-Fairfield Hockey Club (T1) (USA #29) 90.29
-43. Toronto Reps (Canada #14) 90.28
-44. Rochester Saints (USA #30) 90.22
-45. Niagara North Stars (Canada #15) 90.13
-46. Burlington Eagles (Canada #16) 90.12
-47. Indiana Elite (USA #31) 90.05
-48. Boston Jr Terriers (Elite) (USA #32) 89.96
-49. Oakville Rangers (Canada #17) 89.89
-50. Central Ontario Wolves (Canada #18) 89.89
-51. Anaheim Jr Ducks (#2) 11U AA (USA #33) 89.82
-52. Ohio Blue Jackets (USA #34) 89.77
-53. Washington Little Capitals (USA #35) 89.70
-54. Mississauga Senators (Canada #19) 89.63
-55. Southern Tier Admirals (Canada #20) 89.54
-56. Halton Hurricanes (Canada #21) 89.53
-57. Philadelphia Flyers Elite (USA #36) 89.45
-58. Valley Jr Warriors (Elite) (USA #37) 89.43
-59. Peterborough Jr Petes (Canada #22) 89.39
-60. Connecticut Jr Rangers (USA #38) 89.33
-61. Quinte Red Devils (Canada #23) 89.30
-62. Middlesex Islanders East (Elite) (USA #39) 89.28
-63. Kingston Jr Gaels (Canada #24) 89.21
-64. Madison Capitols (USA #40) 89.20
-65. West Seneca Wings (Gold) 11U AA (USA #41) 89.12
-66. Ottawa Myers Automotive (Canada #25) 89.12
-67. Eastern Ontario Wild (Canada #26) 89.08
-68. Soo Jr Greyhounds (Canada #27) 89.06
-69. Battle Creek Bombers 11U A (USA #42) 89.06
-70. Windsor Jr Spitfires (Canada #28) 89.05
-71. Mississauga Rebels (Canada #29) 89.02
-72. York Simcoe Express (Canada #30) 89.00
-73. Team Illinois (USA #43) 88.98
-74. North Shore Whitecaps (Canada #31) 88.98
-75. Toronto Red Wings (Canada #32) 88.97
-76. East Coast Wizards (Elite) (USA #44) 88.85
-77. Upper Canada Cyclones (Canada #33) 88.85
-78. Markham Waxers (Canada #34) 88.82
-79. Sarnia-Lambton Jr Sting (Canada #35) 88.78
-80. Waterloo Wolves (Canada #36) 88.64
-81. London Jr Knights (Green) U12 AA (Canada #37) 88.49
-82. Mount St Charles Jr Mounties (USA #45) 88.40
-83. Ottawa Jr 67's (Canada #38) 88.28
-84. HB Detroit (USA #46) 88.23
-85. Huron-Perth Lakers (Canada #39) 88.18
-86. Woodbridge Wolfpack (USA #47) 88.10
-87. Ottawa Valley Titans (Canada #40) 88.03
-88. Hamilton Steel (Canada #41) 87.99
-89. Buffalo Regals (USA #48) 87.85
-90. Sudbury Wolves (Canada #42) 87.74
-91. Utica Jr Comets (USA #49) 87.69
-92. North York Rangers (Canada #43) 87.67
-93. Windy City Storm (USA #50) 87.61
-94. Markham Majors (Canada #44) 87.58
-95. North Bay Trappers (Canada #45) 87.51
-96. NY Dynamo (USA #51) 87.41
-97. Long Island Royals (USA #52) 87.33
-98. Jersey Hitmen (USA #53) 87.23
-99. Syracuse Nationals (USA #54) 87.20
-100. Credit River Capitals (Canada #46) 87.12
-101. Bay State Breakers (T1-Platinum) (USA #55) 87.00
-102. Brantford 99ers (Canada #47) 86.91
-103. Valley Forge Minutemen (USA #56) 86.90
-104. CarShield (USA #57) 86.88
-105. New England Bulldogs (USA #58) 86.83
-106. New Jersey Devils (USA #59) 86.83
-107. Minuteman Flames (Elite) (USA #60) 86.82
-108. Ajax Pickering Raiders (Canada #48) 86.79
-109. Philadelphia Jr Flyers (USA #61) 86.75
-110. Carolina Junior Canes (USA #62) 86.75
-111. New York City Hockey Club (USA #63) 86.72
-112. North Central Predators (Canada #49) 86.59
-113. Casco Bay Mariners (USA #64) 86.56
-114. Queen City Royals (USA #65) 86.52
-115. Compuware (USA #66) 86.45
-116. Boston Jr Terriers (T1-Platinum-Red) (USA #67) 86.39
-117. Mercer Chiefs (USA #68) 86.38
-118. Boston Junior Rangers (USA #69) 86.16
-119. Boston Advantage (Elite) (USA #70) 86.12
-120. Tampa Bay Jr Lightning (USA #71) 85.93
-121. Pittsburgh Penguins Elite (Anderson) (USA #72) 85.82
-122. Middlesex Islanders West (T1-Platinum) (USA #73) 85.74
-123. Amherst Knights (USA #74) 85.74
-124. Connecticut Chiefs (USA #75) 85.72
-125. New Jersey Colonials (USA #76) 85.71
-126. Nashville Jr Predators (USA #77) 85.67
-127. Connecticut Elite Hockey Academy (USA #78) 85.63
-128. Boston Jr Terriers (T1-Platinum-White) (USA #79) 85.50
-129. Boston Jr Eagles (T1) (USA #80) 85.49
-130. New Jersey Rockets (USA #81) 85.45
-131. PAL Jr Islanders (Orange) (USA #82) 85.39
-132. Belle Tire (USA #83) 85.37
-133. Lehigh Valley Phantoms (USA #84) 85.35
-134. Greater Boston Jr Bruins (USA #85) 85.33
-135. Minuteman Flames (T1-Platinum) (USA #86) 85.29
-136. Team Maryland (USA #87) 85.28
-137. Milwaukee Jr Admirals (USA #88) 85.27
-138. Pittsburgh Predators (USA #89) 85.24
-139. Seacoast Spartans (T1-Upper) (USA #90) 85.15
-140. Palmyra Black Knights (USA #91) 85.00
-141. Nepean Raiders U12 AA (Canada #50) 84.70
-142. Sun County Panthers (Canada #51) 84.66
-143. Fox Motors (USA #92) 84.63
-144. Soo Jr Greyhounds U12 AA (Canada #52) 84.43
-145. Tecumseh Shoreline Eagles U12 A (Canada #53) 81.10
-146. Burlington Raiders U12 A (Canada #54) 78.17
+1. Toronto Jr Canadiens (Canada #1) 95.40
+2. Little Caesars (USA #1) 95.29
+3. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.32
+4. Worcester Shamrocks (USA #3) 94.21
+5. Don Mills Flyers (Canada #2) 94.20
+6. Mid-Fairfield Hockey Club (Elite) (USA #4) 94.06
+7. Toronto Marlboros (Canada #3) 93.82
+8. Lovell Winter Club (Elite) (USA #5) 93.63
+9. Boston Jr Eagles (Elite) (USA #6) 93.46
+10. Dallas Stars Elite (USA #7) 93.11
+11. Chicago Mission (USA #8) 92.95
+12. Top Gun (Elite) (USA #9) 92.92
+13. St Louis Blues (USA #10) 92.82
+14. South Shore Kings (Elite) (USA #11) 92.76
+15. Biggby Coffee (USA #12) 92.47
+16. Providence Capitals (Elite) (USA #13) 92.31
+17. Florida Surf (USA #14) 92.10
+18. Whitby Wildcats (Canada #4) 92.09
+19. Cleveland Barons (USA #15) 91.98
+20. Elgin Middlesex Canucks (Canada #5) 91.91
+21. Chicago Fury (USA #16) 91.90
+22. Bay State Breakers (Elite) (USA #17) 91.83
+23. Toronto Titans (Canada #6) 91.55
+24. Kitchener Jr Rangers (Canada #7) 91.41
+25. PAL Jr Islanders (Blue) (USA #18) 91.16
+26. Grey Bruce Highlanders (Canada #8) 91.12
+27. Vaughan Kings (Canada #9) 91.11
+28. London Jr Knights (Canada #10) 91.09
+29. Victory Honda (USA #19) 91.00
+30. Guelph Gryphons (Canada #11) 90.80
+31. Chicago Reapers (USA #20) 90.78
+32. Philadelphia Little Flyers (USA #21) 90.77
+33. North Jersey Avalanche (USA #22) 90.75
+34. Philadelphia Hockey Club (USA #23) 90.70
+35. Buffalo Jr Sabres (USA #24) 90.65
+36. Toronto Nationals (Canada #12) 90.65
+37. Vegas Jr Golden Knights (USA #25) 90.60
+38. Florida Alliance (USA #26) 90.57
+39. Oakland Jr Grizzlies (USA #27) 90.54
+40. Phoenix Jr Coyotes (USA #28) 90.53
+41. Barrie Colts (Canada #13) 90.47
+42. Mid-Fairfield Hockey Club (T1) (USA #29) 90.39
+43. Toronto Reps (Canada #14) 90.36
+44. Rochester Saints (USA #30) 90.33
+45. Burlington Eagles (Canada #15) 90.27
+46. Niagara North Stars (Canada #16) 90.26
+47. Indiana Elite (USA #31) 90.21
+48. Boston Jr Terriers (Elite) (USA #32) 90.08
+49. Oakville Rangers (Canada #17) 90.01
+50. Central Ontario Wolves (Canada #18) 89.95
+51. Washington Little Capitals (USA #33) 89.91
+52. Ohio Blue Jackets (USA #34) 89.82
+53. Anaheim Jr Ducks (#2) 11U AA (USA #35) 89.80
+54. Philadelphia Flyers Elite (USA #36) 89.71
+55. Mississauga Senators (Canada #19) 89.64
+56. Halton Hurricanes (Canada #20) 89.63
+57. Southern Tier Admirals (Canada #21) 89.63
+58. Quinte Red Devils (Canada #22) 89.53
+59. Peterborough Jr Petes (Canada #23) 89.51
+60. Middlesex Islanders East (Elite) (USA #37) 89.44
+61. Madison Capitols (USA #38) 89.40
+62. Connecticut Jr Rangers (USA #39) 89.37
+63. Kingston Jr Gaels (Canada #24) 89.26
+64. Soo Jr Greyhounds (Canada #25) 89.22
+65. West Seneca Wings (Gold) 11U AA (USA #40) 89.20
+66. Valley Jr Warriors (Elite) (USA #41) 89.19
+67. Eastern Ontario Wild (Canada #26) 89.14
+68. Battle Creek Bombers 11U A (USA #42) 89.13
+69. Mississauga Rebels (Canada #27) 89.12
+70. Windsor Jr Spitfires (Canada #28) 89.10
+71. Team Illinois (USA #43) 89.08
+72. Upper Canada Cyclones (Canada #29) 89.06
+73. North Shore Whitecaps (Canada #30) 89.04
+74. Ottawa Myers Automotive (Canada #31) 89.02
+75. Toronto Red Wings (Canada #32) 89.02
+76. East Coast Wizards (Elite) (USA #44) 88.98
+77. York Simcoe Express (Canada #33) 88.97
+78. Markham Waxers (Canada #34) 88.90
+79. Waterloo Wolves (Canada #35) 88.78
+80. Sarnia-Lambton Jr Sting (Canada #36) 88.76
+81. Mount St Charles Jr Mounties (USA #45) 88.62
+82. Ottawa Jr 67's (Canada #37) 88.56
+83. HB Detroit (USA #46) 88.45
+84. Ottawa Valley Titans (Canada #38) 88.30
+85. Sudbury Wolves (Canada #39) 88.28
+86. Hamilton Steel (Canada #40) 88.24
+87. Huron-Perth Lakers (Canada #41) 88.22
+88. London Jr Knights (Green) U12 AA (Canada #42) 88.20
+89. Toledo Cherokee 11U A (USA #47) 88.15
+90. Woodbridge Wolfpack (USA #48) 88.14
+91. North Bay Trappers (Canada #43) 87.90
+92. Buffalo Regals (USA #49) 87.89
+93. Utica Jr Comets (USA #50) 87.78
+94. Windy City Storm (USA #51) 87.73
+95. Markham Majors (Canada #44) 87.69
+96. Texas Tigers 11U AA (USA #52) 87.69
+97. North York Rangers (Canada #45) 87.50
+98. NY Dynamo (USA #53) 87.49
+99. Credit River Capitals (Canada #46) 87.40
+100. Jersey Hitmen (USA #54) 87.38
+101. Syracuse Nationals (USA #55) 87.32
+102. Long Island Royals (USA #56) 87.28
+103. Valley Forge Minutemen (USA #57) 87.15
+104. Philadelphia Jr Flyers (USA #58) 87.06
+105. Brantford 99ers (Canada #47) 87.04
+106. CarShield (USA #59) 87.04
+107. Minuteman Flames (Elite) (USA #60) 87.03
+108. New York City Hockey Club (USA #61) 87.03
+109. New Jersey Devils (USA #62) 87.00
+110. Bay State Breakers (T1-Platinum) (USA #63) 86.95
+111. Ajax Pickering Raiders (Canada #48) 86.88
+112. Carolina Junior Canes (USA #64) 86.83
+113. New England Bulldogs (USA #65) 86.80
+114. North Central Predators (Canada #49) 86.74
+115. Boston Advantage (Elite) (USA #66) 86.62
+116. Queen City Royals (USA #67) 86.59
+117. Casco Bay Mariners (USA #68) 86.47
+118. Compuware (USA #69) 86.46
+119. Mercer Chiefs (USA #70) 86.40
+120. Boston Jr Terriers (T1-Platinum-Red) (USA #71) 86.39
+121. Boston Junior Rangers (USA #72) 86.39
+122. Amherst Knights (USA #73) 86.11
+123. Pittsburgh Penguins Elite (Anderson) (USA #74) 86.05
+124. Tampa Bay Jr Lightning (USA #75) 86.02
+125. Middlesex Islanders West (T1-Platinum) (USA #76) 85.77
+126. Nashville Jr Predators (USA #77) 85.77
+127. New Jersey Rockets (USA #78) 85.74
+128. Connecticut Chiefs (USA #79) 85.67
+129. Connecticut Elite Hockey Academy (USA #80) 85.63
+130. Lehigh Valley Phantoms (USA #81) 85.58
+131. New Jersey Colonials (USA #82) 85.57
+132. PAL Jr Islanders (Orange) (USA #83) 85.55
+133. Minuteman Flames (T1-Platinum) (USA #84) 85.53
+134. Belle Tire (USA #85) 85.48
+135. Team Maryland (USA #86) 85.48
+136. Boston Jr Eagles (T1) (USA #87) 85.47
+137. Pittsburgh Predators (USA #88) 85.47
+138. Boston Jr Terriers (T1-Platinum-White) (USA #89) 85.42
+139. Milwaukee Jr Admirals (USA #90) 85.40
+140. Greater Boston Jr Bruins (USA #91) 85.33
+141. Palmyra Black Knights (USA #92) 85.09
+142. Sun County Panthers (Canada #50) 84.81
+143. Top Gun (McGuirk) (USA #93) 84.66
+144. Fox Motors (USA #94) 84.54
+145. Northern CT Nor'Easter (USA #95) 84.41
+146. Nepean Raiders U12 AA (Canada #51) 84.38
+147. Soo Jr Greyhounds U12 AA (Canada #52) 84.11
+148. Tecumseh Shoreline Eagles U12 A (Canada #53) 80.80
+149. Burlington Raiders U12 A (Canada #54) 77.85
