@@ -1,21 +1,21 @@
 MY PLAYER DATA: 2016 birth year (10U)
-Updated: Tue Nov 24, 7:22 PM CT
+Updated: Tue Nov 24, 8:56 PM CT
 
 == GAMES THIS WEEKEND ==
-Fri 7:40 PM | #12 St Louis Blues v #33 Chicago Mission | Elk Grove Ice Arena (West Rink), Elk Grove Village, IL
-Sat 8:50 AM | #41 New Jersey Rockets v #74 Long Island Royals | Bridgewater Sports Arena, Bridgewater, NJ
-Sat 11:30 AM | #47 Washington Little Capitals v #97 New Jersey Colonials | ION International Training Center, Leesburg, VA
-Sat 1:50 PM | #23 London Jr Knights v #24 Windsor Jr Spitfires | Nichols Arena
-Sat 4:00 PM | #47 Washington Little Capitals v #97 New Jersey Colonials | ION International Training Center, Leesburg, VA
-Sun 7:40 AM | #47 Washington Little Capitals v #97 New Jersey Colonials | ION International Training Center, Leesburg, VA
-Sun 8:00 AM | #20 Kitchener Jr Rangers v #24 Windsor Jr Spitfires | Windsor Family Credit Union Centre
+Fri 7:40 PM | #13 St Louis Blues v #32 Chicago Mission | Elk Grove Ice Arena (West Rink), Elk Grove Village, IL
+Sat 8:50 AM | #41 New Jersey Rockets v #76 Long Island Royals | Bridgewater Sports Arena, Bridgewater, NJ
+Sat 11:30 AM | #48 Washington Little Capitals v #92 New Jersey Colonials | ION International Training Center, Leesburg, VA
+Sat 1:50 PM | #24 London Jr Knights v #21 Windsor Jr Spitfires | Nichols Arena
+Sat 4:00 PM | #48 Washington Little Capitals v #92 New Jersey Colonials | ION International Training Center, Leesburg, VA
+Sun 7:40 AM | #48 Washington Little Capitals v #92 New Jersey Colonials | ION International Training Center, Leesburg, VA
+Sun 8:00 AM | #23 Kitchener Jr Rangers v #21 Windsor Jr Spitfires | Windsor Family Credit Union Centre
 Sun 8:20 AM | #10 Middlesex Islanders East (Elite) v #54 Boston Jr Terriers (Elite) | Canton Sportsplex, Canton, MA
 Sun 9:30 AM | #41 New Jersey Rockets v #172 Palmyra Black Knights | Rock Ice Center, Dunellen, NJ
 Sun 12:25 PM | #41 New Jersey Rockets v #172 Palmyra Black Knights | Rock Ice Center, Dunellen, NJ
-Sun 2:40 PM | #39 Long Island Gulls v #74 Long Island Royals | Superior Ice Rink, Kings Park, NY
-Sun 8:00 PM | #30 LA Jr Kings (Voulelikas) 10U A v SDIA Oilers 12U A | San Diego Ice Arena, San Diego, CA
-Sat 9:25 AM | #18 Toronto Nationals v #60 North York Rangers | , Toronto, ON
-Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | The Bog, Kingston, MA
+Sun 2:40 PM | #40 Long Island Gulls v #76 Long Island Royals | Superior Ice Rink, Kings Park, NY
+Sun 8:00 PM | #31 LA Jr Kings (Voulelikas) 10U A v SDIA Oilers 12U A | San Diego Ice Arena, San Diego, CA
+Sat 9:25 AM | #18 Toronto Nationals v #61 North York Rangers | , Toronto, ON
+Sun 8:10 AM | #20 Boston Jr Eagles (Elite) v #16 Bay State Breakers (Elite) | The Bog, Kingston, MA
 
 == FINAL SCORES, LAST 4 DAYS ==
 2026-11-20 | St Louis Blues 3, Chicago Mission 2
@@ -48,6 +48,45 @@ Sun 8:10 AM | #21 Boston Jr Eagles (Elite) v #17 Bay State Breakers (Elite) | Th
 2026-11-22 | North York Rangers 2, Markham Majors 1
 2026-11-22 | Toronto Jr Canadiens 2, Toronto Titans 1
 2026-11-22 | Don Mills Flyers 5, Mississauga Rebels 1
+2026-11-21 | Cleveland Barons 4, Amherst Knights 1
+2026-11-21 | Amherst Knights 6, Cleveland Barons 6
+2026-11-21 | Bay State Breakers (Elite) 8, South Shore Kings (Elite) 1
+2026-11-21 | Boston Advantage (Elite) 15, Boston Jr Falcons 2
+2026-11-21 | Chicago Reapers 2, St Louis Blues 1
+2026-11-21 | Chicago Reapers 8, St Louis Blues 7
+2026-11-21 | North Jersey Avalanche 3, Long Island Gulls 2
+2026-11-21 | New Jersey Rockets 7, Long Island Royals 1
+2026-11-21 | Team Illinois 7, Milwaukee Jr Admirals 3
+2026-11-21 | Team Illinois 7, Milwaukee Jr Admirals 4
+2026-11-21 | Philadelphia Little Flyers 4, Minuteman Flames (Elite) 0
+2026-11-21 | Philadelphia Little Flyers 4, Minuteman Flames (Elite) 1
+2026-11-21 | Ottawa Valley Silver Seven AA 6, Nepean Raiders AA 1
+2026-11-21 | New Jersey Colonials 3, Washington Little Capitals 2
+2026-11-21 | Washington Little Capitals 5, New Jersey Colonials 4
+2026-11-22 | Ajax Pickering Raiders 4, North Shore Whitecaps 1
+2026-11-22 | Amherst Knights 5, Cleveland Barons 3
+2026-11-22 | Boston Advantage (Elite) 4, Assabet Valley Patriots (Elite) 2
+2026-11-22 | Bay State Breakers (Elite) 11, South Shore Kings (Elite) 1
+2026-11-22 | HB Detroit 5, Belle Tire 3
+2026-11-22 | Huron-Perth Lakers 7, Brantford 99ers 4
+2026-11-22 | Elgin Middlesex Canucks 7, Chatham-Kent Cyclones 3
+2026-11-22 | Chicago Fury 10, Windy City Storm 0
+2026-11-22 | St Louis Blues 4, Chicago Reapers 1
+2026-11-22 | Oakville Rangers 3, Credit River Capitals 1
+2026-11-22 | Windsor Jr Spitfires 5, Kitchener Jr Rangers 0
+2026-11-22 | London Jr Knights 5, Sun County Panthers 0
+2026-11-22 | Long Island Gulls 3, Long Island Royals 2
+2026-11-22 | Quinte Red Devils 9, Markham Waxers 3
+2026-11-22 | New Jersey Colonials 4, Washington Little Capitals 2
+2026-11-22 | New Jersey Rockets 9, Palmyra Black Knights 0
+2026-11-22 | New Jersey Rockets 11, Palmyra Black Knights 2
+2026-11-22 | Niagara North Stars 5, Southern Tier Admirals 2
+2026-11-22 | North Jersey Avalanche 11, Philadelphia Hockey Club 1
+2026-11-22 | Ottawa Valley Silver Seven AA 11, Rideau St Lawrence Kings AA 3
+2026-11-22 | Woodbridge Wolfpack 8, PAL Jr Islanders 1
+2026-11-22 | Whitby Wildcats 11, York Simcoe Express 1
+2026-11-23 | Toronto Marlboros 2, Toronto Nationals 0
+2026-11-23 | Vaughan Kings 5, Toronto Titans 0
 
 == GAME WRITE-UPS ==
 Final: St Louis Blues 3, Chicago Mission 2, decided after regulation, at Elk Grove. Scoring: Mission scored twice in the second period to lead 2-0. St Louis got one back on the power play with 5:18 left in the third and tied it with 1:45 to play, then took the extra point after regulation. The scoresheet does not list the scorers. Goalies: not listed on the scoresheet. Standings: an exhibition game. Ratings: St Louis goes from #11 to #12 in North America (USA #8, 96.57) after needing extra time against a lower-ranked team. Mission moves from #34 to #33 (USA #18, 94.63). Next: no other games are listed for either team this weekend.
@@ -62,87 +101,87 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Little Caesars (USA #1) 99.90
-2. Whitby Wildcats (Canada #1) 98.55
+2. Whitby Wildcats (Canada #1) 98.66
 3. Toronto Marlboros (Canada #2) 97.90
-4. Toronto Jr Canadiens (Canada #3) 97.83
+4. Toronto Jr Canadiens (Canada #3) 97.87
 5. Buffalo Jr Sabres (USA #2) 97.80
 6. Mid-Fairfield Hockey Club (Elite) (USA #3) 97.60
-7. Vaughan Kings (Canada #4) 97.43
-8. Team Illinois (USA #4) 97.40
-9. Top Gun (Elite) (USA #5) 97.20
+7. Vaughan Kings (Canada #4) 97.57
+8. Top Gun (Elite) (USA #4) 97.20
+9. Team Illinois (USA #5) 97.12
 10. Middlesex Islanders East (Elite) (USA #6) 96.81
 11. Florida Surf (USA #7) 96.60
-12. St Louis Blues (USA #8) 96.57
-13. Elgin Middlesex Canucks (Canada #5) 96.54
-14. Ottawa Valley Silver Seven AA (Canada #6) 96.00
-15. Chicago Fury (USA #9) 95.90
-16. Pittsburgh Penguins Elite (MacKinnon) (USA #10) 95.90
-17. Bay State Breakers (Elite) (USA #11) 95.83
-18. Toronto Nationals (Canada #7) 95.71
-19. HB Detroit (USA #12) 95.64
-20. Kitchener Jr Rangers (Canada #8) 95.52
-21. Boston Jr Eagles (Elite) (USA #13) 95.46
+12. Elgin Middlesex Canucks (Canada #5) 96.56
+13. St Louis Blues (USA #8) 96.47
+14. Ottawa Valley Silver Seven AA (Canada #6) 96.13
+15. Pittsburgh Penguins Elite (MacKinnon) (USA #9) 95.90
+16. Bay State Breakers (Elite) (USA #10) 95.88
+17. Chicago Fury (USA #11) 95.87
+18. Toronto Nationals (Canada #7) 95.73
+19. HB Detroit (USA #12) 95.54
+20. Boston Jr Eagles (Elite) (USA #13) 95.46
+21. Windsor Jr Spitfires (Canada #8) 95.39
 22. Don Mills Flyers (Canada #9) 95.39
-23. London Jr Knights (Canada #10) 95.28
-24. Windsor Jr Spitfires (Canada #11) 95.23
-25. Oakville Rangers (Canada #12) 95.12
-26. North Jersey Avalanche (USA #14) 95.00
-27. Chicago Reapers (USA #15) 95.00
+23. Kitchener Jr Rangers (Canada #10) 95.35
+24. London Jr Knights (Canada #11) 95.30
+25. North Jersey Avalanche (USA #14) 95.14
+26. Chicago Reapers (USA #15) 95.09
+27. Oakville Rangers (Canada #12) 95.04
 28. Niagara North Stars (Canada #13) 95.00
-29. Toronto Titans (Canada #14) 94.89
-30. LA Jr Kings (Voulelikas) 10U A (USA #16) 94.80
-31. Minuteman Flames (Elite) (USA #17) 94.80
-32. Burlington Eagles (Canada #15) 94.70
-33. Chicago Mission (USA #18) 94.63
-34. Philadelphia Little Flyers (USA #19) 94.60
-35. Huron-Perth Lakers (Canada #16) 94.56
-36. York Simcoe Express (Canada #17) 94.44
-37. Toronto Red Wings (Canada #18) 94.37
+29. Philadelphia Little Flyers (USA #16) 94.83
+30. Toronto Titans (Canada #14) 94.80
+31. LA Jr Kings (Voulelikas) 10U A (USA #17) 94.80
+32. Chicago Mission (USA #18) 94.63
+33. Huron-Perth Lakers (Canada #15) 94.55
+34. Burlington Eagles (Canada #16) 94.53
+35. Minuteman Flames (Elite) (USA #19) 94.46
+36. Toronto Red Wings (Canada #17) 94.36
+37. York Simcoe Express (Canada #18) 94.34
 38. Biggby Coffee (USA #20) 94.32
-39. Long Island Gulls (USA #21) 94.30
-40. Woodbridge Wolfpack (USA #22) 94.20
-41. New Jersey Rockets (USA #23) 94.00
+39. Woodbridge Wolfpack (USA #21) 94.28
+40. Long Island Gulls (USA #22) 94.26
+41. New Jersey Rockets (USA #23) 94.17
 42. Tampa Bay Jr Lightning (USA #24) 94.00
 43. Ohio Blue Jackets (USA #25) 93.93
-44. Boston Advantage (Elite) (USA #26) 93.90
-45. Quinte Red Devils (Canada #19) 93.90
-46. Ajax Pickering Raiders (Canada #20) 93.88
-47. Washington Little Capitals (USA #27) 93.80
-48. Carshield (USA #28) 93.60
+44. Quinte Red Devils (Canada #19) 93.92
+45. Boston Advantage (Elite) (USA #26) 93.90
+46. Ajax Pickering Raiders (Canada #20) 93.87
+47. Carshield (USA #27) 93.60
+48. Washington Little Capitals (USA #28) 93.57
 49. Barrie Colts (Canada #21) 93.55
 50. Waterloo Wolves (Canada #22) 93.50
-51. Cleveland Barons (USA #29) 93.40
-52. Toronto Reps (Canada #23) 93.40
-53. Providence Capitals (Elite) (USA #30) 93.37
+51. Toronto Reps (Canada #23) 93.42
+52. Providence Capitals (Elite) (USA #29) 93.37
+53. Cleveland Barons (USA #30) 93.26
 54. Boston Jr Terriers (Elite) (USA #31) 93.23
 55. Sarnia-Lambton Jr Sting (Canada #24) 93.20
-56. Mississauga Rebels (Canada #25) 93.20
-57. Chatham-Kent Cyclones (Canada #26) 93.19
+56. Chatham-Kent Cyclones (Canada #25) 93.16
+57. Mississauga Rebels (Canada #26) 93.13
 58. Florida Alliance (USA #32) 93.10
 59. Central Ontario Wolves (Canada #27) 93.10
-60. North York Rangers (Canada #28) 92.91
-61. Halton Hurricanes (Canada #29) 92.90
-62. Philadelphia Hockey Club (USA #33) 92.80
-63. Littleton Hawks (Black) 10U AA (USA #34) 92.80
-64. Hamilton Steel (Canada #30) 92.79
-65. Gloucester Rangers AA (Canada #31) 92.70
+60. Hamilton Steel (Canada #28) 93.00
+61. North York Rangers (Canada #29) 92.92
+62. Halton Hurricanes (Canada #30) 92.90
+63. Littleton Hawks (Black) 10U AA (USA #33) 92.80
+64. Gloucester Rangers AA (Canada #31) 92.70
+65. Philadelphia Hockey Club (USA #34) 92.65
 66. Kingston Jr Gaels (Canada #32) 92.65
-67. Peterborough Jr Petes (Canada #33) 92.64
+67. Peterborough Jr Petes (Canada #33) 92.65
 68. Mississauga Senators (Canada #34) 92.60
-69. Rideau St Lawrence Kings AA (Canada #35) 92.50
-70. Oakland Jr Grizzlies (USA #35) 92.40
+69. Oakland Jr Grizzlies (USA #35) 92.40
+70. Rideau St Lawrence Kings AA (Canada #35) 92.34
 71. Markham Majors (Canada #36) 92.29
 72. Tampa Bay Crunch 10U AA (USA #36) 92.20
 73. St Louis Knights 10U AA (USA #37) 92.20
-74. Long Island Royals (USA #38) 92.20
-75. Vegas Jr Golden Knights (USA #39) 92.10
-76. Phoenix Jr Coyotes (USA #40) 92.10
-77. Southern Tier Admirals (Canada #37) 91.98
+74. Vegas Jr Golden Knights (USA #38) 92.10
+75. Phoenix Jr Coyotes (USA #39) 92.10
+76. Long Island Royals (USA #40) 92.09
+77. Southern Tier Admirals (Canada #37) 91.99
 78. Casco Bay Mariners (USA #41) 91.90
 79. Cambridge Hawks (Canada #38) 91.83
-80. Victory Honda (USA #42) 91.83
-81. Madison Capitols (USA #43) 91.80
-82. Amherst Knights (USA #44) 91.70
+80. Victory Honda (USA #42) 91.82
+81. Amherst Knights (USA #43) 91.81
+82. Madison Capitols (USA #44) 91.80
 83. Pittsburgh Penguins Elite (Laschon) (USA #45) 91.70
 84. Nashville Warriors 10U AA (USA #46) 91.70
 85. Rochester Saints (USA #47) 91.50
@@ -151,24 +190,24 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 88. Northern CT Nor'Easter (USA #50) 91.30
 89. Hartland Huskies (Black) 10U AA (USA #51) 91.30
 90. Nepean Raiders AA (Canada #39) 91.30
-91. Boston Americans (USA #52) 91.20
-92. Compuware (USA #53) 91.20
-93. Brantford 99ers (Canada #40) 91.20
-94. Lake County Vipers (CSDHL) 10U AA (USA #54) 91.10
-95. Dallas Stars Elite (USA #55) 91.10
-96. Crystal Lake Yellowjackets (CSDHL) 10U AA (USA #56) 91.00
-97. New Jersey Colonials (USA #57) 90.90
-98. Belle Tire (USA #58) 90.89
-99. Credit River Capitals (Canada #41) 90.86
+91. Brantford 99ers (Canada #40) 91.22
+92. New Jersey Colonials (USA #52) 91.20
+93. Boston Americans (USA #53) 91.20
+94. Compuware (USA #54) 91.20
+95. Lake County Vipers (CSDHL) 10U AA (USA #55) 91.10
+96. Dallas Stars Elite (USA #56) 91.10
+97. Crystal Lake Yellowjackets (CSDHL) 10U AA (USA #57) 91.00
+98. Belle Tire (USA #58) 90.98
+99. Credit River Capitals (Canada #41) 90.95
 100. New Hampshire Avalanche (Elite #1) (USA #59) 90.80
 101. Upper Ottawa Valley Aces AA (Canada #42) 90.80
-102. North Shore Whitecaps (Canada #43) 90.70
-103. Guelph Gryphons (Canada #44) 90.60
-104. Assabet Valley Patriots (Elite) (USA #60) 90.60
+102. North Shore Whitecaps (Canada #43) 90.71
+103. Assabet Valley Patriots (Elite) (USA #60) 90.67
+104. Guelph Gryphons (Canada #44) 90.60
 105. San Jose Jr Sharks (#1) 10U A (USA #61) 90.60
 106. Kanata Blazers AA (Canada #45) 90.60
-107. Sun County Panthers (Canada #46) 90.60
-108. Ottawa Sting AA (Canada #47) 90.60
+107. Ottawa Sting AA (Canada #46) 90.60
+108. Sun County Panthers (Canada #47) 90.58
 109. Oakland Jr Grizzlies 10U AA (USA #62) 90.50
 110. Jersey Hitmen (USA #63) 90.40
 111. Eastern Ontario Cobras AA (Canada #48) 90.40
@@ -176,10 +215,10 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 113. St Clair Shores Saints (Red) 10U AA (USA #65) 90.30
 114. Arizona Bobcats 10U AA (USA #66) 90.30
 115. Grey Bruce Highlanders (Canada #49) 90.30
-116. PAL Jr Islanders (USA #67) 90.10
-117. Milwaukee Jr Admirals (USA #68) 90.05
-118. Saginaw Jr Spirit 10U AA (USA #69) 90.00
-119. Connecticut Jr Rangers (USA #70) 90.00
+116. Milwaukee Jr Admirals (USA #67) 90.26
+117. Saginaw Jr Spirit 10U AA (USA #68) 90.00
+118. Connecticut Jr Rangers (USA #69) 90.00
+119. PAL Jr Islanders (USA #70) 90.00
 120. West Dundee Leafs (CSDHL) 10U AA (USA #71) 89.90
 121. Indiana Elite (USA #72) 89.87
 122. NoCo Jr Eagles 10U AA (USA #73) 89.80
@@ -187,9 +226,9 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 124. Kansas City Scouts 10U AA (USA #75) 89.70
 125. Boston Jr Eagles (T1) (USA #76) 89.70
 126. Philadelphia Jr Flyers (USA #77) 89.68
-127. South Shore Kings (Elite) (USA #78) 89.50
-128. Northwest Chargers (CSDHL) 10U AA (USA #79) 89.50
-129. Palm Beach Hawks 10U AA (USA #80) 89.50
+127. Northwest Chargers (CSDHL) 10U AA (USA #78) 89.50
+128. Palm Beach Hawks 10U AA (USA #79) 89.50
+129. South Shore Kings (Elite) (USA #80) 89.44
 130. Syracuse Nationals (USA #81) 89.30
 131. Allegheny Badgers (#1) 10U AA (USA #82) 89.10
 132. Midland Northstars 10U AA (USA #83) 89.10
@@ -206,7 +245,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 143. Omaha Jr Mavericks (Black) 10U AA (USA #92) 88.50
 144. Vernon Hills Ice Dogs (CSDHL) 10U AA (USA #93) 88.50
 145. Canton Steel 10U AA (USA #94) 88.50
-146. Markham Waxers (Canada #52) 88.47
+146. Markham Waxers (Canada #52) 88.44
 147. South Shore Kings (T1-Platinum) (USA #95) 88.40
 148. Carolina Junior Canes (Black) 10U AA (USA #96) 88.40
 149. Rochester Jr Americans (USA #97) 88.30
@@ -218,11 +257,11 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 155. Lovell Winter Club (Elite) (USA #103) 88.20
 156. Lehigh Valley Phantoms (USA #104) 88.20
 157. Florida Jr Panthers 10U AA (USA #105) 88.20
-158. Boston Jr Falcons (USA #106) 88.10
-159. St Louis Sting 10U AA (USA #107) 88.10
+158. St Louis Sting 10U AA (USA #106) 88.10
+159. Boston Jr Falcons (USA #107) 88.02
 160. St James HC 10U AA (USA #108) 88.00
 161. California Jr Reign 10U A (USA #109) 88.00
-162. Windy City Storm (USA #110) 87.92
+162. Windy City Storm (USA #110) 87.96
 163. Team Maryland (USA #111) 87.90
 164. New Jersey Jr Titans (Red) 10U AA (USA #112) 87.90
 165. Florida Jr Everblades 10U AA (USA #113) 87.90
@@ -232,7 +271,7 @@ Final: Toronto Nationals 2, North York Rangers 1, a GTHL league game. Scoring: g
 169. Wonderland Wizards 10U AA (USA #117) 87.70
 170. Boston Jr Terriers (T1-Platinum-Red) (USA #118) 87.60
 171. Joliet Jaguars (CSDHL) 10U AA (USA #119) 87.50
-172. Palmyra Black Knights (USA #120) 87.50
+172. Palmyra Black Knights (USA #120) 87.47
 173. Wissahickon Warriors 10U AA (USA #121) 87.40
 174. California Goldrush 10U A (USA #122) 87.30
 175. Hartland Huskies (Silver) 10U AA (USA #123) 87.20
