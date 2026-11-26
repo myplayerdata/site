@@ -17,7 +17,11 @@
 .tabs a.on{color:#fff;border-bottom-color:#7cc4ee}
 .who{margin-left:auto;display:flex;align-items:center;gap:10px}.who a.si{color:#b9c7d2;font-size:14px;text-decoration:none}
 .who a.join{background:#f4d35e;color:#0c1a24;font-weight:800;text-decoration:none;border-radius:8px;padding:8px 14px;font-size:14px;white-space:nowrap}
-#fr{border:0;width:100%;display:block;background:#f3f6f8;position:fixed;left:0;right:0;bottom:0;top:52px;height:calc(100% - 52px)}
+/* Nov 25, 2026 (owner, Home Screen app on iPhone: "two separate things" moved on the screen, the header slid under the clock). WHY: the scores frame was
+   pinned 52px from the top while the page behind it could still scroll and bounce, and a header that wraps to two rows is taller than 52px.
+   FIX: the page itself never scrolls; header on top at whatever height it needs, the frame takes all the rest. Only the frame scrolls. */
+html,body{overflow:hidden;overscroll-behavior:none}body{position:fixed;inset:0;height:auto;display:flex;flex-direction:column}.top{flex:none}
+#fr{border:0;width:100%;display:block;background:#f3f6f8;flex:1 1 auto;min-height:0}#msg{flex:none}
 #msg{padding:24px;color:#5b6b78}
 #lp{position:fixed;inset:0;background:rgba(8,18,26,.62);z-index:50;display:flex;align-items:flex-end;justify-content:center}#lp[hidden]{display:none}
 #lp .box{background:#fff;width:100%;max-width:460px;border-radius:18px 18px 0 0;padding:20px 20px 22px;box-sizing:border-box;box-shadow:0 -8px 30px rgba(0,0,0,.25)}
