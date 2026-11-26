@@ -9,6 +9,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon.png">
 <script src="/app.js" defer></script>
+<script src="/nav.js"></script>
 <title>My Player Data: members</title>
 <meta name="robots" content="noindex">
 <style>
@@ -43,7 +44,7 @@ html:has(body.app),body.app{overflow:hidden;overscroll-behavior:none}body.app{po
 </head>
 <body>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
-<div class="tabs" id="tabs" hidden><button data-tab="ratings" aria-selected="true" id="tabLive">Live Scores &amp; Ratings</button><button data-tab="players" aria-selected="false">Players</button></div>
+<div class="tabs" id="tabs" hidden><button data-tab="ratings" data-m="gd" aria-selected="true" id="tabLive">Game Day</button><button data-tab="ratings" data-m="rt" aria-selected="false">Ratings</button><button data-tab="players" aria-selected="false">Players</button></div>
 <div class="who" id="who" hidden><span id="who-email"></span><button id="b-account" hidden>Billing</button><button id="signout">Sign out</button></div></div></div>
 <main>
 <div class="card" id="v-load"><p class="muted" style="margin:0">Loading…</p></div>
@@ -116,7 +117,7 @@ const RSITE=location.origin+"/members/ratings/";
 const SID=Math.random().toString(36).slice(2,10);
 const DEVICE=(navigator.userAgent.match(/iPad|iPhone|Android|Macintosh|Windows|CrOS|Linux/)||["Other"])[0]+" "+(Math.min(screen.width,screen.height)||0);
 function logEv(kind,detail){try{if(!access||!access.member)return;sb.from("usage_events").insert({kind,detail:String(detail||"").slice(0,120),session:SID}).then(()=>{},()=>{})}catch(e){}}
-let appOpen=false,ratingsUrl=null,playersUrl=null,playersLoading=null,tab="ratings",pending={};
+let rmode="gd",appOpen=false,ratingsUrl=null,playersUrl=null,playersLoading=null,tab="ratings",pending={};
 const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
 async function decryptPage(file,keyB64){
   const buf=new Uint8Array(await (await fetch(file+"?v="+Date.now(),{cache:"no-store"})).arrayBuffer());
@@ -145,11 +146,12 @@ function hook(fr,kind){ // keep links between the two apps inside the member sit
     else if(kind==="players"&&(a.id==="rback"||h.startsWith(RSITE))){e.preventDefault();e.stopPropagation();const full=a.href||h;go("ratings",full.includes("#")?full.slice(full.indexOf("#")):"")}
   },true);
 }
+function markTabs(){document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===tab&&(!b.dataset.m||b.dataset.m===rmode)))}
 async function go(t,hash){
-  tab=t;logEv("tab",t+(hash||""));document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  tab=t;logEv("tab",t+(hash||""));markTabs();
   const fr=$("fr-ratings"),fp=$("fr-players");
   if(t==="ratings"){fp.hidden=true;$("app-msg").hidden=true;
-    if(!fr.src){fr.onload=()=>{hook(fr,"ratings")};
+    if(!fr.src){fr.onload=()=>{hook(fr,"ratings");const w0=rmode;mpdNav(fr,m=>{rmode=m;markTabs()});if(w0==="rt")mpdNavGo(fr,"rt")};
       // the ratings app is its own file (/members/ratings/); load a copy into this page so links between the two tabs keep working
       if(!ratingsUrl){try{const t=await (await fetch(RSITE+"?v="+Date.now(),{cache:"no-store"})).text();ratingsUrl=URL.createObjectURL(new Blob([t],{type:"text/html"}))}catch(e){ratingsUrl=RSITE+"?stay=1"}}
       if(!appOpen||tab!=="ratings")return;
@@ -227,7 +229,7 @@ document.querySelector(".plans").addEventListener("click",async e=>{const b=e.ta
   try{mpdLog("checkout_start",b.dataset.plan||"");location.href=await billing({action:"checkout",plan:b.dataset.plan})}catch(err){$("e-join").hidden=false;$("e-join").textContent="Could not open checkout: "+err.message;document.querySelectorAll("button.plan").forEach(x=>x.disabled=false)}});
 $("b-account").onclick=async()=>{$("b-account").disabled=true;try{location.href=await billing({action:"portal"})}catch(err){alertMsg("Billing is not available for this account yet.")}$("b-account").disabled=false};
 function alertMsg(t){const m=$("app-msg");if(m&&appOpen){m.hidden=false;m.style.zIndex=9;m.style.background="rgba(243,246,248,.92)";m.textContent=t;setTimeout(()=>{m.hidden=true;m.style.zIndex="";m.style.background=""},3500)}}
-document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b)go(b.dataset.tab)});
+document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.m){rmode=b.dataset.m;const f=$("fr-ratings");if(f.src)mpdNavGo(f,rmode)}go(b.dataset.tab)});
 $("b-claim").onclick=async()=>{$("b-claim").disabled=true;try{await claim()}catch(e){}$("b-claim").disabled=false;check()};
 $("signout").onclick=async()=>{setTok(null);await sb.auth.signOut();check()};
 sb.auth.onAuthStateChange((ev)=>{if(ev==="SIGNED_IN"&&location.hash.includes("access_token")){setTok(null)}if(ev==="SIGNED_IN"||ev==="SIGNED_OUT")setTimeout(check,0)});
@@ -236,5 +238,5 @@ timer=setInterval(()=>{if(access&&access.signed_in&&document.visibilityState==="
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&access&&access.signed_in)check()});
 </script>
 <script src="ratings/live.js"></script>
-<script>(function(){function f(){var b=document.getElementById('tabLive'),L=window.MPD_LIVE||[],n=Date.now();if(!b)return;var on=L[0]&&L[1]&&n>=Date.parse(L[0])&&n<=Date.parse(L[1]);b.textContent=on?'\uD83D\uDEA8 Live Scores \uD83D\uDEA8 & Ratings':'Live Scores & Ratings'}f();setInterval(f,60000)})();</script>
+<script>(function(){function f(){var b=document.getElementById('tabLive'),L=window.MPD_LIVE||[],n=Date.now();if(!b)return;var on=L[0]&&L[1]&&n>=Date.parse(L[0])&&n<=Date.parse(L[1]);b.textContent=on?'\uD83D\uDEA8 Game Day \uD83D\uDEA8':'Game Day'}f();setInterval(f,60000)})();</script>
 </body></html>

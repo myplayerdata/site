@@ -8,6 +8,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon.png">
 <script src="/app.js" defer></script>
+<script src="/nav.js"></script>
 <title>Live Scores and Team Ratings · My Player Data</title>
 <meta name="description" content="Live AAA youth hockey scores and team ratings for birth years 2011 to 2016.">
 <style>html,body{margin:0;height:100%;background:#f3f6f8;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#14212b}
@@ -35,7 +36,7 @@ html,body{overflow:hidden;overscroll-behavior:none}body{position:fixed;inset:0;h
 #lp .sm{text-align:center;font-size:13px;color:#5b6b78;margin:8px 0 0}#lp button{display:block;margin:10px auto 0;background:none;border:0;color:#5b6b78;font-size:14px;text-decoration:underline;cursor:pointer}
 </style></head><body>
 <div class="top" id="top"><div class="in"><a class="brand" href="/">My Player <span>Data</span></a>
-<div class="tabs"><a class="on" href="/live/">Live Scores &amp; Ratings</a><a href="/#pricing" id="tabPlayers">Players</a></div>
+<div class="tabs"><a class="on" id="tabGD" href="/live/">Game Day</a><a id="tabRT" href="/live/?v=ratings">Ratings</a><a href="/#pricing" id="tabPlayers">Players</a></div>
 <div class="who"><a class="si" href="/members/">Sign in</a><a class="join" id="join" href="/members/?plan=monthly">Join &middot; first month $19</a></div></div></div>
 <div id="lp" hidden><div class="box" role="dialog" aria-labelledby="lp-t"><div class="k">MEMBERS ONLY</div><h2 id="lp-t">The player database</h2><p class="n" id="lp-n" hidden></p>
 <div class="pv" aria-hidden="true"><div class="r"><span>Forward, #19</span><span>18:42 a game</span><span>1.36</span></div><div class="r"><span>Defenseman, #4</span><span>22:10 a game</span><span>0.91</span></div><div class="r"><span>Forward, #88</span><span>16:05 a game</span><span>1.12</span></div><div class="lk"><span>&#128274; Player stats are for members</span></div></div>
@@ -67,6 +68,8 @@ document.getElementById("lp-x").addEventListener("click",function(){document.get
 document.getElementById("lp").addEventListener("click",function(e){if(e.target===this)this.hidden=true});
 document.getElementById("lp-go").addEventListener("click",function(){try{mpdLog("lock_join","panel")}catch(e){}});
 function fit(){try{var h=document.getElementById("top").offsetHeight;var f=document.getElementById("fr");f.style.top=h+"px";f.style.height="calc(100% - "+h+"px)"}catch(e){}}window.addEventListener("resize",fit);fit();
+document.getElementById("tabGD").addEventListener("click",function(e){e.preventDefault();mpdNavGo(document.getElementById("fr"),"gd")});
+document.getElementById("tabRT").addEventListener("click",function(e){e.preventDefault();mpdNavGo(document.getElementById("fr"),"rt")});
 document.getElementById("join").addEventListener("click",function(){try{mpdLog("join_click","live")}catch(e){}});
 (async function(){try{
  let t=await (await fetch("/members/ratings/?v="+Date.now(),{cache:"no-store"})).text();
@@ -74,6 +77,8 @@ document.getElementById("join").addEventListener("click",function(){try{mpdLog("
  t=t.replace("</head>",add+"</head>");
  // Open on a birth year named in the address: /live/?y=2011 (owner, Nov 24 2026: each Silver Stick ad lands on its own year). No y = the app's own default.
  try{var yq=(location.search.match(/[?&]y=(201[1-6])(?:&|$)/)||[])[1];if(yq)t=t.replace(/let div='201\d', view='wk'/,"let div='"+yq+"', view='wk'")}catch(e){}
- const fr=document.getElementById("fr");fr.src=URL.createObjectURL(new Blob([t],{type:"text/html"}));fr.hidden=false;document.getElementById("msg").hidden=true;
+ const fr=document.getElementById("fr");var wantRT=/[?&]v=ratings(?:&|$)/.test(location.search);
+ fr.addEventListener("load",function(){mpdNav(fr,function(m){document.getElementById("tabGD").classList.toggle("on",m==="gd");document.getElementById("tabRT").classList.toggle("on",m==="rt");if(m==="rt"){try{mpdLog("tab_ratings","live")}catch(e){}}});if(wantRT){wantRT=false;mpdNavGo(fr,"rt")}});
+ fr.src=URL.createObjectURL(new Blob([t],{type:"text/html"}));fr.hidden=false;document.getElementById("msg").hidden=true;
 }catch(e){document.getElementById("msg").textContent="Could not load the scores. Refresh the page to try again."}})();
 </script></body></html>
