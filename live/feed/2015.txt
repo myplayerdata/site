@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Thu Nov 26, 4:42 PM CT
+Updated: Thu Nov 26, 4:48 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 12:30 PM | #84 Sudbury Wolves v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
@@ -70,6 +70,7 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 2026-11-26 | Niagara North Stars 1, Kitchener Jr Rangers 5
 2026-11-26 | Cleveland Barons 1, Whitby Wildcats 1
 2026-11-26 | Oakville Rangers 0, London Jr Knights 4
+2026-11-26 | Don Mills Flyers 6, Middlesex Islanders East (Elite) 2
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
@@ -77,7 +78,7 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 2. Toronto Jr Canadiens (Canada #1) 95.22
 3. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.32
 4. Worcester Shamrocks (USA #3) 94.21
-5. Don Mills Flyers (Canada #2) 94.20
+5. Don Mills Flyers (Canada #2) 94.16
 6. Mid-Fairfield Hockey Club (Elite) (USA #4) 94.06
 7. Toronto Marlboros (Canada #3) 93.74
 8. Lovell Winter Club (Elite) (USA #5) 93.63
@@ -88,7 +89,7 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 13. St Louis Blues (USA #10) 92.82
 14. South Shore Kings (Elite) (USA #11) 92.76
 15. Biggby Coffee (USA #12) 92.47
-16. Providence Capitals (Elite) (USA #13) 92.30
+16. Providence Capitals (Elite) (USA #13) 92.31
 17. Florida Surf (USA #14) 92.10
 18. Whitby Wildcats (Canada #4) 92.09
 19. Cleveland Barons (USA #15) 91.98
@@ -98,7 +99,7 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 23. Toronto Titans (Canada #6) 91.55
 24. Kitchener Jr Rangers (Canada #7) 91.52
 25. London Jr Knights (Canada #8) 91.21
-26. PAL Jr Islanders (Blue) (USA #18) 91.15
+26. PAL Jr Islanders (Blue) (USA #18) 91.16
 27. Grey Bruce Highlanders (Canada #9) 91.11
 28. Vaughan Kings (Canada #10) 91.11
 29. Victory Honda (USA #19) 91.00
@@ -132,7 +133,7 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 57. Southern Tier Admirals (Canada #21) 89.63
 58. Peterborough Jr Petes (Canada #22) 89.51
 59. Quinte Red Devils (Canada #23) 89.49
-60. Middlesex Islanders East (Elite) (USA #37) 89.44
+60. Middlesex Islanders East (Elite) (USA #37) 89.47
 61. Madison Capitols (USA #38) 89.40
 62. Connecticut Jr Rangers (USA #39) 89.37
 63. Kingston Jr Gaels (Canada #24) 89.26
@@ -167,11 +168,11 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 92. Buffalo Regals (USA #49) 87.89
 93. Utica Jr Comets (USA #50) 87.78
 94. Windy City Storm (USA #51) 87.73
-95. Markham Majors (Canada #44) 87.69
-96. Texas Tigers 11U AA (USA #52) 87.69
+95. Texas Tigers 11U AA (USA #52) 87.69
+96. Markham Majors (Canada #44) 87.69
 97. North York Rangers (Canada #45) 87.50
 98. NY Dynamo (USA #53) 87.49
-99. Credit River Capitals (Canada #46) 87.40
+99. Credit River Capitals (Canada #46) 87.39
 100. Jersey Hitmen (USA #54) 87.38
 101. Syracuse Nationals (USA #55) 87.32
 102. Long Island Royals (USA #56) 87.28
@@ -179,8 +180,8 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 104. Philadelphia Jr Flyers (USA #58) 87.06
 105. Brantford 99ers (Canada #47) 87.04
 106. CarShield (USA #59) 87.04
-107. New York City Hockey Club (USA #60) 87.03
-108. Minuteman Flames (Elite) (USA #61) 87.03
+107. Minuteman Flames (Elite) (USA #60) 87.03
+108. New York City Hockey Club (USA #61) 87.03
 109. New Jersey Devils (USA #62) 87.00
 110. Bay State Breakers (T1-Platinum) (USA #63) 86.95
 111. Ajax Pickering Raiders (Canada #48) 86.88
@@ -192,13 +193,13 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 117. Casco Bay Mariners (USA #68) 86.47
 118. Compuware (USA #69) 86.47
 119. Mercer Chiefs (USA #70) 86.40
-120. Boston Jr Terriers (T1-Platinum-Red) (USA #71) 86.39
-121. Boston Junior Rangers (USA #72) 86.39
+120. Boston Junior Rangers (USA #71) 86.39
+121. Boston Jr Terriers (T1-Platinum-Red) (USA #72) 86.39
 122. Amherst Knights (USA #73) 86.11
 123. Pittsburgh Penguins Elite (Anderson) (USA #74) 86.05
 124. Tampa Bay Jr Lightning (USA #75) 86.02
-125. Middlesex Islanders West (T1-Platinum) (USA #76) 85.77
-126. Nashville Jr Predators (USA #77) 85.77
+125. Nashville Jr Predators (USA #76) 85.77
+126. Middlesex Islanders West (T1-Platinum) (USA #77) 85.77
 127. New Jersey Rockets (USA #78) 85.74
 128. Connecticut Chiefs (USA #79) 85.67
 129. Connecticut Elite Hockey Academy (USA #80) 85.63

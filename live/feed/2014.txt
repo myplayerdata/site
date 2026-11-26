@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2014 birth year (12U)
-Updated: Thu Nov 26, 4:42 PM CT
+Updated: Thu Nov 26, 4:48 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 6:45 PM | #11 Buffalo Jr Sabres v #99 Buffalo Regals (Rainey) | Holiday Rinks
@@ -32,8 +32,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 21. Sun County Panthers (Canada #8) 96.11
 22. Eastern Ontario Wild (Canada #9) 96.09
 23. North Jersey Avalanche (USA #14) 96.06
-24. Toronto Nationals (Canada #10) 96.05
-25. Ottawa Jr 67's (Canada #11) 96.05
+24. Ottawa Jr 67's (Canada #10) 96.05
+25. Toronto Nationals (Canada #11) 96.05
 26. Boston Jr Terriers (Elite) (USA #15) 95.88
 27. South Fraser Alliance U13 AA (Canada #12) 95.81
 28. Florida Surf (USA #16) 95.80
@@ -65,8 +65,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 54. Toronto Titans (Canada #24) 93.95
 55. PAL Jr Islanders (USA #31) 93.90
 56. Biggby Coffee (USA #32) 93.83
-57. Sarnia-Lambton Jr Sting (Canada #25) 93.79
-58. Providence Capitals (Elite) (USA #33) 93.79
+57. Providence Capitals (Elite) (USA #33) 93.79
+58. Sarnia-Lambton Jr Sting (Canada #25) 93.79
 59. Littleton Hawks 12U AA (USA #34) 93.71
 60. Lehigh Valley Phantoms (USA #35) 93.61
 61. Toronto Red Wings (Canada #26) 93.60
@@ -77,20 +77,20 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 66. Oakland Jr Grizzlies (USA #39) 93.35
 67. Ottawa Myers Automotive (Canada #28) 93.33
 68. New York City Hockey Club (USA #40) 93.31
-69. Niagara North Stars (Canada #29) 93.26
-70. Chicago Phantoms (USA #41) 93.26
+69. Chicago Phantoms (USA #41) 93.26
+70. Niagara North Stars (Canada #29) 93.26
 71. Philadelphia Little Flyers (USA #42) 93.18
-72. Colorado Extreme (Black) 12U AA (USA #43) 93.13
-73. NY Dynamo (USA #44) 93.13
+72. NY Dynamo (USA #43) 93.13
+73. Colorado Extreme (Black) 12U AA (USA #44) 93.13
 74. Mississauga Senators (Canada #30) 93.09
 75. Burlington Eagles (Canada #31) 93.08
 76. Kitchener Jr Rangers (Canada #32) 93.05
-77. Markham Majors (Canada #33) 92.99
-78. Minuteman Flames (Elite) (USA #45) 92.99
+77. Minuteman Flames (Elite) (USA #45) 92.99
+78. Markham Majors (Canada #33) 92.99
 79. CarShield (USA #46) 92.98
 80. Oakville Rangers (Canada #34) 92.89
-81. Halton Hurricanes (Canada #35) 92.86
-82. Pittsburgh Predators (USA #47) 92.86
+81. Pittsburgh Predators (USA #47) 92.86
+82. Halton Hurricanes (Canada #35) 92.86
 83. Seacoast Spartans (T1-Platinum) (USA #48) 92.85
 84. Lovell Winter Club (Elite) (USA #49) 92.82
 85. Team Maryland (USA #50) 92.81
@@ -100,8 +100,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 89. Milwaukee Jr Admirals (USA #52) 92.75
 90. North Shore Hockey Academy (USA #53) 92.72
 91. Mid-Fairfield Hockey Club (T1) (USA #54) 92.67
-92. Waterloo Wolves (Canada #38) 92.65
-93. New Jersey Colonials (USA #55) 92.65
+92. New Jersey Colonials (USA #55) 92.65
+93. Waterloo Wolves (Canada #38) 92.65
 94. Ajax Pickering Raiders (Canada #39) 92.60
 95. Pittsburgh Penguins Elite (Snyder) (USA #56) 92.40
 96. Peterborough Jr Petes (Canada #40) 92.39
@@ -114,13 +114,13 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 103. Southern Tier Admirals (Canada #43) 92.17
 104. LA Jr Kings (USA #61) 92.16
 105. Springfield Jr Thunderbirds (Elite) (USA #62) 92.07
-106. North Shore Whitecaps (Canada #44) 92.00
-107. Elgin Middlesex Canucks (Canada #45) 92.00
+106. Elgin Middlesex Canucks (Canada #44) 92.00
+107. North Shore Whitecaps (Canada #45) 92.00
 108. Toronto Reps (Canada #46) 91.98
 109. Texas Tigers 12U AA (USA #63) 91.93
 110. California Bears (#1) 12U AA (USA #64) 91.90
-111. Kingston Jr Gaels (Canada #47) 91.88
-112. Philadelphia Jr Flyers (USA #65) 91.88
+111. Philadelphia Jr Flyers (USA #65) 91.88
+112. Kingston Jr Gaels (Canada #47) 91.88
 113. Boston Jr Falcons (USA #66) 91.85
 114. Saskatoon Mission U13 AA (Canada #48) 91.84
 115. Cambridge Hawks (Canada #49) 91.81
@@ -129,8 +129,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 118. Anaheim Jr Ducks (#1) 12U AA (USA #68) 91.77
 119. Syracuse Nationals (USA #69) 91.69
 120. Madison Capitols (USA #70) 91.67
-121. Belle Tire 12U AA (USA #71) 91.56
-122. Great Lakes HC 12U AA (USA #72) 91.56
+121. Great Lakes HC 12U AA (USA #71) 91.56
+122. Belle Tire 12U AA (USA #72) 91.56
 123. Houston Jr Aeros 12U AA (USA #73) 91.52
 124. Danbury Jr Hat Tricks (USA #74) 91.46
 125. Hartland Huskies (Black) 12U AA (USA #75) 91.45
@@ -149,25 +149,25 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 138. Thunder Bay Kings (Canada #54) 90.87
 139. East Coast Wizards (Elite) (USA #85) 90.72
 140. Amherst Knights (USA #86) 90.70
-141. Soo Jr Greyhounds (Canada #55) 90.66
-142. Philadelphia Revolution (USA #87) 90.66
+141. Philadelphia Revolution (USA #87) 90.66
+142. Soo Jr Greyhounds (Canada #55) 90.66
 143. Valley Jr Warriors (Elite) (USA #88) 90.58
 144. Utica Jr Comets (USA #89) 90.53
 145. North Toronto U13 AA (Canada #56) 90.45
 146. Fort Frances Canadians (Canada #57) 90.40
 147. Mercer Chiefs (USA #90) 90.37
 148. South Shore Kings (T1-Platinum) (USA #91) 90.33
-149. Palm Beach Hawks 12U AA (USA #92) 90.27
-150. Team Illinois (USA #93) 90.27
-151. Nicolas Gatineau Polyvalente M13 D1 (Canada #58) 90.27
+149. Nicolas Gatineau Polyvalente M13 D1 (Canada #58) 90.27
+150. Team Illinois (USA #92) 90.27
+151. Palm Beach Hawks 12U AA (USA #93) 90.27
 152. Wilmette Jr Trevians (CSDHL) 12U AA (USA #94) 90.19
-153. Chatham-Kent Cyclones (Canada #59) 90.09
-154. Long Island Gulls (USA #95) 90.09
+153. Long Island Gulls (USA #95) 90.09
+154. Chatham-Kent Cyclones (Canada #59) 90.09
 155. Gulf Coast Flames 12U AA (USA #96) 90.06
-156. North Bay Trappers (Canada #60) 90.05
-157. Crimson HC (White) (USA #97) 90.05
-158. New Jersey Rockets (USA #98) 90.02
-159. Casco Bay Mariners (USA #99) 90.02
+156. Crimson HC (White) (USA #97) 90.05
+157. North Bay Trappers (Canada #60) 90.05
+158. Casco Bay Mariners (USA #98) 90.02
+159. New Jersey Rockets (USA #99) 90.02
 160. Allegheny Badgers (#1) 12U AA (USA #100) 90.00
 161. Pittsburgh Vengeance (USA #101) 89.95
 162. Detroit Bulldogs 12U AA (USA #102) 89.89
@@ -190,8 +190,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 179. Washington Little Capitals (USA #118) 89.11
 180. St Louis Knights 12U AA (USA #119) 89.08
 181. Top Gun (T1-Platinum) (USA #120) 88.94
-182. Team Philadelphia 12U AA (USA #121) 88.93
-183. Minuteman Flames (T1-Platinum) (USA #122) 88.93
+182. Minuteman Flames (T1-Platinum) (USA #121) 88.93
+183. Team Philadelphia 12U AA (USA #122) 88.93
 184. McKinney North Stars 12U AA (USA #123) 88.83
 185. St Louis Sting 12U AA (USA #124) 88.82
 186. West Dundee Leafs (CSDHL) 12U AA (USA #125) 88.80
@@ -225,13 +225,13 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 214. Kent Cobras U13 A (Canada #63) 87.68
 215. Boston Junior Rangers (USA #152) 87.66
 216. Columbus Blue Jackets 12U AA (USA #153) 87.64
-217. Buffalo Regals (Montalbo) (USA #154) 87.61
-218. Boston Jr Eagles (T1) (USA #155) 87.61
+217. Boston Jr Eagles (T1) (USA #154) 87.61
+218. Buffalo Regals (Montalbo) (USA #155) 87.61
 219. Vegas Jr Golden Knights 12U AA (USA #156) 87.60
 220. New York Saints (USA #157) 87.59
 221. Pittsburgh (PHA) Icemen 12U AA (USA #158) 87.51
-222. Chicago Hawks (CSDHL) 12U AA (USA #159) 87.40
-223. South Shore Dynamos (USA #160) 87.40
+222. South Shore Dynamos (USA #159) 87.40
+223. Chicago Hawks (CSDHL) 12U AA (USA #160) 87.40
 224. Northwest Chargers 12U AA (USA #161) 87.39
 225. Toledo Cherokee 12U AA (USA #162) 87.35
 226. California Wave 12U AA (USA #163) 87.34
@@ -251,14 +251,14 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 240. Vermont Jr Catamounts (Select) (USA #174) 86.40
 241. Philadelphia Flyers Elite (USA #175) 86.31
 242. Northern Cyclones Academy (T1-Upper) (USA #176) 86.15
-243. Hartford Jr Wolfpack (USA #177) 86.10
-244. Long Island Arrows (USA #178) 86.10
+243. Long Island Arrows (USA #177) 86.10
+244. Hartford Jr Wolfpack (USA #178) 86.10
 245. Boston Ice Dogs (USA #179) 85.85
 246. Lovell Winter Club (Select #1) (USA #180) 85.66
 247. Westchester Express (USA #181) 85.59
 248. 95 Giants (Elite) (USA #182) 85.56
-249. Middlesex Islanders East (Brooks) (USA #183) 85.34
-250. Forest Hill Force U13 A (Canada #67) 85.34
+249. Forest Hill Force U13 A (Canada #67) 85.34
+250. Middlesex Islanders East (Brooks) (USA #183) 85.34
 251. New England Knights (Elite) (USA #184) 85.30
 252. Walpole Express (Select) (USA #185) 85.24
 253. Talbot Trail Blazers U13 A (Canada #68) 85.07
