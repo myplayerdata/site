@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Thu Nov 26, 2:53 PM CT
+Updated: Thu Nov 26, 2:59 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 12:30 PM | #84 Sudbury Wolves v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
@@ -68,6 +68,7 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 2026-11-26 | Toronto Jr Canadiens 4, York Simcoe Express 3
 2026-11-26 | Toronto Nationals 7, Quinte Red Devils 5
 2026-11-26 | Niagara North Stars 1, Kitchener Jr Rangers 5
+2026-11-26 | Cleveland Barons 1, Whitby Wildcats 1
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
@@ -195,8 +196,8 @@ Sat 5:45 PM | #36 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park S
 122. Amherst Knights (USA #73) 86.11
 123. Pittsburgh Penguins Elite (Anderson) (USA #74) 86.05
 124. Tampa Bay Jr Lightning (USA #75) 86.02
-125. Middlesex Islanders West (T1-Platinum) (USA #76) 85.77
-126. Nashville Jr Predators (USA #77) 85.77
+125. Nashville Jr Predators (USA #76) 85.77
+126. Middlesex Islanders West (T1-Platinum) (USA #77) 85.77
 127. New Jersey Rockets (USA #78) 85.74
 128. Connecticut Chiefs (USA #79) 85.67
 129. Connecticut Elite Hockey Academy (USA #80) 85.63
