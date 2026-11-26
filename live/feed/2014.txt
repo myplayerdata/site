@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2014 birth year (12U)
-Updated: Thu Nov 26, 5:30 PM CT
+Updated: Thu Nov 26, 5:36 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 6:45 PM | #11 Buffalo Jr Sabres v #99 Buffalo Regals (Rainey) | Holiday Rinks
@@ -157,8 +157,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 146. Fort Frances Canadians (Canada #57) 90.40
 147. Mercer Chiefs (USA #90) 90.37
 148. South Shore Kings (T1-Platinum) (USA #91) 90.33
-149. Team Illinois (USA #92) 90.27
-150. Nicolas Gatineau Polyvalente M13 D1 (Canada #58) 90.27
+149. Nicolas Gatineau Polyvalente M13 D1 (Canada #58) 90.27
+150. Team Illinois (USA #92) 90.27
 151. Palm Beach Hawks 12U AA (USA #93) 90.27
 152. Wilmette Jr Trevians (CSDHL) 12U AA (USA #94) 90.19
 153. Long Island Gulls (USA #95) 90.09
@@ -181,8 +181,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 170. Dallas Penguins 12U AA (USA #110) 89.33
 171. Oakland Jr Grizzlies 12U AA (USA #111) 89.31
 172. Rochester Jr Americans (USA #112) 89.24
-173. Compuware 12U AA (USA #113) 89.21
-174. AY NorthStars (T1-Platinum) (USA #114) 89.21
+173. AY NorthStars (T1-Platinum) (USA #113) 89.21
+174. Compuware 12U AA (USA #114) 89.21
 175. Arizona Bobcats 12U AA (USA #115) 89.19
 176. Bay State Breakers (T1-Platinum) (USA #116) 89.17
 177. Wheatland Warriors (Canada #61) 89.16
@@ -225,8 +225,8 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 214. Kent Cobras U13 A (Canada #63) 87.68
 215. Boston Junior Rangers (USA #152) 87.66
 216. Columbus Blue Jackets 12U AA (USA #153) 87.64
-217. Buffalo Regals (Montalbo) (USA #154) 87.61
-218. Boston Jr Eagles (T1) (USA #155) 87.61
+217. Boston Jr Eagles (T1) (USA #154) 87.61
+218. Buffalo Regals (Montalbo) (USA #155) 87.61
 219. Vegas Jr Golden Knights 12U AA (USA #156) 87.60
 220. New York Saints (USA #157) 87.59
 221. Pittsburgh (PHA) Icemen 12U AA (USA #158) 87.51
@@ -237,10 +237,10 @@ Sun 9:30 AM | #11 Buffalo Jr Sabres v #130 Rochester Saints | Bud Bakewell Ice R
 226. California Wave 12U AA (USA #163) 87.34
 227. Valley Forge Minutemen (USA #164) 87.28
 228. Hamilton Steel U13 AA (Canada #64) 87.10
-229. Clarence Mustangs (TB) 12U AA (USA #165) 87.09
-230. Montgomery Ice Devils 12U AA (USA #166) 87.09
+229. Montgomery Ice Devils 12U AA (USA #165) 87.09
+230. Clarence Mustangs (TB) 12U AA (USA #166) 87.09
 231. Greater Boston Jr Bruins (USA #167) 87.07
-232. Nicolas Gatineau Polyvalente (Releve) M13 D1 (Canada #65) 87.00
+232. Nicolas Gatineau Polyvalente (Releve) M13 D1 (Canada #65) 87.01
 233. Boston Americans (USA #168) 86.94
 234. Boston Jr Terriers (Nones) (USA #169) 86.90
 235. Yale Bulldogs (USA #170) 86.88
