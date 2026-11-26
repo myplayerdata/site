@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Thu Nov 26, 4:17 PM CT
+Updated: Thu Nov 26, 4:24 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 2:15 PM | #18 Central Ontario Wolves v #16 Mississauga Rebels | Iroquois Park Sports Centre, Rink 1, Whitby
@@ -66,11 +66,12 @@ Sat 2:45 PM | #22 North Shore Whitecaps v #7 Toronto Marlboros | Iroquois Park S
 == FINAL SCORES, LAST 4 DAYS ==
 2026-11-26 | Central Ontario Wolves 5, Mississauga Rebels 3
 2026-11-26 | Elgin Middlesex Canucks 2, North Shore Whitecaps 4
+2026-11-26 | York Simcoe Express 1, Vaughan Kings 3
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Pittsburgh Penguins Elite (USA #1) 96.81
-2. Vaughan Kings (Canada #1) 95.95
+2. Vaughan Kings (Canada #1) 95.93
 3. Bishop Kearney Selects (USA #2) 95.85
 4. Mount St Charles Hockey Academy (USA #3) 95.60
 5. Toronto Jr Canadiens (Canada #2) 95.21
@@ -83,7 +84,7 @@ Sat 2:45 PM | #22 North Shore Whitecaps v #7 Toronto Marlboros | Iroquois Park S
 12. Oakland Jr Grizzlies (USA #7) 93.99
 13. Chicago Mission (USA #8) 93.86
 14. Woodbridge Wolfpack (USA #9) 93.37
-15. York Simcoe Express (Canada #6) 93.34
+15. York Simcoe Express (Canada #6) 93.36
 16. Mississauga Rebels (Canada #7) 93.28
 17. Waterloo Wolves (Canada #8) 93.26
 18. Central Ontario Wolves (Canada #9) 93.16
