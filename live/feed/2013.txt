@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2013 birth year (13U)
-Updated: Thu Nov 26, 3:20 PM CT
+Updated: Thu Nov 26, 3:26 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 1:15 PM | #65 Credit River Capitals v #11 Toronto Nationals | Iroquois Park Sports Centre, Rink 3, Whitby
@@ -65,6 +65,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 
 == FINAL SCORES, LAST 4 DAYS ==
 2026-11-26 | Toronto Nationals 5, Credit River Capitals 0
+2026-11-26 | Sudbury Wolves 1, Hamilton Steel 2
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
@@ -129,8 +130,8 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 59. Team Maryland (USA #37) 88.55
 60. Oakville Rangers (Canada #23) 88.49
 61. Fox Motors (USA #38) 88.42
-62. San Jose Jr Sharks (USA #39) 88.42
-63. Halton Hurricanes (Canada #24) 88.42
+62. Halton Hurricanes (Canada #24) 88.42
+63. San Jose Jr Sharks (USA #39) 88.42
 64. New Jersey Colonials (USA #40) 88.39
 65. Credit River Capitals (Canada #25) 88.33
 66. Peterborough Jr Petes (Canada #26) 88.27
@@ -143,7 +144,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 73. Vegas Jr Golden Knights (USA #43) 87.76
 74. Ottawa Jr 67's (Canada #31) 87.76
 75. MN Blue Ox (USA #44) 87.71
-76. Hamilton Steel (Canada #32) 87.69
+76. Hamilton Steel (Canada #32) 87.70
 77. Rochester Saints (USA #45) 87.61
 78. Grey Bruce Highlanders (Canada #33) 87.54
 79. Team Illinois (USA #46) 87.53
@@ -163,7 +164,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 93. Seacoast Performance Academy (USA #58) 87.06
 94. Guelph Gryphons (Canada #36) 87.05
 95. Southeast Blades (USA #59) 87.03
-96. Sudbury Wolves (Canada #37) 87.01
+96. Sudbury Wolves (Canada #37) 86.99
 97. Oakland Jr Grizzlies (USA #60) 86.91
 98. Team Wisconsin (USA #61) 86.84
 99. Soo Jr Greyhounds (Canada #38) 86.77

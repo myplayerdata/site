@@ -1,8 +1,8 @@
 MY PLAYER DATA: 2012 birth year (14U)
-Updated: Thu Nov 26, 3:20 PM CT
+Updated: Thu Nov 26, 3:26 PM CT
 
 == GAMES THIS WEEKEND ==
-Thu 7:15 PM | #45 Halton Hurricanes v #80 Burlington Eagles | Sherwood Community Centre & Library
+Thu 7:15 PM | #44 Halton Hurricanes v #80 Burlington Eagles | Sherwood Community Centre & Library
 Fri 10:45 AM | #31 Brantford 99ers v #133 Buffalo Regals | Harbor Center
 Fri 12:00 PM | #34 Mississauga Senators v #92 Buffalo Jr Sabres | Harbor Center
 Fri 12:15 PM | #30 Mississauga Rebels v #115 Belle Tire | Harbor Center
@@ -14,15 +14,15 @@ Sat 7:15 AM | #31 Brantford 99ers v #34 Mississauga Senators | Harbor Center
 Sat 7:30 AM | #30 Mississauga Rebels v Hill Academy | Harbor Center
 Sat 12:30 PM | #22 Chatham-Kent Cyclones v #41 Soo Jr Greyhounds | Chatham Memorial Arena
 Sat 1:00 PM | #26 Niagara North Stars v #119 Grey Bruce Highlanders | Durham Community Centre
-Sat 2:15 PM | #35 Elgin Middlesex Canucks v #152 Cambridge Hawks | Middlesex Wellness Centre
+Sat 2:15 PM | #35 Elgin Middlesex Canucks v #153 Cambridge Hawks | Middlesex Wellness Centre
 Sat 2:45 PM | #30 Mississauga Rebels v #133 Buffalo Regals | Harbor Center
 Sat 3:00 PM | #34 Mississauga Senators v #102 Sylvania North Stars | Harbor Center
 Sat 4:15 PM | #31 Brantford 99ers v #115 Belle Tire | Harbor Center
 Sat 5:30 PM | #13 York Simcoe Express v #99 Markham Waxers | La Brier Family Arena
-Sat 5:30 PM | #45 Halton Hurricanes v #129 Southern Tier Admirals | Welland Arena
+Sat 5:30 PM | #44 Halton Hurricanes v #129 Southern Tier Admirals | Welland Arena
 Sat 6:00 PM | #32 Hamilton Steel v #77 Credit River Capitals | Dave Andreychuk Arena
 Sat 6:00 PM | #41 Soo Jr Greyhounds v #145 Windsor Jr Spitfires | Central Park Athletics
-Sun 11:25 AM | #45 Halton Hurricanes v #77 Credit River Capitals | Susan Fennell Sportsplex
+Sun 11:25 AM | #44 Halton Hurricanes v #77 Credit River Capitals | Susan Fennell Sportsplex
 Sun 12:00 PM | #13 York Simcoe Express v #114 Quinte Red Devils | Campbellford/Seymour Arena
 Sun 12:30 PM | #22 Chatham-Kent Cyclones v #94 Sarnia-Lambton Jr Sting | Blenheim Community and Recreation Centre
 Sun 1:00 PM | #36 Boston Jr Eagles (Elite) v #63 Minuteman Flames (Elite) | Boston Sports Institute
@@ -75,8 +75,8 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 41. Soo Jr Greyhounds (Canada #20) 94.24
 42. Philadelphia Hockey Club (USA #22) 94.21
 43. Seacoast Performance Academy (USA #23) 94.13
-44. Ottawa Jr 67's (Canada #21) 94.12
-45. Halton Hurricanes (Canada #22) 94.12
+44. Halton Hurricanes (Canada #21) 94.12
+45. Ottawa Jr 67's (Canada #22) 94.12
 46. Barrie Colts (Canada #23) 94.04
 47. Eastern Ontario Wild (Canada #24) 94.04
 48. Dallas Stars Elite (USA #24) 94.00
@@ -106,8 +106,8 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 72. Ajax Pickering Raiders (Canada #35) 93.26
 73. Washington Little Capitals (USA #38) 93.22
 74. Victory Honda (USA #39) 93.21
-75. Upper Canada Cyclones (Canada #36) 93.18
-76. Huron Perth Lakers (Canada #37) 93.18
+75. Huron Perth Lakers (Canada #36) 93.18
+76. Upper Canada Cyclones (Canada #37) 93.18
 77. Credit River Capitals (Canada #38) 93.09
 78. London Jr Knights (Canada #39) 93.09
 79. The Hill Academy (Canada #40) 93.06
@@ -183,8 +183,8 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 149. Anaheim Jr Ducks (USA #92) 89.21
 150. Rocky Mountain RoughRiders (USA #93) 89.14
 151. Central Ontario Wolves (Canada #58) 89.08
-152. Cambridge Hawks (Canada #59) 89.06
-153. Providence Capitals (Elite) (USA #94) 89.06
+152. Providence Capitals (Elite) (USA #94) 89.06
+153. Cambridge Hawks (Canada #59) 89.06
 154. Seattle Jr Kraken (USA #95) 88.93
 155. Timmins Jr Rock (Canada #60) 88.84
 156. Middlesex Islanders East (Half) (USA #96) 88.76
