@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon.png">
 <script src="/app.js" defer></script>
-<script src="/nav.js"></script>
+<script src="/nav.js?v=1126b"></script>
 <title>My Player Data: members</title>
 <meta name="robots" content="noindex">
 <style>
@@ -148,12 +148,12 @@ function hook(fr,kind){ // keep links between the two apps inside the member sit
 }
 function markTabs(){document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===tab&&(!b.dataset.m||b.dataset.m===rmode)))}
 async function go(t,hash){
-  tab=t;logEv("tab",t+(hash||""));markTabs();
+  tab=t;try{if(window.__fresh)window.__fresh.show(t==="ratings")}catch(e){}logEv("tab",t+(hash||""));markTabs();
   const fr=$("fr-ratings"),fp=$("fr-players");
   if(t==="ratings"){fp.hidden=true;$("app-msg").hidden=true;
     if(!fr.src){fr.onload=()=>{hook(fr,"ratings");const w0=rmode;mpdNav(fr,m=>{rmode=m;markTabs()});if(w0==="rt")mpdNavGo(fr,"rt")};
       // the ratings app is its own file (/members/ratings/); load a copy into this page so links between the two tabs keep working
-      if(!ratingsUrl){try{const t=await (await fetch(RSITE+"?v="+Date.now(),{cache:"no-store"})).text();ratingsUrl=URL.createObjectURL(new Blob([t],{type:"text/html"}))}catch(e){ratingsUrl=RSITE+"?stay=1"}}
+      if(!ratingsUrl){try{const t=await (await fetch(RSITE+"?v="+Date.now(),{cache:"no-store"})).text();ratingsUrl=URL.createObjectURL(new Blob([t],{type:"text/html"}));try{if(!window.__fresh)window.__fresh=mpdFresh({fr:()=>$("fr-ratings"),url:RSITE,active:()=>appOpen&&tab==="ratings",load:u=>{ratingsUrl=u}});window.__fresh.seen(t)}catch(e){}}catch(e){ratingsUrl=RSITE+"?stay=1"}}
       if(!appOpen||tab!=="ratings")return;
       fr.src=ratingsUrl+(hash||"")}else setHash(fr,hash);
     fr.hidden=false;return}

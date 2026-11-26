@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon.png">
 <script src="/app.js" defer></script>
-<script src="/nav.js"></script>
+<script src="/nav.js?v=1126b"></script>
 <title>Live Scores and Team Ratings · My Player Data</title>
 <meta name="description" content="Live AAA youth hockey scores and team ratings for birth years 2011 to 2016.">
 <style>html,body{margin:0;height:100%;background:#f3f6f8;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#14212b}
@@ -73,13 +73,14 @@ document.getElementById("tabGD").addEventListener("click",function(e){e.preventD
 document.getElementById("tabRT").addEventListener("click",function(e){e.preventDefault();mpdNavGo(document.getElementById("fr"),"rt")});
 document.getElementById("join").addEventListener("click",function(){try{mpdLog("join_click","live")}catch(e){}});
 (async function(){try{
- let t=await (await fetch("/members/ratings/?v="+Date.now(),{cache:"no-store"})).text();
+ let t=await (await fetch("/members/ratings/?v="+Date.now(),{cache:"no-store"})).text();const raw0=t;
  const add='<script>document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";if(/^players\\//.test(h)){e.preventDefault();e.stopPropagation();var c=a.closest(".card"),t="";try{if(/#team=/.test(h)&&c){var hh=c.querySelector("h2,h3");t=hh?hh.textContent.trim():""}}catch(x){}var k=(h.match(/#team=([\\w-]+)/)||[])[1]||"";try{parent.mpdLocked(t,k)}catch(x){parent.location.href=parent.location.origin+"/#pricing"}}},true);<\/script>';
- t=t.replace("</head>",add+"</head>");
+ const prep=function(x){return x.replace("</head>",add+"</head>")};t=prep(t);
  // Open on a birth year named in the address: /live/?y=2011 (owner, Nov 24 2026: each Silver Stick ad lands on its own year). No y = the app's own default.
  try{var yq=(location.search.match(/[?&]y=(201[1-6])(?:&|$)/)||[])[1];if(yq)t=t.replace(/let div='201\d', view='wk'/,"let div='"+yq+"', view='wk'")}catch(e){}
  const fr=document.getElementById("fr");var wantRT=/[?&]v=ratings(?:&|$)/.test(location.search);
  fr.addEventListener("load",function(){mpdNav(fr,function(m){document.getElementById("tabGD").classList.toggle("on",m==="gd");document.getElementById("tabRT").classList.toggle("on",m==="rt");if(m==="rt"){try{mpdLog("tab_ratings","live")}catch(e){}}});if(wantRT){wantRT=false;mpdNavGo(fr,"rt")}});
  fr.src=URL.createObjectURL(new Blob([t],{type:"text/html"}));fr.hidden=false;document.getElementById("msg").hidden=true;
+ try{mpdFresh({fr:function(){return fr},url:"/members/ratings/",prep:prep}).seen(raw0)}catch(e){}
 }catch(e){document.getElementById("msg").textContent="Could not load the scores. Refresh the page to try again."}})();
 </script></body></html>
