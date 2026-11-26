@@ -4,7 +4,8 @@
 // mpdNav(frame, cb): call once the ratings frame has loaded; cb('gd'|'rt') fires whenever the app moves between the two.
 // mpdNavGo(frame, 'gd'|'rt'): switch.
 window.mpdNav=function(fr,cb){try{var d=fr.contentDocument;if(!d||!d.body||d.__mpdNav)return;d.__mpdNav=1;
-  var st=d.createElement("style");st.textContent='nav.tabs button[data-view="wk"]{display:none!important}body.gd nav.tabs button{display:none!important}';d.head.appendChild(st);
+  var st=d.createElement("style");st.textContent='@media(max-width:560px){header .bar h1{display:none!important}header .bar .seg{margin-top:8px}}nav.tabs button[data-view="wk"]{display:none!important}body.gd nav.tabs button{display:none!important}';d.head.appendChild(st);
+  /* phones: the six birth years fit on one row when the buttons show the year only (Nov 26 2026) */try{if(fr.contentWindow.innerWidth<=560)d.querySelectorAll("header .seg button[data-div]").forEach(function(x){x.textContent=x.getAttribute("data-div");x.style.flex="1 1 0";x.style.padding="10px 0"})}catch(e){}
   var cur="";function chk(){var on=d.querySelector("section.view.on"),id=on?on.id:"",m=id==="v-wk"?"gd":(id==="v-na"||id==="v-rank"||id==="v-can")?"rt":(cur||"gd");
     if(m!==cur){cur=m;d.body.classList.toggle("gd",m==="gd");try{var h=d.querySelector("header h1");if(h&&h.firstChild&&h.firstChild.nodeType===3)h.firstChild.nodeValue=m==="gd"?"Game Day":"Live Ratings"}catch(e){}try{cb(m)}catch(e){}}}
   new fr.contentWindow.MutationObserver(chk).observe(d.body,{subtree:true,attributes:true,attributeFilter:["class"]});chk()}catch(e){}};

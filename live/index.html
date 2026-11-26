@@ -21,6 +21,7 @@
 /* Nov 25, 2026 (owner, Home Screen app on iPhone: "two separate things" moved on the screen, the header slid under the clock). WHY: the scores frame was
    pinned 52px from the top while the page behind it could still scroll and bounce, and a header that wraps to two rows is taller than 52px.
    FIX: the page itself never scrolls; header on top at whatever height it needs, the frame takes all the rest. Only the frame scrolls. */
+/* Nov 26 2026: on phones the brand and the Sign in / Join buttons share the first row, the three tabs take the second (was three rows, 136px) */@media(max-width:640px){.top .in{gap:6px 10px;padding:8px 12px}.brand{order:1;font-size:16px}.who{order:2;gap:8px}.who a.join{padding:7px 10px;font-size:13px}.who a.si{font-size:13px}.top .tabs{order:3;width:100%}}
 html,body{overflow:hidden;overscroll-behavior:none}body{position:fixed;inset:0;height:auto;display:flex;flex-direction:column}.top{flex:none}
 #fr{border:0;width:100%;display:block;background:#f3f6f8;flex:1 1 auto;min-height:0}#msg{flex:none}
 #msg{padding:24px;color:#5b6b78}
