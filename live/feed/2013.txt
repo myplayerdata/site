@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2013 birth year (13U)
-Updated: Thu Nov 26, 3:58 PM CT
+Updated: Thu Nov 26, 4:04 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 1:15 PM | #65 Credit River Capitals v #11 Toronto Nationals | Iroquois Park Sports Centre, Rink 3, Whitby
@@ -15,7 +15,7 @@ Thu 6:05 PM | #15 Chicago Mission v #14 Quinte Red Devils | Iroquois Park Sports
 Fri 7:00 AM | #40 Ottawa Valley Titans v #21 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 5, Whitby
 Fri 7:15 AM | #26 Milwaukee Jr Admirals v #13 Waterloo Wolves | Fieldgate Sports Complex, Rink 1
 Fri 7:30 AM | #39 Elgin Middlesex Canucks v #30 Niagara North Stars | McKinney Centre, Rink 2, Whitby
-Fri 8:30 AM | #17 Nor'easters v #76 Hamilton Steel | McKinney Centre, Rink 1, Whitby
+Fri 8:30 AM | #18 Nor'easters v #76 Hamilton Steel | McKinney Centre, Rink 1, Whitby
 Fri 8:45 AM | #5 Mid-Fairfield v #151 Whitby Wildcats | Iroquois Park Sports Centre, Rink 1, Whitby
 Fri 9:30 AM | #77 Rochester Saints v #9 Vaughan Kings | Fieldgate Sports Complex, Rink 2
 Fri 10:05 AM | #8 Toronto Jr Canadiens v #42 York Simcoe Express | Iroquois Park Sports Centre, Rink 1, Whitby
@@ -29,14 +29,14 @@ Fri 1:20 PM | #72 Barrie Colts v #5 Mid-Fairfield | Iroquois Park Sports Centre,
 Fri 1:45 PM | #39 Elgin Middlesex Canucks v #40 Ottawa Valley Titans | Fieldgate Sports Complex, Rink 1
 Fri 2:35 PM | #28 Ottawa Myers Automotive v #77 Rochester Saints | Fieldgate Sports Complex, Rink 2
 Fri 2:50 PM | #84 Minuteman Flames v #26 Milwaukee Jr Admirals | McKinney Centre, Rink 1, Whitby
-Fri 2:50 PM | #17 Nor'easters v #10 Syracuse Nationals | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 2:50 PM | #18 Nor'easters v #10 Syracuse Nationals | Iroquois Park Sports Centre, Rink 3, Whitby
 Fri 3:05 PM | #96 Sudbury Wolves v #3 Toronto Marlboros | Fieldgate Sports Complex, Rink 1
 Fri 3:55 PM | #2 Chicago Reapers v #151 Whitby Wildcats | Fieldgate Sports Complex, Rink 2
 Fri 4:25 PM | #23 Middlesex Islanders v #14 Quinte Red Devils | Fieldgate Sports Complex, Rink 1
 Fri 6:10 PM | #6 Little Caesars v #30 Niagara North Stars | Iroquois Park Sports Centre, Rink 2, Whitby
 Fri 7:25 PM | #72 Barrie Colts v #74 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 6, Whitby
 Sat 6:55 AM | #14 Quinte Red Devils v #11 Toronto Nationals | Fieldgate Sports Complex, Rink 2
-Sat 7:15 AM | #17 Nor'easters v #96 Sudbury Wolves | Fieldgate Sports Complex, Rink 1
+Sat 7:15 AM | #18 Nor'easters v #96 Sudbury Wolves | Fieldgate Sports Complex, Rink 1
 Sat 8:15 AM | #49 Buffalo Jr Sabres v #77 Rochester Saints | Iroquois Park Sports Centre, Rink 5, Whitby
 Sat 8:35 AM | #84 Minuteman Flames v #13 Waterloo Wolves | McKinney Centre, Rink 2, Whitby
 Sat 8:35 AM | #76 Hamilton Steel v #10 Syracuse Nationals | Fieldgate Sports Complex, Rink 1
@@ -47,7 +47,7 @@ Sat 10:15 AM | #26 Milwaukee Jr Admirals v #42 York Simcoe Express | Iroquois Pa
 Sat 10:15 AM | #15 Chicago Mission v #23 Middlesex Islanders | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 10:50 AM | #5 Mid-Fairfield v #74 Ottawa Jr 67's | Fieldgate Sports Complex, Rink 2
 Sat 11:20 AM | #65 Credit River Capitals v #14 Quinte Red Devils | Iroquois Park Sports Centre, Rink 2, Whitby
-Sat 12:00 PM | #17 Nor'easters v #3 Toronto Marlboros | McKinney Centre, Rink 1, Whitby
+Sat 12:00 PM | #18 Nor'easters v #3 Toronto Marlboros | McKinney Centre, Rink 1, Whitby
 Sat 12:25 PM | #6 Little Caesars v #39 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
 Sat 1:25 PM | #96 Sudbury Wolves v #10 Syracuse Nationals | Fieldgate Sports Complex, Rink 2
 Sat 1:45 PM | #49 Buffalo Jr Sabres v #28 Ottawa Myers Automotive | McKinney Centre, Rink 2, Whitby
@@ -66,27 +66,28 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 == FINAL SCORES, LAST 4 DAYS ==
 2026-11-26 | Toronto Nationals 5, Credit River Capitals 0
 2026-11-26 | Sudbury Wolves 1, Hamilton Steel 2
+2026-11-26 | Waterloo Wolves 3, Toronto Jr Canadiens 3
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. MN Lakers (USA #1) 94.75
 2. Chicago Reapers (USA #2) 94.63
-3. Toronto Marlboros (Canada #1) 94.34
+3. Toronto Marlboros (Canada #1) 94.35
 4. Anaheim Jr Ducks (USA #3) 94.16
 5. Mid-Fairfield (USA #4) 93.47
 6. Little Caesars (USA #5) 93.41
 7. Woodbridge Wolfpack (USA #6) 93.09
-8. Toronto Jr Canadiens (Canada #2) 93.09
+8. Toronto Jr Canadiens (Canada #2) 93.04
 9. Vaughan Kings (Canada #3) 92.75
 10. Syracuse Nationals (USA #7) 92.69
 11. Toronto Nationals (Canada #4) 92.58
 12. Cleveland Barons (USA #8) 92.24
-13. Waterloo Wolves (Canada #5) 91.67
+13. Waterloo Wolves (Canada #5) 91.72
 14. Quinte Red Devils (Canada #6) 91.44
 15. Chicago Mission (USA #9) 91.35
 16. Dallas Stars (USA #10) 91.22
-17. Nor'easters (USA #11) 91.20
-18. MN Moose (USA #12) 91.20
+17. MN Moose (USA #11) 91.20
+18. Nor'easters (USA #12) 91.20
 19. Boston Jr Eagles (USA #13) 91.06
 20. MN Grey Ducks (USA #14) 91.01
 21. Pittsburgh Penguins Elite (USA #15) 90.99
@@ -110,7 +111,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 39. Elgin Middlesex Canucks (Canada #12) 89.66
 40. Ottawa Valley Titans (Canada #13) 89.54
 41. Music City Marauders (USA #28) 89.49
-42. York Simcoe Express (Canada #14) 89.42
+42. York Simcoe Express (Canada #14) 89.41
 43. Toronto Reps (Canada #15) 89.27
 44. MN Green Giants (USA #29) 89.22
 45. Windsor Jr Spitfires (Canada #16) 89.12
@@ -130,8 +131,8 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 59. Team Maryland (USA #37) 88.55
 60. Oakville Rangers (Canada #23) 88.49
 61. Fox Motors (USA #38) 88.42
-62. Halton Hurricanes (Canada #24) 88.42
-63. San Jose Jr Sharks (USA #39) 88.42
+62. San Jose Jr Sharks (USA #39) 88.42
+63. Halton Hurricanes (Canada #24) 88.42
 64. New Jersey Colonials (USA #40) 88.39
 65. Credit River Capitals (Canada #25) 88.33
 66. Peterborough Jr Petes (Canada #26) 88.27
@@ -187,7 +188,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 116. Omaha Mastery (USA #75) 85.88
 117. North York Rangers (Canada #42) 85.86
 118. Brantford 99ers (Canada #43) 85.82
-119. Mississauga Rebels (Canada #44) 85.74
+119. Mississauga Rebels (Canada #44) 85.73
 120. Valley Forge Minutemen (USA #76) 85.72
 121. Chicago Phantoms (USA #77) 85.69
 122. Okanagan (USA #78) 85.61
