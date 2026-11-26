@@ -1,11 +1,11 @@
 MY PLAYER DATA: 2012 birth year (14U)
-Updated: Thu Nov 26, 5:48 PM CT
+Updated: Thu Nov 26, 5:54 PM CT
 
 == GAMES THIS WEEKEND ==
-Thu 7:15 PM | #44 Halton Hurricanes v #80 Burlington Eagles | Sherwood Community Centre & Library
+Thu 7:15 PM | #45 Halton Hurricanes v #79 Burlington Eagles | Sherwood Community Centre & Library
 Fri 10:45 AM | #31 Brantford 99ers v #133 Buffalo Regals | Harbor Center
 Fri 12:00 PM | #34 Mississauga Senators v #92 Buffalo Jr Sabres | Harbor Center
-Fri 12:15 PM | #30 Mississauga Rebels v #115 Belle Tire | Harbor Center
+Fri 12:15 PM | #30 Mississauga Rebels v #116 Belle Tire | Harbor Center
 Fri 3:45 PM | #30 Mississauga Rebels v #102 Sylvania North Stars | Harbor Center
 Fri 4:15 PM | #34 Mississauga Senators v #133 Buffalo Regals | Harbor Center
 Fri 5:15 PM | #31 Brantford 99ers v Hill Academy | Harbor Center
@@ -14,15 +14,15 @@ Sat 7:15 AM | #31 Brantford 99ers v #34 Mississauga Senators | Harbor Center
 Sat 7:30 AM | #30 Mississauga Rebels v Hill Academy | Harbor Center
 Sat 12:30 PM | #22 Chatham-Kent Cyclones v #41 Soo Jr Greyhounds | Chatham Memorial Arena
 Sat 1:00 PM | #26 Niagara North Stars v #119 Grey Bruce Highlanders | Durham Community Centre
-Sat 2:15 PM | #35 Elgin Middlesex Canucks v #153 Cambridge Hawks | Middlesex Wellness Centre
+Sat 2:15 PM | #35 Elgin Middlesex Canucks v #152 Cambridge Hawks | Middlesex Wellness Centre
 Sat 2:45 PM | #30 Mississauga Rebels v #133 Buffalo Regals | Harbor Center
 Sat 3:00 PM | #34 Mississauga Senators v #102 Sylvania North Stars | Harbor Center
-Sat 4:15 PM | #31 Brantford 99ers v #115 Belle Tire | Harbor Center
-Sat 5:30 PM | #13 York Simcoe Express v #99 Markham Waxers | La Brier Family Arena
-Sat 5:30 PM | #44 Halton Hurricanes v #129 Southern Tier Admirals | Welland Arena
-Sat 6:00 PM | #32 Hamilton Steel v #78 Credit River Capitals | Dave Andreychuk Arena
+Sat 4:15 PM | #31 Brantford 99ers v #116 Belle Tire | Harbor Center
+Sat 5:30 PM | #13 York Simcoe Express v #98 Markham Waxers | La Brier Family Arena
+Sat 5:30 PM | #45 Halton Hurricanes v #129 Southern Tier Admirals | Welland Arena
+Sat 6:00 PM | #32 Hamilton Steel v #77 Credit River Capitals | Dave Andreychuk Arena
 Sat 6:00 PM | #41 Soo Jr Greyhounds v #145 Windsor Jr Spitfires | Central Park Athletics
-Sun 11:25 AM | #44 Halton Hurricanes v #78 Credit River Capitals | Susan Fennell Sportsplex
+Sun 11:25 AM | #45 Halton Hurricanes v #77 Credit River Capitals | Susan Fennell Sportsplex
 Sun 12:00 PM | #13 York Simcoe Express v #114 Quinte Red Devils | Campbellford/Seymour Arena
 Sun 12:30 PM | #22 Chatham-Kent Cyclones v #94 Sarnia-Lambton Jr Sting | Blenheim Community and Recreation Centre
 Sun 1:00 PM | #36 Boston Jr Eagles (Elite) v #63 Minuteman Flames (Elite) | Boston Sports Institute
@@ -47,19 +47,19 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 13. York Simcoe Express (Canada #6) 96.60
 14. Bishop Kearney Selects (USA #8) 96.48
 15. MN Lakers (USA #9) 96.35
-16. Mount St Charles (USA #10) 96.26
-17. Ottawa Valley Titans (Canada #7) 96.26
+16. Ottawa Valley Titans (Canada #7) 96.26
+17. Mount St Charles (USA #10) 96.26
 18. Nashville Jr. Predators (USA #11) 96.23
 19. Toronto Titans (Canada #8) 96.20
 20. Top Gun (Elite) (USA #12) 96.14
 21. Oakville Rangers (Canada #9) 95.89
 22. Chatham-Kent Cyclones (Canada #10) 95.85
-23. LA Jr Kings (USA #13) 95.84
-24. HB Detroit (USA #14) 95.84
+23. HB Detroit (USA #13) 95.84
+24. LA Jr Kings (USA #14) 95.84
 25. Pittsburgh Penguins Elite (USA #15) 95.83
 26. Niagara North Stars (Canada #11) 95.79
-27. Chicago Reapers (USA #16) 95.67
-28. Vaughan Kings (Canada #12) 95.67
+27. Vaughan Kings (Canada #12) 95.67
+28. Chicago Reapers (USA #16) 95.67
 29. NJ Rockets (USA #17) 95.64
 30. Mississauga Rebels (Canada #13) 95.59
 31. Brantford 99ers (Canada #14) 95.32
@@ -75,21 +75,21 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 41. Soo Jr Greyhounds (Canada #20) 94.24
 42. Philadelphia Hockey Club (USA #22) 94.21
 43. Seacoast Performance Academy (USA #23) 94.13
-44. Halton Hurricanes (Canada #21) 94.12
-45. Ottawa Jr 67's (Canada #22) 94.12
-46. Eastern Ontario Wild (Canada #23) 94.04
-47. Barrie Colts (Canada #24) 94.04
+44. Ottawa Jr 67's (Canada #21) 94.12
+45. Halton Hurricanes (Canada #22) 94.12
+46. Barrie Colts (Canada #23) 94.04
+47. Eastern Ontario Wild (Canada #24) 94.04
 48. Dallas Stars Elite (USA #24) 94.00
 49. Neponset Valley River Rats (USA #25) 93.97
 50. Burnaby Winter Club Academy (Canada #25) 93.96
 51. Thunder Bay Kings (Canada #26) 93.90
-52. MN Grey Ducks (USA #26) 93.86
-53. Fox Motors (USA #27) 93.86
+52. Fox Motors (USA #26) 93.86
+53. MN Grey Ducks (USA #27) 93.86
 54. Team North Dakota (USA #28) 93.75
-55. St. Louis Blues (USA #29) 93.73
-56. Masters Academy (USA #30) 93.73
-57. Toronto Nationals (Canada #27) 93.64
-58. Peterborough Jr Petes (Canada #28) 93.64
+55. Masters Academy (USA #29) 93.73
+56. St. Louis Blues (USA #30) 93.73
+57. Peterborough Jr Petes (Canada #27) 93.64
+58. Toronto Nationals (Canada #28) 93.64
 59. Atlantic Coast Academy (USA #31) 93.61
 60. Whitby Wildcats (Canada #29) 93.57
 61. MN Moose (USA #32) 93.53
@@ -98,20 +98,20 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 64. Ohio Blue Jackets (USA #34) 93.44
 65. North Shore Whitecaps (Canada #31) 93.42
 66. Toronto Red Wings (Canada #32) 93.36
-67. Windy City Storm (USA #35) 93.31
-68. North Jersey Avalanche (USA #36) 93.31
-69. Markham Majors (Canada #33) 93.31
+67. Markham Majors (Canada #33) 93.31
+68. Windy City Storm (USA #35) 93.31
+69. North Jersey Avalanche (USA #36) 93.31
 70. Upper Canada College (Canada #34) 93.29
-71. Okanagan (USA #37) 93.26
-72. Ajax Pickering Raiders (Canada #35) 93.26
+71. Ajax Pickering Raiders (Canada #35) 93.26
+72. Okanagan (USA #37) 93.26
 73. Washington Little Capitals (USA #38) 93.22
 74. Victory Honda (USA #39) 93.21
-75. Huron Perth Lakers (Canada #36) 93.18
-76. Upper Canada Cyclones (Canada #37) 93.18
-77. London Jr Knights (Canada #38) 93.09
-78. Credit River Capitals (Canada #39) 93.09
-79. The Hill Academy (Canada #40) 93.06
-80. Burlington Eagles (Canada #41) 93.06
+75. Upper Canada Cyclones (Canada #36) 93.18
+76. Huron Perth Lakers (Canada #37) 93.18
+77. Credit River Capitals (Canada #38) 93.09
+78. London Jr Knights (Canada #39) 93.09
+79. Burlington Eagles (Canada #40) 93.06
+80. The Hill Academy (Canada #41) 93.06
 81. MN Blue Ox (USA #40) 92.99
 82. Pacific Coast Academy (Canada #42) 92.96
 83. Connecticut Jr Rangers (National) (USA #41) 92.94
@@ -129,8 +129,8 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 95. MN Voyageurs (USA #49) 92.22
 96. Jersey Hitmen (USA #50) 92.12
 97. Team Wisconsin (USA #51) 92.10
-98. Florida Alliance (USA #52) 92.08
-99. Markham Waxers (Canada #47) 92.08
+98. Markham Waxers (Canada #47) 92.08
+99. Florida Alliance (USA #52) 92.08
 100. Don Mills Flyers (Canada #48) 92.05
 101. MN Loons (USA #53) 91.97
 102. Sylvania North Stars (USA #54) 91.91
@@ -142,27 +142,27 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 108. MN Walleye (USA #59) 91.57
 109. Florida Surf (USA #60) 91.56
 110. Team Maryland (USA #61) 91.49
-111. Syracuse Nationals (USA #62) 91.38
-112. Tampa Bay Jr Lightning (USA #63) 91.38
+111. Tampa Bay Jr Lightning (USA #62) 91.38
+112. Syracuse Nationals (USA #63) 91.38
 113. Tri-Valley Bulls (14U AA) (USA #64) 91.36
 114. Quinte Red Devils (Canada #50) 91.30
-115. Belle Tire (USA #65) 91.17
-116. Oakland Jr Grizzlies (USA #66) 91.17
+115. Oakland Jr Grizzlies (USA #65) 91.17
+116. Belle Tire (USA #66) 91.17
 117. Boston Advantage (Elite) (USA #67) 91.15
 118. Yale Jr Bulldogs (USA #68) 91.14
 119. Grey Bruce Highlanders (Canada #51) 91.05
 120. Team Dallas (USA #69) 91.04
 121. Sun County Panthers (Canada #52) 90.99
 122. Team Alaska (USA #70) 90.88
-123. Compuware (USA #71) 90.87
-124. Toronto Reps (Canada #53) 90.87
+123. Toronto Reps (Canada #53) 90.87
+124. Compuware (USA #71) 90.87
 125. Fairmont Prep (Green) (USA #72) 90.76
 126. Cleveland Barons (USA #73) 90.67
-127. CarShield (USA #74) 90.66
-128. Pittsburgh Predators (USA #75) 90.66
+127. Pittsburgh Predators (USA #74) 90.66
+128. CarShield (USA #75) 90.66
 129. Southern Tier Admirals (Canada #54) 90.64
-130. Midwest Warriors (USA #76) 90.59
-131. North Central Predators (Canada #55) 90.59
+130. North Central Predators (Canada #55) 90.59
+131. Midwest Warriors (USA #76) 90.59
 132. Rochester Coalition (USA #77) 90.50
 133. Buffalo Regals (USA #78) 90.42
 134. Valley Jr Warriors (Elite) (USA #79) 90.37
@@ -183,14 +183,14 @@ Sun 1:00 PM | #32 Hamilton Steel v #70 Upper Canada College | Wilder Arena & Spo
 149. Anaheim Jr Ducks (USA #92) 89.21
 150. Rocky Mountain RoughRiders (USA #93) 89.14
 151. Central Ontario Wolves (Canada #58) 89.08
-152. Providence Capitals (Elite) (USA #94) 89.06
-153. Cambridge Hawks (Canada #59) 89.06
+152. Cambridge Hawks (Canada #59) 89.06
+153. Providence Capitals (Elite) (USA #94) 89.06
 154. Seattle Jr Kraken (USA #95) 88.93
 155. Timmins Jr Rock (Canada #60) 88.84
 156. Middlesex Islanders East (Half) (USA #96) 88.76
 157. San Jose Jr Sharks (USA #97) 88.74
-158. Plymouth Flyers Black (14U AA) (USA #98) 88.68
-159. Boston Jr Terriers (Elite) (USA #99) 88.68
+158. Boston Jr Terriers (Elite) (USA #98) 88.68
+159. Plymouth Flyers Black (14U AA) (USA #99) 88.68
 160. St Lawrence Steel (14U AA) (USA #100) 88.61
 161. Valley Forge Minutemen (USA #101) 88.57
 162. Great Lakes HC (USA #102) 88.56
