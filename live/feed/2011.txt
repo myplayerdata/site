@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Fri Nov 27, 12:17 PM CT
+Updated: Fri Nov 27, 12:19 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 2:15 PM | #18 Central Ontario Wolves v #17 Mississauga Rebels | Iroquois Park Sports Centre, Rink 1, Whitby
@@ -87,6 +87,7 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 2026-11-27 | Toronto Nationals 2, Little Caesars 3
 2026-11-27 | Pittsburgh Penguins Elite 6, Central Ontario Wolves 2
 2026-11-27 | Palmyra Black Knights 0, Upper Canada College 2
+2026-11-27 | Toronto Jr Canadiens 5, Ottawa Jr 67's 1
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
@@ -94,7 +95,7 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 2. Bishop Kearney Selects (USA #2) 95.98
 3. Vaughan Kings (Canada #1) 95.92
 4. Mount St Charles Hockey Academy (USA #3) 95.74
-5. Toronto Jr Canadiens (Canada #2) 95.38
+5. Toronto Jr Canadiens (Canada #2) 95.42
 6. Shattuck St Mary's (USA #4) 95.23
 7. Toronto Marlboros (Canada #3) 94.78
 8. Halton Hurricanes (Canada #4) 94.59
@@ -117,7 +118,7 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 25. Philadelphia Jr Flyers (USA #13) 92.56
 26. Pittsburgh Vengeance (USA #14) 92.46
 27. Boston Jr Eagles (USA #15) 92.45
-28. Ottawa Jr 67's (Canada #13) 92.39
+28. Ottawa Jr 67's (Canada #13) 92.35
 29. Ottawa Myers Automotive (Canada #14) 92.32
 30. Seacoast Performance Academy (USA #16) 92.31
 31. Palmyra Black Knights (USA #17) 92.30
