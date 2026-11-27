@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Fri Nov 27, 1:07 PM CT
+Updated: Fri Nov 27, 1:24 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 12:30 PM | #84 Sudbury Wolves v #8 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
@@ -87,15 +87,17 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 2026-11-27 | Niagara North Stars 1, Little Caesars 5
 2026-11-27 | Upper Canada Cyclones 1, Buffalo Jr Sabres 3
 2026-11-27 | Toronto Marlboros 4, Florida Surf 5
+2026-11-27 | Oakland Jr Grizzlies 3, Sudbury Wolves 1
+2026-11-27 | Cleveland Barons 0, Pittsburgh Penguins Elite (Mueller) 3
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Little Caesars (USA #1) 95.36
 2. Toronto Jr Canadiens (Canada #1) 95.30
-3. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.34
-4. Worcester Shamrocks (USA #3) 94.31
+3. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.36
+4. Worcester Shamrocks (USA #3) 94.32
 5. Don Mills Flyers (Canada #2) 94.24
-6. Mid-Fairfield Hockey Club (Elite) (USA #4) 94.10
+6. Mid-Fairfield Hockey Club (Elite) (USA #4) 94.11
 7. Lovell Winter Club (Elite) (USA #5) 93.66
 8. Toronto Marlboros (Canada #3) 93.63
 9. Boston Jr Eagles (Elite) (USA #6) 93.58
@@ -108,9 +110,9 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 16. Providence Capitals (Elite) (USA #13) 92.35
 17. Florida Surf (USA #14) 92.21
 18. Whitby Wildcats (Canada #4) 92.17
-19. Cleveland Barons (USA #15) 91.97
-20. Chicago Fury (USA #16) 91.92
-21. Bay State Breakers (Elite) (USA #17) 91.85
+19. Cleveland Barons (USA #15) 91.95
+20. Chicago Fury (USA #16) 91.93
+21. Bay State Breakers (Elite) (USA #17) 91.86
 22. Elgin Middlesex Canucks (Canada #5) 91.85
 23. Toronto Titans (Canada #6) 91.55
 24. Kitchener Jr Rangers (Canada #7) 91.52
@@ -130,7 +132,7 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 38. Buffalo Jr Sabres (USA #26) 90.57
 39. Phoenix Jr Coyotes (USA #27) 90.53
 40. Barrie Colts (Canada #13) 90.47
-41. Oakland Jr Grizzlies (USA #28) 90.44
+41. Oakland Jr Grizzlies (USA #28) 90.43
 42. Mid-Fairfield Hockey Club (T1) (USA #29) 90.40
 43. Toronto Reps (Canada #14) 90.36
 44. Rochester Saints (USA #30) 90.32
@@ -146,7 +148,7 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 54. Philadelphia Flyers Elite (USA #36) 89.72
 55. Mississauga Senators (Canada #19) 89.64
 56. Halton Hurricanes (Canada #20) 89.63
-57. Southern Tier Admirals (Canada #21) 89.62
+57. Southern Tier Admirals (Canada #21) 89.61
 58. Peterborough Jr Petes (Canada #22) 89.51
 59. Middlesex Islanders East (Elite) (USA #37) 89.49
 60. Quinte Red Devils (Canada #23) 89.48
@@ -172,7 +174,7 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 80. Sarnia-Lambton Jr Sting (Canada #36) 88.76
 81. Mount St Charles Jr Mounties (USA #45) 88.63
 82. Ottawa Jr 67's (Canada #37) 88.47
-83. HB Detroit (USA #46) 88.45
+83. HB Detroit (USA #46) 88.44
 84. Sudbury Wolves (Canada #38) 88.34
 85. Ottawa Valley Titans (Canada #39) 88.30
 86. Hamilton Steel (Canada #40) 88.24
