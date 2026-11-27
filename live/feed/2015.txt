@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Fri Nov 27, 8:12 AM CT
+Updated: Fri Nov 27, 8:22 AM CT
 
 == GAMES THIS WEEKEND ==
 Thu 12:30 PM | #84 Sudbury Wolves v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
@@ -46,12 +46,15 @@ Sat 9:45 AM | #12 Chicago Mission v #16 Providence Capitals (Elite) | Canlan Ice
 Sat 9:55 AM | #11 Top Gun (Elite) v #20 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
 Sat 10:45 AM | #9 Boston Jr Eagles (Elite) v #84 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
 Sat 10:50 AM | #14 South Shore Kings (Elite) v #25 London Jr Knights | Iroquois Park Sports Centre, Rink 5, Whitby
+Sat 11:00 AM | #27 Grey Bruce Highlanders v #57 Southern Tier Admirals | Chesley (Chesley)
 Sat 11:15 AM | #19 Cleveland Barons v #82 Ottawa Jr 67's | McKinney Centre, Rink 2, Whitby
+Sat 11:15 AM | #99 Credit River Capitals v #30 Guelph Gryphons | Susan Fennell (2)
 Sat 11:20 AM | #60 Quinte Red Devils v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 3, Whitby
 Sat 11:35 AM | #3 Pittsburgh Penguins Elite (Mueller) v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
 Sat 1:20 PM | #21 Chicago Fury v #59 Middlesex Islanders East (Elite) | McKinney Centre, Rink 1, Whitby
 Sat 1:30 PM | #38 Buffalo Jr Sabres v #47 Niagara North Stars | Canlan Ice Sports, Rink 1, Oshawa
 Sat 1:45 PM | #1 Little Caesars v #73 Upper Canada Cyclones | Fieldgate Sports Complex, Rink 1
+Sat 2:00 PM | #27 Grey Bruce Highlanders v #57 Southern Tier Admirals | Chesley (Chesley)
 Sat 3:00 PM | #41 Oakland Jr Grizzlies v #7 Toronto Marlboros | Fieldgate Sports Complex, Rink 1
 Sat 4:00 PM | #16 Providence Capitals (Elite) v #35 Toronto Nationals | Fieldgate Sports Complex, Rink 2
 Sat 4:15 PM | #19 Cleveland Barons v #6 Mid-Fairfield Hockey Club (Elite) | Fieldgate Sports Complex, Rink 1
@@ -62,6 +65,7 @@ Sat 5:30 PM | #9 Boston Jr Eagles (Elite) v #17 Florida Surf | Iroquois Park Spo
 Sat 5:35 PM | #82 Ottawa Jr 67's v #3 Pittsburgh Penguins Elite (Mueller) | McKinney Centre, Rink 2, Whitby
 Sat 5:45 PM | #20 Elgin Middlesex Canucks v #59 Middlesex Islanders East (Elite) | Iroquois Park Sports Centre, Rink 6, Whitby
 Sat 5:45 PM | #38 Buffalo Jr Sabres v #24 Kitchener Jr Rangers | Iroquois Park Sports Centre, Rink 1, Whitby
+Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West End Recreation Centre (1)
 
 == FINAL SCORES, LAST 4 DAYS ==
 2026-11-26 | Sudbury Wolves 1, Toronto Marlboros 5
