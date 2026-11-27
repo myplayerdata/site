@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Fri Nov 27, 10:23 AM CT
+Updated: Fri Nov 27, 10:39 AM CT
 
 == GAMES THIS WEEKEND ==
 Thu 12:30 PM | #84 Sudbury Wolves v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
@@ -81,6 +81,7 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 2026-11-27 | Quinte Red Devils 1, Providence Capitals (Elite) 4
 2026-11-27 | Whitby Wildcats 6, Ottawa Jr 67's 0
 2026-11-27 | South Shore Kings (Elite) 3, Toronto Jr Canadiens 8
+2026-11-27 | Chicago Fury 4, Top Gun (Elite) 5
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
@@ -94,7 +95,7 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 8. Lovell Winter Club (Elite) (USA #5) 93.65
 9. Boston Jr Eagles (Elite) (USA #6) 93.57
 10. Dallas Stars Elite (USA #7) 93.11
-11. Top Gun (Elite) (USA #8) 92.94
+11. Top Gun (Elite) (USA #8) 92.93
 12. Chicago Mission (USA #9) 92.84
 13. St Louis Blues (USA #10) 92.83
 14. South Shore Kings (Elite) (USA #11) 92.70
