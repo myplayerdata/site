@@ -1,5 +1,5 @@
 MY PLAYER DATA: live team ratings and weekend scores (plain text)
-Updated: Fri Nov 27, 11:42 AM CT
+Updated: Fri Nov 27, 11:43 AM CT
 Human page: https://myplayerdata.com/live/
 Times are US Central. Ranks are North American ranks; the rank in parentheses is the team's rank inside its own pool (USA or Canada).
 
