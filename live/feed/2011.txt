@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Fri Nov 27, 3:25 PM CT
+Updated: Fri Nov 27, 3:41 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 2:15 PM | #18 Central Ontario Wolves v #17 Mississauga Rebels | Iroquois Park Sports Centre, Rink 1, Whitby
@@ -11,7 +11,7 @@ Thu 5:40 PM | #19 Toronto Nationals v #16 Waterloo Wolves | Iroquois Park Sports
 Thu 5:45 PM | #13 Chicago Mission v #93 Whitby Wildcats | Iroquois Park Sports Centre, Rink 1, Whitby
 Thu 5:45 PM | #26 Pittsburgh Vengeance v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 4, Whitby
 Thu 7:05 PM | #8 Halton Hurricanes v #1 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 2, Whitby
-Thu 7:25 PM | #70 Windy City Storm v #58 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 3, Whitby
+Thu 7:25 PM | #70 Windy City Storm v #60 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 3, Whitby
 Thu 7:30 PM | #12 Oakland Jr Grizzlies v #28 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 1, Whitby
 Thu 7:30 PM | #3 Bishop Kearney Selects v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 7:00 AM | #34 Elgin Middlesex Canucks v #26 Pittsburgh Vengeance | Iroquois Park Sports Centre, Rink 3, Whitby
@@ -30,7 +30,7 @@ Fri 11:50 AM | #9 Hamilton Steel v #44 Ottawa Valley Titans | Iroquois Park Spor
 Fri 12:30 PM | #8 Halton Hurricanes v #38 Kingston Jr Gaels | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 1:10 PM | #61 Chatham-Kent Cyclones v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 1, Whitby
 Fri 1:20 PM | #74 Thunder Bay Kings v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
-Fri 1:55 PM | #58 Soo Jr Greyhounds v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 1:55 PM | #60 Soo Jr Greyhounds v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 5, Whitby
 Fri 2:40 PM | #32 Mississauga Senators v #93 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
 Fri 2:55 PM | #23 North Shore Whitecaps v #26 Pittsburgh Vengeance | Iroquois Park Sports Centre, Rink 1, Whitby
 Fri 3:05 PM | #11 Little Caesars v #16 Waterloo Wolves | Iroquois Park Sports Centre, Rink 6, Whitby
@@ -43,13 +43,13 @@ Fri 6:40 PM | #19 Toronto Nationals v Upper Canada College | Iroquois Park Sport
 Fri 7:10 PM | #28 Ottawa Jr 67's v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 3, Whitby
 Fri 7:30 PM | #18 Central Ontario Wolves v #8 Halton Hurricanes | Iroquois Park Sports Centre, Rink 2, Whitby
 Fri 7:40 PM | #31 Palmyra Black Knights v #16 Waterloo Wolves | Iroquois Park Sports Centre, Rink 1, Whitby
-Fri 7:45 PM | #58 Soo Jr Greyhounds v #14 York Simcoe Express | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 7:45 PM | #60 Soo Jr Greyhounds v #14 York Simcoe Express | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 7:00 AM | #61 Chatham-Kent Cyclones v #28 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 3, Whitby
 Sat 7:15 AM | #18 Central Ontario Wolves v #38 Kingston Jr Gaels | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 8:10 AM | #32 Mississauga Senators v #44 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 1, Whitby
 Sat 8:15 AM | #11 Little Caesars v Upper Canada College | Iroquois Park Sports Centre, Rink 2, Whitby
 Sat 8:30 AM | #34 Elgin Middlesex Canucks v #74 Thunder Bay Kings | Iroquois Park Sports Centre, Rink 6, Whitby
-Sat 9:55 AM | #29 Ottawa Myers Automotive v #58 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 9:55 AM | #29 Ottawa Myers Automotive v #60 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 1, Whitby
 Sat 12:05 PM | #70 Windy City Storm v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 5, Whitby
 Sat 12:35 PM | #12 Oakland Jr Grizzlies v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 3, Whitby
 Sat 12:40 PM | #9 Hamilton Steel v #93 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
@@ -93,11 +93,12 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 2026-11-27 | Kingston Jr Gaels 2, Halton Hurricanes 5
 2026-11-27 | Chatham-Kent Cyclones 1, Bishop Kearney Selects 4
 2026-11-27 | Thunder Bay Kings 0, Toronto Marlboros 3
+2026-11-27 | Vaughan Kings 9, Soo Jr Greyhounds 0
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Pittsburgh Penguins Elite (USA #1) 96.81
-2. Vaughan Kings (Canada #1) 95.92
+2. Vaughan Kings (Canada #1) 95.98
 3. Bishop Kearney Selects (USA #2) 95.89
 4. Mount St Charles Hockey Academy (USA #3) 95.74
 5. Toronto Jr Canadiens (Canada #2) 95.42
@@ -153,9 +154,9 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 55. Milwaukee Jr Admirals (USA #34) 90.59
 56. Upper Canada Cyclones (Canada #22) 90.58
 57. Fox Motors (USA #35) 90.51
-58. Soo Jr Greyhounds (Canada #23) 90.50
-59. Markham Waxers (Canada #24) 90.48
-60. Windsor Jr Spitfires (Canada #25) 90.45
+58. Markham Waxers (Canada #23) 90.48
+59. Windsor Jr Spitfires (Canada #24) 90.45
+60. Soo Jr Greyhounds (Canada #25) 90.43
 61. Chatham-Kent Cyclones (Canada #26) 90.40
 62. Oakville Rangers (Canada #27) 90.37
 63. Eastern Ontario Wild (Canada #28) 90.36
