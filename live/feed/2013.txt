@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2013 birth year (13U)
-Updated: Fri Nov 27, 11:12 AM CT
+Updated: Fri Nov 27, 11:28 AM CT
 
 == GAMES THIS WEEKEND ==
 Thu 1:15 PM | #65 Credit River Capitals v #11 Toronto Nationals | Iroquois Park Sports Centre, Rink 3, Whitby
@@ -81,19 +81,20 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 2026-11-27 | Whitby Wildcats 0, Mid-Fairfield 5
 2026-11-27 | Rochester Saints 1, Vaughan Kings 5
 2026-11-27 | Toronto Jr Canadiens 4, York Simcoe Express 1
+2026-11-27 | Toronto Marlboros 2, Syracuse Nationals 0
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. MN Lakers (USA #1) 94.73
 2. Chicago Reapers (USA #2) 94.57
-3. Toronto Marlboros (Canada #1) 94.35
+3. Toronto Marlboros (Canada #1) 94.36
 4. Anaheim Jr Ducks (USA #3) 94.11
 5. Mid-Fairfield (USA #4) 93.32
 6. Little Caesars (USA #5) 93.27
 7. Woodbridge Wolfpack (USA #6) 93.04
 8. Toronto Jr Canadiens (Canada #2) 93.01
 9. Vaughan Kings (Canada #3) 92.75
-10. Syracuse Nationals (USA #7) 92.66
+10. Syracuse Nationals (USA #7) 92.65
 11. Toronto Nationals (Canada #4) 92.58
 12. Cleveland Barons (USA #8) 92.19
 13. Waterloo Wolves (Canada #5) 91.86
@@ -123,7 +124,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 37. St. Louis Blues (USA #26) 89.76
 38. Team North Dakota (USA #27) 89.72
 39. Ottawa Valley Titans (Canada #12) 89.64
-40. Elgin Middlesex Canucks (Canada #13) 89.63
+40. Elgin Middlesex Canucks (Canada #13) 89.64
 41. Music City Marauders (USA #28) 89.46
 42. York Simcoe Express (Canada #14) 89.35
 43. Toronto Reps (Canada #15) 89.27
@@ -177,7 +178,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 91. CarShield (USA #56) 87.12
 92. Mercer Chiefs (USA #57) 87.06
 93. Guelph Gryphons (Canada #36) 87.06
-94. Seacoast Performance Academy (USA #58) 87.04
+94. Seacoast Performance Academy (USA #58) 87.03
 95. Southeast Blades (USA #59) 87.02
 96. Sudbury Wolves (Canada #37) 87.02
 97. Oakland Jr Grizzlies (USA #60) 86.88
@@ -198,7 +199,7 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 112. North Central Predators (Canada #41) 86.01
 113. Philadelphia Little Flyers (USA #72) 85.93
 114. Wilkes Barre Scranton Knights (USA #73) 85.93
-115. North Jersey Avalanche (USA #74) 85.89
+115. North Jersey Avalanche (USA #74) 85.88
 116. Omaha Mastery (USA #75) 85.87
 117. North York Rangers (Canada #42) 85.86
 118. Brantford 99ers (Canada #43) 85.83
@@ -228,8 +229,8 @@ Sat 7:00 PM | #15 Chicago Mission v #65 Credit River Capitals | Iroquois Park Sp
 142. Yale Junior Bulldogs (USA #94) 84.45
 143. Northern CT Nor'Easter (Showcase) (USA #95) 84.40
 144. Cambridge Hawks (Canada #49) 84.38
-145. MN Voyageurs (USA #96) 84.33
-146. Greater Boston Jr Bruins (USA #97) 84.33
+145. Greater Boston Jr Bruins (USA #96) 84.33
+146. MN Voyageurs (USA #97) 84.33
 147. Philadelphia Revolution (USA #98) 84.31
 148. Whitby Wildcats (Canada #50) 84.27
 149. Chatham-Kent Cyclones (Canada #51) 84.24
