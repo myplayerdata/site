@@ -1,22 +1,22 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Fri Nov 27, 4:29 PM CT
+Updated: Fri Nov 27, 4:45 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 12:30 PM | #84 Sudbury Wolves v #8 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
 Thu 1:00 PM | #2 Toronto Jr Canadiens v #68 York Simcoe Express | Iroquois Park Sports Centre, Rink 5, Whitby
-Thu 1:30 PM | #59 Quinte Red Devils v #37 Toronto Nationals | Iroquois Park Sports Centre, Rink 2, Whitby
+Thu 1:30 PM | #54 Quinte Red Devils v #35 Toronto Nationals | Iroquois Park Sports Centre, Rink 2, Whitby
 Thu 1:30 PM | #24 Kitchener Jr Rangers v #47 Niagara North Stars | Iroquois Park Sports Centre, Rink 4, Whitby
 Thu 1:45 PM | #19 Cleveland Barons v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
 Thu 3:30 PM | #25 London Jr Knights v #51 Oakville Rangers | McKinney Centre, Rink 1, Whitby
 Thu 3:35 PM | #5 Don Mills Flyers v #60 Middlesex Islanders East (Elite) | Iroquois Park Sports Centre, Rink 5, Whitby
 Thu 4:05 PM | #38 Buffalo Jr Sabres v #1 Little Caesars | Iroquois Park Sports Centre, Rink 2, Whitby
 Thu 4:30 PM | #9 Boston Jr Eagles (Elite) v #41 Oakland Jr Grizzlies | Iroquois Park Sports Centre, Rink 4, Whitby
-Thu 5:15 PM | #12 Chicago Mission v #4 Worcester Shamrocks | McKinney Centre, Rink 2, Whitby
-Fri 7:00 AM | #16 Providence Capitals (Elite) v #59 Quinte Red Devils | Fieldgate Sports Complex, Rink 2
+Thu 5:15 PM | #14 Chicago Mission v #4 Worcester Shamrocks | McKinney Centre, Rink 2, Whitby
+Fri 7:00 AM | #16 Providence Capitals (Elite) v #54 Quinte Red Devils | Fieldgate Sports Complex, Rink 2
 Fri 7:15 AM | #82 Ottawa Jr 67's v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
-Fri 8:35 AM | #14 South Shore Kings (Elite) v #2 Toronto Jr Canadiens | Fieldgate Sports Complex, Rink 1
+Fri 8:35 AM | #13 South Shore Kings (Elite) v #2 Toronto Jr Canadiens | Fieldgate Sports Complex, Rink 1
 Fri 9:30 AM | #11 Top Gun (Elite) v #20 Chicago Fury | Thornhill Community Centre (West), Markham
-Fri 9:50 AM | #12 Chicago Mission v #37 Toronto Nationals | McKinney Centre, Rink 1, Whitby
+Fri 9:50 AM | #14 Chicago Mission v #35 Toronto Nationals | McKinney Centre, Rink 1, Whitby
 Fri 9:50 AM | #5 Don Mills Flyers v #22 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
 Fri 10:05 AM | #38 Buffalo Jr Sabres v #73 Upper Canada Cyclones | Iroquois Park Sports Centre, Rink 5, Whitby
 Fri 10:05 AM | #1 Little Caesars v #47 Niagara North Stars | McKinney Centre, Rink 2, Whitby
@@ -24,15 +24,15 @@ Fri 12:00 PM | #17 Florida Surf v #8 Toronto Marlboros | Iroquois Park Sports Ce
 Fri 12:20 PM | #19 Cleveland Barons v #3 Pittsburgh Penguins Elite (Mueller) | Canlan Ice Sports, Rink 1, Oshawa
 Fri 12:20 PM | #41 Oakland Jr Grizzlies v #84 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
 Fri 12:40 PM | #16 Providence Capitals (Elite) v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 5, Whitby
-Fri 1:35 PM | #14 South Shore Kings (Elite) v #68 York Simcoe Express | Canlan Ice Sports, Rink 1, Oshawa
+Fri 1:35 PM | #13 South Shore Kings (Elite) v #68 York Simcoe Express | Canlan Ice Sports, Rink 1, Oshawa
 Fri 1:35 PM | #25 London Jr Knights v #2 Toronto Jr Canadiens | McKinney Centre, Rink 1, Whitby
 Fri 1:35 PM | #6 Mid-Fairfield Hockey Club (Elite) v #82 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 3, Whitby
 Fri 3:10 PM | #11 Top Gun (Elite) v #60 Middlesex Islanders East (Elite) | McKinney Centre, Rink 2, Whitby
-Fri 3:30 PM | #12 Chicago Mission v #59 Quinte Red Devils | Iroquois Park Sports Centre, Rink 4, Whitby
+Fri 3:30 PM | #14 Chicago Mission v #54 Quinte Red Devils | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 4:10 PM | #9 Boston Jr Eagles (Elite) v #8 Toronto Marlboros | McKinney Centre, Rink 1, Whitby
 Fri 4:45 PM | #20 Chicago Fury v #22 Elgin Middlesex Canucks | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 4:50 PM | #24 Kitchener Jr Rangers v #73 Upper Canada Cyclones | Iroquois Park Sports Centre, Rink 6, Whitby
-Fri 5:25 PM | #37 Toronto Nationals v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 5:25 PM | #35 Toronto Nationals v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 5, Whitby
 Fri 6:30 PM | #6 Mid-Fairfield Hockey Club (Elite) v #3 Pittsburgh Penguins Elite (Mueller) | Fieldgate Sports Complex, Rink 2
 Fri 6:40 PM | #17 Florida Surf v #84 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
 Fri 6:55 PM | #51 Oakville Rangers v #68 York Simcoe Express | McKinney Centre, Rink 2, Whitby
@@ -42,23 +42,23 @@ Sat 8:15 AM | #47 Niagara North Stars v #73 Upper Canada Cyclones | McKinney Cen
 Sat 8:30 AM | #1 Little Caesars v #24 Kitchener Jr Rangers | Canlan Ice Sports, Rink 1, Oshawa
 Sat 9:00 AM | #17 Florida Surf v #41 Oakland Jr Grizzlies | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 9:30 AM | #51 Oakville Rangers v #2 Toronto Jr Canadiens | McKinney Centre, Rink 1, Whitby
-Sat 9:45 AM | #12 Chicago Mission v #16 Providence Capitals (Elite) | Canlan Ice Sports, Rink 1, Oshawa
+Sat 9:45 AM | #14 Chicago Mission v #16 Providence Capitals (Elite) | Canlan Ice Sports, Rink 1, Oshawa
 Sat 9:55 AM | #11 Top Gun (Elite) v #22 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
 Sat 10:45 AM | #9 Boston Jr Eagles (Elite) v #84 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
-Sat 10:50 AM | #14 South Shore Kings (Elite) v #25 London Jr Knights | Iroquois Park Sports Centre, Rink 5, Whitby
-Sat 11:00 AM | #27 Grey Bruce Highlanders v #57 Southern Tier Admirals | Chesley (Chesley)
+Sat 10:50 AM | #13 South Shore Kings (Elite) v #25 London Jr Knights | Iroquois Park Sports Centre, Rink 5, Whitby
+Sat 11:00 AM | #27 Grey Bruce Highlanders v #58 Southern Tier Admirals | Chesley (Chesley)
 Sat 11:15 AM | #19 Cleveland Barons v #82 Ottawa Jr 67's | McKinney Centre, Rink 2, Whitby
 Sat 11:15 AM | #99 Credit River Capitals v #30 Guelph Gryphons | Susan Fennell (2)
-Sat 11:20 AM | #59 Quinte Red Devils v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 3, Whitby
+Sat 11:20 AM | #54 Quinte Red Devils v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 3, Whitby
 Sat 11:35 AM | #3 Pittsburgh Penguins Elite (Mueller) v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
 Sat 1:20 PM | #20 Chicago Fury v #60 Middlesex Islanders East (Elite) | McKinney Centre, Rink 1, Whitby
 Sat 1:30 PM | #38 Buffalo Jr Sabres v #47 Niagara North Stars | Canlan Ice Sports, Rink 1, Oshawa
 Sat 1:45 PM | #1 Little Caesars v #73 Upper Canada Cyclones | Fieldgate Sports Complex, Rink 1
-Sat 2:00 PM | #27 Grey Bruce Highlanders v #57 Southern Tier Admirals | Chesley (Chesley)
+Sat 2:00 PM | #27 Grey Bruce Highlanders v #58 Southern Tier Admirals | Chesley (Chesley)
 Sat 3:00 PM | #41 Oakland Jr Grizzlies v #8 Toronto Marlboros | Fieldgate Sports Complex, Rink 1
-Sat 4:00 PM | #16 Providence Capitals (Elite) v #37 Toronto Nationals | Fieldgate Sports Complex, Rink 2
+Sat 4:00 PM | #16 Providence Capitals (Elite) v #35 Toronto Nationals | Fieldgate Sports Complex, Rink 2
 Sat 4:15 PM | #19 Cleveland Barons v #6 Mid-Fairfield Hockey Club (Elite) | Fieldgate Sports Complex, Rink 1
-Sat 4:20 PM | #14 South Shore Kings (Elite) v #51 Oakville Rangers | Iroquois Park Sports Centre, Rink 4, Whitby
+Sat 4:20 PM | #13 South Shore Kings (Elite) v #51 Oakville Rangers | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 4:30 PM | #25 London Jr Knights v #68 York Simcoe Express | Iroquois Park Sports Centre, Rink 1, Whitby
 Sat 4:30 PM | #11 Top Gun (Elite) v #5 Don Mills Flyers | Iroquois Park Sports Centre, Rink 6, Whitby
 Sat 5:30 PM | #9 Boston Jr Eagles (Elite) v #17 Florida Surf | Iroquois Park Sports Centre, Rink 2, Whitby
@@ -94,30 +94,31 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 2026-11-27 | York Simcoe Express 2, South Shore Kings (Elite) 7
 2026-11-27 | Mid-Fairfield Hockey Club (Elite) 4, Ottawa Jr 67's 1
 2026-11-27 | Top Gun (Elite) 8, Middlesex Islanders East (Elite) 2
+2026-11-27 | Quinte Red Devils 4, Chicago Mission 2
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
-1. Little Caesars (USA #1) 95.34
+1. Little Caesars (USA #1) 95.32
 2. Toronto Jr Canadiens (Canada #1) 95.30
-3. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.35
-4. Worcester Shamrocks (USA #3) 94.26
+3. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.31
+4. Worcester Shamrocks (USA #3) 94.24
 5. Don Mills Flyers (Canada #2) 94.23
-6. Mid-Fairfield Hockey Club (Elite) (USA #4) 94.04
+6. Mid-Fairfield Hockey Club (Elite) (USA #4) 94.03
 7. Lovell Winter Club (Elite) (USA #5) 93.65
-8. Toronto Marlboros (Canada #3) 93.63
-9. Boston Jr Eagles (Elite) (USA #6) 93.59
-10. Dallas Stars Elite (USA #7) 93.11
-11. Top Gun (Elite) (USA #8) 93.05
-12. Chicago Mission (USA #9) 92.95
-13. St Louis Blues (USA #10) 92.82
-14. South Shore Kings (Elite) (USA #11) 92.77
-15. Biggby Coffee (USA #12) 92.46
+8. Toronto Marlboros (Canada #3) 93.62
+9. Boston Jr Eagles (Elite) (USA #6) 93.58
+10. Dallas Stars Elite (USA #7) 93.10
+11. Top Gun (Elite) (USA #8) 93.04
+12. St Louis Blues (USA #9) 92.81
+13. South Shore Kings (Elite) (USA #10) 92.76
+14. Chicago Mission (USA #11) 92.74
+15. Biggby Coffee (USA #12) 92.43
 16. Providence Capitals (Elite) (USA #13) 92.40
-17. Florida Surf (USA #14) 92.20
-18. Whitby Wildcats (Canada #4) 92.18
-19. Cleveland Barons (USA #15) 91.94
-20. Chicago Fury (USA #16) 91.92
-21. Bay State Breakers (Elite) (USA #17) 91.87
+17. Florida Surf (USA #14) 92.19
+18. Whitby Wildcats (Canada #4) 92.17
+19. Cleveland Barons (USA #15) 91.90
+20. Chicago Fury (USA #16) 91.89
+21. Bay State Breakers (Elite) (USA #17) 91.86
 22. Elgin Middlesex Canucks (Canada #5) 91.85
 23. Toronto Titans (Canada #6) 91.55
 24. Kitchener Jr Rangers (Canada #7) 91.52
@@ -125,41 +126,41 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 26. PAL Jr Islanders (Blue) (USA #18) 91.18
 27. Grey Bruce Highlanders (Canada #9) 91.11
 28. Vaughan Kings (Canada #10) 91.11
-29. Victory Honda (USA #19) 91.00
+29. Victory Honda (USA #19) 90.98
 30. Guelph Gryphons (Canada #11) 90.79
-31. Philadelphia Little Flyers (USA #20) 90.79
-32. Chicago Reapers (USA #21) 90.78
-33. North Jersey Avalanche (USA #22) 90.75
+31. Philadelphia Little Flyers (USA #20) 90.78
+32. Chicago Reapers (USA #21) 90.75
+33. North Jersey Avalanche (USA #22) 90.74
 34. Philadelphia Hockey Club (USA #23) 90.70
-35. Vegas Jr Golden Knights (USA #24) 90.60
-36. Florida Alliance (USA #25) 90.60
-37. Toronto Nationals (Canada #12) 90.59
-38. Buffalo Jr Sabres (USA #26) 90.57
+35. Toronto Nationals (Canada #12) 90.59
+36. Florida Alliance (USA #24) 90.59
+37. Vegas Jr Golden Knights (USA #25) 90.59
+38. Buffalo Jr Sabres (USA #26) 90.56
 39. Phoenix Jr Coyotes (USA #27) 90.53
 40. Barrie Colts (Canada #13) 90.47
-41. Oakland Jr Grizzlies (USA #28) 90.43
+41. Oakland Jr Grizzlies (USA #28) 90.41
 42. Mid-Fairfield Hockey Club (T1) (USA #29) 90.40
 43. Toronto Reps (Canada #14) 90.36
 44. Rochester Saints (USA #30) 90.31
 45. Burlington Eagles (Canada #15) 90.27
-46. Indiana Elite (USA #31) 90.21
+46. Indiana Elite (USA #31) 90.20
 47. Niagara North Stars (Canada #16) 90.20
 48. Boston Jr Terriers (Elite) (USA #32) 90.12
 49. Central Ontario Wolves (Canada #17) 89.95
 50. Washington Little Capitals (USA #33) 89.91
 51. Oakville Rangers (Canada #18) 89.89
-52. Ohio Blue Jackets (USA #34) 89.82
+52. Ohio Blue Jackets (USA #34) 89.81
 53. Anaheim Jr Ducks (#2) 11U AA (USA #35) 89.80
-54. Philadelphia Flyers Elite (USA #36) 89.72
-55. Mississauga Senators (Canada #19) 89.64
-56. Halton Hurricanes (Canada #20) 89.63
-57. Southern Tier Admirals (Canada #21) 89.62
-58. Peterborough Jr Petes (Canada #22) 89.51
-59. Quinte Red Devils (Canada #23) 89.48
-60. Middlesex Islanders East (Elite) (USA #37) 89.42
+54. Quinte Red Devils (Canada #19) 89.70
+55. Philadelphia Flyers Elite (USA #36) 89.70
+56. Mississauga Senators (Canada #20) 89.64
+57. Halton Hurricanes (Canada #21) 89.63
+58. Southern Tier Admirals (Canada #22) 89.61
+59. Peterborough Jr Petes (Canada #23) 89.51
+60. Middlesex Islanders East (Elite) (USA #37) 89.41
 61. Madison Capitols (USA #38) 89.40
 62. Connecticut Jr Rangers (USA #39) 89.37
-63. Kingston Jr Gaels (Canada #24) 89.25
+63. Kingston Jr Gaels (Canada #24) 89.26
 64. Soo Jr Greyhounds (Canada #25) 89.22
 65. West Seneca Wings (Gold) 11U AA (USA #40) 89.20
 66. Valley Jr Warriors (Elite) (USA #41) 89.19
@@ -167,10 +168,10 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 68. York Simcoe Express (Canada #27) 89.13
 69. Battle Creek Bombers 11U A (USA #42) 89.13
 70. Mississauga Rebels (Canada #28) 89.12
-71. Windsor Jr Spitfires (Canada #29) 89.11
-72. Team Illinois (USA #43) 89.08
+71. Windsor Jr Spitfires (Canada #29) 89.09
+72. Team Illinois (USA #43) 89.07
 73. Upper Canada Cyclones (Canada #30) 89.04
-74. North Shore Whitecaps (Canada #31) 89.03
+74. North Shore Whitecaps (Canada #31) 89.04
 75. Ottawa Myers Automotive (Canada #32) 89.02
 76. Toronto Red Wings (Canada #33) 89.01
 77. East Coast Wizards (Elite) (USA #44) 88.98
@@ -184,35 +185,35 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 85. Ottawa Valley Titans (Canada #39) 88.30
 86. Hamilton Steel (Canada #40) 88.24
 87. Huron-Perth Lakers (Canada #41) 88.22
-88. London Jr Knights (Green) U12 AA (Canada #42) 88.20
+88. London Jr Knights (Green) U12 AA (Canada #42) 88.19
 89. Toledo Cherokee 11U A (USA #47) 88.15
-90. Woodbridge Wolfpack (USA #48) 88.14
+90. Woodbridge Wolfpack (USA #48) 88.13
 91. North Bay Trappers (Canada #43) 87.90
 92. Buffalo Regals (USA #49) 87.89
 93. Utica Jr Comets (USA #50) 87.78
-94. Windy City Storm (USA #51) 87.72
+94. Windy City Storm (USA #51) 87.71
 95. Texas Tigers 11U AA (USA #52) 87.69
 96. Markham Majors (Canada #44) 87.69
 97. North York Rangers (Canada #45) 87.50
 98. NY Dynamo (USA #53) 87.49
 99. Credit River Capitals (Canada #46) 87.40
 100. Jersey Hitmen (USA #54) 87.38
-101. Syracuse Nationals (USA #55) 87.32
+101. Syracuse Nationals (USA #55) 87.31
 102. Long Island Royals (USA #56) 87.28
-103. Valley Forge Minutemen (USA #57) 87.15
+103. Valley Forge Minutemen (USA #57) 87.14
 104. Minuteman Flames (Elite) (USA #58) 87.08
 105. Philadelphia Jr Flyers (USA #59) 87.06
 106. Brantford 99ers (Canada #47) 87.04
-107. CarShield (USA #60) 87.04
+107. CarShield (USA #60) 87.03
 108. New York City Hockey Club (USA #61) 87.03
 109. New Jersey Devils (USA #62) 87.00
 110. Bay State Breakers (T1-Platinum) (USA #63) 86.95
-111. Ajax Pickering Raiders (Canada #48) 86.88
+111. Ajax Pickering Raiders (Canada #48) 86.89
 112. Carolina Junior Canes (USA #64) 86.83
 113. New England Bulldogs (USA #65) 86.80
-114. North Central Predators (Canada #49) 86.73
+114. North Central Predators (Canada #49) 86.74
 115. Boston Advantage (Elite) (USA #66) 86.62
-116. Queen City Royals (USA #67) 86.59
+116. Queen City Royals (USA #67) 86.58
 117. Casco Bay Mariners (USA #68) 86.47
 118. Compuware (USA #69) 86.46
 119. Mercer Chiefs (USA #70) 86.40
@@ -221,8 +222,8 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 122. Amherst Knights (USA #73) 86.11
 123. Pittsburgh Penguins Elite (Anderson) (USA #74) 86.05
 124. Tampa Bay Jr Lightning (USA #75) 86.04
-125. Nashville Jr Predators (USA #76) 85.77
-126. Middlesex Islanders West (T1-Platinum) (USA #77) 85.77
+125. Middlesex Islanders West (T1-Platinum) (USA #76) 85.77
+126. Nashville Jr Predators (USA #77) 85.77
 127. New Jersey Rockets (USA #78) 85.74
 128. Connecticut Chiefs (USA #79) 85.67
 129. Connecticut Elite Hockey Academy (USA #80) 85.63
@@ -230,12 +231,12 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 131. New Jersey Colonials (USA #82) 85.57
 132. PAL Jr Islanders (Orange) (USA #83) 85.55
 133. Minuteman Flames (T1-Platinum) (USA #84) 85.53
-134. Belle Tire (USA #85) 85.48
-135. Team Maryland (USA #86) 85.48
+134. Team Maryland (USA #85) 85.48
+135. Belle Tire (USA #86) 85.48
 136. Boston Jr Eagles (T1) (USA #87) 85.47
 137. Pittsburgh Predators (USA #88) 85.47
 138. Boston Jr Terriers (T1-Platinum-White) (USA #89) 85.42
-139. Milwaukee Jr Admirals (USA #90) 85.40
+139. Milwaukee Jr Admirals (USA #90) 85.39
 140. Greater Boston Jr Bruins (USA #91) 85.33
 141. Palmyra Black Knights (USA #92) 85.09
 142. Sun County Panthers (Canada #50) 84.81
@@ -243,6 +244,6 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 144. Fox Motors (USA #94) 84.53
 145. Northern CT Nor'Easter (USA #95) 84.41
 146. Nepean Raiders U12 AA (Canada #51) 84.38
-147. Soo Jr Greyhounds U12 AA (Canada #52) 84.11
+147. Soo Jr Greyhounds U12 AA (Canada #52) 84.10
 148. Tecumseh Shoreline Eagles U12 A (Canada #53) 80.80
 149. Burlington Raiders U12 A (Canada #54) 77.85
