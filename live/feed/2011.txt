@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Fri Nov 27, 8:30 AM CT
+Updated: Fri Nov 27, 8:45 AM CT
 
 == GAMES THIS WEEKEND ==
 Thu 2:15 PM | #18 Central Ontario Wolves v #16 Mississauga Rebels | Iroquois Park Sports Centre, Rink 1, Whitby
@@ -8,7 +8,7 @@ Thu 2:45 PM | #2 Vaughan Kings v #14 York Simcoe Express | Iroquois Park Sports 
 Thu 4:20 PM | #11 Little Caesars v #30 Palmyra Black Knights | Iroquois Park Sports Centre, Rink 3, Whitby
 Thu 5:20 PM | #9 Hamilton Steel v #34 Mississauga Senators | Iroquois Park Sports Centre, Rink 2, Whitby
 Thu 5:40 PM | #19 Toronto Nationals v #17 Waterloo Wolves | Iroquois Park Sports Centre, Rink 6, Whitby
-Thu 5:45 PM | #13 Chicago Mission v #88 Whitby Wildcats | Iroquois Park Sports Centre, Rink 1, Whitby
+Thu 5:45 PM | #13 Chicago Mission v #92 Whitby Wildcats | Iroquois Park Sports Centre, Rink 1, Whitby
 Thu 5:45 PM | #26 Pittsburgh Vengeance v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 4, Whitby
 Thu 7:05 PM | #8 Halton Hurricanes v #1 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 2, Whitby
 Thu 7:25 PM | #70 Windy City Storm v #58 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 3, Whitby
@@ -16,7 +16,7 @@ Thu 7:30 PM | #12 Oakland Jr Grizzlies v #28 Ottawa Jr 67's | Iroquois Park Spor
 Thu 7:30 PM | #3 Bishop Kearney Selects v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 7:00 AM | #33 Elgin Middlesex Canucks v #26 Pittsburgh Vengeance | Iroquois Park Sports Centre, Rink 3, Whitby
 Fri 7:00 AM | #23 North Shore Whitecaps v #78 Thunder Bay Kings | Iroquois Park Sports Centre, Rink 1, Whitby
-Fri 7:15 AM | #44 Ottawa Valley Titans v #88 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
+Fri 7:15 AM | #42 Ottawa Valley Titans v #92 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
 Fri 7:15 AM | #38 Kingston Jr Gaels v #16 Mississauga Rebels | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 8:20 AM | #13 Chicago Mission v #34 Mississauga Senators | Iroquois Park Sports Centre, Rink 5, Whitby
 Fri 8:30 AM | #31 Ottawa Myers Automotive v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 2, Whitby
@@ -26,12 +26,12 @@ Fri 9:00 AM | #11 Little Caesars v #19 Toronto Nationals | Iroquois Park Sports 
 Fri 10:15 AM | #30 Palmyra Black Knights v Upper Canada College | Iroquois Park Sports Centre, Rink 2, Whitby
 Fri 10:45 AM | #28 Ottawa Jr 67's v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 11:25 AM | #70 Windy City Storm v #14 York Simcoe Express | Iroquois Park Sports Centre, Rink 1, Whitby
-Fri 11:50 AM | #9 Hamilton Steel v #44 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 3, Whitby
+Fri 11:50 AM | #9 Hamilton Steel v #42 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 3, Whitby
 Fri 12:30 PM | #8 Halton Hurricanes v #38 Kingston Jr Gaels | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 1:10 PM | #63 Chatham-Kent Cyclones v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 1, Whitby
 Fri 1:20 PM | #78 Thunder Bay Kings v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
 Fri 1:55 PM | #58 Soo Jr Greyhounds v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 5, Whitby
-Fri 2:40 PM | #34 Mississauga Senators v #88 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
+Fri 2:40 PM | #34 Mississauga Senators v #92 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
 Fri 2:55 PM | #23 North Shore Whitecaps v #26 Pittsburgh Vengeance | Iroquois Park Sports Centre, Rink 1, Whitby
 Fri 3:05 PM | #11 Little Caesars v #17 Waterloo Wolves | Iroquois Park Sports Centre, Rink 6, Whitby
 Fri 3:40 PM | #12 Oakland Jr Grizzlies v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 5, Whitby
@@ -46,13 +46,13 @@ Fri 7:40 PM | #30 Palmyra Black Knights v #17 Waterloo Wolves | Iroquois Park Sp
 Fri 7:45 PM | #58 Soo Jr Greyhounds v #14 York Simcoe Express | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 7:00 AM | #63 Chatham-Kent Cyclones v #28 Ottawa Jr 67's | Iroquois Park Sports Centre, Rink 3, Whitby
 Sat 7:15 AM | #18 Central Ontario Wolves v #38 Kingston Jr Gaels | Iroquois Park Sports Centre, Rink 4, Whitby
-Sat 8:10 AM | #34 Mississauga Senators v #44 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 8:10 AM | #34 Mississauga Senators v #42 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 1, Whitby
 Sat 8:15 AM | #11 Little Caesars v Upper Canada College | Iroquois Park Sports Centre, Rink 2, Whitby
 Sat 8:30 AM | #33 Elgin Middlesex Canucks v #78 Thunder Bay Kings | Iroquois Park Sports Centre, Rink 6, Whitby
 Sat 9:55 AM | #31 Ottawa Myers Automotive v #58 Soo Jr Greyhounds | Iroquois Park Sports Centre, Rink 1, Whitby
 Sat 12:05 PM | #70 Windy City Storm v #2 Vaughan Kings | Iroquois Park Sports Centre, Rink 5, Whitby
 Sat 12:35 PM | #12 Oakland Jr Grizzlies v #3 Bishop Kearney Selects | Iroquois Park Sports Centre, Rink 3, Whitby
-Sat 12:40 PM | #9 Hamilton Steel v #88 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
+Sat 12:40 PM | #9 Hamilton Steel v #92 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
 Sat 12:50 PM | #30 Palmyra Black Knights v #19 Toronto Nationals | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 1:00 PM | #38 Kingston Jr Gaels v #1 Pittsburgh Penguins Elite | Iroquois Park Sports Centre, Rink 1, Whitby
 Sat 1:00 PM | Upper Canada College v #17 Waterloo Wolves | Iroquois Park Sports Centre, Rink 6, Whitby
@@ -60,7 +60,7 @@ Sat 1:50 PM | #26 Pittsburgh Vengeance v #78 Thunder Bay Kings | Iroquois Park S
 Sat 2:20 PM | #63 Chatham-Kent Cyclones v #5 Toronto Jr Canadiens | Iroquois Park Sports Centre, Rink 3, Whitby
 Sat 2:25 PM | #8 Halton Hurricanes v #16 Mississauga Rebels | Iroquois Park Sports Centre, Rink 2, Whitby
 Sat 2:35 PM | #31 Ottawa Myers Automotive v #14 York Simcoe Express | Iroquois Park Sports Centre, Rink 4, Whitby
-Sat 2:45 PM | #13 Chicago Mission v #44 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 1, Whitby
+Sat 2:45 PM | #13 Chicago Mission v #42 Ottawa Valley Titans | Iroquois Park Sports Centre, Rink 1, Whitby
 Sat 2:45 PM | #23 North Shore Whitecaps v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
 Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Planet (Sign-A-Field)
 
@@ -79,6 +79,7 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 2026-11-26 | Toronto Jr Canadiens 2, Bishop Kearney Selects 2
 2026-11-27 | Pittsburgh Vengeance 3, Elgin Middlesex Canucks 2
 2026-11-27 | North Shore Whitecaps 3, Thunder Bay Kings 2
+2026-11-27 | Whitby Wildcats 0, Ottawa Valley Titans 5
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
@@ -123,9 +124,9 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 39. Buffalo Jr Sabres (USA #20) 91.79
 40. North Jersey Avalanche (USA #21) 91.56
 41. Victory Honda (USA #22) 91.41
-42. Cape Cod Whalers (USA #23) 91.40
-43. HB Detroit (USA #24) 91.28
-44. Ottawa Valley Titans (Canada #20) 91.25
+42. Ottawa Valley Titans (Canada #20) 91.41
+43. Cape Cod Whalers (USA #23) 91.40
+44. HB Detroit (USA #24) 91.28
 45. Northeast Generals (USA #25) 91.16
 46. New Jersey Rockets (Premier) (USA #26) 91.11
 47. Neponset Valley River Rats (USA #27) 91.11
@@ -169,11 +170,11 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 85. Brantford 99ers (Canada #36) 89.24
 86. LA Jr Kings (USA #50) 89.23
 87. PAL Jr Islanders (USA #51) 89.21
-88. Whitby Wildcats (Canada #37) 89.21
-89. MN Lakers (USA #52) 89.19
-90. Tampa Bay Jr Lightning (USA #53) 89.16
-91. Guelph Gryphons (Canada #38) 89.13
-92. Team Illinois (USA #54) 89.11
+88. MN Lakers (USA #52) 89.19
+89. Tampa Bay Jr Lightning (USA #53) 89.16
+90. Guelph Gryphons (Canada #37) 89.13
+91. Team Illinois (USA #54) 89.11
+92. Whitby Wildcats (Canada #38) 89.11
 93. Toronto Reps (Canada #39) 89.10
 94. MN Moose (USA #55) 89.08
 95. East Coast Militia (National) (USA #56) 89.01
