@@ -19,11 +19,12 @@ th{color:var(--mut);font-weight:600}tr:last-child td{border-bottom:0}td.n,th.n{t
 .barwrap{padding-bottom:4px}.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:8px;padding:10px 12px;margin-top:10px}
 .hd{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}.pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 9px}
 button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
-</style></head><body><main>
+table.use{min-width:0}table.use th:first-child,table.use td:first-child{position:sticky;left:0;background:var(--card,#fff);z-index:1;max-width:44vw;white-space:normal;box-shadow:2px 0 0 rgba(0,0,0,.06)}table.use td,table.use th{padding-left:8px;padding-right:8px;white-space:nowrap}</style></head><body><main>
 <h1>Member usage</h1><div class="mut" id="sub">Loading…</div>
 <div id="prof" hidden></div>
 <div id="out" hidden>
 <div class="tiles" id="tiles"></div>
+<h2>Member usage, most recent first</h2><div class="mut">Paying members. Whoever used the site last is on top. Minutes with the member site open and on screen.</div><div class="wrap"><table id="t-use" class="use"></table></div>
 <h2>Paying members, newest first</h2><div class="mut">Status: Active, or "Cancels" with the date for a member who pressed Cancel and keeps access until then. Next charge is what their card is billed at renewal.</div><div class="wrap"><table id="t-mem"></table></div>
 <h2>Today, 3 days, 7 days, 30 days</h2><div class="mut">Days are Central time. "Today" is since midnight. New, returning and member visitors are counted from Nov 19, 2026; earlier visits show as "not tagged".</div><div class="wrap"><table id="t-win"></table></div>
 <div class="cols"><div><h2>Who the visitors are, by source (30 days)</h2><div class="wrap"><table id="t-st"></table></div></div><div><h2>Direct visitors: first page they opened (30 days)</h2><div class="wrap"><table id="t-dp"></table></div></div></div>
@@ -103,6 +104,9 @@ async function load(){
   const rvE={};((window.__rv||{}).rows||[]).forEach(x=>{if(x.email)rvE[x.email]=x});
   const paidAt=m=>{const x=rvE[String(m.email||"").toLowerCase()];return x&&x.fp?new Date(x.fp).getTime():new Date(m.created_at).getTime()};
   const act=active.slice().sort((p,q)=>paidAt(q)-paidAt(p));
+  /* owner Nov 27 2026 11:14 PM: on a phone the name scrolled off the wide members table. A narrow table first: name, last seen, today, 3, 7, 30 days, most recent use on top; the name column stays put when scrolling sideways. */
+  {const ls=m=>m.last_seen?new Date(m.last_seen).getTime():0;const ago=t=>{if(!t)return "never";const d=now-new Date(t);return d<36e5?Math.max(1,Math.round(d/6e4))+" min ago":d<day?Math.round(d/36e5)+" hr ago":d<7*day?Math.round(d/day)+" d ago":new Date(t).toLocaleDateString([], {month:"short",day:"numeric"})};
+   tbl("t-use",[["Member"],["Last seen"],["Today","n"],["3 days","n"],["7 days","n"],["30 days","n"]],active.slice().sort((p,q)=>ls(q)-ls(p)).map(m=>{const u=MM[m.email]||{};return [`<button class="lnk" data-prof="${esc(m.email)}" style="text-align:left">${esc(m.name||m.email)}</button>`,ago(m.last_seen),u.min1?"<b>"+dur(u.min1)+"</b>":"0m",dur(u.min3||0),dur(m.min7||0),dur(m.min30||0)]}))}
   tbl("t-mem",[[""],["Name"],["Plan"],["Status"],["Member since"],["Next charge","n"],["Renews / ends"],["Last seen"],["Today","n"],["3 days","n"],["7 days","n"],["30 days","n"],["Visits 30d","n"],["Email"]],
     act.map(m=>{const x=rvE[String(m.email||"").toLowerCase()],end=m.current_period_end?new Date(m.current_period_end).toLocaleDateString():"—",go=x&&x.cancels;
       return [`<button class="lnk" data-prof="${esc(m.email)}">Profile</button>`,`<button class="nm" data-email="${esc(m.email)}" data-name="${esc(m.name||"")}">${m.name?esc(m.name):'<span class="mut">Add name</span>'}</button>`,esc(m.plan||"—"),
