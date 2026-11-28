@@ -51,9 +51,9 @@ html:has(body.app),body.app{overflow:hidden;overscroll-behavior:none}body.app{po
 
 <div class="card" id="v-signin" hidden>
 <h1 id="si-h">Member sign-in</h1>
-<p class="muted" id="si-p">Enter your email. Add a password and you can skip the emailed code from then on. New here? The same form creates your account.</p>
+<p class="muted" id="si-p">Sign in with your email and password. No password yet, or forgot it? Leave it empty and we email you a code. New here? The same form creates your account.</p>
 <form id="f-signin"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required placeholder="you@example.com">
-<label for="pw" style="margin-top:12px">Password <span style="font-weight:400">(optional, 6 or more characters)</span></label><input id="pw" type="password" autocomplete="current-password" placeholder="Leave empty to get a code by email">
+<label for="pw" style="margin-top:12px">Password <span style="font-weight:400">(6 or more characters)</span></label><input id="pw" type="password" autocomplete="current-password" placeholder="Your password, or choose one">
 <div class="row"><button class="btn" id="b-send">Continue</button><a class="btn alt" href="../">Back to the home page</a></div>
 <div class="err" id="e-signin" hidden></div></form>
 </div>
@@ -109,11 +109,11 @@ function show(v){for(const k of VIEWS)$("v-"+k).hidden=k!==v}
 const TK="mpd-device-token";
 const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
 const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}catch(e){}};
-let access=null,timer=null,paidTries=0,wantUsed=false,pendingPw="";const PW_SIGNUP=false;
+let access=null,timer=null,paidTries=0,wantUsed=false,pendingPw="",gating=false,newDev=false;const PW_SIGNUP=false;const KN=e=>"mpd-known:"+String(e||"").trim().toLowerCase(),known=e=>{try{return localStorage.getItem(KN(e))==="1"}catch(x){return false}},markKnown=e=>{try{if(e)localStorage.setItem(KN(e),"1")}catch(x){}};
 let WANT=new URLSearchParams(location.search).get("plan");try{if(WANT==="monthly"||WANT==="season")sessionStorage.setItem("mpd_plan",WANT);else WANT=sessionStorage.getItem("mpd_plan")}catch(e){}
 if(WANT!=="monthly"&&WANT!=="season")WANT=null;
 // arriving from a Join button: say what happens next, in two steps, so the screen does not read as a members-only door
-function joinCopy(){try{if(!WANT)return;const m=WANT==="monthly";$("si-h").textContent=m?"Join for $19":"Get the season pass";$("si-p").innerHTML="<b>Step 1 of 2.</b> Enter your email. We email you a short code to confirm it is yours, then you go straight to secure checkout."+(m?" $19 for your first month, then $39 a month. Cancel any time.":" $349, one payment, the full 2026-27 season.")+" Already a member? The same box signs you in.";$("b-send").textContent="Continue";$("sent-h").textContent="Step 2 of 2: enter your code";$("sent-w").textContent="confirmation"}catch(e){}}const PAID=new URLSearchParams(location.search).get("paid")==="1";if(PAID)try{history.replaceState(null,"",location.pathname+location.hash)}catch(e){}
+function joinCopy(){try{if(!WANT)return;const m=WANT==="monthly";$("si-h").textContent=m?"Join for $19":"Get the season pass";$("si-p").innerHTML="<b>Step 1 of 2.</b> Enter your email and choose a password. We email you a short code once to confirm the email is yours, then you go straight to secure checkout."+(m?" $19 for your first month, then $39 a month. Cancel any time.":" $349, one payment, the full 2026-27 season.")+" Already a member? The same box signs you in.";$("b-send").textContent="Continue";$("sent-h").textContent="Step 2 of 2: enter your code";$("sent-w").textContent="confirmation"}catch(e){}}const PAID=new URLSearchParams(location.search).get("paid")==="1";if(PAID)try{history.replaceState(null,"",location.pathname+location.hash)}catch(e){}
 // ---- member app: the ratings site and the full player database, each in its own frame ----
 const RSITE=location.origin+"/members/ratings/";
 // ---- usage log: what members open and how long they stay (shown only on the private admin page) ----
@@ -184,7 +184,9 @@ window.addEventListener("resize",()=>document.documentElement.style.setProperty(
 
 async function claim(){const {data,error}=await sb.rpc("claim_session",{p_user_agent:navigator.userAgent});if(error)throw error;setTok(data);try{if(!sessionStorage.getItem("mpd_ns")){sessionStorage.setItem("mpd_ns","1");sb.rpc("note_source",{p_src:sessionStorage.getItem("mpd_s")||"direct"}).then(()=>{},()=>{})}}catch(e){}return data}
 async function check(){
+  if(gating)return;
   const {data:{session}}=await sb.auth.getSession();
+  if(session)markKnown(session.user.email);
   if(!session){$("who").hidden=true;access=null;closeApp();joinCopy();show("signin");if(WANT&&!window.__jv){window.__jv=1;try{mpdLog("join_view",WANT)}catch(e){}}return}
   $("who").hidden=false;$("who-email").textContent=session.user.email||"";
   let tok=getTok();
@@ -210,13 +212,17 @@ $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email
   const pw=$("pw").value;$("e-signin").hidden=true;pendingPw="";
   if(pw&&pw.length<6){$("e-signin").hidden=false;$("e-signin").textContent="Use 6 or more characters for the password, or leave it empty to get a code by email.";return}
   $("b-send").disabled=true;
-  if(pw){try{const r=await sb.auth.signInWithPassword({email,password:pw});if(!r.error){$("b-send").disabled=false;setTok(null);check();return}
-    if(PW_SIGNUP){const u=await sb.auth.signUp({email,password:pw});if(!u.error&&u.data&&u.data.session){$("b-send").disabled=false;try{if(WANT){mpdLog("join_email",WANT);mpdLog("join_code_ok",WANT)}}catch(e){}setTok(null);check();return}}}catch(e){}
-    pendingPw=pw}
+  /* owner Nov 28 2026 12:34 AM: a password signs you in on a device this account has used before; a device it has not used needs the emailed code once (stops a password being passed around). Kept in this browser only (mpd-known:<email>). */
+  newDev=false;
+  if(pw){gating=true;try{const r=await sb.auth.signInWithPassword({email,password:pw});
+      if(!r.error){if(known(email)){gating=false;$("b-send").disabled=false;setTok(null);check();return}
+        try{await sb.auth.signOut({scope:"local"})}catch(e){}newDev=true}
+      else if(PW_SIGNUP){const u=await sb.auth.signUp({email,password:pw});if(!u.error&&u.data&&u.data.session){markKnown(email);gating=false;$("b-send").disabled=false;try{if(WANT){mpdLog("join_email",WANT);mpdLog("join_code_ok",WANT)}}catch(e){}setTok(null);check();return}}}catch(e){}
+    gating=false;if(!newDev)pendingPw=pw}
   const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:HERE,shouldCreateUser:true}});
   $("b-send").disabled=false;
   if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
-  try{if(WANT)mpdLog("join_email",WANT)}catch(e){}sentEmail=email;$("sent-to").textContent=email;try{let n=$("pw-note");if(!n){n=document.createElement("p");n.id="pw-note";n.className="muted";$("f-code").parentNode.insertBefore(n,$("f-code"))}n.hidden=!pendingPw;n.textContent="That password is not on this account yet. Enter the code from the email once and the password is saved: next time you sign in with just your email and password."}catch(e){}$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
+  try{if(WANT)mpdLog("join_email",WANT)}catch(e){}sentEmail=email;$("sent-to").textContent=email;try{let n=$("pw-note");if(!n){n=document.createElement("p");n.id="pw-note";n.className="muted";$("f-code").parentNode.insertBefore(n,$("f-code"))}n.hidden=!pendingPw&&!newDev;n.textContent=newDev?"This is a device your account has not used before, so we emailed a code to make sure it is you. Enter it once and this device signs in with just your password from then on.":"Enter the code from the email once and your password is saved. Next time you sign in on this device with just your email and password."}catch(e){}$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
 let sentEmail="";
 $("f-code").addEventListener("submit",async e=>{e.preventDefault();const token=$("code").value.replace(/\D/g,"");if(token.length<6){$("e-code").hidden=false;$("e-code").textContent="Enter the code from the email.";return}
   $("b-code").disabled=true;$("e-code").hidden=true;
