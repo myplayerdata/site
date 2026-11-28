@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2011 birth year (15U)
-Updated: Fri Nov 27, 6:55 PM CT
+Updated: Fri Nov 27, 7:12 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 2:15 PM | #18 Central Ontario Wolves v #17 Mississauga Rebels | Iroquois Park Sports Centre, Rink 1, Whitby
@@ -100,6 +100,7 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 2026-11-27 | Oakland Jr Grizzlies 3, Toronto Jr Canadiens 6
 2026-11-27 | Mississauga Rebels 1, Pittsburgh Penguins Elite 6
 2026-11-27 | Windy City Storm 1, Ottawa Myers Automotive 1
+2026-11-27 | Toronto Marlboros 3, Elgin Middlesex Canucks 0
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
@@ -109,7 +110,7 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 4. Mount St Charles Hockey Academy (USA #3) 95.69
 5. Toronto Jr Canadiens (Canada #2) 95.41
 6. Shattuck St Mary's (USA #4) 95.18
-7. Toronto Marlboros (Canada #3) 94.65
+7. Toronto Marlboros (Canada #3) 94.67
 8. Halton Hurricanes (Canada #4) 94.55
 9. Hamilton Steel (Canada #5) 94.43
 10. Chicago Reapers (USA #5) 94.32
@@ -135,7 +136,7 @@ Sun 3:15 PM | #24 Peterborough Jr Petes v #153 Quinte Red Devils | Healthy Plane
 30. Palmyra Black Knights (USA #17) 92.24
 31. Ottawa Myers Automotive (Canada #14) 92.18
 32. Team Wisconsin (USA #18) 92.07
-33. Elgin Middlesex Canucks (Canada #15) 92.06
+33. Elgin Middlesex Canucks (Canada #15) 92.05
 34. Mississauga Senators (Canada #16) 91.99
 35. Notre Dame Hockey Academy (USA #19) 91.96
 36. North York Rangers (Canada #17) 91.96
