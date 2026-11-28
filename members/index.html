@@ -22,7 +22,7 @@ main{max-width:520px;margin:40px auto;padding:0 16px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px}
 h1{font-size:22px;margin:0 0 6px}p{margin:0 0 14px}.muted{color:var(--muted);font-size:14px}
 label{display:block;font-size:13px;font-weight:600;margin:0 0 6px}
-input[type=email],input#firstname,input#lastname{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:16px}
+input[type=email],input#pw,input#firstname,input#lastname{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:16px}
 .btn{display:inline-block;background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:11px 18px;font:inherit;font-weight:600;cursor:pointer;text-decoration:none}
 .btn.alt{background:var(--soft);color:var(--ink)}.btn[disabled]{opacity:.6;cursor:default}
 .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
@@ -51,9 +51,10 @@ html:has(body.app),body.app{overflow:hidden;overscroll-behavior:none}body.app{po
 
 <div class="card" id="v-signin" hidden>
 <h1 id="si-h">Member sign-in</h1>
-<p class="muted" id="si-p">Enter your email and we'll send you a sign-in code. No password needed. New here? The same form creates your account.</p>
+<p class="muted" id="si-p">Enter your email. Add a password and you can skip the emailed code from then on. New here? The same form creates your account.</p>
 <form id="f-signin"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required placeholder="you@example.com">
-<div class="row"><button class="btn" id="b-send">Email me a sign-in code</button><a class="btn alt" href="../">Back to the home page</a></div>
+<label for="pw" style="margin-top:12px">Password <span style="font-weight:400">(optional, 6 or more characters)</span></label><input id="pw" type="password" autocomplete="current-password" placeholder="Leave empty to get a code by email">
+<div class="row"><button class="btn" id="b-send">Continue</button><a class="btn alt" href="../">Back to the home page</a></div>
 <div class="err" id="e-signin" hidden></div></form>
 </div>
 
@@ -108,7 +109,7 @@ function show(v){for(const k of VIEWS)$("v-"+k).hidden=k!==v}
 const TK="mpd-device-token";
 const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
 const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}catch(e){}};
-let access=null,timer=null,paidTries=0,wantUsed=false;
+let access=null,timer=null,paidTries=0,wantUsed=false,pendingPw="";const PW_SIGNUP=false;
 let WANT=new URLSearchParams(location.search).get("plan");try{if(WANT==="monthly"||WANT==="season")sessionStorage.setItem("mpd_plan",WANT);else WANT=sessionStorage.getItem("mpd_plan")}catch(e){}
 if(WANT!=="monthly"&&WANT!=="season")WANT=null;
 // arriving from a Join button: say what happens next, in two steps, so the screen does not read as a members-only door
@@ -205,17 +206,24 @@ async function check(){
   show("member");openApp(session.user.email||"");
 }
 $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email=$("email").value.trim();if(!email)return;
-  $("b-send").disabled=true;$("e-signin").hidden=true;
+  /* owner Nov 28 2026: waiting for the emailed code is a turn-off (it can land in junk). A password is optional: right password = straight in; no password yet (or a wrong one) = one code by email, then that password is saved. PW_SIGNUP true = brand-new emails get in with just a password (needs Supabase "Confirm email" off). */
+  const pw=$("pw").value;$("e-signin").hidden=true;pendingPw="";
+  if(pw&&pw.length<6){$("e-signin").hidden=false;$("e-signin").textContent="Use 6 or more characters for the password, or leave it empty to get a code by email.";return}
+  $("b-send").disabled=true;
+  if(pw){try{const r=await sb.auth.signInWithPassword({email,password:pw});if(!r.error){$("b-send").disabled=false;setTok(null);check();return}
+    if(PW_SIGNUP){const u=await sb.auth.signUp({email,password:pw});if(!u.error&&u.data&&u.data.session){$("b-send").disabled=false;try{if(WANT){mpdLog("join_email",WANT);mpdLog("join_code_ok",WANT)}}catch(e){}setTok(null);check();return}}}catch(e){}
+    pendingPw=pw}
   const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:HERE,shouldCreateUser:true}});
   $("b-send").disabled=false;
   if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
-  try{if(WANT)mpdLog("join_email",WANT)}catch(e){}sentEmail=email;$("sent-to").textContent=email;$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
+  try{if(WANT)mpdLog("join_email",WANT)}catch(e){}sentEmail=email;$("sent-to").textContent=email;try{let n=$("pw-note");if(!n){n=document.createElement("p");n.id="pw-note";n.className="muted";$("f-code").parentNode.insertBefore(n,$("f-code"))}n.hidden=!pendingPw;n.textContent="That password is not on this account yet. Enter the code from the email once and the password is saved: next time you sign in with just your email and password."}catch(e){}$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
 let sentEmail="";
 $("f-code").addEventListener("submit",async e=>{e.preventDefault();const token=$("code").value.replace(/\D/g,"");if(token.length<6){$("e-code").hidden=false;$("e-code").textContent="Enter the code from the email.";return}
   $("b-code").disabled=true;$("e-code").hidden=true;
   const {error}=await sb.auth.verifyOtp({email:sentEmail,token,type:"email"});
   $("b-code").disabled=false;
   if(error){$("e-code").hidden=false;$("e-code").textContent="That code didn't work. Check it, or request a new email.";return}
+  if(pendingPw){try{await sb.auth.updateUser({password:pendingPw})}catch(e){}pendingPw=""}
   try{if(WANT)mpdLog("join_code_ok",WANT)}catch(e){}setTok(null);check()});
 $("b-again").onclick=()=>{show("signin");setTimeout(()=>{try{$("email").focus();$("email").select()}catch(e){}},50)};$("a-change").onclick=e=>{e.preventDefault();$("b-again").onclick()};
 $("f-name").addEventListener("submit",async e=>{e.preventDefault();const cl=x=>x.trim().replace(/\s+/g," ").slice(0,40);const f=cl($("firstname").value),l=cl($("lastname").value);
