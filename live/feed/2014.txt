@@ -1,5 +1,5 @@
 MY PLAYER DATA: 2014 birth year (12U)
-Updated: Fri Nov 27, 7:12 PM CT
+Updated: Fri Nov 27, 7:29 PM CT
 
 == GAMES THIS WEEKEND ==
 Fri 6:45 PM | #11 Buffalo Jr Sabres v #99 Buffalo Regals (Rainey) | Holiday Rinks
@@ -96,8 +96,8 @@ Sun 5:00 PM | #24 Ottawa Jr 67's v #67 Ottawa Myers Automotive | RSP (Canadian T
 78. Markham Majors (Canada #33) 92.99
 79. CarShield (USA #46) 92.98
 80. Oakville Rangers (Canada #34) 92.89
-81. Halton Hurricanes (Canada #35) 92.86
-82. Pittsburgh Predators (USA #47) 92.86
+81. Pittsburgh Predators (USA #47) 92.86
+82. Halton Hurricanes (Canada #35) 92.86
 83. Seacoast Spartans (T1-Platinum) (USA #48) 92.85
 84. Lovell Winter Club (Elite) (USA #49) 92.82
 85. Team Maryland (USA #50) 92.81
@@ -244,8 +244,8 @@ Sun 5:00 PM | #24 Ottawa Jr 67's v #67 Ottawa Myers Automotive | RSP (Canadian T
 226. California Wave 12U AA (USA #163) 87.34
 227. Valley Forge Minutemen (USA #164) 87.28
 228. Hamilton Steel U13 AA (Canada #64) 87.10
-229. Montgomery Ice Devils 12U AA (USA #165) 87.09
-230. Clarence Mustangs (TB) 12U AA (USA #166) 87.09
+229. Clarence Mustangs (TB) 12U AA (USA #165) 87.09
+230. Montgomery Ice Devils 12U AA (USA #166) 87.09
 231. Greater Boston Jr Bruins (USA #167) 87.07
 232. Nicolas Gatineau Polyvalente (Releve) M13 D1 (Canada #65) 87.01
 233. Boston Americans (USA #168) 86.94
@@ -264,8 +264,8 @@ Sun 5:00 PM | #24 Ottawa Jr 67's v #67 Ottawa Myers Automotive | RSP (Canadian T
 246. Lovell Winter Club (Select #1) (USA #180) 85.66
 247. Westchester Express (USA #181) 85.59
 248. 95 Giants (Elite) (USA #182) 85.56
-249. Middlesex Islanders East (Brooks) (USA #183) 85.34
-250. Forest Hill Force U13 A (Canada #67) 85.34
+249. Forest Hill Force U13 A (Canada #67) 85.34
+250. Middlesex Islanders East (Brooks) (USA #183) 85.34
 251. New England Knights (Elite) (USA #184) 85.30
 252. Walpole Express (Select) (USA #185) 85.24
 253. Talbot Trail Blazers U13 A (Canada #68) 85.07
