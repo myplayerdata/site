@@ -1,10 +1,10 @@
 MY PLAYER DATA: 2015 birth year (11U)
-Updated: Fri Nov 27, 6:21 PM CT
+Updated: Fri Nov 27, 6:38 PM CT
 
 == GAMES THIS WEEKEND ==
 Thu 12:30 PM | #84 Sudbury Wolves v #7 Toronto Marlboros | Iroquois Park Sports Centre, Rink 6, Whitby
 Thu 1:00 PM | #2 Toronto Jr Canadiens v #68 York Simcoe Express | Iroquois Park Sports Centre, Rink 5, Whitby
-Thu 1:30 PM | #54 Quinte Red Devils v #35 Toronto Nationals | Iroquois Park Sports Centre, Rink 2, Whitby
+Thu 1:30 PM | #54 Quinte Red Devils v #37 Toronto Nationals | Iroquois Park Sports Centre, Rink 2, Whitby
 Thu 1:30 PM | #23 Kitchener Jr Rangers v #46 Niagara North Stars | Iroquois Park Sports Centre, Rink 4, Whitby
 Thu 1:45 PM | #19 Cleveland Barons v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 6, Whitby
 Thu 3:30 PM | #25 London Jr Knights v #51 Oakville Rangers | McKinney Centre, Rink 1, Whitby
@@ -16,7 +16,7 @@ Fri 7:00 AM | #16 Providence Capitals (Elite) v #54 Quinte Red Devils | Fieldgat
 Fri 7:15 AM | #82 Ottawa Jr 67's v #18 Whitby Wildcats | Iroquois Park Sports Centre, Rink 2, Whitby
 Fri 8:35 AM | #13 South Shore Kings (Elite) v #2 Toronto Jr Canadiens | Fieldgate Sports Complex, Rink 1
 Fri 9:30 AM | #11 Top Gun (Elite) v #20 Chicago Fury | Thornhill Community Centre (West), Markham
-Fri 9:50 AM | #14 Chicago Mission v #35 Toronto Nationals | McKinney Centre, Rink 1, Whitby
+Fri 9:50 AM | #14 Chicago Mission v #37 Toronto Nationals | McKinney Centre, Rink 1, Whitby
 Fri 9:50 AM | #5 Don Mills Flyers v #22 Elgin Middlesex Canucks | Fieldgate Sports Complex, Rink 1
 Fri 10:05 AM | #38 Buffalo Jr Sabres v #77 Upper Canada Cyclones | Iroquois Park Sports Centre, Rink 5, Whitby
 Fri 10:05 AM | #1 Little Caesars v #46 Niagara North Stars | McKinney Centre, Rink 2, Whitby
@@ -32,7 +32,7 @@ Fri 3:30 PM | #14 Chicago Mission v #54 Quinte Red Devils | Iroquois Park Sports
 Fri 4:10 PM | #9 Boston Jr Eagles (Elite) v #7 Toronto Marlboros | McKinney Centre, Rink 1, Whitby
 Fri 4:45 PM | #20 Chicago Fury v #22 Elgin Middlesex Canucks | Iroquois Park Sports Centre, Rink 4, Whitby
 Fri 4:50 PM | #23 Kitchener Jr Rangers v #77 Upper Canada Cyclones | Iroquois Park Sports Centre, Rink 6, Whitby
-Fri 5:25 PM | #35 Toronto Nationals v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 5, Whitby
+Fri 5:25 PM | #37 Toronto Nationals v #4 Worcester Shamrocks | Iroquois Park Sports Centre, Rink 5, Whitby
 Fri 6:30 PM | #6 Mid-Fairfield Hockey Club (Elite) v #3 Pittsburgh Penguins Elite (Mueller) | Fieldgate Sports Complex, Rink 2
 Fri 6:40 PM | #17 Florida Surf v #84 Sudbury Wolves | McKinney Centre, Rink 1, Whitby
 Fri 6:55 PM | #51 Oakville Rangers v #68 York Simcoe Express | McKinney Centre, Rink 2, Whitby
@@ -56,7 +56,7 @@ Sat 1:30 PM | #38 Buffalo Jr Sabres v #46 Niagara North Stars | Canlan Ice Sport
 Sat 1:45 PM | #1 Little Caesars v #77 Upper Canada Cyclones | Fieldgate Sports Complex, Rink 1
 Sat 2:00 PM | #27 Grey Bruce Highlanders v #58 Southern Tier Admirals | Chesley (Chesley)
 Sat 3:00 PM | #41 Oakland Jr Grizzlies v #7 Toronto Marlboros | Fieldgate Sports Complex, Rink 1
-Sat 4:00 PM | #16 Providence Capitals (Elite) v #35 Toronto Nationals | Fieldgate Sports Complex, Rink 2
+Sat 4:00 PM | #16 Providence Capitals (Elite) v #37 Toronto Nationals | Fieldgate Sports Complex, Rink 2
 Sat 4:15 PM | #19 Cleveland Barons v #6 Mid-Fairfield Hockey Club (Elite) | Fieldgate Sports Complex, Rink 1
 Sat 4:20 PM | #13 South Shore Kings (Elite) v #51 Oakville Rangers | Iroquois Park Sports Centre, Rink 4, Whitby
 Sat 4:30 PM | #25 London Jr Knights v #68 York Simcoe Express | Iroquois Park Sports Centre, Rink 1, Whitby
@@ -98,20 +98,21 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 2026-11-27 | Toronto Marlboros 2, Boston Jr Eagles (Elite) 1
 2026-11-27 | Elgin Middlesex Canucks 1, Chicago Fury 1
 2026-11-27 | Kitchener Jr Rangers 6, Upper Canada Cyclones 1
+2026-11-27 | Toronto Nationals 2, Worcester Shamrocks 6
 
 == GAME WRITE-UPS ==
 == NORTH AMERICAN RANK (rank. team (pool rank) rating) ==
 1. Little Caesars (USA #1) 95.32
 2. Toronto Jr Canadiens (Canada #1) 95.30
 3. Pittsburgh Penguins Elite (Mueller) (USA #2) 94.31
-4. Worcester Shamrocks (USA #3) 94.24
+4. Worcester Shamrocks (USA #3) 94.25
 5. Don Mills Flyers (Canada #2) 94.23
 6. Mid-Fairfield Hockey Club (Elite) (USA #4) 94.02
 7. Toronto Marlboros (Canada #3) 93.67
 8. Lovell Winter Club (Elite) (USA #5) 93.64
 9. Boston Jr Eagles (Elite) (USA #6) 93.55
 10. Dallas Stars Elite (USA #7) 93.10
-11. Top Gun (Elite) (USA #8) 93.03
+11. Top Gun (Elite) (USA #8) 93.04
 12. St Louis Blues (USA #9) 92.81
 13. South Shore Kings (Elite) (USA #10) 92.76
 14. Chicago Mission (USA #11) 92.74
@@ -135,9 +136,9 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 32. Chicago Reapers (USA #21) 90.75
 33. North Jersey Avalanche (USA #22) 90.74
 34. Philadelphia Hockey Club (USA #23) 90.70
-35. Toronto Nationals (Canada #12) 90.59
-36. Vegas Jr Golden Knights (USA #24) 90.59
-37. Florida Alliance (USA #25) 90.58
+35. Vegas Jr Golden Knights (USA #24) 90.59
+36. Florida Alliance (USA #25) 90.58
+37. Toronto Nationals (Canada #12) 90.58
 38. Buffalo Jr Sabres (USA #26) 90.56
 39. Phoenix Jr Coyotes (USA #27) 90.52
 40. Barrie Colts (Canada #13) 90.47
@@ -193,7 +194,7 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 90. Woodbridge Wolfpack (USA #48) 88.13
 91. North Bay Trappers (Canada #43) 87.90
 92. Buffalo Regals (USA #49) 87.89
-93. Utica Jr Comets (USA #50) 87.77
+93. Utica Jr Comets (USA #50) 87.78
 94. Windy City Storm (USA #51) 87.71
 95. Markham Majors (Canada #44) 87.69
 96. Texas Tigers 11U AA (USA #52) 87.69
@@ -214,7 +215,7 @@ Sun 4:00 PM | #30 Guelph Gryphons v #27 Grey Bruce Highlanders | WERC (1) / West
 111. Ajax Pickering Raiders (Canada #48) 86.89
 112. Carolina Junior Canes (USA #64) 86.83
 113. New England Bulldogs (USA #65) 86.80
-114. North Central Predators (Canada #49) 86.74
+114. North Central Predators (Canada #49) 86.73
 115. Boston Advantage (Elite) (USA #66) 86.62
 116. Queen City Royals (USA #67) 86.58
 117. Casco Bay Mariners (USA #68) 86.47
