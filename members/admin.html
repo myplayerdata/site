@@ -131,9 +131,9 @@ async function load(){
   tbl("t-day",[["Day"],["Members active","n"],["Total time","n"]],(data.daily||[]).slice().reverse().map(d=>[esc(d.d),d.members,dur(d.minutes||0)]));
   tbl("t-pl",[["Player"],["Opens","n"],["Members","n"]],(data.players||[]).map(p=>[esc(p.detail),p.n,p.members]));
   tbl("t-tm",[["Team"],["Opens","n"],["Members","n"]],(data.teams||[]).map(p=>[esc(p.detail),p.n,p.members]));
-  const lab={open:"Opened the site",tab:"Switched tab",player:"Viewed player",team:"Viewed team",view:"Changed view"};
-  tbl("t-rec",[["When"],["Member"],["Action"],["Detail"]],(data.recent||[]).map(r=>[when(r.at),esc(r.email),esc(lab[r.kind]||r.kind),esc(r.detail)]));
-  try{const F=(await sb.rpc("admin_funnel")).data;if(F&&F.ok){const D=F.daily||[],sum=k=>D.reduce((a,r)=>a+(r[k]||0),0),su=(F.signups||[]).reduce((a,r)=>a+r.n,0),V=sum("visitors"),pc=n=>V?" ("+Math.round(100*n/V)+"%)":"";
+  const lab={open:"Opened the site",tab:"Switched tab",player:"Viewed player",team:"Viewed team",view:"Changed view",search:"Searched",rview:"Live Scores and Ratings"};const det={wk:"Game Day",rt:"Ratings",game:"a game page","team weekend":"a team's weekend page",ratings:"Ratings tab",players:"Players tab",usa:"USA ratings",can:"Canada ratings",na:"North America ratings"};
+  tbl("t-rec",[["When"],["Member"],["Action"],["Detail"]],(data.recent||[]).map(r=>[when(r.at),esc(r.email),esc(lab[r.kind]||r.kind),esc(det[r.detail]||r.detail)]));
+  try{const F=(await sb.rpc("admin_funnel")).data;if(F&&F.ok){const D=F.daily||[],sum=k=>D.reduce((a,r)=>a+(r[k]||0),0),su=(F.signups||[]).reduce((a,r)=>a+r.n,0),V=sum("visitors"),pc=n=>(V&&n<=V)?" ("+Math.round(100*n/V)+"%)":"";
     $("fn-note").textContent=F.since?"Counting since "+when(F.since)+". Visitors are counted once per visit, without cookies. Your own visits on this device are not counted.":"No visits recorded yet. Counting started when this section was added.";
     $("fn-tiles").innerHTML=[["Landing page visitors",V],["Clicked Join",sum("join_clicks")+pc(sum("join_clicks"))],["Reached sign-up page",sum("signup_page")],["Accounts created",su],["Started checkout",sum("checkout")+pc(sum("checkout"))],["Paid (memberships)",(TR&&TR.ok&&TR.windows&&TR.windows[3])?TR.windows[3].paid:sum("paid")]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
     const sg={};(F.signups||[]).forEach(r=>sg[r.d]=r.n);
