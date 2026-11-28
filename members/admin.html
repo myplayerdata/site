@@ -57,6 +57,8 @@ table.use{min-width:0}table.use th:first-child,table.use td:first-child{position
 </div></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
+var MPD_V='1127-2330';
+fetch(location.pathname+'?c='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/MPD_V='([^']+)'/);if(m&&m[1]!==MPD_V&&location.search.indexOf(m[1])<0)location.replace(location.pathname+'?v='+m[1])}).catch(function(){});
 const sb=supabase.createClient("https://nhojjvbgmyafckejcnbj.supabase.co","sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0");
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -107,7 +109,7 @@ async function load(){
   const M=data.members||[],now=Date.now(),day=864e5;
   const active=M.filter(m=>m.status==="active"),seen7=M.filter(m=>m.last_seen&&now-new Date(m.last_seen)<7*day);
   const quiet=active.filter(m=>!m.last_seen||now-new Date(m.last_seen)>7*day);
-  $("sub").textContent="Updated "+when(new Date())+". Time is counted in minutes with the member site open and on screen. Click Profile for a member's full usage sheet, or a name to change it.";
+  $("sub").textContent="Updated "+when(new Date())+" (page version "+MPD_V+"). Time is counted in minutes with the member site open and on screen. Click Profile for a member's full usage sheet, or a name to change it.";
   $("tiles").innerHTML=[["Paying members",active.length],["Signed up, not paying",M.length-active.length],["Active in last 7 days",seen7.length],["Paying but quiet 7+ days",quiet.length],["Minutes, last 7 days",M.reduce((s,m)=>s+(m.min7||0),0)]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span></div>`).join("");
   const rvE={};((window.__rv||{}).rows||[]).forEach(x=>{if(x.email)rvE[x.email]=x});
   const paidAt=m=>{const x=rvE[String(m.email||"").toLowerCase()];return x&&x.fp?new Date(x.fp).getTime():new Date(m.created_at).getTime()};
