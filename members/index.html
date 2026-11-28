@@ -50,8 +50,8 @@ html:has(body.app),body.app{overflow:hidden;overscroll-behavior:none}body.app{po
 <div class="card" id="v-load"><p class="muted" style="margin:0">Loading…</p></div>
 
 <div class="card" id="v-signin" hidden>
-<h1>Member sign-in</h1>
-<p class="muted">Enter your email and we'll send you a sign-in code. No password needed. New here? The same form creates your account.</p>
+<h1 id="si-h">Member sign-in</h1>
+<p class="muted" id="si-p">Enter your email and we'll send you a sign-in code. No password needed. New here? The same form creates your account.</p>
 <form id="f-signin"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required placeholder="you@example.com">
 <div class="row"><button class="btn" id="b-send">Email me a sign-in code</button><a class="btn alt" href="../">Back to the home page</a></div>
 <div class="err" id="e-signin" hidden></div></form>
@@ -67,8 +67,8 @@ html:has(body.app),body.app{overflow:hidden;overscroll-behavior:none}body.app{po
 </div>
 
 <div class="card" id="v-sent" hidden>
-<h1>Check your email</h1>
-<p>We sent a sign-in code to <b id="sent-to"></b>. <span style="white-space:nowrap">Wrong address? <a href="#" id="a-change">Change it</a>.</span></p><p class="muted" style="margin-top:-6px">Enter the code from the email, or open the link in it on this device. If the address above has a typo, the code will never arrive.</p>
+<h1 id="sent-h">Check your email</h1>
+<p>We sent a <span id="sent-w">sign-in</span> code to <b id="sent-to"></b>. <span style="white-space:nowrap">Wrong address? <a href="#" id="a-change">Change it</a>.</span></p><p class="muted" style="margin-top:-6px">Enter the code from the email, or open the link in it on this device. If the address above has a typo, the code will never arrive.</p>
 <form id="f-code"><label for="code">Sign-in code</label><input id="code" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="10" pattern="[0-9]{6,10}" placeholder="12345678" style="width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:20px;letter-spacing:4px">
 <div class="row"><button class="btn" id="b-code">Sign in</button><button type="button" class="btn alt" id="b-again">Use a different email</button></div>
 <div class="err" id="e-code" hidden></div></form>
@@ -110,7 +110,9 @@ const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
 const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}catch(e){}};
 let access=null,timer=null,paidTries=0,wantUsed=false;
 let WANT=new URLSearchParams(location.search).get("plan");try{if(WANT==="monthly"||WANT==="season")sessionStorage.setItem("mpd_plan",WANT);else WANT=sessionStorage.getItem("mpd_plan")}catch(e){}
-if(WANT!=="monthly"&&WANT!=="season")WANT=null;const PAID=new URLSearchParams(location.search).get("paid")==="1";if(PAID)try{history.replaceState(null,"",location.pathname+location.hash)}catch(e){}
+if(WANT!=="monthly"&&WANT!=="season")WANT=null;
+// arriving from a Join button: say what happens next, in two steps, so the screen does not read as a members-only door
+function joinCopy(){try{if(!WANT)return;const m=WANT==="monthly";$("si-h").textContent=m?"Join for $19":"Get the season pass";$("si-p").innerHTML="<b>Step 1 of 2.</b> Enter your email. We email you a short code to confirm it is yours, then you go straight to secure checkout."+(m?" $19 for your first month, then $39 a month. Cancel any time.":" $349, one payment, the full 2026-27 season.")+" Already a member? The same box signs you in.";$("b-send").textContent="Continue";$("sent-h").textContent="Step 2 of 2: enter your code";$("sent-w").textContent="confirmation"}catch(e){}}const PAID=new URLSearchParams(location.search).get("paid")==="1";if(PAID)try{history.replaceState(null,"",location.pathname+location.hash)}catch(e){}
 // ---- member app: the ratings site and the full player database, each in its own frame ----
 const RSITE=location.origin+"/members/ratings/";
 // ---- usage log: what members open and how long they stay (shown only on the private admin page) ----
@@ -182,7 +184,7 @@ window.addEventListener("resize",()=>document.documentElement.style.setProperty(
 async function claim(){const {data,error}=await sb.rpc("claim_session",{p_user_agent:navigator.userAgent});if(error)throw error;setTok(data);try{if(!sessionStorage.getItem("mpd_ns")){sessionStorage.setItem("mpd_ns","1");sb.rpc("note_source",{p_src:sessionStorage.getItem("mpd_s")||"direct"}).then(()=>{},()=>{})}}catch(e){}return data}
 async function check(){
   const {data:{session}}=await sb.auth.getSession();
-  if(!session){$("who").hidden=true;access=null;closeApp();show("signin");return}
+  if(!session){$("who").hidden=true;access=null;closeApp();joinCopy();show("signin");if(WANT&&!window.__jv){window.__jv=1;try{mpdLog("join_view",WANT)}catch(e){}}return}
   $("who").hidden=false;$("who-email").textContent=session.user.email||"";
   let tok=getTok();
   if(!tok){try{tok=await claim()}catch(e){show("signin");$("e-signin").hidden=false;$("e-signin").textContent="Could not start your session. Try again.";return}}
@@ -191,14 +193,14 @@ async function check(){
   access=data;
   if(!data.signed_in){closeApp();show("signin");return}
   if(!data.session_ok){closeApp();show("other");return}
-  // every account gives a name once, before choosing a plan or opening the site
-  {const md=session.user.user_metadata||{};if(!(md.first_name||"").trim()||!(md.last_name||"").trim()){closeApp();
-    if(!$("firstname").value&&!$("lastname").value&&md.name){const w=String(md.name).trim().split(/\s+/);$("firstname").value=w[0]||"";$("lastname").value=w.slice(1).join(" ")}
-    show("name");setTimeout(()=>{try{($("firstname").value?$("lastname"):$("firstname")).focus()}catch(e){}},50);return}}
   if(!data.member){closeApp();$("b-account").hidden=true;show("join");
     // arriving from a locked player preview with a plan already chosen: go straight to checkout, once
     if(WANT&&!PAID&&!wantUsed){wantUsed=true;try{sessionStorage.removeItem("mpd_plan")}catch(e){}const pb=document.querySelector('.plan[data-plan="'+WANT+'"]');if(pb){pb.click();return}}
     if(PAID&&paidTries<20){paidTries++;$("join-note").textContent="Payment received. Activating your membership…";setTimeout(check,2500)}return}
+  // every account gives a name once, AFTER paying and before the site opens (moved Nov 27 2026: asking before checkout was one more screen between Join and paying)
+  {const md=session.user.user_metadata||{};if(!(md.first_name||"").trim()||!(md.last_name||"").trim()){closeApp();
+    if(!$("firstname").value&&!$("lastname").value&&md.name){const w=String(md.name).trim().split(/\s+/);$("firstname").value=w[0]||"";$("lastname").value=w.slice(1).join(" ")}
+    show("name");setTimeout(()=>{try{($("firstname").value?$("lastname"):$("firstname")).focus()}catch(e){}},50);return}}
   $("b-account").hidden=!(data.plan==="monthly"||data.plan==="season");
   show("member");openApp(session.user.email||"");
 }
@@ -207,14 +209,14 @@ $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email
   const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:HERE,shouldCreateUser:true}});
   $("b-send").disabled=false;
   if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
-  sentEmail=email;$("sent-to").textContent=email;$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
+  try{if(WANT)mpdLog("join_email",WANT)}catch(e){}sentEmail=email;$("sent-to").textContent=email;$("code").value="";$("e-code").hidden=true;show("sent");setTimeout(()=>$("code").focus(),50)});
 let sentEmail="";
 $("f-code").addEventListener("submit",async e=>{e.preventDefault();const token=$("code").value.replace(/\D/g,"");if(token.length<6){$("e-code").hidden=false;$("e-code").textContent="Enter the code from the email.";return}
   $("b-code").disabled=true;$("e-code").hidden=true;
   const {error}=await sb.auth.verifyOtp({email:sentEmail,token,type:"email"});
   $("b-code").disabled=false;
   if(error){$("e-code").hidden=false;$("e-code").textContent="That code didn't work. Check it, or request a new email.";return}
-  setTok(null);check()});
+  try{if(WANT)mpdLog("join_code_ok",WANT)}catch(e){}setTok(null);check()});
 $("b-again").onclick=()=>{show("signin");setTimeout(()=>{try{$("email").focus();$("email").select()}catch(e){}},50)};$("a-change").onclick=e=>{e.preventDefault();$("b-again").onclick()};
 $("f-name").addEventListener("submit",async e=>{e.preventDefault();const cl=x=>x.trim().replace(/\s+/g," ").slice(0,40);const f=cl($("firstname").value),l=cl($("lastname").value);
   if(!f||l.length<2){$("e-name").hidden=false;$("e-name").textContent="Please enter both your first and last name.";return}
