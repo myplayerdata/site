@@ -19,32 +19,40 @@ th{color:var(--mut);font-weight:600}tr:last-child td{border-bottom:0}td.n,th.n{t
 .barwrap{padding-bottom:4px}.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:8px;padding:10px 12px;margin-top:10px}
 .hd{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}.pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 9px}
 button{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
-table.use{min-width:0}table.use th:first-child,table.use td:first-child{position:sticky;left:0;background:var(--card,#fff);z-index:1;max-width:44vw;white-space:normal;box-shadow:2px 0 0 rgba(0,0,0,.06)}table.use td,table.use th{padding-left:8px;padding-right:8px;white-space:nowrap}</style></head><body><main>
+table.use{min-width:0}table.use th:first-child,table.use td:first-child{position:sticky;left:0;background:var(--card,#fff);z-index:1;max-width:44vw;white-space:normal;box-shadow:2px 0 0 rgba(0,0,0,.06)}table.use td,table.use th{padding-left:8px;padding-right:8px;white-space:nowrap}details.grp{margin:14px 0;border:1px solid var(--line);border-radius:10px;background:var(--card)}details.grp>summary{cursor:pointer;font-weight:800;font-size:17px;padding:14px 14px;list-style-position:inside}details.grp[open]>summary{border-bottom:1px solid var(--line)}details.grp>*:not(summary){margin-left:12px;margin-right:12px}details.grp>h2:first-of-type{margin-top:14px}details.grp>:last-child{margin-bottom:14px}</style></head><body><main>
 <h1>Member usage</h1><div class="mut" id="sub">Loading…</div>
 <div id="prof" hidden></div>
 <div id="out" hidden>
 <div class="tiles" id="tiles"></div>
 <h2>Member usage, most recent first</h2><div class="mut">Paying members. Whoever used the site last is on top. Minutes with the member site open and on screen.</div><div class="wrap"><table id="t-use" class="use"></table></div>
+<details class="grp"><summary>Members <span class="mut" style="font-weight:400">· paying members, renewals, what they use, recent activity</span></summary>
 <h2>Paying members, newest first</h2><div class="mut">Status: Active, or "Cancels" with the date for a member who pressed Cancel and keeps access until then. Next charge is what their card is billed at renewal.</div><div class="wrap"><table id="t-mem"></table></div>
-<h2>Today, 3 days, 7 days, 30 days</h2><div class="mut">Days are Central time. "Today" is since midnight. New, returning and member visitors are counted from Nov 19, 2026; earlier visits show as "not tagged".</div><div class="wrap"><table id="t-win"></table></div>
-<div class="cols"><div><h2>Who the visitors are, by source (30 days)</h2><div class="wrap"><table id="t-st"></table></div></div><div><h2>Direct visitors: first page they opened (30 days)</h2><div class="wrap"><table id="t-dp"></table></div></div></div>
-<h2>Landing page funnel (last 30 days)</h2><div class="mut" id="fn-note"></div><div class="tiles" id="fn-tiles"></div><div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fn"></table></div></div><div><h2>Where visitors came from</h2><div class="wrap"><table id="t-src"></table></div></div></div>
-<h2>Revenue (before card fees)</h2><div class="mut" id="rv-note"></div><div class="tiles" id="rv-tiles"></div>
 <h2>Renewals coming up, and who is at risk</h2><div class="mut">At risk = a monthly member who renews within 10 days and has used the site on fewer than 2 of the last 7 days.</div><div class="wrap"><table id="t-rv"></table></div>
 <h2>What members use (retention)</h2><div class="mut">Counts are times used; "Members" is how many different members did it. Minutes rows count minutes with that part open.</div><div class="wrap"><table id="t-feat"></table></div>
-<h2>Free page: devices and time on page</h2><div class="mut">Counted from Nov 22, 2026. A device is one browser on one phone or computer (random id, no personal data). Instagram's built-in browser and Safari on the same phone count as two. Time counts only while the page is on screen.</div><div class="tiles" id="fr-tiles"></div>
-<div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fr-day"></table></div></div><div><h2>By where they came from</h2><div class="wrap"><table id="t-fr-src"></table></div></div></div>
-<details><summary>Most active devices (top 25)</summary><div class="wrap"><table id="t-fr-top"></table></div></details>
-<h2>Where new accounts and sales came from</h2><div class="mut">Counted from Nov 23, 2026. Each new account keeps the first place it came from (an Instagram link, Google, typed address), so a sale days later is still traced back. Accounts made before Nov 23 are not in this table.</div><div id="t-asrc"></div><h3>Locked player taps on the free page, and the offer panel</h3><div class="mut">Taps: visitors who tapped something that leads to the player database. Panel joins: pressed the panel's button (panel live from the day it is switched on).</div><div id="t-lock"></div>
-<h2>Sales detail</h2><div class="mut" id="sa-note"></div><div class="tiles" id="sa-tiles"></div>
-<h2>People who signed up and are not paying (accounts under the same name are grouped)</h2><div class="wrap"><table id="t-sa-ppl"></table></div>
-<div class="cols"><div><h2>Sign-in code step, by sign-up day</h2><div class="wrap"><table id="t-sa-day"></table></div></div><div><h2>Free scores and ratings page (/live/), by day</h2><div class="wrap"><table id="t-sa-live"></table></div></div></div>
-<div class="cols"><div><h2>Funnel by source, last 7 days</h2><div class="wrap"><table id="t-sa-s7"></table></div></div><div><h2>Funnel by source, last 30 days</h2><div class="wrap"><table id="t-sa-s30"></table></div></div></div>
-<h2>Signed up, not paying (joined in the last 30 days)</h2><div class="mut" id="np-note"></div><div class="wrap"><table id="t-np"></table></div>
 <h2>Daily activity (last 30 days)</h2><div class="wrap"><table id="t-day"></table></div>
 <details style="margin:18px 0"><summary class="mut" style="cursor:pointer">Most-viewed players and teams (kept for reference; tap to open)</summary><div class="cols"><div><h2>Most-viewed players (30 days)</h2><div class="wrap"><table id="t-pl"></table></div></div>
 <div><h2>Most-viewed teams (30 days)</h2><div class="wrap"><table id="t-tm"></table></div></div></div></details>
 <h2>Recent activity</h2><div class="wrap"><table id="t-rec"></table></div>
+</details>
+<details class="grp"><summary>Sales and revenue <span class="mut" style="font-weight:400">· revenue, sign-ups not paying, where sales came from</span></summary>
+<h2>Revenue (before card fees)</h2><div class="mut" id="rv-note"></div><div class="tiles" id="rv-tiles"></div>
+<h2>Sales detail</h2><div class="mut" id="sa-note"></div><div class="tiles" id="sa-tiles"></div>
+<h2>Where new accounts and sales came from</h2><div class="mut">Counted from Nov 23, 2026. Each new account keeps the first place it came from (an Instagram link, Google, typed address), so a sale days later is still traced back. Accounts made before Nov 23 are not in this table.</div><div id="t-asrc"></div><h3>Locked player taps on the free page, and the offer panel</h3><div class="mut">Taps: visitors who tapped something that leads to the player database. Panel joins: pressed the panel's button (panel live from the day it is switched on).</div><div id="t-lock"></div>
+<h2>People who signed up and are not paying (accounts under the same name are grouped)</h2><div class="wrap"><table id="t-sa-ppl"></table></div>
+<h2>Signed up, not paying (joined in the last 30 days)</h2><div class="mut" id="np-note"></div><div class="wrap"><table id="t-np"></table></div>
+<div class="cols"><div><h2>Sign-in code step, by sign-up day</h2><div class="wrap"><table id="t-sa-day"></table></div></div><div><h2>Free scores and ratings page (/live/), by day</h2><div class="wrap"><table id="t-sa-live"></table></div></div></div>
+<div class="cols"><div><h2>Funnel by source, last 7 days</h2><div class="wrap"><table id="t-sa-s7"></table></div></div><div><h2>Funnel by source, last 30 days</h2><div class="wrap"><table id="t-sa-s30"></table></div></div></div>
+</details>
+<details class="grp"><summary>Visitors and funnel <span class="mut" style="font-weight:400">· today / 3 / 7 / 30 days, sources, landing page funnel</span></summary>
+<h2>Today, 3 days, 7 days, 30 days</h2><div class="mut">Days are Central time. "Today" is since midnight. New, returning and member visitors are counted from Nov 19, 2026; earlier visits show as "not tagged".</div><div class="wrap"><table id="t-win"></table></div>
+<div class="cols"><div><h2>Who the visitors are, by source (30 days)</h2><div class="wrap"><table id="t-st"></table></div></div><div><h2>Direct visitors: first page they opened (30 days)</h2><div class="wrap"><table id="t-dp"></table></div></div></div>
+<h2>Landing page funnel (last 30 days)</h2><div class="mut" id="fn-note"></div><div class="tiles" id="fn-tiles"></div><div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fn"></table></div></div><div><h2>Where visitors came from</h2><div class="wrap"><table id="t-src"></table></div></div></div>
+</details>
+<details class="grp"><summary>Free live page <span class="mut" style="font-weight:400">· devices, time on page, by day</span></summary>
+<h2>Free page: devices and time on page</h2><div class="mut">Counted from Nov 22, 2026. A device is one browser on one phone or computer (random id, no personal data). Instagram's built-in browser and Safari on the same phone count as two. Time counts only while the page is on screen.</div><div class="tiles" id="fr-tiles"></div>
+<div class="cols"><div><h2>By day</h2><div class="wrap"><table id="t-fr-day"></table></div></div><div><h2>By where they came from</h2><div class="wrap"><table id="t-fr-src"></table></div></div></div>
+<details><summary>Most active devices (top 25)</summary><div class="wrap"><table id="t-fr-top"></table></div></details>
+</details>
 <p><button id="again">Refresh</button></p>
 </div></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
