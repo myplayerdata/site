@@ -24,7 +24,7 @@ table.use{min-width:0}table.use th:first-child,table.use td:first-child{position
 <div id="prof" hidden></div>
 <div id="out" hidden>
 <div class="tiles" id="tiles"></div>
-<h2>The path to a sale, by day</h2><div class="mut">Each step a visitor takes from the free page to paying, left to right. The step where the numbers fall off is the one to fix. Free preview, typed email and code are counted from Nov 27, 10:20 PM.</div><div class="wrap"><table id="t-steps"></table></div>
+<h2>The path to a sale, by day</h2><div class="mut">Each step from visitor to paying member, left to right: on the free page, opened the members panel, looked at the free preview, pressed Unlock or Join, reached the join page, typed an email, code worked, checkout, paid. The step where the numbers fall off is the one to fix. Free preview, typed email and code are counted from Nov 27, 10:20 PM.</div><div class="wrap"><table id="t-steps"></table></div>
 <h2>Member usage, most recent first</h2><div class="mut">Paying members. Whoever used the site last is on top. Minutes with the member site open and on screen.</div><div class="wrap"><table id="t-use" class="use"></table></div>
 <details class="grp"><summary>Members <span class="mut" style="font-weight:400">· paying members, renewals, what they use, recent activity</span></summary>
 <h2>Paying members, newest first</h2><div class="mut">Status: Active, or "Cancels" with the date for a member who pressed Cancel and keeps access until then. Next charge is what their card is billed at renewal.</div><div class="wrap"><table id="t-mem"></table></div>
@@ -57,7 +57,7 @@ table.use{min-width:0}table.use th:first-child,table.use td:first-child{position
 </div></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-var MPD_V='1128-0005';
+var MPD_V='1127-2350';
 fetch(location.pathname+'?c='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/MPD_V='([^']+)'/);if(m&&m[1]!==MPD_V&&location.search.indexOf(m[1])<0)location.replace(location.pathname+'?v='+m[1])}).catch(function(){});
 const sb=supabase.createClient("https://nhojjvbgmyafckejcnbj.supabase.co","sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0");
 const $=id=>document.getElementById(id);
@@ -115,7 +115,7 @@ async function load(){
   {const W=(TR&&TR.ok&&TR.windows)||[],T0=W[0]||{},rv=window.__rv||{},usd=n=>"$"+Number(n||0).toLocaleString();let ST=[];try{const S=(await sb.rpc("admin_steps")).data;if(S&&S.ok)ST=S.days||[]}catch(e){}
    const y=ST[1]||{},t0=ST[0]||{};
    $("tiles").innerHTML=[["Visitors today",T0.visitors??"—","yesterday "+(y.visitors??"—")],["Sales today",T0.paid??0,(T0.checkout??0)+" reached checkout"],["New accounts today",T0.signups??0,""],["Members on today",T0.active_members??0,dur(T0.minutes||0)+" in total"],["Paying members",active.length,quiet.length+" quiet for 7+ days"],["Monthly run rate",rv.ok?usd(rv.run_rate):"—","members who are staying"]].map(t=>`<div class="tile"><b>${t[1]}</b><span class="mut">${t[0]}</span>${t[2]?"<small>"+t[2]+"</small>":""}</div>`).join("");
-   tbl("t-steps",[["Day"],["Visitors","n"],["On the free page","n"],["Opened the members panel","n"],["Looked at the free preview","n"],["Pressed Unlock or Join","n"],["Join page","n"],["Typed an email","n"],["Code worked","n"],["Checkout","n"],["Paid","n"]],ST.map(r=>[r.d,r.visitors,r.live,r.panel,r.preview,r.unlock+r.joinbtn,r.joinpage,r.email,r.code,r.checkout,r.paid?"<b>"+r.paid+"</b>":0]))}
+   tbl("t-steps",[["Day"],["Visitors","n"],["Free page","n"],["Panel","n"],["Preview","n"],["Unlock","n"],["Join page","n"],["Email","n"],["Code","n"],["Checkout","n"],["Paid","n"]],ST.map(r=>[r.d,r.visitors,r.live,r.panel,r.preview,r.unlock+r.joinbtn,r.joinpage,r.email,r.code,r.checkout,r.paid?"<b>"+r.paid+"</b>":0]))}
   const rvE={};((window.__rv||{}).rows||[]).forEach(x=>{if(x.email)rvE[x.email]=x});
   const paidAt=m=>{const x=rvE[String(m.email||"").toLowerCase()];return x&&x.fp?new Date(x.fp).getTime():new Date(m.created_at).getTime()};
   const act=active.slice().sort((p,q)=>paidAt(q)-paidAt(p));
